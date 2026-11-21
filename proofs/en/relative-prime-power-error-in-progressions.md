@@ -19,7 +19,7 @@ $$
 -\sum_{\rho\in Z_\chi(1/2,T)}m_\chi(\rho)u^\rho/\rho+O(E),
 \quad E=C_{\rm e}(u/T+\sqrt u M^3)\log^2(MuT)
 $$
-for $2\le T\le u$. Multiply by $\overline{\chi(b)}$ and sum. Character orthogonality gives $\varphi(M)\psi(u;M,b)$ on the left. By the [exceptional-pair theorem](exceptional-zero-change-of-modulus.md), an exceptional $\beta$ belongs to the indicated zero set, is simple, is at least $7/8$, and is unique across the characters. Its contribution is exactly $-\theta u^\beta/\beta$. Thus if all remaining zeros have $\Re\rho\le1-\eta$, use $|\rho|\ge1/2$ to bound the error after division by $u$ by $ME/u$ plus twice their weighted sum of $m_\chi(\rho)u^{\Re\rho-1}$. The [weighted-zero theorem](../zh/%E9%9B%B6%E7%82%B9%E5%AF%86%E5%BA%A6%E6%80%8E%E6%A0%B7%E5%8F%98%E6%88%90%E6%98%BE%E5%BC%8F%E5%85%AC%E5%BC%8F%E7%9A%84%E5%8A%A0%E6%9D%83%E5%92%8C.md) supplies absolute $A,C_{\rm a},\eta_0>0$ such that for $u\ge(MT)^A$ this gives
+for $2\le T\le u$. Multiply by $\overline{\chi(b)}$ and sum. Character orthogonality gives $\varphi(M)\psi(u;M,b)$ on the left. By the [exceptional-pair theorem](exceptional-zero-change-of-modulus.md), an exceptional $\beta$ belongs to the indicated zero set, is simple, is at least $7/8$, and is unique across the characters. Its contribution is exactly $-\theta u^\beta/\beta$. Thus if all remaining zeros have $\Re\rho\le1-\eta$, use $|\rho|\ge1/2$ to bound the error after division by $u$ by $ME/u$ plus twice their weighted sum of $m_\chi(\rho)u^{\Re\rho-1}$. The [weighted-zero theorem](weighted-zero-sum-from-log-free-density.md) supplies absolute $A,C_{\rm a},\eta_0>0$ such that for $u\ge(MT)^A$ this gives
 $$
 u^{-1}|\varphi(M)\psi(u;M,b)-J(u)|
 \le ME/u+2C_{\rm a}(u^{-\eta/2}+u^{-\eta_0}).
@@ -30,7 +30,7 @@ $$
 
 Write $m=\log M\ge1$, $V=\log u$, $s=\sqrt V$, $T=e^{8m+s}$, $L=10m+s$, and $R=V/L$. For each fixed $B>0$, taking $c_2\ge20B+4B^2$ ensures $V\ge BL$. Take $B\ge\max(8,A,1/\eta_0)$ and enlarge it below. This gives $2\le T\le u$, $(MT)^A\le u$, and $\log(M(|\Im\rho|+2))\le L$ at height at most $T$.
 
-The exceptional-pair theorem gives $1-\Re\rho\ge c/L$ for every remaining zero, and $\delta=1-\beta\ge c/(M^2m)$ if there is an exception. In the latter case, the [repulsion input](../zh/%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%A4%96%E9%9B%B6%E7%82%B9%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%85%B6%E4%BB%96%E9%9B%B6%E7%82%B9%E6%8E%A8%E7%A6%BB%E4%B8%80.md) gives another bound $1-\Re\rho\ge d\log(d/(\delta L))/L$. Let $w=1$ without an exception, or $w=\min(1,\delta L)$ with one. Set $d_0=\min(1,d/e)$, $c'=\min(c/2,d/4)$, and $K=1/d_0$. Require $R\ge4/d$.
+The exceptional-pair theorem gives $1-\Re\rho\ge c/L$ for every remaining zero, and $\delta=1-\beta\ge c/(M^2m)$ if there is an exception. In the latter case, the [repulsion input](exceptional-zero-repulsion-by-fejer-weights.md) gives another bound $1-\Re\rho\ge d\log(d/(\delta L))/L$. Let $w=1$ without an exception, or $w=\min(1,\delta L)$ with one. Set $d_0=\min(1,d/e)$, $c'=\min(c/2,d/4)$, and $K=1/d_0$. Require $R\ge4/d$.
 
 If there is no exception or $\delta L\ge d_0$, take $\eta=c/L$. Then $Kw\ge1$ and $u^{-\eta/2}\le Kw e^{-c'R}$. Otherwise put $v=\delta L<d_0$ and take $\eta=d\log(d/v)/L$. Since $\log(d/v)\ge1$ and $dR\ge4$,
 $$

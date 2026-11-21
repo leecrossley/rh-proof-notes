@@ -26,7 +26,7 @@ $$
 L(1-\Re\rho)\ge c_2\log\frac{c_1}{(1-\beta)L^{N_0}}.
 \tag{2}
 $$
-This version uses the [Turán power-sum repulsion argument](../zh/Tur%C3%A1n%E5%B9%82%E5%92%8C%E6%80%8E%E6%A0%B7%E6%8E%A8%E5%87%BA%E5%B8%A6%E5%AF%B9%E6%95%B0%E6%8D%9F%E5%A4%B1%E7%9A%84%E9%9B%B6%E7%82%B9%E6%8E%92%E6%96%A5.md).
+This version uses the [Turán power-sum repulsion argument](lossy-zero-repulsion-by-turan.md).
 
 ## From separated pairs to total multiplicity
 

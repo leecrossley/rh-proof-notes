@@ -69,6 +69,21 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [A short-interval lower bound with an exceptional prime-counting term](proofs/en/short-interval-primes-with-an-exception.md) · [中文](proofs/zh/%E4%BE%8B%E5%A4%96%E9%9B%B6%E7%82%B9%E5%AD%98%E5%9C%A8%E6%97%B6%E6%80%8E%E6%A0%B7%E4%BC%B0%E8%AE%A1%E7%9F%AD%E5%8C%BA%E9%97%B4%E9%87%8C%E7%9A%84%E7%B4%A0%E6%95%B0.md) · Translation draft.
 - [Supplying many candidate primes in a single progression](proofs/en/many-candidate-primes-in-one-progression.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BF%9D%E8%AF%81%E4%B8%80%E4%B8%AA%E5%90%8C%E4%BD%99%E7%B1%BB%E9%87%8C%E6%9C%89%E8%B6%B3%E5%A4%9F%E5%A4%9A%E7%9A%84%E5%80%99%E9%80%89%E7%B4%A0%E6%95%B0.md) · Translation draft.
 
+- [High log derivatives from nearby zeros](proofs/en/high-log-derivatives-from-nearby-zeros.md) · [中文](proofs/zh/%E9%AB%98%E9%98%B6%E5%AF%B9%E6%95%B0%E5%AF%BC%E6%95%B0%E6%80%8E%E6%A0%B7%E6%94%BE%E5%A4%A7%E9%82%BB%E8%BF%91%E9%9B%B6%E7%82%B9.md) · Translation draft.
+- [A power-sum repulsion inequality from Fejér weights](proofs/en/fejer-weights-power-sum-repulsion.md) · [中文](proofs/zh/Fej%C3%A9r%E6%9D%83%E6%80%8E%E6%A0%B7%E4%BB%8E%E5%B9%82%E5%92%8C%E6%89%BE%E5%87%BA%E9%9D%A0%E8%BF%91%E5%8D%95%E4%BD%8D%E5%9C%86%E7%9A%84%E9%A1%B9.md) · Translation draft.
+- [Deuring–Heilbronn repulsion from the Fejér power-sum bound](proofs/en/exceptional-zero-repulsion-by-fejer-weights.md) · [中文](proofs/zh/%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%A4%96%E9%9B%B6%E7%82%B9%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%85%B6%E4%BB%96%E9%9B%B6%E7%82%B9%E6%8E%A8%E7%A6%BB%E4%B8%80.md) · Translation draft.
+- [Turán's second power-sum theorem by exterior interpolation](proofs/en/turan-power-sums-by-exterior-interpolation.md) · [中文](proofs/zh/%E5%A4%8D%E5%B9%82%E5%92%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9C%A8%E4%BB%BB%E4%BD%95%E8%BF%9E%E7%BB%AD%E9%98%B6%E6%95%B0%E6%AE%B5%E4%B8%AD%E9%83%BD%E6%9C%89%E5%A4%A7%E5%80%BC.md) · Translation draft.
+
+- [Counting and detecting zeros in a small disk](proofs/en/large-derivative-from-a-zero-in-a-small-disk.md) · [中文](proofs/zh/%E5%B0%8F%E5%9C%86%E7%9B%98%E9%87%8C%E7%9A%84%E9%9B%B6%E7%82%B9%E6%80%8E%E6%A0%B7%E4%BA%A7%E7%94%9F%E5%A4%A7%E5%AF%BC%E6%95%B0.md) · Translation draft.
+- [A prime mean-square lower bound from a large derivative](proofs/en/prime-mean-square-lower-bound-from-large-derivative.md) · [中文](proofs/zh/%E5%A4%A7%E5%AF%BC%E6%95%B0%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%88%AA%E6%96%AD%E7%B4%A0%E6%95%B0%E5%92%8C%E7%9A%84%E5%9D%87%E6%96%B9%E4%B8%8B%E7%95%8C.md) · Translation draft.
+- [Log-free zero density at one fixed modulus](proofs/en/log-free-zero-density-fixed-modulus.md) · [中文](proofs/zh/%E5%9B%BA%E5%AE%9A%E6%A8%A1%E6%95%B0%E4%B8%8B%E6%80%8E%E6%A0%B7%E5%BE%97%E5%88%B0%E6%97%A0%E5%AF%B9%E6%95%B0%E6%8D%9F%E5%A4%B1%E7%9A%84%E9%9B%B6%E7%82%B9%E5%AF%86%E5%BA%A6.md) · Translation draft.
+- [A weighted explicit-formula sum from log-free zero density](proofs/en/weighted-zero-sum-from-log-free-density.md) · [中文](proofs/zh/%E9%9B%B6%E7%82%B9%E5%AF%86%E5%BA%A6%E6%80%8E%E6%A0%B7%E5%8F%98%E6%88%90%E6%98%BE%E5%BC%8F%E5%85%AC%E5%BC%8F%E7%9A%84%E5%8A%A0%E6%9D%83%E5%92%8C.md) · Translation draft.
+
+- [Turán power sums by rational functions and roots of unity](proofs/en/turan-power-sums-by-root-averaging.md) · [中文](proofs/zh/%E6%9C%89%E7%90%86%E5%87%BD%E6%95%B0%E5%92%8C%E5%8D%95%E4%BD%8D%E6%A0%B9%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BATur%C3%A1n%E7%9A%84%E8%BF%9E%E7%BB%AD%E5%B9%82%E5%92%8C%E7%95%8C.md) · Translation draft.
+- [A hyperbola split for the nonnegative prime-power sum](proofs/en/positive-prime-power-sum-by-hyperbola.md) · [中文](proofs/zh/%E5%8F%8C%E6%9B%B2%E7%BA%BF%E5%88%86%E5%89%B2%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E5%B8%A6%E6%AD%A3%E7%B3%BB%E6%95%B0%E7%9A%84%E7%B4%A0%E6%95%B0%E5%B9%82%E5%92%8C.md) · Translation draft.
+
+- [Zero repulsion with logarithmic losses from Turán's theorem](proofs/en/lossy-zero-repulsion-by-turan.md) · [中文](proofs/zh/Tur%C3%A1n%E5%B9%82%E5%92%8C%E6%80%8E%E6%A0%B7%E6%8E%A8%E5%87%BA%E5%B8%A6%E5%AF%B9%E6%95%B0%E6%8D%9F%E5%A4%B1%E7%9A%84%E9%9B%B6%E7%82%B9%E6%8E%92%E6%96%A5.md) · Translation draft.
+
 ## Reading guides
 
 - [From window estimates to RH](proofs/en/from-windows-to-rh.md).
