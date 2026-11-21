@@ -30,7 +30,7 @@ $$
 Y^{\alpha/6}\le\log U\le Y^{\alpha/5}(\log Y)^2 .
 $$
 
-Use $S(y,p;\kappa)$ for the capped coefficient sum in the [mean-square note](../zh/%E5%B9%B3%E6%96%B9%E5%B9%B3%E5%9D%87%E6%80%8E%E6%A0%B7%E7%AD%9B%E6%8E%89%E5%8C%BA%E9%97%B4%E4%B8%8A%E7%9A%84%E5%9D%8F%E7%B4%A0%E6%95%B0.md).
+Use $S(y,p;\kappa)$ for the capped coefficient sum in the [mean-square note](mean-square-good-primes.md).
 
 1. For fixed $\alpha>0$ and sufficiently large $Y$, `count_a` gives $|\mathcal P|\ge U^{9/10}$ under admissibility, using the relative prime number theorem for progressions and the exceptional-zero estimate.
 2. The theorem `meanSqK` supplies an absolute $C_m>0$. For fixed $0<\alpha\le1$, $K\ge1$ and sufficiently large $Y$, if every prime divisor of $m_0$ is at most $Y^{\alpha/5}$ or greater than $Z$, each $Y\le y\le X$ and each coefficient sequence $|\kappa(n)|\le1$ satisfies $\sum_{p\in\mathcal P}|S(y,p;\kappa)|^2\le C_my\log y\,|\mathcal P|$.
