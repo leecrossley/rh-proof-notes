@@ -367,6 +367,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Missing Hodge–Tate weights control approximate invariants](proofs/en/missing-hodge-tate-weights-control-approximate-invariants.md) · [中文](proofs/zh/%E7%BC%BA%E5%A4%B1%E7%9A%84Hodge%E2%80%93Tate%E6%9D%83%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E8%BF%91%E4%BC%BC%E4%B8%8D%E5%8F%98%E9%87%8F.md) · Translation draft.
 - [Absence of weight zero bounds crystalline quotient invariants](proofs/en/absence-of-weight-zero-bounds-crystalline-quotient-invariants.md) · [中文](proofs/zh/%E9%9B%B6%E6%9D%83%E7%BC%BA%E5%A4%B1%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%99%B6%E4%BD%93%E5%95%86%E6%A0%BC%E7%9A%84%E4%B8%8D%E5%8F%98%E9%87%8F%E9%95%BF%E5%BA%A6.md) · Translation draft.
 
+- [Trace decomposition and the cyclotomic Tate operator](proofs/en/trace-decomposition-and-the-cyclotomic-tate-operator.md) · [中文](proofs/zh/%E5%88%86%E5%9C%86%E5%A1%94%E4%B8%8A%E7%9A%84%E8%BF%B9%E5%88%86%E8%A7%A3%E6%80%8E%E6%A0%B7%E6%9E%84%E9%80%A0Tate%E7%AE%97%E5%AD%90.md) · Translation draft.
+- [Integral trace is almost surjective in the cyclotomic tower](proofs/en/integral-trace-is-almost-surjective-in-the-cyclotomic-tower.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E5%9C%86%E5%A1%94%E9%A1%B6%E4%B8%8A%E7%9A%84%E6%95%B4%E6%95%B0%E8%BF%B9%E5%87%A0%E4%B9%8E%E6%BB%A1%E5%B0%84.md) · Translation draft.
+- [Integral trace averaging kills cyclotomic tower cocycles](proofs/en/integral-trace-averaging-kills-cyclotomic-tower-cocycles.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E6%95%B4%E6%95%B0%E8%BF%B9%E5%B9%B3%E5%9D%87%E6%B6%88%E6%8E%89%E5%88%86%E5%9C%86%E5%A1%94%E9%A1%B6%E7%9A%84%E4%B8%80%E9%98%B6%E4%BD%99%E9%97%AD%E9%93%BE.md) · Translation draft.
+- [One element generates the ring of integers](proofs/en/one-element-generates-the-ring-of-integers.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%B0%B1%E8%83%BD%E7%94%9F%E6%88%90%E5%B1%80%E9%83%A8%E5%9F%9F%E7%9A%84%E6%95%B4%E4%B8%AA%E6%95%B4%E6%95%B0%E7%8E%AF.md) · Translation draft.
+- [A separable idempotent extracts a crystalline embedding frame](proofs/en/a-separable-idempotent-extracts-a-crystalline-embedding-frame.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E5%8F%AF%E5%88%86%E5%B9%82%E7%AD%89%E5%85%83%E6%8A%BD%E5%87%BA%E4%B8%80%E4%B8%AA%E5%B5%8C%E5%85%A5%E7%9A%84%E6%99%B6%E4%BD%93%E6%AF%94%E8%BE%83%E6%A1%86%E6%9E%B6.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

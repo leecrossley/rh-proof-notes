@@ -13,7 +13,7 @@ At zero use integer logarithm zero. Then $(V/T)^{G_K}$ is killed by $\ell^{c_0}$
 
 ## An embedding direction
 
-In the admissible cyclotomic field with `HypW`, take $M=2s+1+\min\{j\ge0:2h\le\ell^j(\ell-1)\}$. A vector $v$ fixed modulo $T$ has coordinates $y\in\mathbb Q_\ell^d$ on a $\mathbb Z_\ell$-basis of $T$ with integral differences under all $G_K$. On the level-$M$ cyclotomic group, the [embedding comparison](../zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E5%8F%AF%E5%88%86%E5%B9%82%E7%AD%89%E5%85%83%E6%8A%BD%E5%87%BA%E4%B8%80%E4%B8%AA%E5%B5%8C%E5%85%A5%E7%9A%84%E6%99%B6%E4%BD%93%E6%AF%94%E8%BE%83%E6%A1%86%E6%9E%B6.md) `exists_tau_component_frame_of_lattice` gives an intertwining matrix $P$ to the $\tau$ component over $\mathbb C_\ell$. For source and target balls $B_d,B_a$ it gives
+In the admissible cyclotomic field with `HypW`, take $M=2s+1+\min\{j\ge0:2h\le\ell^j(\ell-1)\}$. A vector $v$ fixed modulo $T$ has coordinates $y\in\mathbb Q_\ell^d$ on a $\mathbb Z_\ell$-basis of $T$ with integral differences under all $G_K$. On the level-$M$ cyclotomic group, the [embedding comparison](a-separable-idempotent-extracts-a-crystalline-embedding-frame.md) `exists_tau_component_frame_of_lattice` gives an intertwining matrix $P$ to the $\tau$ component over $\mathbb C_\ell$. For source and target balls $B_d,B_a$ it gives
 $$
 B_a\subseteq P(B_d),\qquad \ell P(B_d)\subseteq B_a,\qquad
 y'\in\mathbb Q_\ell^d,\ Py'\in P(B_d)\ \Longrightarrow\ y'\in\mathbb Z_\ell^d.
