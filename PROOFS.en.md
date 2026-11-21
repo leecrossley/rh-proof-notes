@@ -258,6 +258,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [The rank-two corner decomposes rank-three adjoint cohomology](proofs/en/the-rank-two-corner-decomposes-rank-three-adjoint-cohomology.md) · [中文](proofs/zh/%E7%A7%A9%E4%BA%8C%E8%A7%92%E5%9D%97%E6%80%8E%E6%A0%B7%E5%88%86%E8%A7%A3%E7%A7%A9%E4%B8%89%E7%9A%84%E4%BC%B4%E9%9A%8F%E4%B8%8A%E5%90%8C%E8%B0%83.md) · Translation draft.
 - [From eigenvalue ranges to Frobenius trace lists](proofs/en/from-eigenvalue-ranges-to-frobenius-trace-lists.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%9C%AC%E5%BE%81%E5%80%BC%E7%9A%84%E6%A8%A1%E9%95%BF%E8%8C%83%E5%9B%B4%E5%BE%97%E5%88%B0Frobenius%E8%BF%B9%E5%88%97%E8%A1%A8.md) · Translation draft.
 
+- [Labelling representations by their full Hecke eigensystems](proofs/en/labelling-representations-by-their-full-hecke-eigensystems.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%8C%89%E6%95%B4%E5%A5%97Hecke%E6%9C%AC%E5%BE%81%E7%B3%BB%E7%BB%9F%E7%BB%99%E8%A1%A8%E7%A4%BA%E7%BC%96%E5%8F%B7.md) · Translation draft.
+- [Counting rational eigensystems by imaginary quadratic restriction](proofs/en/counting-rational-eigensystems-by-imaginary-quadratic-restriction.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E8%99%9A%E4%BA%8C%E6%AC%A1%E9%99%90%E5%88%B6%E6%95%B0%E5%87%BA%E6%9C%89%E7%90%86%E6%95%B0%E5%9F%9F%E4%B8%8A%E7%9A%84%E6%9C%AC%E5%BE%81%E7%B3%BB%E7%BB%9F.md) · Translation draft.
+- [The real-place contribution to global deformation equations](proofs/en/the-real-place-contribution-to-global-deformation-equations.md) · [中文](proofs/zh/%E5%85%A8%E5%B1%80%E5%8F%98%E5%BD%A2%E7%9A%84%E6%96%B9%E7%A8%8B%E6%95%B0%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%94%E5%8F%98%E9%87%8F%E5%A4%9A%E4%B8%80%E4%B8%AA%E5%AE%9E%E5%A4%84%E8%B4%A1%E7%8C%AE.md) · Translation draft.
+- [Equations and coordinates of the rank-three graded model](proofs/en/equations-and-coordinates-of-the-rank-three-graded-model.md) · [中文](proofs/zh/%E5%93%AA%E4%BA%9B%E6%96%B9%E7%A8%8B%E5%92%8C%E5%9D%90%E6%A0%87%E7%BB%84%E6%88%90%E7%A7%A9%E4%B8%89%E7%9A%84%E5%88%86%E6%AC%A1%E6%A8%A1%E5%9E%8B.md) · Translation draft.
+- [Moving a graded point back to the local deformation ring](proofs/en/moving-a-graded-point-back-to-the-local-deformation-ring.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E6%AC%A1%E7%82%B9%E8%83%BD%E7%A7%BB%E5%9B%9E%E5%B1%80%E9%83%A8%E5%8F%98%E5%BD%A2%E7%8E%AF.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
