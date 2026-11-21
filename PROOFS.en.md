@@ -6,6 +6,7 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ## English renderings of Chinese proof notes
 
+- [From window estimates to the Riemann Hypothesis](proofs/en/from-windows-to-rh.md) · [中文](proofs/zh/%E4%BB%8E%E7%AA%97%E5%8F%A3%E4%BC%B0%E8%AE%A1%E5%88%B0%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3.md) · Translation draft, extending the existing guide with the arithmetic hypotheses and exponent calculation.
 - [From weighted prime sums to poles](proofs/en/pole-data.md) · [中文](proofs/zh/%E4%BB%8E%E5%8A%A0%E6%9D%83%E7%B4%A0%E6%95%B0%E5%92%8C%E5%88%B0%E6%9E%81%E7%82%B9-%E7%95%99%E6%95%B0%E4%B8%BA%E4%BD%95%E4%B8%8D%E6%8A%B5%E6%B6%88.md) · Translation draft. The positive-weight residue calculation and the pole data needed by the Landau window lemma.
 - [Recovering primitive Dirichlet characters from inertia averages](proofs/en/primitive-characters-from-inertia.md) · [中文](proofs/zh/%E6%83%AF%E6%80%A7%E5%B9%B3%E5%9D%87%E6%80%8E%E6%A0%B7%E8%BF%98%E5%8E%9F%E7%8B%84%E5%88%A9%E5%85%8B%E9%9B%B7%E7%89%B9%E5%BE%81.md) · Translation draft. Identifies the character coefficients, the retained weights and the discarded error under the stated hypotheses.
 - [The finite Fourier identity for the prime-power count](proofs/en/finite-fourier-balance.md) · [中文](proofs/zh/%E5%89%A9%E4%BD%99%E7%B1%BB%E7%B4%A0%E6%95%B0%E5%92%8C%E4%B8%8E%E4%B8%BB%E9%A1%B9%E7%9A%84%E6%81%92%E7%AD%89%E5%BC%8F.md) · Translation draft. Character inversion recovers the local counts and isolates the main term.
@@ -84,8 +85,19 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 - [Zero repulsion with logarithmic losses from Turán's theorem](proofs/en/lossy-zero-repulsion-by-turan.md) · [中文](proofs/zh/Tur%C3%A1n%E5%B9%82%E5%92%8C%E6%80%8E%E6%A0%B7%E6%8E%A8%E5%87%BA%E5%B8%A6%E5%AF%B9%E6%95%B0%E6%8D%9F%E5%A4%B1%E7%9A%84%E9%9B%B6%E7%82%B9%E6%8E%92%E6%96%A5.md) · Translation draft.
 
+- [A thin-scale weighted prime-sum estimate from a zero-free region](proofs/en/weighted-prime-sum-at-thin-scale.md) · [中文](proofs/zh/%E6%97%A0%E9%9B%B6%E7%82%B9%E5%8C%BA%E5%9F%9F%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E8%96%84%E5%B0%BA%E5%BA%A6%E7%9A%84%E5%8A%A0%E6%9D%83%E7%B4%A0%E6%95%B0%E5%92%8C%E7%95%8C.md) · Translation draft.
+- [Excluding exceptional zeros in the thin-scale character family](proofs/en/no-exceptional-zero-for-thin-scale-family.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%96%84%E5%B0%BA%E5%BA%A6%E6%89%80%E7%94%A8%E7%9A%84%E7%89%B9%E5%BE%81%E6%B2%A1%E6%9C%89%E4%BE%8B%E5%A4%96%E9%9B%B6%E7%82%B9.md) · Translation draft.
+
+- [The additive large sieve at the actual frequency spacing](proofs/en/additive-large-sieve-for-spaced-frequencies.md) · [中文](proofs/zh/%E6%8C%89%E5%AE%9E%E9%99%85%E9%A2%91%E7%8E%87%E9%97%B4%E8%B7%9D%E8%AE%A1%E8%B4%B9%E7%9A%84%E5%8A%A0%E6%B3%95%E5%A4%A7%E7%AD%9B.md) · Translation draft.
+- [Gauss sums and the multiplicative large sieve](proofs/en/gauss-sums-and-the-multiplicative-large-sieve.md) · [中文](proofs/zh/%E9%AB%98%E6%96%AF%E5%92%8C%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%8A%A0%E6%B3%95%E5%A4%A7%E7%AD%9B%E5%8F%98%E6%88%90%E4%B9%98%E6%B3%95%E5%A4%A7%E7%AD%9B.md) · Translation draft.
+- [The height integral in the hybrid large sieve](proofs/en/hybrid-large-sieve-height-integration.md) · [中文](proofs/zh/%E6%B7%B7%E5%90%88%E5%A4%A7%E7%AD%9B%E7%9A%84%E7%A7%AF%E5%88%86%E5%9B%A0%E5%AD%90%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5.md) · Translation draft.
+- [The frequency energy forced by a missing residue class](proofs/en/frequency-energy-of-a-missing-residue.md) · [中文](proofs/zh/%E7%BC%BA%E4%B8%80%E4%B8%AA%E5%89%A9%E4%BD%99%E7%B1%BB%E8%87%B3%E5%B0%91%E9%9C%80%E8%A6%81%E5%A4%9A%E5%B0%91%E9%A2%91%E7%8E%87%E8%83%BD%E9%87%8F.md) · Translation draft.
+
+- [Brun–Titchmarsh from the missing-residue large sieve](proofs/en/brun-titchmarsh-from-missing-residue-classes.md) · [中文](proofs/zh/%E7%BC%BA%E7%B1%BB%E5%A4%A7%E7%AD%9B%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BABrun%E2%80%93Titchmarsh%E7%95%8C.md) · Translation draft.
+- [A prime polynomial second moment at fixed modulus](proofs/en/fixed-modulus-prime-second-moment.md) · [中文](proofs/zh/%E5%9B%BA%E5%AE%9A%E6%A8%A1%E6%95%B0%E7%9A%84%E7%B4%A0%E6%95%B0%E5%A4%9A%E9%A1%B9%E5%BC%8F%E4%BA%8C%E9%98%B6%E7%9F%A9.md) · Translation draft.
+- [An explicit bound for the reciprocal sum over shifted primes](proofs/en/explicit-reciprocal-sum-over-shifted-primes.md) · [中文](proofs/zh/%E7%B4%A0%E6%95%B0%E7%A7%BB%E4%BD%8D%E5%80%92%E6%95%B0%E5%92%8C%E7%9A%84%E6%98%BE%E5%BC%8F%E4%B8%8A%E7%95%8C.md) · Translation draft.
+
 ## Reading guides
 
-- [From window estimates to RH](proofs/en/from-windows-to-rh.md).
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
 - [RH from the right half-plane](proofs/en/rh-from-right-half-plane.md).

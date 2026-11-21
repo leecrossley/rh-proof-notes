@@ -25,7 +25,7 @@ $$
 
 ## The common coefficient sequence
 
-For fixed $\sigma$ use the [hybrid large sieve](../zh/%E6%B7%B7%E5%90%88%E5%A4%A7%E7%AD%9B%E7%9A%84%E7%A7%AF%E5%88%86%E5%9B%A0%E5%AD%90%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5.md) on $a_n=b_Q(n)n^{-\sigma}\mathbf1_{Q^3<n\le Q^6}$. Its right side is
+For fixed $\sigma$ use the [hybrid large sieve](hybrid-large-sieve-height-integration.md) on $a_n=b_Q(n)n^{-\sigma}\mathbf1_{Q^3<n\le Q^6}$. Its right side is
 $$
 C_{\rm H}\sum_{Q^3<n\le Q^6}(Q^2(Q+1)+n)|b_Q(n)|^2 n^{-2\sigma}.
 $$

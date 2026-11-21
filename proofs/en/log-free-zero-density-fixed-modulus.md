@@ -13,7 +13,7 @@ $$
 
 ## An integrated prime mean square
 
-Write $S_\chi(N,y;\tau)=\sum_{N<p\le y}(\log p)\chi(p)p^{-1-i\tau}$. For $U\ge1$ and $1\le N\le y\le M$ with $(2qU)^2\le N$, the [fixed-modulus prime second moment](../zh/%E5%9B%BA%E5%AE%9A%E6%A8%A1%E6%95%B0%E7%9A%84%E7%B4%A0%E6%95%B0%E5%A4%9A%E9%A1%B9%E5%BC%8F%E4%BA%8C%E9%98%B6%E7%9F%A9.md) gives
+Write $S_\chi(N,y;\tau)=\sum_{N<p\le y}(\log p)\chi(p)p^{-1-i\tau}$. For $U\ge1$ and $1\le N\le y\le M$ with $(2qU)^2\le N$, the [fixed-modulus prime second moment](fixed-modulus-prime-second-moment.md) gives
 $$
 \sum_{\chi\bmod q}\int_{-U}^{U}|S_\chi(N,y;\tau)|^2\,d\tau
 \le C_1\sum_{N<p\le y}\frac{\log p}{p}.
