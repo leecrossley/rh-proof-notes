@@ -4,7 +4,7 @@
 
 ## Statement
 
-Let $K$ have a nonarchimedean absolute value, and $S,T\subset K^J$. In the [polynomial approximation sense](../zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E7%A8%A0%E5%AF%86Frobenius%E5%8F%96%E5%80%BC%E6%9E%84%E9%80%A0%E6%9E%81%E9%99%90%E8%BF%B9.md), assume $\theta$ is approximable by $S$ and every $\eta\in S$ by $T$. Thus at every precision each approximation uses a finite linear combination with coefficients working for all integral polynomials in the coordinates. If $Q\in\mathbb Z[X_j:j\in J]$ is nonzero at every $\eta\in S$, then $\theta$ is approximable by $\{\zeta\in T:Q(\zeta)\ne0\}$. In the project the first family meets Satake tests at chosen places and the second changes the weight and type at a specified $\ell$-adic place. The polynomial is a product of eigenvalue coordinates testing the required nonvanishings.
+Let $K$ have a nonarchimedean absolute value, and $S,T\subset K^J$. In the [polynomial approximation sense](constructing-the-limit-trace-from-dense-frobenius-values.md), assume $\theta$ is approximable by $S$ and every $\eta\in S$ by $T$. Thus at every precision each approximation uses a finite linear combination with coefficients working for all integral polynomials in the coordinates. If $Q\in\mathbb Z[X_j:j\in J]$ is nonzero at every $\eta\in S$, then $\theta$ is approximable by $\{\zeta\in T:Q(\zeta)\ne0\}$. In the project the first family meets Satake tests at chosen places and the second changes the weight and type at a specified $\ell$-adic place. The polynomial is a product of eigenvalue coordinates testing the required nonvanishings.
 
 ## Proof
 

@@ -8,7 +8,7 @@ Fix prime $\ell$ and $\iota:\overline{\mathbb Q}_\ell\simeq\mathbb C$, using its
 $$
 \left|P(\iota^{-1}\theta)-\sum_i c_iP(\iota^{-1}\eta_i)\right|_\ell\le\varepsilon .
 $$
-Repeated eigenvalue vectors may be combined by adding coefficients. These are the quantifiers of the [limit trace](../zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E7%A8%A0%E5%AF%86Frobenius%E5%8F%96%E5%80%BC%E6%9E%84%E9%80%A0%E6%9E%81%E9%99%90%E8%BF%B9.md) approximation.
+Repeated eigenvalue vectors may be combined by adding coefficients. These are the quantifiers of the [limit trace](constructing-the-limit-trace-from-dense-frobenius-values.md) approximation.
 
 ## Proof
 

@@ -384,6 +384,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Form approximation gives simultaneous eigenvalue approximation](proofs/en/form-approximation-gives-simultaneous-eigenvalue-approximation.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BD%A2%E5%BC%8F%E7%9A%84%E8%BF%91%E4%BC%BC%E7%BB%99%E4%B8%80%E6%95%B4%E5%A5%97%E6%9C%AC%E5%BE%81%E5%80%BC%E5%90%8C%E4%BD%99.md) · Translation draft.
 - [Preserving nonvanishing in eigenvalue approximation](proofs/en/preserving-nonvanishing-in-eigenvalue-approximation.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E5%9C%A8%E6%9C%AC%E5%BE%81%E5%80%BC%E9%80%BC%E8%BF%91%E4%B8%AD%E4%BF%9D%E7%95%99%E6%8C%87%E5%AE%9A%E7%9A%84%E9%9D%9E%E6%B6%88%E5%A4%B1%E6%9D%A1%E4%BB%B6.md) · Translation draft.
 
+- [Constructing the limit trace from dense Frobenius values](proofs/en/constructing-the-limit-trace-from-dense-frobenius-values.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E7%A8%A0%E5%AF%86Frobenius%E5%8F%96%E5%80%BC%E6%9E%84%E9%80%A0%E6%9E%81%E9%99%90%E8%BF%B9.md) · Translation draft.
+- [Limit traces retain the polynomial identities of representations](proofs/en/limit-traces-retain-the-polynomial-identities-of-representations.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9E%81%E9%99%90%E8%BF%B9%E4%BB%8D%E6%BB%A1%E8%B6%B3%E6%9C%89%E9%99%90%E7%BB%B4%E8%A1%A8%E7%A4%BA%E7%9A%84%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%81%92%E7%AD%89%E5%BC%8F.md) · Translation draft.
+- [The nondegenerate trace algebra has at most square dimension](proofs/en/the-nondegenerate-trace-algebra-has-at-most-square-dimension.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9D%9E%E9%80%80%E5%8C%96%E7%9A%84%E4%BC%AA%E8%BF%B9%E4%BB%A3%E6%95%B0%E8%87%B3%E5%A4%9A%E6%9C%89%E5%B9%B3%E6%96%B9%E7%BB%B4%E6%95%B0.md) · Translation draft.
+- [Recovering a semisimple representation from a pseudocharacter](proofs/en/recovering-a-semisimple-representation-from-a-pseudocharacter.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E4%BC%AA%E7%89%B9%E5%BE%81%E7%9A%84%E8%BF%B9%E6%81%A2%E5%A4%8D%E5%8D%8A%E5%8D%95%E8%A1%A8%E7%A4%BA.md) · Translation draft.
+- [A compact group representation uses one finite coefficient field](proofs/en/a-compact-group-representation-uses-one-finite-coefficient-field.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%B4%A7%E7%BE%A4%E8%A1%A8%E7%A4%BA%E5%8F%AA%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E6%9C%89%E9%99%90%E7%B3%BB%E6%95%B0%E5%9F%9F.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
