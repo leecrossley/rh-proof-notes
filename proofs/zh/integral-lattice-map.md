@@ -1,0 +1,64 @@
+# 周期赋值怎样给出整格映射
+
+[English](../en/integral-lattice-map.md) · [进度与复核状态](../../STATUS.md)
+
+
+同调和局部比较给出的，是某些复周期在指定素处的赋值下界。随后的斜率论证用的是数域上的整格映射。下面证明怎样从前一项得到后一项。阅读路线参照 Andrew O’Desky 的 [*Compatible arithmetic data on intervals* 第 4 步](https://andrewodesky.com/rh/s/assembly-existence.html) 及其[定理目录](https://andrewodesky.com/rh/)，其中 `Transfer of period valuations to column pairings` 对应第二节，`Lattice shifts from local period divisibility` 对应第三节。这里按固定版本的 Lean 源码重走证明，并展开第一节所用的整分解。
+
+## 第 1 节 · 扩大系数以后仍能用原格中的向量分解
+
+设 $K$ 为数域，$R=\mathcal O_K$ 为其整数环，固定嵌入 $\iota:K\hookrightarrow\mathbb C$。设 $O$ 是嵌入 $R$ 的 Dedekind 整环。令 $W$ 为复向量空间，$M$ 为 $W$ 中由有限组向量生成的 $O$-模。假设自然映射 $\mathbb C\otimes_O M\to W,\; c\otimes y\mapsto cy$ 单射。设 $e:W\to W$ 为复线性幂等算子，并假设有正整数 $b$ 使 $be(M)\subset M$。记 $RM$ 为 $M$ 在 $W$ 中的 $R$-线性包。
+
+**命题。** 在这些假设下，$RM\cap\operatorname{im}e=R(M\cap\operatorname{im}e)$。因此，一个用 $R$ 系数写出的向量，若属于该投影的像，就能用原来 $O$-模中已经属于该像的向量作有限 $R$-线性组合。项目把后一个分解性质叫作 `CutUp`，把复化映射单射的条件叫作 `OForm`。
+
+令 $p=b(1-e)$。由 $be(M)\subset M$ 得 $p(M)\subset M$。因为 $e^2=e$ 且 $b\ne0$，在 $W$ 中有 $\ker p=\operatorname{im}e$。设 $M_0=\ker(p|_M)$。于是 $0\to M_0\to M\xrightarrow{p}M$ 在前两项正合。作为 $O$-模，$R$ 无挠，故在 Dedekind 整环上是平坦的。张量 $R$ 后，$p$ 的核仍是 $R\otimes_O M_0$ 的像。
+
+还要把这条张量积中的结论移回 $W$。$M$ 在嵌入 $\mathbb C$ 的 $O$ 上无挠，同样平坦。因此 $R\hookrightarrow\mathbb C$ 给出单射 $R\otimes_O M\hookrightarrow\mathbb C\otimes_O M$。复化映射单射，故 $R\otimes_O M$ 可识别为 $RM\subset W$。在此识别下，张量后的 $p$ 就是 $p|_{RM}$，而 $R\otimes_O M_0$ 的像为 $RM_0$。这给出所求等式。源码取 $b$ 为有限行群的阶，使用该阶乘以投影保持原有 $O$-模这一条件。
+
+在 `TopShape.lean` 的实际主线中，使用的条件是原测试模 $M$ 已对 $R$ 的乘法稳定。此时 $RM=M$。给定由生成元作 $R$ 线性组合得到、且已在投影像中的 $y$，就有 $y\in M\cap\operatorname{im}e$，取单项分解 $1\cdot y$ 即可。`cut_of_stable` 把这个论证放到每个足够大的尺度和每个候选上。前面的平坦性证明对应源码另一个在原模只知 $O$ 结构时可用的入口。
+
+## 第 2 节 · 周期的赋值怎样传给代数配对
+
+固定上述数域和嵌入。取 $R$ 的任一非零素理想 $\mathfrak p$，以 $v_{\mathfrak p}:K^\times\to\mathbb Z$ 表示素理想指数，也就是在局部一致化元上取 $1$ 的赋值。取任意 $s\in\mathbb R$、两个非负整数 $d,n$、集合 $S\subset K^d$ 及 $R$-子模 $L\subset K^n$。给定 $K$-双线性配对 $Q:K^d\times K^n\to K$，以及复向量空间 $A$、其中的集合 $M$ 和复子空间 $A^0$。这里 $R$ 通过 $\iota$ 作用。再给定映射 $E:K^n\to A$，以及对每个 $x\in K^d$ 的复线性函数 $P_x:A\to\mathbb C$。项目的 $P_x$ 来自复周期，构造 $P_x$ 时可以先把坐标 $x$ 送进另一个空间。
+
+**命题。** 假设每个 $F\in L$ 的 $E(F)$ 都可写为 $M\cap A^0$ 中向量的有限 $R$-线性组合。假设对所有 $x\in K^d$、$F\in K^n$ 有 $\iota(Q(x,F))=P_x(E(F))$。最后假设对每个 $x\in S$、$H\in M\cap A^0$，存在 $a_{x,H}\in K$ 使 $\iota(a_{x,H})=P_x(H)$，且 $a_{x,H}=0$ 或 $v_{\mathfrak p}(a_{x,H})\ge s$。则对所有 $z\in\operatorname{span}_R S$、$F\in L$，有 $Q(z,F)=0$ 或 $v_{\mathfrak p}(Q(z,F))\ge s$。
+
+固定 $F\in L$，写 $E(F)=\sum_i\iota(c_i)H_i$，其中 $c_i\in R$、$H_i\in M\cap A^0$。对 $x\in S$ 应用 $P_x$ 的复线性，再用配对恒等式和 $\iota$ 的单射性，得到
+
+$$
+Q(x,F)=\sum_i c_i a_{x,H_i}.
+$$
+
+集合 $\{0\}\cup\{a\in K^\times:v_{\mathfrak p}(a)\ge s\}$ 是 $R$-子模。乘以非零的 $R$ 元素只会增加非负的赋值，非零的和的赋值不小于两项中较小的赋值。因此 $Q(x,F)$ 属于这个模。对 $z\in\operatorname{span}_R S$，用 $Q(-,F)$ 的线性再作一次有限 $R$-线性组合，就得到结论。源码分别用 `vAdd` 和 `vw` 表示同一个非零元素的归一化赋值与素理想指数，最后用 `vAdd_eq_vw` 识别二者。
+
+在 `val2AllAtRF` 中，对每个 $\mathfrak p$ 读取该处指定的测试空间。`Tied.mu` 保证它就是周期估计所用的类型。$S$ 取为源格本身的元素集，把坐标送进供给周期下界的格。`LocalQuadraticParts.adm2` 给出上段的周期估计，其中 $s=\lfloor e_{\mathfrak p} g_{\mathfrak p}\rfloor$，$e_{\mathfrak p}$ 是该处相对于下方有理素数的分歧指数。$g_{\mathfrak p}$ 是各次提升的局部预算之和，每项由保留的整除增益加上固定校正，再减去该源格的误差。`CutUp` 给出对测试向量的整分解。[局部预算的定义](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalRingCardinality/DataParams%E2%82%82.lean#L215)
+
+## 第 3 节 · 同时用上所有素处的下界
+
+设 $N,N'\subset K^d$ 和 $T\subset K^D$ 是 $R$-子模，$d,D$ 可为零。给定 $K$-双线性配对 $B:K^d\times K^D\to K$。对每个非零素理想 $\mathfrak p$，给定一个测试模 $L_{\mathfrak p}\subset K^{n_{\mathfrak p}}$、线性映射 $A_{\mathfrak p}:K^{n_{\mathfrak p}}\to K^D$、$K$-双线性配对 $Q_{\mathfrak p}$、标量 $\zeta_{\mathfrak p}\in K^\times$、实数 $s_{\mathfrak p}$ 和整数 $\tau_{\mathfrak p}$。局部化 $T_{\mathfrak p}$ 是允许用 $R\setminus\mathfrak p$ 中元素作分母后得到的模。假设每个 $\mathfrak p$ 都满足以下条件。
+
+1. $T_{\mathfrak p}=A_{\mathfrak p}(L_{\mathfrak p})_{\mathfrak p}$。而且 $v_{\mathfrak p}(\zeta_{\mathfrak p})=0$，对所有 $z,F$ 有 $Q_{\mathfrak p}(z,F)=\zeta_{\mathfrak p} B(z,A_{\mathfrak p}F)$。
+2. 对所有 $z\in N$、$F\in L_{\mathfrak p}$，$Q_{\mathfrak p}(z,F)$ 为零，或其赋值至少为 $s_{\mathfrak p}$。并有 $\tau_{\mathfrak p}\le\lceil s_{\mathfrak p}\rceil$。
+3. 存在 $a_{\mathfrak p}\in K^\times$ 使 $v_{\mathfrak p}(a_{\mathfrak p})=-\tau_{\mathfrak p}$，且 $N'_{\mathfrak p}=a_{\mathfrak p}N_{\mathfrak p}$。
+
+**命题。** 对所有 $z'\in N'$、$y\in T$，都有 $B(z',y)\in R$。等价地，$z'\mapsto B(z',-)$ 把 $N'$ 送进整对偶 $T^\vee=\{f\in(K^D)^\vee:f(T)\subset R\}$。
+
+固定 $z',y$ 并假设 $B(z',y)\ne0$。在 $\mathfrak p$ 处，条件 1 和 3 给出表示 $z'=a_{\mathfrak p}z/c$ 与 $y=A_{\mathfrak p}F/d_0$，其中 $z\in N$、$F\in L_{\mathfrak p}$、$c,d_0\in R\setminus\mathfrak p$。这样的表示来自局部化的定义，有限个分母可以通分。由双线性和配对恒等式，
+
+$$
+B(z',y)=\frac{a_{\mathfrak p}}{c d_0\zeta_{\mathfrak p}}Q_{\mathfrak p}(z,F).
+$$
+
+分母的赋值为零，且 $Q_{\mathfrak p}(z,F)\ne0$。由于其赋值是整数，下界 $s_{\mathfrak p}$ 自动提高到 $\lceil s_{\mathfrak p}\rceil$。故 $v_{\mathfrak p}(B(z',y))\ge -\tau_{\mathfrak p}+\lceil s_{\mathfrak p}\rceil\ge0$。这对每个非零素理想成立。非零元素生成的分式理想若在每个素处的指数均非负，便是整理想，因而该元素属于 $R$。零值本来就在 $R$ 中。这证明了命题。
+
+应用中 $N$ 是满格，且整数 $\tau_{\mathfrak p}=\lfloor e_{\mathfrak p}g_{\mathfrak p}\rfloor$ 只在有限处非零。取 $I=\prod_{\mathfrak p}\mathfrak p^{-\tau_{\mathfrak p}}$ 和 $N'=IN$。在 $\mathfrak p$ 处，其他理想因子都是单位理想，$I_{\mathfrak p}$ 可由赋值为 $-\tau_{\mathfrak p}$ 的元素生成。因此 $N'$ 满足条件 3。所得 $N'\to T^\vee$ 是 `DivClausesR` 的第一项。高度和目标斜率另有不等式。合成这些界以后，格的量进入[素数幂计数的上界](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChTop.lean#L37)。
+
+## 源码对照
+
+- `span_inf_ker_of_flat` 保持核，`liftBaseChange_injective_of` 使张量积可以当成原空间里的子模，`cut_tensorUp` 用 $b(1-e)$ 取得整分解。`cut_tensorUp_row` 与 `cutUpOfOTie` 给出行上的应用。 [TiedLemmas.lean:73](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/Divisibility/TiedLemmas.lean#L73) · [ValIntNonneg.lean:25](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/GroupLattices/JointServices/ValIntNonneg.lean#L25)
+- `perToVal2F` 证明两次取整数环系数的线性组合，`val2AllAtRF` 逐处使用 `adm2`，`vAdd_eq_vw` 识别赋值。 [ServJointF.lean:42](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/GroupLattices/ServJointF.lean#L42) · [ServJointF.lean:84](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/GroupLattices/ServJointF.lean#L84) · [VAddEqVw.lean:37](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/GroupLattices/JointServices/VAddEqVw.lean#L37) · [LocalQuadraticParts.lean:206](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/SharpRestriction/Divisibility/LocalQuadraticParts.lean#L206)
+- `shift_existence` 给出分式理想移格，`shift_pairing_formula` 消去局部赋值，`divisor_into_dual_lattice` 将各处的整性合并，`divisor_into_dual_shift` 拼接两步。`shiftEx` 与 `divIntoDualShift` 是转发入口。 [TwistedLatticeNaturality.lean:649](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/QuotientMetricDivisors/HermitianTwistDivisors/TwistedLatticeNaturality.lean#L649) · [TwistedLatticeNaturality.lean:720](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/QuotientMetricDivisors/HermitianTwistDivisors/TwistedLatticeNaturality.lean#L720) · [DivIntoDual.lean:49](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/QuotientMetricDivisors/HermitianTwistDivisors/DivIntoDual.lean#L49) · [FinalW.lean:31](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/QuotientMetricDivisors/FinalW.lean#L31)
+- `DivisionPackageColumns.inputs` 取 `val2AllAtRF` 作 `val2` 字段，`linkDIV_L2R3_rec` 调用 `divClausesR_of`，后者经 `IndefColsR.intoDual` 使用移格定理。 [RecBridgeTied.lean:139](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/Divisibility/RecBridgeTied.lean#L139) · [LinkDIVL2R3Rec.lean:19](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Rec.lean#L19) · [ConstantGeTwentyEight.lean:184](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean#L184) · [PairingConditionOfInverseMatrixIdentity.lean:393](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/IndefiniteForms/PairingConditionOfInverseMatrixIdentity.lean#L393)
+- 主线 `shape_closed_link_n_of_green` 同时传入 `cut_of_stable` 和 `closed_family_admissible_twist_link_alt`。后者把基准及扭曲两侧的整性与周期估计等输入组装成 `adm2`，是继续追周期估计的源码入口。 [TopShape.lean:44](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopShape.lean#L44) · [IndefiniteRealisationChoice.lean:165](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/IndefiniteRealisationChoice.lean#L165) · [Cut.lean:33](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/GroupLattices/JointServices/Cut.lean#L33) · [ClosedFamilyAdmissibleTwistLink.lean:12](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ClosedFamilyAdmissibleTwistLink.lean#L12)
+
+应用需要从上游取得测试模的稳定性、实际周期的代数性与赋值下界，以及目标格的局部比较。正文复核状态见[进度页](../../STATUS.md)。

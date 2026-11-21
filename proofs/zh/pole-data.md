@@ -1,0 +1,117 @@
+# 从加权素数和到极点
+
+[进度与复核状态](../../STATUS.md)
+
+
+## 第 1 节 · 黎曼猜想 · 原讲义第 3 节的极点引理
+
+Landau 窗口引理排除的是变换的极点。要把它用于 ζ 或狄利克雷 `L` 函数，还要证明每个零点都确实给出一个极点。本篇给出这个证明，并解释为什么取实部再加权，仍能保住每个零点的信息。[Landau 窗口引理译稿](landau-window.md)
+
+### 对象与记号
+
+取任意有限指标集 `J`。对每个 `j ∈ J`，取模数 `N_{j} ≥ 1`、模 `N_{j}` 的狄利克雷特征 `χ_{j}`，以及实权重 `a_{j} > 0`。假定 `N_{j} = 1` 或 `χ_{j}` 非平凡。记模 1 的平凡特征为 `𝟙`，它的 `L` 函数是 ζ。这样的一族数据在 Lean 中称为 `CharFamily`。
+
+对实数 `y > 0`，设 `S_{χ}(y) = ∑_{1≤n≤y} Λ(n)χ(n)(y/n − 1)`。这里 `Λ(p^{m}) = log p`（`p` 为素数，`m ≥ 1`），其余取零。用 `γ_{E}` 表示欧拉常数，令
+
+```text
+G_{𝟙}(y) = S_{𝟙}(y) − y log y + (1 + γ_{E})y,
+G_{χ}(y) = S_{χ}(y) + y L′(1,χ)/L(1,χ) (χ 非平凡),
+g(u) = ∑_{j∈J} a_{j} Re G_{χ_{j}}(e^{u}) (u ∈ ℝ).
+```
+
+记 `Z` 为所有 `Re ρ > 0` 且对某个 `j ∈ J` 有 `L(ρ,χ_{j}) = 0` 或 `L(ρ̄,χ_{j}) = 0` 的点 `ρ`。
+
+**定理。** 对以上任意有限族，`g` 可测，且存在实常数 `C ≥ 0`，使所有 `u ≥ 0` 都满足 `|g(u)| ≤ Ce^{2u}`。右半平面的每一点都有一个与 `Z` 不交的去心邻域。存在函数 `Φ: ℂ → ℂ`，使 `Φ(s) = ∫_{0}^{∞} g(u)e^{−su}du` 对所有 `Re s > 2` 成立，且 `Φ` 在 `{Re s > 0} ∖ Z` 上全纯。在每个 `ρ ∈ Z` 的去心邻域内，
+
+```text
+Φ(s) = c_{ρ}/(s − ρ) + h_{ρ}(s),
+```
+
+其中 `h_{ρ}` 在 `ρ` 附近全纯，`c_{ρ} ≠ 0`。若 `ρ` 为实数，则 `c_{ρ} > 0` 且为实数。
+
+这正是 `Deduction.poleData` 给出的增长、变换和极点资料。证明将直接算出 `c_{ρ}`。
+
+## 第 2 节 · 斜坡权重怎样产生分母？
+
+先固定族中一个特征 `χ`。写 `x_{+} = max(x,0)`，则 `S_{χ}(y) = ∑_{n≥1} Λ(n)χ(n)(y/n − 1)_{+}`。在任意有界的 `y` 区间上只有有限个可能非零的项，因此 `S_{χ}` 连续。又因 `0 ≤ Λ(n) ≤ log n ≤ n`、`|χ(n)| ≤ 1`，每个非零项的模至多为 `y`。故 `y ≥ 1` 时 `|S_{χ}(y)| ≤ y²`。所加的修正项至多是常数乘 `y log y + y`，所以 `|G_{χ}(y)| ≤ C_{χ}y²`。有限求和即给出 `g` 的可测性和增长界。
+
+在 `Re s > 2` 时，增长界保证拉普拉斯积分绝对收敛。换元 `y = e^{u}`，得到单个特征的变换
+
+```text
+∫_{0}^{∞} G_{χ}(e^{u})e^{−su} du = ∫_{1}^{∞} G_{χ}(y)y^{−s−1} dy.
+```
+
+右边的积分公式可以在更大的区域 `Re s > 1` 直接计算。对每个整数 `n ≥ 1`，从 `y = n` 开始分别积两项，得
+
+```text
+∫_{1}^{∞} (y/n − 1)_{+} y^{−s−1} dy = n^{−s}[1/(s−1) − 1/s] = n^{−s}/[s(s−1)]. （1）
+```
+
+令 `σ = Re s > 1`。把被积的复幂取模，就得到（1）在 `σ` 处的非负被积函数。因此，乘上 `|Λ(n)χ(n)|` 后的绝对积分之和，至多是 `∑_{n≥1} (log n)n^{−σ}/[σ(σ−1)] < ∞`。这允许交换求和与积分。另一方面，由欧拉乘积在 `Re s > 1` 展开对数并逐项求导，
+
+```text
+−L′(s,χ)/L(s,χ) = ∑_{p}∑_{m≥1} (log p)χ(p)^{m}p^{−ms} = ∑_{n≥1} Λ(n)χ(n)n^{−s}.
+```
+
+求导后的级数在每个 `Re s ≥ 1 + ε`（`ε > 0`）上绝对一致收敛，仍用 `(log n)n^{−1−ε}` 控制。故 `S_{χ}` 的变换就是 `−(L′/L)(s,χ)/[s(s−1)]`。
+
+**非平凡特征。** 设 `c = (L′/L)(1,χ)`。修正项 `cy` 的变换是 `c/(s−1)`，所以 `G_{χ}` 的变换是
+
+```text
+−[(L′/L)(s,χ) − sc]/[s(s−1)]. （2）
+```
+
+**模 1 的平凡特征。** 修正项 `−y log y + (1 + γ_{E})y` 的变换是 `−1/(s−1)² + (1 + γ_{E})/(s−1)`，其中对数项可分部积分。与素数和的变换相加，得到
+
+```text
+−[ζ′(s)/ζ(s) + 1/(s−1) + 1 − (1 + γ_{E})s]/[s(s−1)]. （3）
+```
+
+## 第 3 节 · 零点重数给出留数
+
+这里用到 `L` 函数的标准解析性质。非平凡特征的 `L(s,χ)` 是整函数，且 `L(1,χ) ≠ 0`。ζ 在 `s = 1` 有唯一极点，且在该点的 Laurent 展开为 `ζ(s) = (s−1)^{−1} + γ_{E} + O(s−1)`。族中的 `L` 函数在 `Re s ≥ 1` 无零点，ζ 在 `s = 1` 处按上述极点理解。
+
+对非平凡 `χ` 取 `f_{χ}(s)=L(s,χ)`、`κ=0`。对 `𝟙` 取 `f_{𝟙}(s)=(s−1)ζ(s)` 并在 `1` 补值 `1`，取 `κ=1`。两种情形的 `f=f_{χ}` 都是整函数且 `f(1) ≠ 0`。平凡情形另有 `f′(1)=γ_{E}`，并且 `f′/f=ζ′/ζ+1/(s−1)` 在两边有定义时成立。故（2）（3）都可写成
+
+```text
+Φ_{χ}(s) = −[f′(s)/f(s) − s f′(1)/f(1) + κ(1−s)]/[s(s−1)]. （4）
+```
+
+在 `1` 附近，分子全纯且在 `1` 处为零，约去因子 `s−1` 就能全纯延拓。余下在右半平面内可能发生的奇点都来自 `f` 的零点，且它们是离散的，因为 `f(1) ≠ 0`。若 `Re ρ > 0` 且 `ρ` 是 `f` 的 `m` 重零点，则 `ρ ≠ 1`。在该点附近分解 `f(s)=(s−ρ)^{m}q(s)`，其中 `q` 全纯、`q(ρ) ≠ 0`。求导并相除给出
+
+```text
+f′(s)/f(s) = m/(s−ρ) + q′(s)/q(s).
+```
+
+第二项在 `ρ` 附近全纯。把第一项代入（4），系数 `−1/[s(s−1)]` 在 `ρ` 处取值 `−1/[ρ(ρ−1)]`，减掉这个取值后所得的差含因子 `s−ρ`。因此 `Φ_{χ}` 只有一个简单极点项，留数是 `−m/[ρ(ρ−1)]`。若 `ρ` 处无零点，令 `m=0`，此时变换在该点全纯。
+
+### 合并成一个实值函数的变换
+
+记 `χ̄(n) = \overline{χ(n)}` 为共轭特征，它在 Lean 中写成特征群的逆 `χ⁻¹`。狄利克雷级数给出 `L(s,χ̄) = \overline{L(s̄,χ)}`，由解析延拓可在整个定义域使用。该关系在实点 `1` 也把非平凡特征的对数导数变成其共轭。结合素数和中的实权重，得到 `G_{χ̄}(y) = \overline{G_{χ}(y)}`。所以取
+
+```text
+Φ(s) = ∑_{j∈J} (a_{j}/2) [Φ_{χ_{j}}(s) + Φ_{χ̄_{j}}(s)].
+```
+
+在 `Re s > 2`，有限求和与绝对收敛积分可以交换，上式正是 `g` 的拉普拉斯变换。在右半平面内，`Z` 是有限个离散零点集的并集，所以每一点都有与 `Z` 不交的去心邻域，`Φ` 在 `Z` 外全纯。作为总函数，可在 `Z` 及其余未定义的点任意补值。解析结论只用极点的去心邻域。
+
+## 第 4 节 · 共有的因子使留数同向
+
+最后取 `ρ ∈ Z`，记 `m_{j}(w)` 为 `L(s,χ_{j})` 在 `w` 的零点重数，无零点取零。共轭关系说明 `L(s,χ̄_{j})` 在 `ρ` 的重数就是 `m_{j}(ρ̄)`。因此 `Φ` 的留数为
+
+```text
+c_{ρ} = −1/[ρ(ρ−1)] · ∑_{j∈J} (a_{j}/2)[m_{j}(ρ) + m_{j}(ρ̄)].
+```
+
+每项重数都非负，并且由 `ρ ∈ Z` 知至少一个重数为正。由于每个权重为正，和严格为正。公共因子 `−1/[ρ(ρ−1)]` 非零，因此留数非零。若 `ρ` 为实数，由 `Re s ≥ 1` 无零点可知 `0 < ρ < 1`，此时公共因子也为正。定理的全部结论得证。
+
+这个留数公式提供了 Landau 窗口引理的两条关键输入。每个 `L` 函数的零点都会被变换检测到，实极点还给出符号确定的主项。Landau 引理再利用窗口上界把这些极点限制在 `Re s ≤ θ`。[窗口引理第 3–5 节](landau-window.md)
+
+### 逐步定位
+
+- 加权素数和与族的定义是 `Deduction.Gchi`、`Deduction.CharFamily`（第 15、24 行）。增长界是 `Deduction.Gchi_growth`（第 37 行）。[CharFamily.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/CharFamily.lean) · [GchiGrowth.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/GchiGrowth.lean)
+- 积分（1）是 `Deduction.mellin_ramp`（第 10 行）。公式（2）（3）是 `Deduction.mellin_Gchi_of_ne_one`（第 116 行）和 `Deduction.mellin_Gchi_modOne`（第 115 行）。[MellinRamp.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/MellinRamp.lean) · [mellinGchiOfNeOne.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/mellinGchiOfNeOne.lean) · [mellinGchiModOne.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/mellinGchiModOne.lean)
+- 用零点分解计算对数导数是 `Deduction.logDeriv_local`（第 9 行）。公式（4）、在 1 处去掉可去奇点以及单特征的结论，见 `Deduction.poleData_abstract`、`Deduction.poleData_char`（第 22、137 行）。[LogDerivLocal.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LogDerivLocal.lean) · [poleData.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/poleData.lean)
+- 把实部写成两个共轭项所用的恒等式是 `Deduction.Gchi_conj`（第 38 行）。合并各特征的留数是 `Deduction.poleData`（第 248 行）。[GchiConj.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/GchiConj.lean) · [poleData.lean](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/poleData.lean)
+
+本条的正文复核情况见[进度页](../../STATUS.md)。
