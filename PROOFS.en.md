@@ -293,6 +293,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Divisible-coefficient finiteness kills field-valued cocycles](proofs/en/divisible-coefficient-finiteness-kills-field-valued-cocycles.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%B1%E5%8F%AF%E9%99%A4%E7%B3%BB%E6%95%B0%E7%9A%84%E6%9C%89%E9%99%90%E6%80%A7%E6%B6%88%E5%8E%BB%E5%9F%9F%E7%B3%BB%E6%95%B0%E4%BD%99%E9%97%AD%E9%93%BE.md) · Translation draft.
 - [Nonpositive-weight integral tangent classes are torsion](proofs/en/nonpositive-weight-integral-tangent-classes-are-torsion.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E9%9D%9E%E6%AD%A3%E6%9D%83%E7%9A%84%E6%95%B4%E7%B3%BB%E6%95%B0%E5%88%87%E5%90%91%E7%B1%BB%E5%8F%98%E6%88%90%E6%89%AD%E7%BB%93.md) · Translation draft.
 
+- [Second obstructions bound the number of deformation relations](proofs/en/second-obstructions-bound-the-number-of-deformation-relations.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%98%E5%BD%A2%E7%9A%84%E5%85%B3%E7%B3%BB%E6%95%B0%E7%94%B1%E4%BA%8C%E9%98%B6%E9%9A%9C%E7%A2%8D%E6%8E%A7%E5%88%B6.md) · Translation draft.
+- [The universal framed ring has homogeneous coordinates](proofs/en/the-universal-framed-ring-has-homogeneous-coordinates.md) · [中文](proofs/zh/%E5%B8%A6%E6%A1%86%E7%9A%84%E6%99%AE%E9%81%8D%E5%8F%98%E5%BD%A2%E7%8E%AF%E6%80%8E%E6%A0%B7%E5%BE%97%E5%88%B0%E9%BD%90%E6%AC%A1%E5%9D%90%E6%A0%87.md) · Translation draft.
+- [Lifting form-preserving matrices across square-zero extensions](proofs/en/lifting-form-preserving-matrices-across-square-zero-extensions.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E5%9C%A8%E5%B9%B3%E6%96%B9%E4%B8%BA%E9%9B%B6%E7%9A%84%E6%89%A9%E5%BC%A0%E4%B8%8A%E6%8F%90%E8%B5%B7%E4%BF%9D%E5%BD%A2%E7%9F%A9%E9%98%B5.md) · Translation draft.
+- [Twelve local crystalline cocycle directions in rank three](proofs/en/twelve-local-crystalline-cocycle-directions-in-rank-three.md) · [中文](proofs/zh/%E7%A7%A9%E4%B8%89%E5%B1%80%E9%83%A8%E6%99%B6%E4%BD%93%E4%BD%99%E9%97%AD%E9%93%BE%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%96%B9%E5%90%91.md) · Translation draft.
+- [Formal smoothness selects the reference branch](proofs/en/formal-smoothness-selects-the-reference-branch.md) · [中文](proofs/zh/%E5%BD%A2%E5%BC%8F%E5%85%89%E6%BB%91%E6%80%8E%E6%A0%B7%E9%80%89%E5%87%BA%E7%BB%8F%E8%BF%87%E5%8F%82%E8%80%83%E7%82%B9%E7%9A%84%E5%94%AF%E4%B8%80%E5%88%86%E6%94%AF.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
