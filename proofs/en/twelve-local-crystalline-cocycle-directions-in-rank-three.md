@@ -22,7 +22,7 @@ Adding back coboundaries gives dimension one for $j<0$, with every finite cocycl
 
 For $j=0$, `z1fUnr` identifies finite cocycles with cocycles zero on inertia. Such a cocycle is determined by its value $u\in E$ at arithmetic Frobenius, whose powers are dense in the unramified quotient. Any $u$ occurs. If the character value $\alpha$ at Frobenius is different from $1$, take $(\kappa(g)-1)u/(\alpha-1)$. If $\alpha=1$, take the projection $\widehat{\mathbb Z}\to\mathbb Z_\ell$ multiplied by $u$. Thus each weight-zero line contributes one.
 
-The counts of positions of the five weights are $(1,2,3,2,1)$. Multiplying by the relevant dimensions gives $(1,2,3,4,2)$, totaling twelve. These bound the number of coordinate jets of each weight in the [local smooth chart](../zh/%E5%B1%80%E9%83%A8%E5%85%89%E6%BB%91%E5%9B%BE%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%96%B9%E5%90%91%E5%88%86%E9%85%8D%E7%BB%99%E5%90%84%E4%B8%AA%E6%9D%83.md). The negative-weight coboundary and weight-zero inertia statements enter the [local condition for rigidity](deformation-tangent-vectors-satisfy-the-bloch-kato-local-conditions.md).
+The counts of positions of the five weights are $(1,2,3,2,1)$. Multiplying by the relevant dimensions gives $(1,2,3,4,2)$, totaling twelve. These bound the number of coordinate jets of each weight in the [local smooth chart](the-weight-distribution-in-the-local-smooth-chart.md). The negative-weight coboundary and weight-zero inertia statements enter the [local condition for rigidity](deformation-tangent-vectors-satisfy-the-bloch-kato-local-conditions.md).
 
 ## Lean correspondence
 

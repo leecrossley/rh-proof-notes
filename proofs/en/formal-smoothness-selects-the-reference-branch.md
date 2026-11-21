@@ -10,7 +10,7 @@ Then $I$ has a unique minimal prime $P$ contained in $\mathfrak p$. There is $y$
 $$
 n=\dim_E\big((\mathfrak p/(\mathfrak p^2+I))\otimes_O E\big).
 $$
-Then $\dim R/P=n+1$, and there is $\phi:R\to E[[T_1,\ldots,T_n]]$ with kernel $P$ and constant term $x$. For any $N\ge0$, every $f$ in the power series ring is, after multiplication by $c\in O\setminus\{0\}$, congruent to some $\phi(a)$ modulo $(T)^N$. Conversely $\phi(a)\in(T)^N$ implies $ca\in\mathfrak p^N+P$ for some such $c$. These conditions give `IsCompl`. For the [ordinary local chart](../zh/%E5%B1%80%E9%83%A8%E5%85%89%E6%BB%91%E5%9B%BE%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%96%B9%E5%90%91%E5%88%86%E9%85%8D%E7%BB%99%E5%90%84%E4%B8%AA%E6%9D%83.md), $I=I_Y$ and $n=12$.
+Then $\dim R/P=n+1$, and there is $\phi:R\to E[[T_1,\ldots,T_n]]$ with kernel $P$ and constant term $x$. For any $N\ge0$, every $f$ in the power series ring is, after multiplication by $c\in O\setminus\{0\}$, congruent to some $\phi(a)$ modulo $(T)^N$. Conversely $\phi(a)\in(T)^N$ implies $ca\in\mathfrak p^N+P$ for some such $c$. These conditions give `IsCompl`. For the [ordinary local chart](the-weight-distribution-in-the-local-smooth-chart.md), $I=I_Y$ and $n=12$.
 
 ## Proof
 

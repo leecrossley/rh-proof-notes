@@ -299,6 +299,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Twelve local crystalline cocycle directions in rank three](proofs/en/twelve-local-crystalline-cocycle-directions-in-rank-three.md) · [中文](proofs/zh/%E7%A7%A9%E4%B8%89%E5%B1%80%E9%83%A8%E6%99%B6%E4%BD%93%E4%BD%99%E9%97%AD%E9%93%BE%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%96%B9%E5%90%91.md) · Translation draft.
 - [Formal smoothness selects the reference branch](proofs/en/formal-smoothness-selects-the-reference-branch.md) · [中文](proofs/zh/%E5%BD%A2%E5%BC%8F%E5%85%89%E6%BB%91%E6%80%8E%E6%A0%B7%E9%80%89%E5%87%BA%E7%BB%8F%E8%BF%87%E5%8F%82%E8%80%83%E7%82%B9%E7%9A%84%E5%94%AF%E4%B8%80%E5%88%86%E6%94%AF.md) · Translation draft.
 
+- [The weight distribution in the local smooth chart](proofs/en/the-weight-distribution-in-the-local-smooth-chart.md) · [中文](proofs/zh/%E5%B1%80%E9%83%A8%E5%85%89%E6%BB%91%E5%9B%BE%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%96%B9%E5%90%91%E5%88%86%E9%85%8D%E7%BB%99%E5%90%84%E4%B8%AA%E6%9D%83.md) · Translation draft.
+- [Ordinary equations detect crystalline lifts at the reference point](proofs/en/ordinary-equations-detect-crystalline-lifts.md) · [中文](proofs/zh/%E6%99%AE%E9%80%9A%E6%96%B9%E7%A8%8B%E6%80%8E%E6%A0%B7%E8%BE%A8%E8%AE%A4%E5%8F%82%E8%80%83%E7%82%B9%E9%99%84%E8%BF%91%E7%9A%84%E6%99%B6%E4%BD%93%E6%8F%90%E5%8D%87.md) · Translation draft.
+- [Crystalline obstructions in positive weight occur in the cyclotomic ratio](proofs/en/crystalline-obstructions-in-positive-weight.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A3%E6%9D%83%E6%89%A9%E5%BC%A0%E7%9A%84%E6%99%B6%E4%BD%93%E9%9A%9C%E7%A2%8D%E9%9B%86%E4%B8%AD%E5%9C%A8%E5%88%86%E5%9C%86%E6%AF%94%E5%80%BC.md) · Translation draft.
+- [Lifting crystalline representations at the reference point](proofs/en/lifting-crystalline-representations-at-the-reference-point.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E9%80%90%E9%98%B6%E6%8F%90%E5%8D%87%E5%8F%82%E8%80%83%E7%82%B9%E9%99%84%E8%BF%91%E7%9A%84%E6%99%B6%E4%BD%93%E8%A1%A8%E7%A4%BA.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

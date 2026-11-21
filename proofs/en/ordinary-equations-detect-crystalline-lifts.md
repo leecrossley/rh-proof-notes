@@ -1,0 +1,45 @@
+# Ordinary equations detect crystalline lifts at the reference point
+
+[Chinese proof](../zh/%E6%99%AE%E9%80%9A%E6%96%B9%E7%A8%8B%E6%80%8E%E6%A0%B7%E8%BE%A8%E8%AE%A4%E5%8F%82%E8%80%83%E7%82%B9%E9%99%84%E8%BF%91%E7%9A%84%E6%99%B6%E4%BD%93%E6%8F%90%E5%8D%87.md)
+
+## Statement
+
+Use $O,\ell,U,x,\eta,\Psi,\tau,e$ and the local theorems of the [local chart](the-weight-distribution-in-the-local-smooth-chart.md). Let $G_0=\ker\eta\cap\ker\tau$, $I_0=G_0\cap I_\ell$, and $I_Y=(I_{\rm ord}:\Delta^\infty)$ for the indicated characteristic-polynomial and three-factor equations. Let $B$ be a finite-dimensional commutative $\mathbb Q_\ell$-algebra with compatible $O$-structure. If $f:U\to B$ kills $I_Y$, its representation on $G_0$ is crystalline. Conversely, suppose $B$ is augmented over the finite coefficient field $E$ with nilpotent augmentation ideal, the representation is continuous, its augmentation is the reference representation, and it is crystalline on $G_0$. Then $f$ kills $I_Y$. Here crystallinity is for the underlying $\mathbb Q_\ell$-representation. These directions are `PtsCr` and `CrPts`.
+
+## Triangularization from the ordinary equations
+
+First let $B$ be local and use only $I_{\rm ord}$. Pick $s_\ast\in I_0$ with $\chi_\ell(s_\ast)$ of infinite order. Since $\Psi|_{I_0}=\chi_\ell^e$, the three $d_a=\Psi(s_\ast)^{1-a}$ have pairwise unit differences over $B$. The characteristic polynomial and Lagrange projectors
+$$
+P_a=\frac{\prod_{b\ne a}(M_{s_\ast}-d_b)}{\prod_{b\ne a}(d_a-d_b)}
+$$
+split $B^3$ into three summands of residual rank one, hence free of rank one. In a basis formed from them, $M_{s_\ast}$ is diagonal. For the three-factor equation choose two inertia elements equal to $s_\ast$. Putting $s$ first gives $(M_s-\Psi(s))P_0=0$. Putting it last gives $P_2(M_s-\Psi(s)^{-1})=0$. Putting it in the middle and dividing by the corresponding diagonal units gives the middle diagonal entry $1$ and the remaining lower entries zero. Hence inertia is upper triangular with the specified diagonal. For $g\in G_0$, the equation $M_gM_{s_\ast}=M_{gs_\ast g^{-1}}M_g$ then forces the lower entries of $M_g$ to vanish, comparing the bottom and middle rows using the unit eigenvalue differences. Write $\kappa_a$ for these diagonal characters.
+
+Take $\sigma\in G_0$ generating its unramified quotient and lying over a positive power of arithmetic Frobenius. Put $C_a=\prod_{b\ne a}(d_a-d_b)$. In this basis the trace of $\prod_{b\ne a}(M_{s_\ast}-d_b)M_\sigma$ is $C_a\kappa_a(\sigma)$. Thus
+$$
+\Delta_a=C_aC_{a+1}\kappa_{a+1}(\sigma)
+\left((\kappa_a/\kappa_{a+1})(\sigma)-\chi_\ell(\sigma)\right),\qquad a=0,1,
+$$
+and $\Delta=\ell\Delta_0\Delta_1$. The prefactors are units, leaving the adjacent Frobenius differences.
+
+## From saturation to crystalline classes
+
+Set $A=(U/I_Y)[1/\ell]$, where $\Delta$ is a nonzerodivisor. If $B$ is local let $\mathfrak p$ be the preimage of its maximal ideal. The residue quotient $A/\mathfrak p$ embeds into the finite-dimensional residue field of $B$ and is a field. Some $\mathfrak p^n$ dies under $f$. By Artin–Rees on $\Delta A$ choose $N\ge n$ with $\mathfrak p^N\cap\Delta A\subseteq\Delta\mathfrak p^n$. The resulting factorization through the finite local algebra $B'=A/\mathfrak p^N$ sends $\operatorname{Ann}_{B'}(\Delta)$ to zero in $B$. Indeed if $\Delta b\in\mathfrak p^N$ then $\Delta b\in\Delta\mathfrak p^n$ and one cancels $\Delta$ in $A$.
+
+Triangularize over $B'$ as above. The adjacent normalized entries $u_a(g)=(M_g)_{a,a+1}/\kappa_{a+1}(g)$ are cocycles with characters $\lambda=\kappa_a/\kappa_{a+1}$ of inertia weight $e\ge1$. The [positive-weight cocycle calculation](crystalline-obstructions-in-positive-weight.md) writes each as a crystalline cocycle plus one valued in $\operatorname{Ann}(\lambda(\sigma)-\chi_\ell(\sigma))$. The latter lies in $\operatorname{Ann}(\Delta)$ and dies in $B$. The resulting adjacent extensions are crystalline, and the corner of weight $2e\ge2$ contributes no further obstruction by the same calculation. Thus the whole representation on $G_0$ is crystalline. For arbitrary $B$, apply this to each local Artin factor and add the crystalline dimensions.
+
+## From a crystalline lift to saturation
+
+By [crystalline triangularization](lifting-crystalline-representations-at-the-reference-point.md), a crystalline lift at the reference augmentation can be conjugated by a lower unitriangular matrix to upper triangular with the prescribed inertia diagonal. The characteristic polynomial follows. In the three-factor equation the last factor sends into the first two coordinates, the middle into the first, and the first kills them. Hence $f$ kills $I_{\rm ord}$.
+
+For $a\in I_Y$ take $k$ with $\Delta^ka\in I_{\rm ord}$. If the augmentation ideal $J$ has $J^h=0$, set $T=B[t]/(t^{2kh+1})$ and $C=E[t]/(t^{2kh+1})$. Evaluation at zero and coefficient reduction give a surjection $T\to B\times_E C$. Over $C$ take the reference with its diagonal character $\Psi$ replaced by $\Psi u$, where $u$ is unramified with Frobenius value $1+t$. It is continuous by the finite binomial formula, and crystalline on $G_0$. Crystalline amalgamation and lifting give $F:U\to T$ crystalline, recovering $f$ over $B$ and this twist over $C$. Thus $F(\Delta)^kF(a)=0$.
+
+Both adjacent ratios over $C$ are $Y=(\Psi u)(\sigma)$, so $\Delta$ is a unit times $(Y-\chi_\ell(\sigma))^2$. Since $u(\sigma)=(1+t)^m$ for some $m\ge1$, the difference is either a unit or $t$ times a unit, depending on its constant term. Thus $F(\Delta)^k$ over $C$ is $t^j$ times a unit for $j\le2k$. Lift that unit and divide it out in $T$ to get $(t^j+w)F(a)=0$ with $w\in JT$. Iterating gives $t^{jh}F(a)=(-w)^hF(a)=0$. Since $jh<2kh+1$, the coefficient of $t^{jh}$ is the constant $f(a)$, which must be zero.
+
+## Lean correspondence
+
+- [The two-sided crystalline criterion](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/SaturatedOrdinaryIdealCutsOutCrystallineLocusStatement.lean#L6), [`OrdLocPt.main`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/IsLCrystallinePointOfSaturatedOrdIdeal.lean#L15) and [`ptsCr_IY`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/SaturatedOrdIdealPointsIsLCrystalline.lean#L17) give the assertions.
+- [`triangular_of_ordIdeal_eq_bot`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/TriangularConjOfOrdIdealEqBot.lean#L100) gives triangularization. [`ThickenSaturated.core`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/ExistsFiniteLocalLiftOfSaturatedIdeal.lean#L28) gives the finite thickening used above.
+- [`tri_crys_push`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/TriangularRankThreeCrystallineAfterPush.lean#L11) and [`cocycle_crys_add_ann`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/CocycleCrysAddAnn.lean#L35) transfer crystalline classes.
+- [`ordEq`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/PadicHodgeTheory/ExistsEps.lean#L59), [`CrFrac.core` and `CrFrac.main`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/CrystallineDeformationPointsSaturatedOrdinaryIde.lean), [`del_unr_twist`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/SaturatingElementUnramifiedTwistEqPowMulUnit.lean) and [the finite thickening over the fiber square](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/CrystallineOrdinaryIdeals/ExistsTruncatedPolynomialThickeningFibreSquareStatement.lean#L6) give the reverse implication.
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).
