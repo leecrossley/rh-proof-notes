@@ -400,6 +400,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Arbitrarily small crystalline trace errors vanish](proofs/en/arbitrarily-small-crystalline-trace-errors-vanish.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%BB%E6%84%8F%E7%B2%BE%E5%BA%A6%E7%9A%84%E6%99%B6%E4%BD%93%E8%BF%B9%E8%AF%AF%E5%B7%AE%E5%BF%85%E9%A1%BB%E4%B8%BA%E9%9B%B6.md) · Translation draft.
 - [Compatible period bases give compatible integral Frobenius operators](proofs/en/compatible-period-bases-give-compatible-integral-frobenius-operators.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E7%9B%B8%E5%AE%B9%E5%91%A8%E6%9C%9F%E5%9F%BA%E5%BE%97%E5%88%B0%E7%9B%B8%E5%AE%B9%E7%9A%84%E6%95%B4%E6%95%B0Frobenius%E7%AE%97%E5%AD%90.md) · Translation draft.
 
+- [Period-basis matrices recover the Weil trace](proofs/en/period-basis-matrices-recover-the-weil-trace.md) · [中文](proofs/zh/%E5%91%A8%E6%9C%9F%E5%9F%BA%E4%B8%8A%E7%9A%84%E7%9F%A9%E9%98%B5%E6%80%8E%E6%A0%B7%E8%AF%BB%E5%87%BAWeil%E8%A1%A8%E7%A4%BA%E7%9A%84%E8%BF%B9.md) · Translation draft.
+- [Finite-field labels count tame supercuspidal types](proofs/en/finite-field-labels-count-tame-supercuspidal-types.md) · [中文](proofs/zh/%E6%B8%A9%E5%92%8C%E8%B6%85%E5%B0%96%E7%B1%BB%E5%9E%8B%E6%80%8E%E6%A0%B7%E7%94%B1%E6%9C%89%E9%99%90%E5%9F%9F%E6%A0%87%E7%AD%BE%E8%AE%A1%E6%95%B0.md) · Translation draft.
+- [Tame inertia repeated roots exclude repeated higher-rank types](proofs/en/tame-inertia-repeated-roots-exclude-repeated-higher-rank-types.md) · [中文](proofs/zh/%E6%B8%A9%E5%92%8C%E6%83%AF%E6%80%A7%E7%9A%84%E9%87%8D%E5%A4%8D%E6%A0%B9%E6%80%8E%E6%A0%B7%E6%8E%92%E9%99%A4%E9%AB%98%E7%A7%A9%E9%87%8D%E5%A4%8D%E7%B1%BB%E5%9E%8B.md) · Translation draft.
+- [CM conjugation reflects Hodge–Tate weights with a common weight](proofs/en/cm-conjugation-reflects-hodge-tate-weights-about-a-common-integer.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88CM%E5%85%B1%E8%BD%AD%E6%8A%8AHodge%E2%80%93Tate%E6%9D%83%E5%8F%8D%E5%B0%84%E5%88%B0%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
