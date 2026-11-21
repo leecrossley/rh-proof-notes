@@ -304,6 +304,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Crystalline obstructions in positive weight occur in the cyclotomic ratio](proofs/en/crystalline-obstructions-in-positive-weight.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A3%E6%9D%83%E6%89%A9%E5%BC%A0%E7%9A%84%E6%99%B6%E4%BD%93%E9%9A%9C%E7%A2%8D%E9%9B%86%E4%B8%AD%E5%9C%A8%E5%88%86%E5%9C%86%E6%AF%94%E5%80%BC.md) · Translation draft.
 - [Lifting crystalline representations at the reference point](proofs/en/lifting-crystalline-representations-at-the-reference-point.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E9%80%90%E9%98%B6%E6%8F%90%E5%8D%87%E5%8F%82%E8%80%83%E7%82%B9%E9%99%84%E8%BF%91%E7%9A%84%E6%99%B6%E4%BD%93%E8%A1%A8%E7%A4%BA.md) · Translation draft.
 
+- [Finiteness of the negative-weight torsion localization kernel](proofs/en/finiteness-of-the-negative-weight-torsion-localization-kernel.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B4%9F%E6%9D%83%E6%89%AD%E7%BB%93%E4%B8%8A%E5%90%8C%E8%B0%83%E7%9A%84%E5%B1%80%E9%83%A8%E9%99%90%E5%88%B6%E6%A0%B8%E6%9C%89%E9%99%90.md) · Translation draft.
+- [First localization kernels control second cohomology length](proofs/en/first-localization-kernels-control-second-cohomology-length.md) · [中文](proofs/zh/%E4%B8%80%E9%98%B6%E5%B1%80%E9%83%A8%E5%8C%96%E6%A0%B8%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E4%BA%8C%E9%98%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E7%9A%84%E6%80%BB%E9%95%BF%E5%BA%A6.md) · Translation draft.
+- [Choosing the cyclotomic layer for small-index counting](proofs/en/choosing-the-cyclotomic-layer-for-small-index-counting.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E9%80%89%E4%B8%80%E5%B1%82%E5%88%86%E5%9C%86%E6%89%A9%E5%BC%A0%E8%AE%A9%E5%B0%8F%E6%8C%87%E6%A0%87%E7%95%8C%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8.md) · Translation draft.
+- [Assembling the small-index second cohomology bound](proofs/en/assembling-the-small-index-second-cohomology-bound.md) · [中文](proofs/zh/%E5%B0%8F%E6%8C%87%E6%A0%87%E7%9A%84%E4%BA%8C%E9%98%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E7%95%8C%E6%80%8E%E6%A0%B7%E7%94%B1%E8%AE%A1%E6%95%B0%E5%90%88%E6%88%90.md) · Translation draft.
+- [Counting twisted characters with class groups and units](proofs/en/counting-twisted-characters-with-class-groups-and-units.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E7%B1%BB%E7%BE%A4%E4%B8%8E%E5%8D%95%E4%BD%8D%E7%BE%A4%E6%95%B0%E5%87%BA%E6%89%AD%E6%9B%B2%E7%89%B9%E5%BE%81.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

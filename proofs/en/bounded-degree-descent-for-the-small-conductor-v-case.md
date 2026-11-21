@@ -8,7 +8,7 @@ Fix a primitive Dirichlet character $\chi$ of modulus $Q$ and order $o$. Take a 
 $$
 2^{c_2}<R_1,\qquad R_1=16o(\ell Q)^2\,4^{n_0}.
 $$
-Assume global Poitou–Tate duality, local finiteness and local Tate duality, and [`LemmaK` with constant $C_K$](../zh/%E5%B0%8F%E6%8C%87%E6%A0%87%E7%9A%84%E4%BA%8C%E9%98%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E7%95%8C%E6%80%8E%E6%A0%B7%E7%94%B1%E8%AE%A1%E6%95%B0%E5%90%88%E6%88%90.md). There is an integer $C$ depending only on $\chi,C_K$ for which the [localization kernel $V_{\ell,1}(\psi)$](cases-ii-and-iii-share-the-rank-four-length-method.md) has finite length and
+Assume global Poitou–Tate duality, local finiteness and local Tate duality, and [`LemmaK` with constant $C_K$](assembling-the-small-index-second-cohomology-bound.md). There is an integer $C$ depending only on $\chi,C_K$ for which the [localization kernel $V_{\ell,1}(\psi)$](cases-ii-and-iii-share-the-rank-four-length-method.md) has finite length and
 $$
 \frac{\operatorname{length}_O V_{\ell,1}(\psi)}{v_O(\ell)}\log\ell\le(\ell N)^C.
 $$
