@@ -8,7 +8,7 @@ Let $\ell$ be odd, $K=\overline{\mathbb Q}_\ell$, $O\subset K$ a coefficient DVR
 2. At the base, all first-order deformations of each weight $j\le0$ arise by infinitesimal conjugation.
 3. At a `TwoPt` point, every first-order deformation arises by infinitesimal conjugation.
 
-Use the model's lifting of graded points and descent of derivations described below and the [graded length lemma](../zh/%E5%88%86%E6%AC%A1%E9%95%BF%E5%BA%A6%E5%BC%95%E7%90%86%E6%80%8E%E6%A0%B7%E5%8C%96%E6%88%90%E6%9C%89%E9%99%90%E8%BD%A8%E9%81%93%E4%B8%8A%E7%9A%84%E8%B5%8B%E5%80%BC%E4%BC%B0%E8%AE%A1.md). For $\sigma\in\ker\eta$ suppose $d(f)=\operatorname{tr}r_f(\sigma)-\operatorname{tr}r_0(\sigma)\ne0$ on `TwoPt`. Then $\lambda$ is finite and the `TwoPt` orbits under conjugation by $D(t)=\operatorname{diag}(t,1,t^{-1})$, $t\in K^\times$, have a finite set $T$ of representatives satisfying
+Use the model's lifting of graded points and descent of derivations described below and the [graded length lemma](the-graded-length-lemma-reduces-to-valuations-on-finite-orbits.md). For $\sigma\in\ker\eta$ suppose $d(f)=\operatorname{tr}r_f(\sigma)-\operatorname{tr}r_0(\sigma)\ne0$ on `TwoPt`. Then $\lambda$ is finite and the `TwoPt` orbits under conjugation by $D(t)=\operatorname{diag}(t,1,t^{-1})$, $t\in K^\times$, have a finite set $T$ of representatives satisfying
 $$
 \lambda/e_O\le2\sum_{f\in T}v_\ell(d(f)).
 $$

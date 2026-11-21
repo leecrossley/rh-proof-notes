@@ -243,6 +243,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Normalized cocycles give derivations on the deformation ring](proofs/en/normalized-cocycles-give-derivations-on-the-deformation-ring.md) · [中文](proofs/zh/%E5%BD%92%E4%B8%80%E5%8C%96%E4%BD%99%E9%97%AD%E9%93%BE%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E5%8F%98%E5%BD%A2%E7%8E%AF%E4%B8%8A%E7%9A%84%E5%AF%BC%E5%AD%90.md) · Translation draft.
 - [Carrying a graded orbit valuation bound to Frobenius traces](proofs/en/carrying-a-graded-orbit-valuation-bound-to-frobenius-traces.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%88%86%E6%AC%A1%E8%BD%A8%E9%81%93%E7%9A%84%E8%B5%8B%E5%80%BC%E7%95%8C%E4%BC%A0%E7%BB%99Frobenius%E8%BF%B9.md) · Translation draft.
 
+- [The graded length lemma reduces to valuations on finite orbits](proofs/en/the-graded-length-lemma-reduces-to-valuations-on-finite-orbits.md) · [中文](proofs/zh/%E5%88%86%E6%AC%A1%E9%95%BF%E5%BA%A6%E5%BC%95%E7%90%86%E6%80%8E%E6%A0%B7%E5%8C%96%E6%88%90%E6%9C%89%E9%99%90%E8%BD%A8%E9%81%93%E4%B8%8A%E7%9A%84%E8%B5%8B%E5%80%BC%E4%BC%B0%E8%AE%A1.md) · Translation draft.
+- [Koszul Euler characteristics compare graded lengths](proofs/en/koszul-euler-characteristics-compare-graded-lengths.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8Koszul%E7%9A%84Euler%E7%89%B9%E5%BE%81%E6%AF%94%E8%BE%83%E5%88%86%E6%AC%A1%E9%95%BF%E5%BA%A6.md) · Translation draft.
+- [The extra factor of two in the graded length bound](proofs/en/the-extra-factor-of-two-in-the-graded-length-bound.md) · [中文](proofs/zh/%E5%88%86%E6%AC%A1%E6%88%AA%E9%9D%A2%E7%9A%84%E9%95%BF%E5%BA%A6%E7%95%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E6%81%B0%E5%A5%BD%E5%A4%9A%E4%B8%80%E4%B8%AA%E4%BA%8C.md) · Translation draft.
+- [Large triply graded pieces only see two-sided orbits](proofs/en/large-trigraded-pieces-only-see-two-sided-orbits.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%89%E9%87%8D%E5%88%86%E6%AC%A1%E7%8E%AF%E7%9A%84%E5%A4%A7%E6%AC%A1%E6%95%B0%E5%8F%AA%E7%9C%8B%E5%88%B0%E4%B8%A4%E4%BE%A7%E8%BD%A8%E9%81%93.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
