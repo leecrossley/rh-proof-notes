@@ -1,0 +1,21 @@
+# Two Wach lattices agree after inverting the parameter
+
+[Chinese proof](../zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%A4%E4%B8%AAWach%E6%A0%BC%E5%8F%8D%E6%BC%94%E5%8F%82%E6%95%B0%E5%90%8E%E7%9B%B8%E5%90%8C.md)
+
+Let \(A=\prod_{i=1}^n O[[U]]\) be the cyclotomic coefficient ring and \(E=\widehat{A[1/U]}\) its \(\ell\)-adic completion. Let \(T\) be a crystalline \(O\)-lattice of rank \(r\), with étale module \(D\) and Frobenius \(\varphi\). Take \(X,Q\in A\) with \(\varphi(X)=XQ\); in the application \(X=(1+U)^{\ell^{s-1}}-1\) and \(Q=\Phi_{\ell^s}(1+U)\). Let \(S_1,S_2\subset D\) be free \(A\)-lattices of rank \(r\) with \(E\otimes_A S_i=D\). In each lattice, every \(z\) satisfies \(Q^m\varphi(z)\in S_i\) for some \(m\) and \(Q^{m'}z\in A\varphi(S_i)\) for some \(m'\).
+
+Assume coefficient embeddings compatible with Frobenius into \(B=O\otimes_{\mathbb Z_\ell}W(\mathbb C_\ell^\flat)\), with \(B^+=O\otimes_{\mathbb Z_\ell}W(\mathcal O_{\mathbb C_\ell^\flat})\), \(A\subset B^+\), and \(E\cap B^+=A\). The comparison map \(J:D\to B\otimes_O T\) is \(E\)-semilinear relative to \(E\to B\), commutes with Frobenius, and its image spans over \(B\). Then \(X^a S_1\subset S_2\) and \(X^a S_2\subset S_1\) for some \(a\ge0\).
+
+**Proof.** For either lattice \(S\), put the \(J\)-images of its basis in the rows of a matrix \(C\) in an \(O\)-basis of \(T\). The rows generate over \(B\) because the basis of \(S\) is an \(E\)-basis of \(D\). A generating square matrix is invertible. Choosing a common \(m\) for both height inclusions on the basis gives
+$$
+Q^m\Phi(C)=FC,\qquad Q^m C=H\Phi(C)
+$$
+with entries of \(F,H\) in \(A\). All coefficients are viewed in \(B\). The first relation gives \(\Phi(X^m C)=F(X^m C)\). By [Witt integrality](frobenius-matrix-equations-force-witt-integrality.md), \(X^mC\) is integral. In particular \(J(X^mS)\subset B^+\otimes T\).
+
+Left-multiply the second relation by \(C^{-1}\) and right-multiply by \(\Phi(C^{-1})\). This gives \(Q^m\Phi(C^{-1})=C^{-1}H\), hence \(\Phi(X^m C^{-1})=(X^m C^{-1})H\). The same test proves \(X^mC^{-1}\) integral. If \(J(w)\in B^+\otimes T\), its coordinates in the \(T\)-basis multiplied on the right by \(X^m C^{-1}\) give the \(J\)-image of the \(E\)-coordinates of \(X^mw\) in the basis of \(S\). They lie in \(E\cap B^+=A\). Thus \(X^m w\in S\).
+
+Obtain \(m_i\) for \(S_i\). For \(z\in S_1\), \(J(X^{m_1}z)\) is integral, so \(X^{m_1+m_2}z\in S_2\). Exchanging the indices gives the other inclusion. [Cancelling the powers](wach-lattices-coincide-after-cancelling-denominators.md) then uses the cyclotomic action, which is an additional input to that step.
+
+`upper` and `lower` treat the matrix and its inverse. `sand_of` and `compare` use the coefficient intersection to give `main`. [Upper](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/WachLatticeSandwichAinf.lean#L39) · [Lower](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/WachLatticeSandwichAinf.lean#L71) · [Intersection step](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/WachFreeLatticeEqWachLatticeInvertX.lean#L74) · [Two lattices](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/WachFreeLatticeEqWachLatticeInvertX.lean#L207) · [Main statement](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/WachFreeLatticeEqWachLatticeInvertX.lean#L235) · [Compatible coefficient embeddings](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/WachInclusionXQFrobenius.lean#L233)
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).
