@@ -1,0 +1,15 @@
+# Making an inertia element wild while retaining its cyclotomic value
+
+[Chinese proof](../zh/%E6%80%8E%E6%A0%B7%E4%BF%9D%E7%95%99%E5%88%86%E5%9C%86%E5%8F%96%E5%80%BC%E5%90%8C%E6%97%B6%E4%BD%BF%E6%83%AF%E6%80%A7%E5%85%83%E7%B4%A0%E6%88%90%E4%B8%BA%E9%87%8E%E7%9A%84.md)
+
+**Proposition.** Let $E$ be a number field, $\Omega$ an algebraic closure, $G=G_E$, $\ell$ prime and $s\ge1$. Suppose some $\sigma$ in inertia at a place above $\ell$ has cyclotomic value $\chi_\ell(\sigma)=1+\ell^s$. Then there is $g_0$ in that inertia group with $\chi_\ell(g_0)=1+\ell^s u$, $u\in1+\ell\mathbb Z_\ell$. At every place of residue characteristic $\ell$ where $g_0$ is in inertia, it belongs to wild inertia.
+
+Write $k!=\ell^{a_k}m_k$ with $(m_k,\ell)=1$, and choose $b_k\ge0$ with $b_k\equiv1\bmod\ell^{k+1}$ and $b_k\equiv0\bmod m_k$ by the Chinese remainder theorem. In any finite quotient $G/H$, let the order of $\sigma$ be $d=\ell^a d'$ with $\ell\nmid d'$. For all large $k$, $d'\mid m_k$ and $k+1\ge a$. The image of $\sigma^{b_k}$ eventually stabilizes because $b_k$ is then fixed modulo $d$. This image is killed by exponent $\ell^a$ since $b_k$ is divisible by $d'$. Compactness gives a cluster point $g_0$ of the sequence of powers, lying in the fixed closed inertia group. Its image in each finite quotient is the stabilized one and so has $\ell$-power order. Also $(1+\ell^s)^{b_k}\equiv1+\ell^s\bmod\ell^{s+1}$ by the binomial formula. This closed congruence passes to $g_0$, giving the claimed $u$.
+
+At any other place of residue characteristic $\ell$ where $g_0$ is inertial, take $y\in\Omega^\times$ and a finite Galois extension containing it. For some $a$, $g_0^{\ell^a}(y)=y$. Set $z=g_0(y)/y$, a unit by inertia, and note that every $g_0^j(z)$ has the same residue as $z$. Telescoping gives $\prod_{0\le j<\ell^a}g_0^j(z)=1$. In the residue field $\bar z^{\ell^a}=1$, hence $(\bar z-1)^{\ell^a}=0$ and $\bar z=1$. This for all $y$ is the wild inertia criterion. The [cyclotomic inertia construction](cyclotomic-inertia-annihilates-higher-block-invariants.md) provides the starting element in the project.
+
+## Lean correspondence
+
+- `pow_ex` and `exists_proL` construct the stabilized images and limit, and `wild_of_pow` and `one_add_pow_sub_mem` establish the two assertions. [Finite quotients](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWildInertiaGeneratingCyclotomicValue.lean#L26) · [Wild inertia](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWildInertiaGeneratingCyclotomicValue.lean#L85) · [Conclusion](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWildInertiaGeneratingCyclotomicValue.lean#L182)
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).

@@ -1,0 +1,22 @@
+# Descending absolute irreducibility of the residual complement
+
+[Chinese proof](../zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%89%A9%E4%BD%99%E8%A1%A5%E8%A1%A8%E7%A4%BA%E7%9A%84%E7%BB%9D%E5%AF%B9%E4%B8%8D%E5%8F%AF%E7%BA%A6%E6%80%A7%E8%83%BD%E4%BC%A0%E5%9B%9E%E5%8E%9F%E7%B3%BB%E6%95%B0%E7%8E%AF.md)
+
+Consider two local Hecke data sets for the same prime $\ell$, with coefficient DVRs $\mathcal O_0,\mathcal O_1$, residue fields $k_0,k_1$, and finite evaluation and good-point sets $X_a,Z_a$ for $a=0,1$. A compatible extension `LocExt` supplies an embedding $f:\mathcal O_0\to\mathcal O_1$, a point bijection $e:X_1\to X_0$, and a topological isomorphism $\gamma:G_1\to G_0$. They match good points, allowed split primes and Frobenius, Hecke polynomials and the prescribed character lines. The coefficient rings have their maximal-ideal topologies and $\ell$ is nonzero and noninvertible in both.
+
+**Proposition.** Use the project Chebotarev input. Assume the old system has a `GoodR` family of continuous integral semisimple-over-the-fraction-field representations matching the Frobenius polynomials. Assume `ZDecomp` there, so at a good point each such representation decomposes over the fraction field as an integral rank-$r$ complement plus the given characters. If the new system has `Live`, meaning a good point with such a full representation and a complement of absolutely irreducible reduction, then the old system has `Live`.
+
+Take a new witness at $\pi_1$ with full and complement representations $r_1,\rho_1$. At $\pi_0=e(\pi_1)$ choose $r_0,\rho_0$ by the old hypotheses. The inverse image of the maximal ideal of $\mathcal O_1$ contains the nonzero element $\ell$, so it is the maximal ideal of $\mathcal O_0$. Thus $f$ is local and continuous and induces $\bar f:k_0\hookrightarrow k_1$. Matching Frobenius polynomials gives equality of the traces of $f(r_0(\gamma g))$ and $r_1(g)$ on the allowed Frobenius. By the [Chebotarev comparison](hecke-polynomials-determine-semisimple-representations.md) they agree everywhere. Taking the trace in the two fraction-field decompositions cancels the common character terms. Hence $f(\operatorname{tr}\rho_0(\gamma g))=\operatorname{tr}\rho_1(g)$ for all $g$, an equality in the coefficient ring. Reduce it to $k_1$. Let $\sigma$ be the old residual complement after extension and pullback, and $\rho$ the new residual complement. Then $\operatorname{tr}\sigma(g)=\operatorname{tr}\rho(g)$.
+
+By [absolute irreducibility](absolute-irreducibility-spans-the-block.md), the matrices of $\rho$ span $M_r(k_1)$. If $\sum_g a_g\sigma(g)=0$ with a finitely supported coefficient family, then for every $h$,
+$$
+\operatorname{tr}\bigl((\sum_g a_g\rho(g))\rho(h)\bigr)=\sum_g a_g\operatorname{tr}\sigma(gh)=0.
+$$
+Pairing against the matrix units in the span of the $\rho(h)$ gives every entry of $\sum_g a_g\rho(g)$ equal to zero. Thus the assignment from combinations of $\sigma(g)$ to the same combinations of $\rho(g)$ is well-defined and onto $M_r(k_1)$. Its domain is a subspace of dimension at most $r^2$, so it too is the full matrix space. The old residual matrices span $M_r(k_0)$ since otherwise a nonzero annihilating linear functional would remain nonzero after extension and annihilate all $\sigma(g)$. Their span remains full over an algebraic closure, so only the zero and full subspaces are stable, with $r>0$ from the witness. This gives `Live` at $\pi_0$.
+
+## Lean correspondence
+
+- `isLocalHom_of_nonunit`, `trace_eq` and `live_of_locExt` compare the coefficients, traces and witness. [Locality](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IrreducibleResidualPointDescendsCoefficientExten.lean#L16) · [Witness](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IrreducibleResidualPointDescendsCoefficientExten.lean#L151)
+- `span_eq_top_of_trace_eq` transfers the matrix span through the trace pairing. [Span](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsDecompositionSetting.lean#L22)
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).
