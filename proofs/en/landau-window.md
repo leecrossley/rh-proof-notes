@@ -1,10 +1,10 @@
 # The Landau window lemma
 
-[中文](../zh/landau-window.md) · [Reading and review status](../../STATUS.md)
+[Chinese proof](../zh/Landau%E7%AA%97%E5%8F%A3%E5%BC%95%E7%90%86-%E5%8D%95%E4%BE%A7%E4%B8%8A%E7%95%8C%E5%A6%82%E4%BD%95%E6%8E%92%E9%99%A4%E6%9E%81%E7%82%B9.md) · [Reading and review status](../../STATUS.md)
 
 ## 1. Statement
 
-Fix $0<\theta<1$ and $\delta>0$. Let $g:\mathbb R\to\mathbb R$ be measurable with $|g(u)|\le C_0e^{2u}$ for $u\ge0$ and some $C_0\ge0$. Suppose $\Phi(s)=\int_0^\infty g(u)e^{-su}\,du$ for $\operatorname{Re}s>2$. Assume $\Phi$ is holomorphic in the right half-plane off a set $Z$ of isolated poles. More precisely, each point of the right half-plane has a punctured neighborhood disjoint from $Z$. At each $\rho\in Z$ the expansion is
+Fix $0<\theta<1$ and $\delta>0$. Let $g:\mathbb R\to\mathbb R$ be measurable with $|g(u)|\le C_0e^{2u}$ for $u\ge0$ and some $C_0\ge0$. Suppose $\Phi(s)=\int_0^\infty g(u)e^{-su}\,du$ for $\operatorname{Re}s>2$. Assume $Z\subseteq\{\operatorname{Re}s>0\}$ and that $\Phi$ is holomorphic in the right half-plane off $Z$. Each point of the right half-plane has a punctured neighborhood disjoint from $Z$. At each $\rho\in Z$ the expansion is
 
 $$
 \Phi(s)=\frac{c_\rho}{s-\rho}+h_\rho(s),
@@ -75,6 +75,18 @@ Let $\rho$ be the nearest pole, $d=|z-\rho|$ and choose $d<b<D$ small enough tha
 
 Both cases contradict (2). This proves the statement.
 
-## Lean and application
+## From prime-sum windows to nonvanishing
 
-The theorem is `Deduction.landau_window`. The weighted prime-sum application gets the pole hypotheses from `Deduction.poleData`, then obtains the logarithmic window by setting $u=\log y$. [Lean window lemma](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/landauWindow.lean#L83) · [Pole data](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/poleData.lean#L248) · [Application to RH](from-windows-to-rh.md)
+Take a finite family of Dirichlet characters with positive weights as in [the pole calculation](pole-data.md), and denote the real weighted error at $y$ by $G_F(y)$. The logarithmic function $g(u)=G_F(e^u)$ and its transform satisfy the growth and pole hypotheses by that calculation. Each zero of a family member in the right half-plane occurs in the pole set, because the residue has the same common factor times strictly positive weighted multiplicities.
+
+Suppose that a fixed $B\in\mathbb R$ gives $G_F(y)\le By^\theta$ on $[Y,Y^{1+\delta}]$ for arbitrarily large $Y$. For any $\eta>0$ and $U_0\in\mathbb R$ take $Y$ so large that $U=\log Y\ge\max(1,U_0)$ and $|B|\delta U\le e^{\eta U}$. Put $R(u)=|B|e^{\theta u}$. This majorizes $g$ throughout the logarithmic window, and the weighted integral there is $|B|\delta U$. The lemma now rules out every zero of each family member in $\operatorname{Re}s>\theta$.
+
+In the RH application, take $\delta=\lambda-1$. If $\zeta$ had a zero with real part $\beta>1/2$, choose $1/2<\theta<\min(\beta,1)$. The loss exponents in the arithmetic estimate $1/2+(e_D+e_L+7)\varepsilon$ are fixed before $\varepsilon$. For $\varepsilon>0$ sufficiently small, the window upper bound is at most $y^\theta$. The family contains the trivial character of modulus $1$, so the zero is excluded. The [functional equation argument](rh-from-right-half-plane.md) excludes the remaining nontrivial zeros off the line.
+
+## Lean references and review
+
+- Differentiation and the tails are [`landau_coeff`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LandauCoeff.lean#L10), [`landau_pole_re_le`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LandauPoleReLe.lean#L29), [`kernel_integral`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/kernelIntegral.lean#L9), and [`landau_tails`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/landauTails.lean#L80).
+- The one-sided bound is [`landau_window_ineq`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/landauWindowIneq.lean#L27). The two cases use [`landau_dichotomy`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LandauDichotomy.lean#L24) and [`landau_nearest`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LandauNearest.lean#L36). The normalized derivatives after removing the principal part are controlled by [`landau_pole_asym`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LandauPoleAsym.lean#L19).
+- The statement is [`Deduction.landau_window`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/landauWindow.lean#L83). See [`Deduction.poleData`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/poleData.lean#L248) and [`Deduction.zeroFree_of_rpow_window`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ZeroFreeOfRpowWindow.lean#L11) for the specialization.
+
+The Chinese proof records a separate axiom check on seven selected declarations in this chain, which found `propext`, `Classical.choice` and `Quot.sound`. The mathematical hypothesis of a window upper bound is explicit in the analytic implication. The [public verification record](../../STATUS.md#lean-verification--lean-核验) concerns the Lean project as a whole.

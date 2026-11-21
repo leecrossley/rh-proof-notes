@@ -1,6 +1,6 @@
 # From period valuations to an integral lattice map
 
-[中文](../zh/integral-lattice-map.md) · [Reading and review status](../../STATUS.md)
+[Chinese proof](../zh/%E5%91%A8%E6%9C%9F%E8%B5%8B%E5%80%BC%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%95%B4%E6%A0%BC%E6%98%A0%E5%B0%84.md) · [Reading and review status](../../STATUS.md)
 
 The input in the Lean proof is a valuation bound for certain periods at each finite place. The slope argument needs an integral map between lattices over a number field. This note proves the transfer between those statements and specifies the hypotheses used in it.
 

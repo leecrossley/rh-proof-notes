@@ -1,6 +1,6 @@
 # One window for two estimates
 
-[中文](../zh/common-window.md) · [Reading and review status](../../STATUS.md)
+[Chinese proof](../zh/%E6%80%8E%E6%A0%B7%E8%AE%A9%E4%B8%8A%E5%90%8C%E8%B0%83%E7%95%8C%E5%92%8C%E6%89%AD%E6%9B%B2%E4%BC%B0%E8%AE%A1%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3.md) · [Reading and review status](../../STATUS.md)
 
 The proof needs bounds for twisted prime sums and lengths of Galois cohomology localization kernels at the same scale. This lemma combines the two window inputs while keeping one pair of auxiliary primes throughout the resulting interval.
 

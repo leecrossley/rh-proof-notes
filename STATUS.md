@@ -2,9 +2,9 @@
 
 [English home](README.md) · [中文首页](README.zh-CN.md) · [Sources / 来源](SOURCES.md) · [Contributing / 贡献说明](CONTRIBUTING.md)
 
-The [Chinese proof catalogue](PROOFS.zh-CN.md) lists 340 full-length notes. Five Chinese reading guides and six English notes provide entry points. The table tracks these routes and records the provenance of the two English adaptations.
+The [Chinese proof catalogue](PROOFS.zh-CN.md) lists 340 full-length notes. The [English proof catalogue](PROOFS.en.md) records translations of individual notes alongside the reading guides. The table tracks the main routes and records the provenance of the two English adaptations.
 
-[中文证明目录](PROOFS.zh-CN.md)收录 340 篇正文。下面跟踪 5 篇中文导读和 6 篇英文稿所覆盖的入门路线，并标明两篇英文改编稿。目录中各篇的默认状态是草稿。认领或复核时请写明对应篇目和 Lean 声明。
+[中文证明目录](PROOFS.zh-CN.md)收录 340 篇正文。[英文证明目录](PROOFS.en.md)登记逐篇英译、导读及其复核状态。下面跟踪主线的覆盖范围，并标明两篇英文改编稿。目录中各篇的默认状态是草稿。认领或复核时请写明对应篇目和 Lean 声明。
 
 **Draft / 草稿** means prose with Lean references. **Human-reviewed / 人工复核** requires a named reviewer and a record of the portion reviewed. The scope of each note is its stated implication. The open items below concern links needed to read the full route end to end.
 
@@ -12,7 +12,8 @@ The [Chinese proof catalogue](PROOFS.zh-CN.md) lists 340 full-length notes. Five
 | --- | --- | --- | --- | --- |
 | Window estimates to RH / 窗口估计到 RH | [中文](proofs/zh/from-windows-to-rh.md) | [English](proofs/en/from-windows-to-rh.md) | Draft / 草稿 | Starts from a uniform estimate on arbitrarily late windows / 窗口上界作为输入 |
 | Landau window lemma / Landau 窗口引理 | [中文](proofs/zh/landau-window.md) | [English](proofs/en/landau-window.md) | Draft / 草稿 | Analytic deduction from growth, pole and window hypotheses / 给定增长、极点与窗口条件 |
-| Pole data of the weighted sum / 加权和的极点资料 | [中文](proofs/zh/pole-data.md) | To write / 待写 | Draft / 草稿 | Mellin transforms and the residue calculation / Mellin 变换与留数计算 |
+| Pole data of the weighted sum / 加权和的极点资料 | [中文](proofs/zh/pole-data.md) | [English](proofs/en/pole-data.md) | Draft / 草稿 | Mellin transforms and the residue calculation / Mellin 变换与留数计算 |
+| From count discrepancies to prime sums / 从计数差到素数和 | [中文](proofs/zh/%E5%B9%B3%E7%A7%BB%E5%B9%B3%E5%9D%87%E5%A6%82%E4%BD%95%E7%BB%99%E5%87%BA%E7%B4%A0%E6%95%B0%E5%92%8C%E7%9A%84%E9%80%90%E7%82%B9%E4%BC%B0%E8%AE%A1.md) | [English](proofs/en/translation-averaging.md) | Draft / 草稿 | Starts from a uniform count-discrepancy bound / 以计数差的一致界为输入 |
 | A common window / 共用窗口 | [中文](proofs/zh/common-window.md) | [English](proofs/en/common-window.md) | Draft / 草稿 | Propagates two existence estimates to the same pair and scale / 将两个存在性输入落在同一对素数与尺度 |
 | Period valuations to integral maps / 周期赋值到整格映射 | [中文](proofs/zh/integral-lattice-map.md) | [English](proofs/en/integral-lattice-map.md) | Draft / 草稿 | The actual period bounds and local identification of the target lattice are inputs / 周期界与目标格的局部识别为输入 |
 | RH from the right half-plane / 从右半平面无零点推出 RH | [中文主线第 3 节](proofs/zh/from-windows-to-rh.md#3-反射到右半平面) | [English](proofs/en/rh-from-right-half-plane.md) | Adapted draft / 改编草稿 | Uses the functional equation and the stated nonvanishing hypothesis / 使用函数方程与明列的无零点前提 |

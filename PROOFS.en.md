@@ -1,0 +1,28 @@
+# English proof catalogue
+
+[English home](README.md) · [Chinese proof catalogue](PROOFS.zh-CN.md) · [Reading and review status](STATUS.md)
+
+Each paired entry links to the full Chinese note and its English rendering. Status describes review of the exposition. The [Lean verification record](STATUS.md#lean-verification--lean-核验) covers the formal proof separately.
+
+## English renderings of Chinese proof notes
+
+- [From weighted prime sums to poles](proofs/en/pole-data.md) · [中文](proofs/zh/%E4%BB%8E%E5%8A%A0%E6%9D%83%E7%B4%A0%E6%95%B0%E5%92%8C%E5%88%B0%E6%9E%81%E7%82%B9-%E7%95%99%E6%95%B0%E4%B8%BA%E4%BD%95%E4%B8%8D%E6%8A%B5%E6%B6%88.md) · Translation draft. The positive-weight residue calculation and the pole data needed by the Landau window lemma.
+- [Recovering primitive Dirichlet characters from inertia averages](proofs/en/primitive-characters-from-inertia.md) · [中文](proofs/zh/%E6%83%AF%E6%80%A7%E5%B9%B3%E5%9D%87%E6%80%8E%E6%A0%B7%E8%BF%98%E5%8E%9F%E7%8B%84%E5%88%A9%E5%85%8B%E9%9B%B7%E7%89%B9%E5%BE%81.md) · Translation draft. Identifies the character coefficients, the retained weights and the discarded error under the stated hypotheses.
+- [The finite Fourier identity for the prime-power count](proofs/en/finite-fourier-balance.md) · [中文](proofs/zh/%E5%89%A9%E4%BD%99%E7%B1%BB%E7%B4%A0%E6%95%B0%E5%92%8C%E4%B8%8E%E4%B8%BB%E9%A1%B9%E7%9A%84%E6%81%92%E7%AD%89%E5%BC%8F.md) · Translation draft. Character inversion recovers the local counts and isolates the main term.
+- [How translation averaging gives the pointwise prime-sum bound](proofs/en/translation-averaging.md) · [中文](proofs/zh/%E5%B9%B3%E7%A7%BB%E5%B9%B3%E5%9D%87%E5%A6%82%E4%BD%95%E7%BB%99%E5%87%BA%E7%B4%A0%E6%95%B0%E5%92%8C%E7%9A%84%E9%80%90%E7%82%B9%E4%BC%B0%E8%AE%A1.md) · Translation draft. An assumed count-discrepancy bound gives the desired estimate up to the discarded-character error.
+- [Varying the argument and the weight of a ramp prime sum](proofs/en/ramp-variation.md) · [中文](proofs/zh/%E6%96%9C%E5%9D%A1%E7%B4%A0%E6%95%B0%E5%92%8C%E4%B8%BA%E4%BD%95%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%B0%BA%E5%BA%A6%E5%92%8C%E6%9D%83%E9%87%8D.md) · Translation draft. Proves the elementary Chebyshev and factorial estimates used to vary the weight and argument.
+- [How quotient-lattice slopes bound the count discrepancy](proofs/en/quotient-slopes-and-count-discrepancy.md) · [中文](proofs/zh/%E5%95%86%E6%A0%BC%E6%96%9C%E7%8E%87%E5%A6%82%E4%BD%95%E6%8E%A7%E5%88%B6%E8%AE%A1%E6%95%B0%E5%B7%AE.md) · Translation draft. Gives the count discrepancy from the stated slope and divisibility hypotheses and compares the four types of error.
+- [How the main theorem uses the window estimate](proofs/en/main-theorem-and-window.md) · [中文](proofs/zh/%E4%B8%BB%E5%AE%9A%E7%90%86%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%AA%97%E5%8F%A3%E4%BC%B0%E8%AE%A1.md) · Translation draft. Combines the construction inputs with the window criterion, then changes modulus and reflects across the critical line.
+- [The Landau window lemma](proofs/en/landau-window.md) · [中文](proofs/zh/Landau%E7%AA%97%E5%8F%A3%E5%BC%95%E7%90%86-%E5%8D%95%E4%BE%A7%E4%B8%8A%E7%95%8C%E5%A6%82%E4%BD%95%E6%8E%92%E9%99%A4%E6%9E%81%E7%82%B9.md) · Translation draft, extending the English reading guide to include the prime-sum application.
+- [One window for two estimates](proofs/en/common-window.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E8%AE%A9%E4%B8%8A%E5%90%8C%E8%B0%83%E7%95%8C%E5%92%8C%E6%89%AD%E6%9B%B2%E4%BC%B0%E8%AE%A1%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3.md) · Existing English proof with equivalent mathematical scope.
+- [From period valuations to an integral lattice map](proofs/en/integral-lattice-map.md) · [中文](proofs/zh/%E5%91%A8%E6%9C%9F%E8%B5%8B%E5%80%BC%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%95%B4%E6%A0%BC%E6%98%A0%E5%B0%84.md) · Existing English proof with equivalent mathematical scope.
+- [A common window avoiding finitely many exceptional twists](proofs/en/exceptional-twist-window.md) · [中文](proofs/zh/%E6%9C%89%E9%99%90%E4%B8%AA%E4%BE%8B%E5%A4%96%E6%80%8E%E6%A0%B7%E8%AE%A9%E5%87%BA%E4%B8%80%E6%95%B4%E4%B8%AA%E5%85%B1%E5%90%8C%E7%AA%97%E5%8F%A3.md) · Translation draft. A logarithmic interval lemma combines the finite sets of exceptional indices from all towers.
+- [Making nine arithmetic conditions hold on the same family](proofs/en/joint-family-selection.md) · [中文](proofs/zh/%E4%B9%9D%E9%A1%B9%E7%AE%97%E6%9C%AF%E6%9D%A1%E4%BB%B6%E6%80%8E%E6%A0%B7%E8%90%BD%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%97%8F%E4%B8%8A.md) · Translation draft. Joins the lower requirements and applies existence once, with the loss exponents fixed.
+- [Assembling the pointwise witnesses into one window family](proofs/en/assembling-a-window-family.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E9%80%90%E7%82%B9%E6%9E%84%E9%80%A0%E6%8B%BC%E6%88%90%E7%AA%97%E5%8F%A3%E4%B8%8A%E7%9A%84%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%97%8F.md) · Translation draft. Preserves the scale and common data when assembling the pointwise constructions.
+- [How cohomological length bounds the local divisibility loss](proofs/en/cohomology-and-divisibility-loss.md) · [中文](proofs/zh/%E4%B8%8A%E5%90%8C%E8%B0%83%E9%95%BF%E5%BA%A6%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E5%B1%80%E9%83%A8%E6%95%B4%E9%99%A4%E6%8D%9F%E5%A4%B1.md) · Translation draft. Turns the finite-set bound into a sum over primes and applies the local comparison.
+
+## Reading guides
+
+- [From window estimates to RH](proofs/en/from-windows-to-rh.md).
+- [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
+- [RH from the right half-plane](proofs/en/rh-from-right-half-plane.md).
