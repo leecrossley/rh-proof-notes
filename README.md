@@ -14,8 +14,10 @@ A bilingual reading project for the Lean proof of RH and Dirichlet GRH released 
 
 The English notes on the [finite Fourier identity](proofs/en/finite-fourier-balance.md), [translation averaging](proofs/en/translation-averaging.md), and [primitive characters](proofs/en/primitive-characters-from-inertia.md) explain the passage from an arithmetic count-discrepancy bound to the pointwise estimate on a weighted prime sum.
 
-The [English proof catalogue](PROOFS.en.md) covers all 340 notes in the [Chinese proof catalogue](PROOFS.zh-CN.md), with both catalogues arranged by topic. Five new English notes trace the odd prime-power terms from the local coefficient estimates to the arithmetic count. The [status page](STATUS.md) records the scope and review state of the exposition and links to the Lean verification report.
+The [English proof catalogue](PROOFS.en.md) covers all 340 notes in the [Chinese proof catalogue](PROOFS.zh-CN.md), with both catalogues arranged by topic. Additional English reconstructions follow the local theta expansion and the determinant estimates that give the odd prime-power terms in the arithmetic count. The [status page](STATUS.md) records the scope, remaining dependencies and review state of the exposition, and links to the Lean verification report.
 
 For the origin of the weights, start with [Prime powers in the jet coefficient bound](proofs/en/prime-powers-in-the-jet-coefficient-bound.md) and follow the chain through [top-row capacities](proofs/en/top-row-capacities-and-prime-power-ramps.md) to [the prime-power count](proofs/en/from-orbit-valuations-to-the-prime-power-count.md).
+
+For the theta expansion used as input there, start with [From host integrality to the all-place theta expansion](proofs/en/from-host-integrality-to-the-all-place-theta-expansion.md). It links to the proofs of the hyperbolic sum, the integral logarithmic coordinates, and root-of-unity averaging.
 
 Contributions in **English or Chinese** are welcome. [How to contribute](CONTRIBUTING.md) · [CC BY 4.0 and attribution](LICENSE.md)

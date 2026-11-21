@@ -2,11 +2,11 @@
 
 [English home](README.md) · [中文首页](README.zh-CN.md) · [Sources / 来源](SOURCES.md) · [Contributing / 贡献说明](CONTRIBUTING.md)
 
-All 340 full-length notes in the [Chinese proof catalogue](PROOFS.zh-CN.md) have corresponding English notes. The [English proof catalogue](PROOFS.en.md) records these pairs, five additional English reconstructions from Lean, and two adapted reading guides. The English and Chinese catalogues follow the same topic order for the paired proofs.
+All 340 full-length notes in the [Chinese proof catalogue](PROOFS.zh-CN.md) have corresponding English notes. The [English proof catalogue](PROOFS.en.md) records these pairs, additional English reconstructions from Lean, and two adapted reading guides. The English and Chinese catalogues follow the same topic order for the paired proofs. The complete English exposition of RH and Dirichlet GRH is in progress.
 
-[中文证明目录](PROOFS.zh-CN.md)收录 340 篇正文，已逐篇配对英文稿。[英文证明目录](PROOFS.en.md)另收录五篇从 Lean 展开的英文新稿和两篇改编导读，并登记各篇的出处与状态。认领或复核时请写明对应篇目和 Lean 声明。
+[中文证明目录](PROOFS.zh-CN.md)收录 340 篇正文，已逐篇配对英文稿。[英文证明目录](PROOFS.en.md)另收录从 Lean 展开的英文新稿和两篇改编导读，并登记各篇的出处与状态。认领或复核时请写明对应篇目和 Lean 声明。
 
-**Draft / 草稿** means prose with Lean references. **Human-reviewed / 人工复核** requires a named reviewer and a record of the portion reviewed. The 340 paired notes and five new reconstructions are available for prose review. The scope of each note is its stated implication.
+**Draft / 草稿** means prose with Lean references. **Human-reviewed / 人工复核** requires a named reviewer and a record of the portion reviewed. The scope of each note is its stated implication.
 
 | Deduction / 推导 | 中文 | English | Prose review / 正文复核 | Scope and open input / 范围与待补输入 |
 | --- | --- | --- | --- | --- |
@@ -21,7 +21,11 @@ All 340 full-length notes in the [Chinese proof catalogue](PROOFS.zh-CN.md) have
 
 ## Local origin of the prime-power weights
 
-Five English drafts trace the signal-prime branch from a local theta-series expansion to its contribution to the arithmetic count. The exceptional two-power monomials give the $p^e$ cost in the cyclic degree problem. Choosing the coefficients of the determinant frame and comparing its top-row capacities give the positive parts $(a/p^e-w)_+$. The chain ends at the orbit valuation inequality and the identification of the corresponding summands in the count. It uses the admissible local expansion and the shape and size conditions on the orbit. The larger comparison adds other prime classes and bounds the losses. [Start of the chain](proofs/en/prime-powers-in-the-jet-coefficient-bound.md) · [Determinant proof](proofs/en/generic-frames-for-the-determinant-jet.md) · [Local-to-count comparison](proofs/en/from-orbit-valuations-to-the-prime-power-count.md)
+The signal-prime branch begins with an expansion in logarithmic variables for every Frobenius orbit. The drafts derive this expansion from host integrality, the curve norm and additivity identities, and a hyperbolic frame. They construct the trace-dual lists and show that the unit-root average supplies the coefficient-field, parity and integrality hypotheses of the jet estimate. [Expansion from host integrality](proofs/en/from-host-integrality-to-the-all-place-theta-expansion.md) · [Jet hypotheses for the mean](proofs/en/why-the-averaged-biextension-meets-the-jet-hypotheses.md)
+
+In the determinant estimate, the exceptional two-power monomials give the $p^e$ cost in the cyclic degree problem. The top-row capacities give the positive parts $(a/p^e-w)_+$. The local valuations add over all the orbits at a prime, and the gains match the signal-prime summands in the count. The proof uses the orbit shape and size conditions. [Determinant proof](proofs/en/generic-frames-for-the-determinant-jet.md) · [Gluing over orbits](proofs/en/how-local-jet-valuations-add-over-frobenius-orbits.md) · [Local-to-count comparison](proofs/en/from-orbit-valuations-to-the-prime-power-count.md)
+
+The current upstream inputs on this route are the CM construction and the additivity of the curve exponent, the verification of host integrality for the actual kernel family, and the comparison with its standard bases. The other prime classes and their losses are needed for the full arithmetic comparison. [Kernel family entry](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AdmissibleKernelSeriesInertPrimeNonConjugateFrob.lean#L24)
 
 ## Upstream links to complete / 待串联的上游证明
 

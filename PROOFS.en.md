@@ -6,7 +6,23 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ## New reconstruction from Lean
 
-These five English notes follow the odd prime-power weights from a local theta-series expansion through the determinant estimate to the arithmetic count.
+### Theta expansions and local determinant bounds
+
+These notes derive the expansion that supplies the local determinant estimate and prove how the resulting valuations add over the Frobenius orbits of a rational prime.
+
+- [Finding integral points from formal logarithms](proofs/en/finding-integral-points-from-formal-logarithms.md) · Source-based reconstruction draft. The Frobenius functional equation controls denominators under substitution and puts even and odd cyclic logarithms in the image of an integral formal coordinate.
+- [Dwork's integrality test for the formal exponential](proofs/en/dworks-integrality-test-for-the-formal-exponential.md) · Source-based reconstruction draft. A Frobenius defect in the first power of the prime determines integrality of all exponential coefficients and allows division of logarithmic classes by a unit integer.
+- [Unit norm identities and hyperbolic pairs](proofs/en/unit-norm-identities-and-hyperbolic-pairs.md) · Source-based reconstruction draft. Polarizing the norm law gives an adjoint. The hyperbolic Gram identities then cancel every term except the cross pairings.
+- [Constructing the integral Frobenius-dual lists](proofs/en/constructing-the-integral-frobenius-dual-lists.md) · Source-based reconstruction draft. A Vandermonde matrix built from conjugates of a root of unity has unit determinant. The columns of its inverse give the dual conjugates.
+- [Why root-of-unity averaging preserves the biextension](proofs/en/why-root-of-unity-averaging-preserves-the-biextension.md) · Source-based reconstruction draft. The two trace-dual bases transform together, so after logarithmic substitution the averaging changes the series by a term with integral exponential.
+- [Why the averaged biextension meets the jet hypotheses](proofs/en/why-the-averaged-biextension-meets-the-jet-hypotheses.md) · Source-based reconstruction draft. Averaging removes bidegree ($1,1$). The two additivity defects remain integral after logarithmic substitution, including for every translated term in the average.
+- [Factoring a theta series in additive orbit coordinates](proofs/en/factoring-a-theta-series-in-additive-orbit-coordinates.md) · Source-based reconstruction draft. Integral formal points allow the averaged biextension to replace the hyperbolic exponent. Inverting the cyclic logarithm gives the factorization in additive coordinates.
+- [From host integrality to the all-place theta expansion](proofs/en/from-host-integrality-to-the-all-place-theta-expansion.md) · Source-based reconstruction draft. The hyperbolic pairing identifies the exponent, and the same cyclic factorization applies in every place block after a bijective relabeling.
+- [How local jet valuations add over Frobenius orbits](proofs/en/how-local-jet-valuations-add-over-frobenius-orbits.md) · Source-based reconstruction draft. Restricts an admissible theta expansion to one orbit and proves that bounds uniform in the integral factor add over all the orbits.
+
+### Odd prime-power weights in the arithmetic count
+
+These notes follow the odd prime-power weights from a local theta-series expansion through the determinant estimate to the arithmetic count.
 
 - [Cyclic degree budgets and flow duality](proofs/en/cyclic-degree-budgets-and-flow-duality.md) · Source-based reconstruction draft. Proves duality, the balanced degree formula and the bound on the mass at large dual weights.
 - [Prime powers in the jet coefficient bound](proofs/en/prime-powers-in-the-jet-coefficient-bound.md) · Source-based reconstruction draft. Derives the exceptional two-power monomials and the factorial-weighted valuation estimate.

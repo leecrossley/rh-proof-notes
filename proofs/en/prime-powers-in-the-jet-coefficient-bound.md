@@ -6,6 +6,8 @@ On a Frobenius orbit of even length, the local proof has to control coefficients
 
 ## Statement of the local coefficient estimate
 
+The construction of the series that satisfies the following hypotheses is given in [Why the averaged biextension meets the jet hypotheses](why-the-averaged-biextension-meets-the-jet-hypotheses.md).
+
 Let $p$ be an odd prime and $d\ge2$ even. Work over a characteristic-zero nonarchimedean field $K$ with valuation $v$ normalized by $v(p)=1$, and a subfield $K_0$ whose nonzero elements have integral valuation. Assume $K$ has a root of unity $\zeta$ of order $p^d-1$. Let $S=\mathbb Z/d\mathbb Z$ and write its elements using representatives $0,\ldots,d-1$. Put
 $$
 \rho=\frac1{p^2-1},\qquad c=\frac1{p-1},\qquad \gamma=c-\rho=\frac p{p^2-1}.
