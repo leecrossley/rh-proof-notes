@@ -253,6 +253,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Rank-three two-sided points give two representation types](proofs/en/rank-three-two-sided-points-give-two-representation-types.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A7%A9%E4%B8%89%E7%9A%84%E4%B8%A4%E4%BE%A7%E7%82%B9%E5%8F%AA%E5%89%A9%E4%B8%A4%E7%A7%8D%E8%A1%A8%E7%A4%BA.md) · Translation draft.
 - [A deformation triangular in both directions is the base point](proofs/en/a-deformation-triangular-in-both-directions-is-the-base-point.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%90%8C%E6%97%B6%E4%B8%8A%E4%B8%89%E8%A7%92%E5%92%8C%E4%B8%8B%E4%B8%89%E8%A7%92%E7%9A%84%E5%8F%98%E5%BD%A2%E5%8F%AA%E6%9C%89%E5%9F%BA%E7%82%B9.md) · Translation draft.
 
+- [Deformation tangent vectors satisfy the Bloch–Kato local conditions](proofs/en/deformation-tangent-vectors-satisfy-the-bloch-kato-local-conditions.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%98%E5%BD%A2%E7%9A%84%E5%88%87%E5%90%91%E9%87%8F%E6%BB%A1%E8%B6%B3BlochKato%E5%B1%80%E9%83%A8%E6%9D%A1%E4%BB%B6.md) · Translation draft.
+- [Nonpositive-weight cohomology at the base is coboundary](proofs/en/nonpositive-weight-cohomology-at-the-base-is-coboundary.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9F%BA%E7%82%B9%E7%9A%84%E9%9D%9E%E6%AD%A3%E6%9D%83%E4%B8%8A%E5%90%8C%E8%B0%83%E5%8F%AA%E6%9C%89%E4%BD%99%E8%BE%B9%E7%95%8C.md) · Translation draft.
+- [The rank-two corner decomposes rank-three adjoint cohomology](proofs/en/the-rank-two-corner-decomposes-rank-three-adjoint-cohomology.md) · [中文](proofs/zh/%E7%A7%A9%E4%BA%8C%E8%A7%92%E5%9D%97%E6%80%8E%E6%A0%B7%E5%88%86%E8%A7%A3%E7%A7%A9%E4%B8%89%E7%9A%84%E4%BC%B4%E9%9A%8F%E4%B8%8A%E5%90%8C%E8%B0%83.md) · Translation draft.
+- [From eigenvalue ranges to Frobenius trace lists](proofs/en/from-eigenvalue-ranges-to-frobenius-trace-lists.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%9C%AC%E5%BE%81%E5%80%BC%E7%9A%84%E6%A8%A1%E9%95%BF%E8%8C%83%E5%9B%B4%E5%BE%97%E5%88%B0Frobenius%E8%BF%B9%E5%88%97%E8%A1%A8.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
