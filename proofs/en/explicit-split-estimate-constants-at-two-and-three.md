@@ -21,7 +21,7 @@ v_\pi\le{}&s_\pi+\mathrm{VV}(\ell)+v_\ell(h_E)+Z\\
 \end{aligned}
 \tag{1}
 $$
-The [row and column costs](../zh/%E8%B4%9F%E8%BF%87%E6%BB%A4%E8%B7%B3%E7%82%B9%E6%80%8E%E6%A0%B7%E5%8F%98%E6%88%90%E5%88%86%E8%A3%82%E5%A4%84%E6%A0%BC%E6%8C%87%E6%95%B0%E7%9A%84%E8%A1%8C%E5%88%97%E4%BB%A3%E4%BB%B7.md) and [descent of the lifting exponent](descending-a-crystalline-lift-costs-the-degree-valuation.md) give the inputs. Then
+The [row and column costs](negative-filtration-jumps-bound-the-split-lattice-costs.md) and [descent of the lifting exponent](descending-a-crystalline-lift-costs-the-degree-valuation.md) give the inputs. Then
 $$
 v_\pi\le s_\pi+\mathrm{VV}(\ell)+v_\ell(h_E)+\ell^{-2}
 +6000\,fmHs+30000\,f^2t^2V\Lambda .
