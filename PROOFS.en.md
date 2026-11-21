@@ -206,6 +206,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Quadratic restriction costs at most one in cohomology length](proofs/en/quadratic-restriction-costs-at-most-one-in-cohomology-length.md) · [中文](proofs/zh/%E4%BA%8C%E6%AC%A1%E9%99%90%E5%88%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AA%E6%8D%9F%E5%A4%B1%E4%B8%80%E5%8D%95%E4%BD%8D%E5%90%8C%E8%B0%83%E9%95%BF%E5%BA%A6.md) · Translation draft.
 - [Local cup products force inertia value products to vanish](proofs/en/local-cup-products-force-inertia-value-products-to-vanish.md) · [中文](proofs/zh/%E5%B1%80%E9%83%A8%E6%9D%AF%E7%A7%AF%E6%80%8E%E6%A0%B7%E8%BF%AB%E4%BD%BF%E6%83%AF%E6%80%A7%E4%B8%8A%E7%9A%84%E5%8F%96%E5%80%BC%E4%B9%98%E7%A7%AF%E6%B6%88%E5%A4%B1.md) · Translation draft.
 
+- [Commutators and finite quotients transport local reciprocity](proofs/en/commutators-and-finite-quotients-transport-local-reciprocity.md) · [中文](proofs/zh/%E4%BA%A4%E6%8D%A2%E5%AD%90%E5%92%8C%E6%9C%89%E9%99%90%E5%95%86%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%9D%AF%E7%A7%AF%E7%BB%93%E8%AE%BA%E7%94%A8%E4%BA%8E%E6%89%AD%E7%BB%93%E5%80%BC.md) · Translation draft.
+- [Auxiliary primes bound cohomology length by one valuation](proofs/en/auxiliary-primes-bound-the-cohomology-length-by-one-valuation.md) · [中文](proofs/zh/%E9%80%90%E4%B8%AA%E5%8A%A0%E5%85%A5%E8%BE%85%E5%8A%A9%E7%B4%A0%E6%95%B0%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%90%8C%E8%B0%83%E9%95%BF%E5%BA%A6%E5%8E%8B%E5%88%B0%E4%B8%80%E4%B8%AA%E8%B5%8B%E5%80%BC.md) · Translation draft.
+- [Choosing one Frobenius for two value conditions](proofs/en/choosing-one-frobenius-for-two-value-conditions.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E9%80%89%E4%B8%80%E4%B8%AAFrobenius%E5%90%8C%E6%97%B6%E6%A3%80%E6%B5%8B%E4%B8%A4%E4%B8%AA%E5%8F%96%E5%80%BC%E6%9D%A1%E4%BB%B6.md) · Translation draft.
+- [Normalized cocycles control the localization kernel](proofs/en/normalized-cocycles-control-the-localization-kernel.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%BB%99%E5%B1%80%E9%83%A8%E9%9B%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E7%B1%BB%E9%80%89%E4%BB%A3%E8%A1%A8%E5%85%83%E5%B9%B6%E6%8E%A7%E5%88%B6%E9%95%BF%E5%BA%A6.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
