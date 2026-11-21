@@ -58,6 +58,17 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Counting separated detections with the hybrid large sieve](proofs/en/hybrid-sieve-count-of-separated-detections.md) · [中文](proofs/zh/%E6%B7%B7%E5%90%88%E5%A4%A7%E7%AD%9B%E6%80%8E%E6%A0%B7%E6%95%B0%E5%87%BA%E5%88%86%E7%A6%BB%E7%9A%84%E6%A3%80%E6%B5%8B%E7%82%B9.md) · Translation draft.
 - [The fixed-modulus log-density bound from dyadic counting](proofs/en/log-density-from-dyadic-counting.md) · [中文](proofs/zh/%E7%AD%9B%E9%80%89%E7%94%A8%E7%9A%84%E9%9B%B6%E7%82%B9%E5%AF%86%E5%BA%A6%E6%80%8E%E6%A0%B7%E4%BB%8E%E4%BA%8C%E5%80%8D%E5%8C%BA%E9%97%B4%E8%AE%A1%E6%95%B0%E5%BE%97%E5%88%B0.md) · Translation draft.
 
+- [Truncated Perron inversion for the prime-power sum](proofs/en/truncated-perron-prime-powers.md) · [中文](proofs/zh/Perron%E7%A7%AF%E5%88%86%E6%80%8E%E6%A0%B7%E6%88%AA%E5%87%BA%E7%B4%A0%E6%95%B0%E5%B9%82%E5%92%8C.md) · Translation draft.
+- [Shifting the Perron contour past zeros](proofs/en/shifting-perron-past-zeros.md) · [中文](proofs/zh/%E7%A7%BB%E5%8A%A8Perron%E7%A7%AF%E5%88%86%E6%97%B6%E6%80%8E%E6%A0%B7%E9%81%BF%E5%BC%80%E9%9B%B6%E7%82%B9.md) · Translation draft.
+- [The truncated explicit formula for a primitive character](proofs/en/truncated-explicit-formula-primitive.md) · [中文](proofs/zh/%E6%9C%AC%E5%8E%9F%E7%89%B9%E5%BE%81%E7%9A%84%E6%88%AA%E6%96%AD%E6%98%BE%E5%BC%8F%E5%85%AC%E5%BC%8F%E6%80%8E%E6%A0%B7%E5%90%88%E6%88%90.md) · Translation draft.
+- [Restricting the truncated explicit formula to the right half](proofs/en/explicit-formula-right-half-rectangle.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%88%AA%E6%96%AD%E6%98%BE%E5%BC%8F%E5%85%AC%E5%BC%8F%E9%99%90%E5%88%B6%E5%88%B0%E5%8F%B3%E5%8D%8A%E7%9F%A9%E5%BD%A2.md) · Translation draft.
+
+- [Relative error for prime powers in an arithmetic progression](proofs/en/relative-prime-power-error-in-progressions.md) · [中文](proofs/zh/%E7%AE%97%E6%9C%AF%E7%BA%A7%E6%95%B0%E7%9A%84%E7%B4%A0%E6%95%B0%E5%B9%82%E4%B8%BB%E9%A1%B9%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E7%9B%B8%E5%AF%B9%E8%AF%AF%E5%B7%AE.md) · Translation draft.
+- [Transferring relative error from prime powers to prime counts](proofs/en/relative-error-from-prime-powers-to-primes.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E9%80%9A%E7%94%A8%E7%9A%84%E7%B4%A0%E6%95%B0%E5%B9%82%E7%9B%B8%E5%AF%B9%E8%AF%AF%E5%B7%AE%E4%BC%A0%E7%BB%99%E7%B4%A0%E6%95%B0%E4%B8%AA%E6%95%B0.md) · Translation draft.
+
+- [A short-interval lower bound with an exceptional prime-counting term](proofs/en/short-interval-primes-with-an-exception.md) · [中文](proofs/zh/%E4%BE%8B%E5%A4%96%E9%9B%B6%E7%82%B9%E5%AD%98%E5%9C%A8%E6%97%B6%E6%80%8E%E6%A0%B7%E4%BC%B0%E8%AE%A1%E7%9F%AD%E5%8C%BA%E9%97%B4%E9%87%8C%E7%9A%84%E7%B4%A0%E6%95%B0.md) · Translation draft.
+- [Supplying many candidate primes in a single progression](proofs/en/many-candidate-primes-in-one-progression.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BF%9D%E8%AF%81%E4%B8%80%E4%B8%AA%E5%90%8C%E4%BD%99%E7%B1%BB%E9%87%8C%E6%9C%89%E8%B6%B3%E5%A4%9F%E5%A4%9A%E7%9A%84%E5%80%99%E9%80%89%E7%B4%A0%E6%95%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From window estimates to RH](proofs/en/from-windows-to-rh.md).
