@@ -2,7 +2,7 @@
 
 [Chinese proof](../zh/%E5%89%A9%E4%BD%99%E7%B1%BB%E7%B4%A0%E6%95%B0%E5%92%8C%E4%B8%8E%E4%B8%BB%E9%A1%B9%E7%9A%84%E6%81%92%E7%AD%89%E5%BC%8F.md) · [Reading and review status](../../STATUS.md)
 
-The window argument compares a weighted count of Frobenius classes with its main term. The exact difference is a finite Fourier combination of corrected prime sums. This calculation fixes both the weights at unramified and ramified primes and the sign of the nonprincipal correction.
+The window argument compares a weighted count of Frobenius classes with its main term. The exact difference is a finite Fourier combination of corrected prime sums. This calculation fixes both the weights at unramified and ramified primes and the sign of the nonprincipal correction. The local valuation argument already produces the odd prime-power ramps on the signal-prime branch. [Where the ramp terms come from](from-orbit-valuations-to-the-prime-power-count.md)
 
 ## Data and statement
 

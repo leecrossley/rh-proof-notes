@@ -2,11 +2,11 @@
 
 [English home](README.md) · [中文首页](README.zh-CN.md) · [Sources / 来源](SOURCES.md) · [Contributing / 贡献说明](CONTRIBUTING.md)
 
-The [Chinese proof catalogue](PROOFS.zh-CN.md) lists 340 full-length notes. The [English proof catalogue](PROOFS.en.md) records translations of individual notes alongside the reading guides. The table tracks the main routes and records the provenance of the two English adaptations.
+All 340 full-length notes in the [Chinese proof catalogue](PROOFS.zh-CN.md) have corresponding English notes. The [English proof catalogue](PROOFS.en.md) records these pairs, five additional English reconstructions from Lean, and two adapted reading guides. The English and Chinese catalogues follow the same topic order for the paired proofs.
 
-[中文证明目录](PROOFS.zh-CN.md)收录 340 篇正文。[英文证明目录](PROOFS.en.md)登记逐篇英译、导读及其复核状态。下面跟踪主线的覆盖范围，并标明两篇英文改编稿。目录中各篇的默认状态是草稿。认领或复核时请写明对应篇目和 Lean 声明。
+[中文证明目录](PROOFS.zh-CN.md)收录 340 篇正文，已逐篇配对英文稿。[英文证明目录](PROOFS.en.md)另收录五篇从 Lean 展开的英文新稿和两篇改编导读，并登记各篇的出处与状态。认领或复核时请写明对应篇目和 Lean 声明。
 
-**Draft / 草稿** means prose with Lean references. **Human-reviewed / 人工复核** requires a named reviewer and a record of the portion reviewed. The scope of each note is its stated implication. The open items below concern links needed to read the full route end to end.
+**Draft / 草稿** means prose with Lean references. **Human-reviewed / 人工复核** requires a named reviewer and a record of the portion reviewed. The 340 paired notes and five new reconstructions are available for prose review. The scope of each note is its stated implication.
 
 | Deduction / 推导 | 中文 | English | Prose review / 正文复核 | Scope and open input / 范围与待补输入 |
 | --- | --- | --- | --- | --- |
@@ -19,6 +19,10 @@ The [Chinese proof catalogue](PROOFS.zh-CN.md) lists 340 full-length notes. The 
 | RH from the right half-plane / 从右半平面无零点推出 RH | [中文主线第 3 节](proofs/zh/from-windows-to-rh.md#3-反射到右半平面) | [English](proofs/en/rh-from-right-half-plane.md) | Adapted draft / 改编草稿 | Uses the functional equation and the stated nonvanishing hypothesis / 使用函数方程与明列的无零点前提 |
 | From Dirichlet nonvanishing to RH / 狄利克雷无零点到 RH | To write / 待写 | [English](proofs/en/from-dirichlet-nonvanishing.md) | Adapted draft / 改编草稿 | Specializes the hypothesis to modulus 1 / 将无零点前提用于模 1 |
 
+## Local origin of the prime-power weights
+
+Five English drafts trace the signal-prime branch from a local theta-series expansion to its contribution to the arithmetic count. The exceptional two-power monomials give the $p^e$ cost in the cyclic degree problem. Choosing the coefficients of the determinant frame and comparing its top-row capacities give the positive parts $(a/p^e-w)_+$. The chain ends at the orbit valuation inequality and the identification of the corresponding summands in the count. It uses the admissible local expansion and the shape and size conditions on the orbit. The larger comparison adds other prime classes and bounds the losses. [Start of the chain](proofs/en/prime-powers-in-the-jet-coefficient-bound.md) · [Determinant proof](proofs/en/generic-frames-for-the-determinant-jet.md) · [Local-to-count comparison](proofs/en/from-orbit-valuations-to-the-prime-power-count.md)
+
 ## Upstream links to complete / 待串联的上游证明
 
 - **Simultaneous realization of the data / 同时构造算术和几何数据.** Trace how the same family meets all pointwise conditions. [Lean entry](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/CharacterBoxes/DesWin.lean#L11) · [O’Desky’s outline](https://andrewodesky.com/rh/s/assembly-existence.html).
@@ -27,6 +31,6 @@ The [Chinese proof catalogue](PROOFS.zh-CN.md) lists 340 full-length notes. The 
 
 ## Lean verification / Lean 核验
 
-The published source has been built and replayed independently. The public report lists only `propext`, `Classical.choice` and `Quot.sound` for the five final statements in `Main.lean`. [Sutherland’s public report](https://math.mit.edu/~drew/grh/) · [Final RH statement](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Main.lean#L4)
+The published source has been built and replayed independently. Sutherland's public report records compilation and Lean kernel replay of all 175,187 modules. The audit of the five unconditional final statements in `Main.lean`, including RH and Dirichlet GRH, lists only `propext`, `Classical.choice` and `Quot.sound`. The present prose edition checks source references against the pinned mirror and records the hypotheses of each step. [Sutherland's public report](https://math.mit.edu/~drew/grh/) · [Final RH statement](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Main.lean#L4)
 
 公开报告记录了原工程的全量编译和内核重放。`Main.lean` 的五条最终声明在公理查询中只依赖 `propext`、`Classical.choice` 和 `Quot.sound`。各篇文字推导的复核进度见上表。

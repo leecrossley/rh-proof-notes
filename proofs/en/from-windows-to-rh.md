@@ -2,7 +2,7 @@
 
 [Chinese proof](../zh/%E4%BB%8E%E7%AA%97%E5%8F%A3%E4%BC%B0%E8%AE%A1%E5%88%B0%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3.md) · [Chinese reading guide](../zh/from-windows-to-rh.md) · [Reading and review status](../../STATUS.md)
 
-The arithmetic and geometric part of the Lean proof constructs common data, compares lattice slopes and converts a prime-power count into a bound for a weighted prime sum. The analytic part uses that bound to rule out zeros right of the critical line. This note proves the analytic implication with the window estimate as input.
+The arithmetic and geometric part of the Lean proof constructs common data, compares lattice slopes and converts a prime-power count into a bound for a weighted prime sum. The analytic part uses that bound to rule out zeros right of the critical line. This note proves the analytic implication with the window estimate as input. [How the local valuation estimates give the prime-power terms](from-orbit-valuations-to-the-prime-power-count.md)
 
 ## 1. The window estimate
 
