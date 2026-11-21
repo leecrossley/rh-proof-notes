@@ -405,6 +405,13 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Tame inertia repeated roots exclude repeated higher-rank types](proofs/en/tame-inertia-repeated-roots-exclude-repeated-higher-rank-types.md) · [中文](proofs/zh/%E6%B8%A9%E5%92%8C%E6%83%AF%E6%80%A7%E7%9A%84%E9%87%8D%E5%A4%8D%E6%A0%B9%E6%80%8E%E6%A0%B7%E6%8E%92%E9%99%A4%E9%AB%98%E7%A7%A9%E9%87%8D%E5%A4%8D%E7%B1%BB%E5%9E%8B.md) · Translation draft.
 - [CM conjugation reflects Hodge–Tate weights with a common weight](proofs/en/cm-conjugation-reflects-hodge-tate-weights-about-a-common-integer.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88CM%E5%85%B1%E8%BD%AD%E6%8A%8AHodge%E2%80%93Tate%E6%9D%83%E5%8F%8D%E5%B0%84%E5%88%B0%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0.md) · Translation draft.
 
+- [Sinnott's finite differences imply nonvanishing](proofs/en/sinnott-finite-differences-imply-nonvanishing.md) · [中文](proofs/zh/Sinnott%E5%BC%95%E7%90%86%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%8E%A8%E5%87%BA%E9%9D%9E%E6%B6%88%E5%A4%B1.md) · Translation draft.
+- [Group-ring nonvanishing gives a uniform nilpotence exponent](proofs/en/group-ring-nonvanishing-gives-a-uniform-nilpotence-exponent.md) · [中文](proofs/zh/%E7%BE%A4%E7%8E%AF%E9%9D%9E%E6%B6%88%E5%A4%B1%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E7%BB%9F%E4%B8%80%E7%9A%84%E5%B9%82%E9%9B%B6%E6%8C%87%E6%95%B0.md) · Translation draft.
+
+- [Jacobi sum factorization annihilates the class group](proofs/en/jacobi-sum-factorization-annihilates-the-class-group.md) · [中文](proofs/zh/Jacobi%E5%92%8C%E7%9A%84%E7%B4%A0%E7%90%86%E6%83%B3%E5%88%86%E8%A7%A3%E6%80%8E%E6%A0%B7%E6%B9%AE%E7%81%AD%E7%B1%BB%E7%BE%A4.md) · Translation draft.
+- [Real unit signatures bound the two-primary class quotient](proofs/en/real-unit-signatures-bound-the-two-primary-class-quotient.md) · [中文](proofs/zh/%E5%AE%9E%E5%8D%95%E4%BD%8D%E7%9A%84%E7%AC%A6%E5%8F%B7%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E4%BA%8C%E8%BF%9B%E7%B1%BB%E7%BE%A4.md) · Translation draft.
+- [Uniform class group rank bounds in cyclotomic towers](proofs/en/uniform-class-group-rank-bounds-in-cyclotomic-towers.md) · [中文](proofs/zh/%E5%88%86%E5%9C%86%E5%A1%94%E7%9A%84%E7%B1%BB%E7%BE%A4%E7%A7%A9%E6%80%8E%E6%A0%B7%E5%BE%97%E5%88%B0%E7%BB%9F%E4%B8%80%E4%B8%8A%E7%95%8C.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
