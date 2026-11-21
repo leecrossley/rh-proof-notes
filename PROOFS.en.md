@@ -373,6 +373,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [One element generates the ring of integers](proofs/en/one-element-generates-the-ring-of-integers.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%B0%B1%E8%83%BD%E7%94%9F%E6%88%90%E5%B1%80%E9%83%A8%E5%9F%9F%E7%9A%84%E6%95%B4%E4%B8%AA%E6%95%B4%E6%95%B0%E7%8E%AF.md) · Translation draft.
 - [A separable idempotent extracts a crystalline embedding frame](proofs/en/a-separable-idempotent-extracts-a-crystalline-embedding-frame.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E5%8F%AF%E5%88%86%E5%B9%82%E7%AD%89%E5%85%83%E6%8A%BD%E5%87%BA%E4%B8%80%E4%B8%AA%E5%B5%8C%E5%85%A5%E7%9A%84%E6%99%B6%E4%BD%93%E6%AF%94%E8%BE%83%E6%A1%86%E6%9E%B6.md) · Translation draft.
 
+- [Only diagonal blocks contribute to the Lefschetz number](proofs/en/only-diagonal-blocks-contribute-to-the-lefschetz-number.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E5%9D%97%E5%90%8E%E5%8F%AA%E9%9C%80%E5%AF%B9%E8%A7%92%E5%9D%97%E7%9A%84Lefschetz%E6%95%B0.md) · Translation draft.
+- [Prescribed points in one reduced projective fiber](proofs/en/prescribed-points-in-one-reduced-projective-fiber.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E8%AE%A9%E6%8C%87%E5%AE%9A%E5%9B%BA%E5%AE%9A%E7%82%B9%E8%90%BD%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E7%BA%A6%E5%8C%96%E5%B0%84%E5%BD%B1%E7%BA%A4%E7%BB%B4.md) · Translation draft.
+- [The determinant in the local fixed-point denominator](proofs/en/the-determinant-in-the-local-fixed-point-denominator.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B1%80%E9%83%A8%E5%9B%BA%E5%AE%9A%E7%82%B9%E7%9A%84%E5%88%86%E6%AF%8D%E6%98%AF%E8%A1%8C%E5%88%97%E5%BC%8F.md) · Translation draft.
+- [Field trace specializes to a sum over the reduced fiber](proofs/en/field-trace-specializes-to-a-sum-over-the-reduced-fiber.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%BA%A6%E5%8C%96%E7%BA%A4%E7%BB%B4%E4%B8%8A%E7%9A%84%E5%9F%9F%E8%BF%B9%E7%AD%89%E4%BA%8E%E9%80%90%E7%82%B9%E5%8F%96%E5%80%BC%E5%92%8C.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
