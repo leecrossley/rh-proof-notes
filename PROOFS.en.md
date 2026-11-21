@@ -233,6 +233,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [One integer sums the Bernoulli valuations across primes](proofs/en/one-integer-sums-the-bernoulli-valuations-across-primes.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%89%80%E6%9C%89%E7%B4%A0%E6%95%B0%E7%9A%84Bernoulli%E8%B5%8B%E5%80%BC%E8%83%BD%E7%94%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.md) · Translation draft.
 - [Summing negative eigenspace lengths after coefficient extension](proofs/en/summing-negative-eigenspace-lengths-after-coefficient-extension.md) · [中文](proofs/zh/%E6%89%A9%E5%A4%A7%E7%B3%BB%E6%95%B0%E7%8E%AF%E4%BB%A5%E5%90%8E%E6%80%8E%E6%A0%B7%E6%8A%8A%E8%B4%9F%E5%8F%B7%E9%95%BF%E5%BA%A6%E6%8C%89%E7%89%B9%E5%BE%81%E7%9B%B8%E5%8A%A0.md) · Translation draft.
 
+- [Choosing among seven positive-sign length estimates](proofs/en/choosing-among-seven-positive-sign-length-estimates.md) · [中文](proofs/zh/%E6%AD%A3%E5%8F%B7%E4%B8%8A%E5%90%8C%E8%B0%83%E7%9A%84%E4%B8%83%E7%A7%8D%E9%95%BF%E5%BA%A6%E4%BC%B0%E8%AE%A1%E6%80%8E%E6%A0%B7%E9%80%89%E7%94%A8.md) · Translation draft.
+- [Two auxiliary primes suffice to sum Case I lengths](proofs/en/two-auxiliary-primes-suffice-to-sum-case-i-lengths.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%A4%E4%B8%AA%E8%BE%85%E5%8A%A9%E7%B4%A0%E6%95%B0%E5%B0%B1%E8%83%BD%E6%B1%87%E6%80%BBI%E7%B1%BB%E7%9A%84%E9%95%BF%E5%BA%A6.md) · Translation draft.
+- [One Frobenius trace difference controls same-kernel lengths](proofs/en/one-frobenius-trace-difference-controls-same-kernel-lengths.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E4%B8%80%E4%B8%AAFrobenius%E7%9A%84%E8%BF%B9%E5%B7%AE%E6%8E%A7%E5%88%B6%E5%90%8C%E6%A0%B8%E7%89%B9%E5%BE%81%E7%9A%84%E9%95%BF%E5%BA%A6.md) · Translation draft.
+- [A Frobenius trace difference product is a nonzero integer](proofs/en/a-frobenius-trace-difference-product-is-a-nonzero-integer.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88Frobenius%E8%BF%B9%E5%B7%AE%E7%9A%84%E4%B9%98%E7%A7%AF%E6%98%AF%E4%B8%80%E4%B8%AA%E9%9D%9E%E9%9B%B6%E6%95%B4%E6%95%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
