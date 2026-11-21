@@ -289,6 +289,10 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [One Gaussian place for all rank-three trace differences](proofs/en/one-gaussian-place-for-all-rank-three-trace-differences.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E5%9C%A8%E9%AB%98%E6%96%AF%E5%9F%9F%E9%80%89%E5%90%8C%E4%B8%80%E4%B8%AA%E7%B4%A0%E5%A4%84%E4%BC%B0%E8%AE%A1%E7%A7%A9%E4%B8%89%E8%BF%B9%E5%B7%AE.md) · Translation draft.
 - [Finite coefficients control the divisible localization kernel](proofs/en/finite-coefficients-control-the-divisible-localization-kernel.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%B1%E6%AF%8F%E4%B8%AA%E6%9C%89%E9%99%90%E7%B3%BB%E6%95%B0%E5%B1%82%E6%8E%A7%E5%88%B6%E5%8F%AF%E9%99%A4%E7%B3%BB%E6%95%B0%E7%9A%84%E6%80%BB%E9%95%BF%E5%BA%A6.md) · Translation draft.
 
+- [Residual weight minus two vanishes in case V](proofs/en/residual-weight-minus-two-vanishes-in-case-v.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88V%E7%B1%BB%E7%9A%84%E5%89%A9%E4%BD%99%E8%B4%9F%E4%BA%8C%E6%9D%83%E6%B2%A1%E6%9C%89%E4%B8%80%E9%98%B6%E7%B1%BB.md) · Translation draft.
+- [Divisible-coefficient finiteness kills field-valued cocycles](proofs/en/divisible-coefficient-finiteness-kills-field-valued-cocycles.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%B1%E5%8F%AF%E9%99%A4%E7%B3%BB%E6%95%B0%E7%9A%84%E6%9C%89%E9%99%90%E6%80%A7%E6%B6%88%E5%8E%BB%E5%9F%9F%E7%B3%BB%E6%95%B0%E4%BD%99%E9%97%AD%E9%93%BE.md) · Translation draft.
+- [Nonpositive-weight integral tangent classes are torsion](proofs/en/nonpositive-weight-integral-tangent-classes-are-torsion.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E9%9D%9E%E6%AD%A3%E6%9D%83%E7%9A%84%E6%95%B4%E7%B3%BB%E6%95%B0%E5%88%87%E5%90%91%E7%B1%BB%E5%8F%98%E6%88%90%E6%89%AD%E7%BB%93.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
