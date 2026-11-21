@@ -269,6 +269,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Two-adic depths in Cases II and III have polynomial height](proofs/en/two-adic-depths-in-cases-ii-and-iii-have-polynomial-height.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88II%E7%B1%BB%E5%92%8CIII%E7%B1%BB%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%B1%82%E6%95%B0%E6%9C%89%E5%A4%9A%E9%A1%B9%E5%BC%8F%E9%AB%98%E5%BA%A6.md) · Translation draft.
 - [Inertia vanishing implies vanishing on new decomposition groups](proofs/en/inertia-vanishing-implies-vanishing-on-new-decomposition-groups.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%83%AF%E6%80%A7%E7%BE%A4%E4%B8%8A%E7%9A%84%E6%B6%88%E5%A4%B1%E8%83%BD%E4%BC%A0%E5%88%B0%E6%96%B0%E7%9A%84%E5%88%86%E8%A7%A3%E7%BE%A4.md) · Translation draft.
 
+- [Rank-four cotangent length counts only nonisomorphic representations](proofs/en/rank-four-cotangent-length-counts-only-nonisomorphic-representations.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A7%A9%E5%9B%9B%E4%BD%99%E5%88%87%E9%95%BF%E5%BA%A6%E5%8F%AA%E9%9C%80%E8%AE%A1%E7%AE%97%E4%B8%8D%E5%90%8C%E6%9E%84%E7%9A%84%E8%A1%A8%E7%A4%BA.md) · Translation draft.
+- [Normalized rank-four representations have diagonal conjugacy](proofs/en/normalized-rank-four-representations-have-diagonal-conjugacy.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A7%84%E8%8C%83%E5%8C%96%E7%9A%84%E7%A7%A9%E5%9B%9B%E8%A1%A8%E7%A4%BA%E5%8F%AA%E5%89%A9%E5%AF%B9%E8%A7%92%E5%85%B1%E8%BD%AD.md) · Translation draft.
+- [One integer separates the rank-four base trace](proofs/en/one-integer-separates-the-rank-four-base-trace.md) · [中文](proofs/zh/%E7%A7%A9%E5%9B%9B%E5%8F%82%E8%80%83%E8%A1%A8%E7%A4%BA%E7%9A%84%E8%BF%B9%E6%80%8E%E6%A0%B7%E7%94%A8%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E5%90%8C%E6%97%B6%E5%88%86%E7%A6%BB.md) · Translation draft.
+- [Building a trace difference integer from rank-four eigenvalue lists](proofs/en/building-a-trace-difference-integer-from-rank-four-eigenvalue-lists.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%9C%89%E9%99%90%E7%A7%A9%E5%9B%9B%E6%9C%AC%E5%BE%81%E5%80%BC%E5%88%97%E8%A1%A8%E9%80%A0%E5%87%BA%E8%BF%B9%E5%B7%AE%E6%95%B4%E6%95%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

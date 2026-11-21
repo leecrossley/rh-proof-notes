@@ -1,0 +1,19 @@
+# Building a trace difference integer from rank-four eigenvalue lists
+
+[Chinese proof](../zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%9C%89%E9%99%90%E7%A7%A9%E5%9B%9B%E6%9C%AC%E5%BE%81%E5%80%BC%E5%88%97%E8%A1%A8%E9%80%A0%E5%87%BA%E8%BF%B9%E5%B7%AE%E6%95%B4%E6%95%B0.md)
+
+Let $e\ge2,M\ge1$, $p\ge5$ prime with $p\nmid M$. Suppose the rank-four count and admissibility results give a finite index set $S$ with $|S|\le c[M(e+2)]^{A_0}$, each label carrying a multiset $B_s$ of four algebraic integers. With $x=p^{(e+1)/2}$, their moduli lie strictly between $x/\sqrt p,x\sqrt p$, and their product of moduli is $x^4$. Every complex field automorphism permutes the labelled multisets. For every $\ell\ne2,p$ and $\iota:\overline{\mathbb Q}_\ell\simeq\mathbb C$, each eligible `AdmRAlt` representation of [rank four](one-integer-separates-the-rank-four-base-trace.md) has an index $s(r)$ with arithmetic Frobenius trace $\iota^{-1}(\sum_{\beta\in B_{s(r)}}\beta)$, and equal labels imply isomorphism for these $\ell,\iota$. The source uses inverse arithmetic Frobenius with the inverse eigenvalues. The list comes from [the rational count](counting-rational-eigensystems-by-imaginary-quadratic-restriction.md) with weights $(e+1,e,1,0)$ and pair sum $e+1$.
+
+For $k\ge1$ and three complex $k$-th roots of unity $z_1,z_2,z_3$, there is a nonzero integer $B$ with
+$$
+\log|B|\le 2^{A_0+1}c\varphi(k)[M(e+1)]^{A_0+1}\log p.
+$$
+At each $\ell,\iota$ and choice of arithmetic Frobenius at $p$, the differences of such traces with $\iota^{-1}(p^{e+1}z_1+p^ez_2+pz_3+1)$ are nonzero, and any finite family of pairwise nonisomorphic eligible representations has product of difference norms at least $|B|_\ell$.
+
+**Proof.** Put $y=p^e\ge p^2$. At least one of the four eigenvalue moduli is $\le x$ by their product, and the other three are $\le\sqrt p\,x\le y$, while $x\le y/\sqrt p\le y/2$. Thus $t_s=\sum_{\beta\in B_s}\beta$ has modulus at most $(7/2)y$. For $u\in(\mathbb Z/k\mathbb Z)^\times$, set $f_{s,u}=t_s-(p^{e+1}z_1^u+p^ez_2^u+pz_3^u+1)$. Apart from the dominant $p^{e+1}$ term the total norm is at most $(9/2)y+p+1<py$ for $p\ge5,y\ge p^2$. Thus $f_{s,u}\ne0$ and $|f_{s,u}|\le2py\le p^{2(e+1)}$. It is integral as a sum of algebraic integers.
+
+The full product $B=\prod_{s,u}f_{s,u}$ is invariant under all complex field automorphisms: they permute $S$ and act on the roots of unity by multiplication of $u$ by a unit. As it is algebraic this gives rationality, by extension of the automorphisms of a finite normal field containing it. Hence it is a nonzero integer. Its log is at most $|S|\varphi(k)2(e+1)\log p$, which gives the displayed bound since $e+2\le2(e+1)$.
+
+For each $r$ in the given family use the factor $(s(r),1)$. These labels are distinct by nonisomorphism. The chosen factors are precisely the required differences under $\iota^{-1}$, and every discarded factor has $\ell$-adic norm at most one by integrality. Removing them increases the norm product, as claimed. [Trace estimate](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ThresholdArguments/DenseThresholdCases/VWinNumN.lean#L34) · [Product theorem](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ThresholdArguments/DenseThresholdCases/VWinNumN.lean#L94) · [`numberSp4_n_alt`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ThresholdArguments/DenseThresholdCases/VWLevel.lean#L18)
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).
