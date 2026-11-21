@@ -357,6 +357,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 - [Rowwise local estimates give LinkN for the original family](proofs/en/rowwise-local-estimates-give-linkn-for-the-original-family.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E9%80%90%E8%A1%8C%E5%B1%80%E9%83%A8%E4%BC%B0%E8%AE%A1%E5%8F%96%E5%BE%97%E5%8E%9F%E6%97%8F%E7%9A%84LinkN.md) · Translation draft.
 
+- [Summing the local lengths within the window](proofs/en/summing-the-local-lengths-within-the-window.md) · [中文](proofs/zh/%E6%8A%8A%E5%90%84%E7%B1%BB%E7%B4%A0%E6%95%B0%E7%9A%84%E5%B1%80%E9%83%A8%E9%95%BF%E5%BA%A6%E5%8A%A0%E8%B5%B7%E6%9D%A5%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8D%E5%9C%A8%E7%AA%97%E5%8F%A3%E5%86%85.md) · Translation draft.
+- [Cyclotomic invariant length is bounded by a weight valuation](proofs/en/cyclotomic-invariant-length-is-bounded-by-a-weight-valuation.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E5%9C%86%E6%89%AD%E6%9B%B2%E4%B8%8D%E5%8F%98%E9%87%8F%E7%9A%84%E9%95%BF%E5%BA%A6%E5%8F%AA%E5%A4%9A%E4%B8%80%E4%B8%AA%E6%8C%87%E6%95%B0%E8%B5%8B%E5%80%BC.md) · Translation draft.
+- [Explicit split estimate constants at two and three](proofs/en/explicit-split-estimate-constants-at-two-and-three.md) · [中文](proofs/zh/%E4%BA%8C%E5%92%8C%E4%B8%89%E5%A4%84%E7%9A%84%E5%88%86%E8%A3%82%E4%BC%B0%E8%AE%A1%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E4%B8%A4%E4%B8%AA%E6%98%BE%E5%BC%8F%E5%B8%B8%E6%95%B0.md) · Translation draft.
+- [Small-prime errors at two and three share a scale](proofs/en/small-prime-errors-at-two-and-three-share-a-scale.md) · [中文](proofs/zh/%E4%BA%8C%E5%92%8C%E4%B8%89%E5%A4%84%E7%9A%84%E5%B1%80%E9%83%A8%E8%AF%AF%E5%B7%AE%E6%80%8E%E6%A0%B7%E7%BB%9F%E4%B8%80%E5%88%B0%E5%90%8C%E4%B8%80%E4%B8%AA%E5%B0%BA%E5%BA%A6.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
