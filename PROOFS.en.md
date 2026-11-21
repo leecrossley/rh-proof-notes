@@ -216,6 +216,10 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Additive characters from Kummer root ratios](proofs/en/additive-characters-from-kummer-root-ratios.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8EKummer%E6%A0%B9%E7%9A%84%E6%AF%94%E5%80%BC%E6%9E%84%E9%80%A0%E5%8F%AF%E7%94%A8%E7%9A%84%E5%8A%A0%E6%B3%95%E7%89%B9%E5%BE%81.md) · Translation draft.
 - [The auxiliary ratio already has a root in the cyclotomic field](proofs/en/the-auxiliary-ratio-already-has-a-root-in-the-cyclotomic-field.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BE%85%E5%8A%A9%E6%AF%94%E5%80%BC%E7%9A%84%E6%A0%B9%E5%B7%B2%E7%BB%8F%E5%9C%A8%E5%88%86%E5%9C%86%E5%9F%9F%E9%87%8C.md) · Translation draft.
 
+- [Transferring a Kummer value from Frobenius to inertia](proofs/en/transferring-a-kummer-value-from-frobenius-to-inertia.md) · [中文](proofs/zh/Kummer%E5%8F%96%E5%80%BC%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%97%A7Frobenius%E4%BC%A0%E5%88%B0%E6%96%B0%E6%83%AF%E6%80%A7.md) · Translation draft.
+- [Jacobi sums generate a prescribed fractional ideal](proofs/en/jacobi-sums-generate-a-prescribed-fractional-ideal.md) · [中文](proofs/zh/Jacobi%E5%92%8C%E6%80%8E%E6%A0%B7%E6%9E%84%E9%80%A0%E6%8C%87%E5%AE%9A%E5%88%86%E5%BC%8F%E7%90%86%E6%83%B3%E7%9A%84%E7%94%9F%E6%88%90%E5%85%83.md) · Translation draft.
+- [Norms and congruences for auxiliary cyclotomic elements](proofs/en/norms-and-congruences-for-auxiliary-cyclotomic-elements.md) · [中文](proofs/zh/%E8%BE%85%E5%8A%A9%E5%88%86%E5%9C%86%E5%85%83%E7%B4%A0%E7%9A%84%E8%8C%83%E6%95%B0%E4%B8%8E%E5%90%8C%E4%BD%99%E6%80%8E%E6%A0%B7%E7%9B%B8%E5%AE%B9.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

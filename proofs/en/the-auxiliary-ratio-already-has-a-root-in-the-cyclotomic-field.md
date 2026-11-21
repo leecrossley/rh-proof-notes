@@ -7,7 +7,7 @@ $$
 \prod_{i=0}^{q-2}\tau^i(x_{qd})
 =\left(x_d/\Phi^{-1}(x_d)\right)^{s(d,q)}.
 $$
-This is the norm part of `Sys`. Its additional unit, congruence and prime-to-\(\ell\) conditions enter [the value transfer](../zh/Kummer%E5%8F%96%E5%80%BC%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%97%A7Frobenius%E4%BC%A0%E5%88%B0%E6%96%B0%E6%83%AF%E6%80%A7.md).
+This is the norm part of `Sys`. Its additional unit, congruence and prime-to-\(\ell\) conditions enter [the value transfer](transferring-a-kummer-value-from-frobenius-to-inertia.md).
 
 For each admissible prime \(p\) choose \(\tau_p\) fixing all roots of order prime to \(p\) and generating the action on \(\mu_p\). Put \(D_p(w)=\prod_{i=0}^{p-2}\tau_p^i(w)^i\). For a list \(L\) of distinct admissible primes let \(d=\prod_{p\in L}p\), \(D_L\) the composite of these operators and \(y_L=D_L(x_d)\); the empty composite is the identity. Then for each \(g\in U\), \(g(y_L)/y_L\) is an \(M\)-th power in \(K_{Fd}^\times\).
 
