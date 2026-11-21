@@ -30,7 +30,7 @@ $$
 omitting the second term of the numerator if there is no pair. For $X\ge2$, $\gcd(b,M)=1$ and $\log X\ge C_0\log M\log(\log M+2)$, the error in replacing $\pi(X;M,b)$ by $A_M(b,X)$ is bounded in modulus by
 $|A_0|\big(\exp(-c_3\log X/\log M)+\exp(-\sqrt{c_3\log X})\big)A_M(b,X)$.
 
-The effective bound `ExcBound` gives $1-\beta\ge c/M$ for such real zeros with absolute $0<c\le1$. The comparison `page_across` gives an absolute $c_0>0$ such that for two nonprincipal quadratic characters of moduli $M_1,M_2\le Z$, $Z\ge3$, if both have a real zero in $(1-c_0/\log Z,1)$, then they agree on the units modulo $M_1M_2$. This follows by inducing to modulus $M_1M_2\le Z^2$ and using uniqueness there, with $c_0$ one third of the constant from the same-modulus statement. The real zeros survive the change of modulus.
+See the [relative prime number theorem](relative-prime-number-theorem-two-ranges.md) for the proof of this input. The effective bound `ExcBound` gives $1-\beta\ge c/M$ for such real zeros with absolute $0<c\le1$. The comparison `page_across` gives an absolute $c_0>0$ such that for two nonprincipal quadratic characters of moduli $M_1,M_2\le Z$, $Z\ge3$, if both have a real zero in $(1-c_0/\log Z,1)$, then they agree on the units modulo $M_1M_2$. This follows by inducing to modulus $M_1M_2\le Z^2$ and using uniqueness there, with $c_0$ one third of the constant from the same-modulus statement. The real zeros survive the change of modulus.
 
 ## Which twists can retain an exceptional main term?
 
