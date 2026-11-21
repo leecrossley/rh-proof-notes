@@ -23,7 +23,7 @@ Indeed, reduction to $(\mathbb Z/M_p\mathbb Z)^\times$ is surjective by the Chin
 
 If two inducing primitive characters agree, the characters they induce modulo $N$ agree on all units. Surjectivity of $r$ then gives equality of the original characters of $A$. The trivial character clearly induces the character of conductor $1$.
 
-For example, take the primitive representatives of the characters $\chi_q\xi^j$ modulo $16\cdot547\cdot727$ for $q\in\{547,727\}$ and $0\le j<4$, where $\chi_q(n)=(n/q)$ is the Legendre symbol and $\xi$ is a primitive even quartic character modulo $16$. At $n=p$, the inertia average is nonzero for two of the eight characters at $p=2$, four at $p=547$ and four at $p=727$. Their Euler denominators $\prod_\chi(1-\chi(p)T)$ are $1-T^2$, $1-T^4$ and $(1-T^2)^2$, in that order. [Crossley’s calculation](https://doi.org/10.5281/zenodo.24413208)
+For example, take the primitive representatives of the characters $\chi_q\xi^j$ modulo $16\cdot547\cdot727$ for $`q\in\lbrace 547,727\rbrace`$ and $0\le j<4$, where $\chi_q(n)=(n/q)$ is the Legendre symbol and $\xi$ is a primitive even quartic character modulo $16$. At $n=p$, the inertia average is nonzero for two of the eight characters at $p=2$, four at $p=547$ and four at $p=727$. Their Euler denominators $\prod_\chi(1-\chi(p)T)$ are $1-T^2$, $1-T^4$ and $(1-T^2)^2$, in that order. [Crossley’s calculation](https://doi.org/10.5281/zenodo.24413208)
 
 For a nontrivial $\psi$, let the finite-group error be
 
