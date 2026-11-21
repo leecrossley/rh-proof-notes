@@ -225,6 +225,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Integer coefficients approximate higher Stickelberger elements](proofs/en/integer-coefficients-approximate-higher-stickelberger-elements.md) · [中文](proofs/zh/%E9%AB%98%E9%98%B6Stickelberger%E5%85%83%E7%B4%A0%E6%80%8E%E6%A0%B7%E7%94%B1%E6%95%B4%E6%95%B0%E7%B3%BB%E6%95%B0%E9%80%BC%E8%BF%91.md) · Translation draft.
 - [Cyclotomic tower restriction gives a finite-level character](proofs/en/cyclotomic-tower-restriction-gives-a-finite-level-character.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%88%86%E5%9C%86%E5%A1%94%E4%B8%8A%E7%9A%84%E4%B8%8A%E5%90%8C%E8%B0%83%E9%99%90%E5%88%B6%E5%8F%98%E6%88%90%E6%9C%89%E9%99%90%E5%B1%82%E7%89%B9%E5%BE%81.md) · Translation draft.
 
+- [Class group Stickelberger relations kill cohomology](proofs/en/class-group-stickelberger-relations-kill-cohomology.md) · [中文](proofs/zh/%E7%B1%BB%E7%BE%A4%E7%9A%84Stickelberger%E5%85%B3%E7%B3%BB%E6%80%8E%E6%A0%B7%E6%B6%88%E5%8E%BB%E4%B8%8A%E5%90%8C%E8%B0%83.md) · Translation draft.
+- [Adjoining roots of unity bounds prime torsion in cohomology](proofs/en/adjoining-one-root-of-unity-bounds-prime-torsion-in-cohomology.md) · [中文](proofs/zh/%E5%8A%A0%E4%B8%80%E5%B1%82%E5%8D%95%E4%BD%8D%E6%A0%B9%E6%80%8E%E6%A0%B7%E6%95%B0%E5%87%BA%E8%A2%AB%E7%B4%A0%E6%95%B0%E6%B6%88%E5%8E%BB%E7%9A%84%E4%B8%8A%E5%90%8C%E8%B0%83%E7%B1%BB.md) · Translation draft.
+- [A cyclotomic subfield class number bound](proofs/en/a-cyclotomic-subfield-class-number-bound.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E5%9C%86%E5%AD%90%E5%9F%9F%E7%9A%84%E7%B1%BB%E6%95%B0%E5%8F%AA%E9%9C%80%E5%AF%BC%E5%AD%90%E7%9A%84%E5%AF%B9%E6%95%B0.md) · Translation draft.
+- [Cyclotomic differences give the conductor–discriminant formula](proofs/en/cyclotomic-differences-give-the-conductor-discriminant-formula.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E5%8D%95%E4%BD%8D%E6%A0%B9%E7%9A%84%E5%B7%AE%E7%AE%97%E5%87%BA%E5%88%86%E5%9C%86%E5%AD%90%E5%9F%9F%E7%9A%84%E5%88%A4%E5%88%AB%E5%BC%8F.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
