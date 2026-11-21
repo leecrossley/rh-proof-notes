@@ -230,6 +230,9 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [A cyclotomic subfield class number bound](proofs/en/a-cyclotomic-subfield-class-number-bound.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E5%9C%86%E5%AD%90%E5%9F%9F%E7%9A%84%E7%B1%BB%E6%95%B0%E5%8F%AA%E9%9C%80%E5%AF%BC%E5%AD%90%E7%9A%84%E5%AF%B9%E6%95%B0.md) · Translation draft.
 - [Cyclotomic differences give the conductor–discriminant formula](proofs/en/cyclotomic-differences-give-the-conductor-discriminant-formula.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E5%8D%95%E4%BD%8D%E6%A0%B9%E7%9A%84%E5%B7%AE%E7%AE%97%E5%87%BA%E5%88%86%E5%9C%86%E5%AD%90%E5%9F%9F%E7%9A%84%E5%88%A4%E5%88%AB%E5%BC%8F.md) · Translation draft.
 
+- [One integer sums the Bernoulli valuations across primes](proofs/en/one-integer-sums-the-bernoulli-valuations-across-primes.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%89%80%E6%9C%89%E7%B4%A0%E6%95%B0%E7%9A%84Bernoulli%E8%B5%8B%E5%80%BC%E8%83%BD%E7%94%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.md) · Translation draft.
+- [Summing negative eigenspace lengths after coefficient extension](proofs/en/summing-negative-eigenspace-lengths-after-coefficient-extension.md) · [中文](proofs/zh/%E6%89%A9%E5%A4%A7%E7%B3%BB%E6%95%B0%E7%8E%AF%E4%BB%A5%E5%90%8E%E6%80%8E%E6%A0%B7%E6%8A%8A%E8%B4%9F%E5%8F%B7%E9%95%BF%E5%BA%A6%E6%8C%89%E7%89%B9%E5%BE%81%E7%9B%B8%E5%8A%A0.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
