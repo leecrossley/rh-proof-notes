@@ -1,0 +1,31 @@
+# An L² bound for a fixed period
+
+[Chinese proof](../zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E5%9D%87%E6%96%B9%E8%8C%83%E6%95%B0%E6%8E%A7%E5%88%B6%E4%B8%80%E6%9D%A1%E5%91%A8%E6%9C%9F%E7%A7%AF%E5%88%86.md)
+
+## Statement
+
+Let $L$ be a number field, $N,j\ge1$, $\Gamma=\mathrm{GL}_N(O_L)$, $G_\infty=\prod_w\mathrm{GL}_N(\mathbb C)$ and $S=\prod_w\mathrm{SL}_N(\mathbb C)$. Write $\mathcal H$ for the Hermitian matrix space and $X$ for its positive cone. Let $(D,\mu)$ be the finite Haar measure fundamental domain for $\mathrm{SL}_N(O_L)$ in $S$. Fix a real $j$-cycle $z$ of $\Gamma$. For a continuous $j$-form $\omega$ on $X$, invariant under $\Gamma$ and the center, assume integration on affine tuples of vertices in $X$ is a closed homogeneous cochain. Write $F_\omega(g)$ for the tensor at $I$ obtained by pulling $\omega_{gI}$ back by $g$. If $F_\omega|_S$ is square integrable on $D$, then
+$$
+|I_\omega(z)|\le C_z\left(\int_D\|F_\omega(g)\|^2d\mu(g)\right)^{1/2},
+$$
+with $C_z$ independent of $\omega$. This is `SLoc`, used to pass [Hecke contraction](the-hecke-average-contracts-mean-zero-functions.md) to periods.
+
+## Smoothing a cycle
+
+Choose a compact ball $B\subset X$ of positive radius near $I$, with normalized Lebesgue measure. For a bar tuple $[g_1|\cdots|g_j]$ write $h_i=g_1\cdots g_i$, $h_0=1$. Replace each vertex $h_iI$ independently by $h_i y_i$, where $y_i$ has this ball distribution, and average the integrals. The averaged cochain agrees on cycles with the original. Indeed the prism between the two vertex choices gives the chain homotopy after averaging: any removed vertex's independent variable has mass one. The closed integration cochain kills prism boundaries, and the side terms vanish on a cycle. Continuity on the compact sets involved justifies exchanging averages and simplex integrals.
+
+For this tuple let $A_i$ be the invertible linear action of $h_i$ on $\mathcal H$, and $K$ the compact set of points $\sum_i t_iA_i y_i$ for $t$ in the standard simplex and $y_i\in B$. The simplex tangent vectors are uniformly bounded, so the integral of the norm is bounded by a constant times the integral of $\|\omega_{\sum_i t_iA_i y_i}\|$ over the simplex. For each $t$, some $t_i\ge1/(j+1)$. Fix the other $y$ variables and change variables from $y_i$ to this point. The Jacobian $|\det(t_iA_i)|$ has a uniform positive lower bound. The resulting expected absolute integral is at most $C\int_K\|\omega_p\|\,dp$.
+
+## Unfolding the compact integral
+
+For compact $K\subset X$, average over a compact positive-measure neighborhood $W$ in $S$. Let $K_1$ be the union of all $s^{-1}K$ for $s\in W$. The Jacobians for $s\in W$ are uniformly bounded, so $\int_K\|\omega_p\|\,dp$ is bounded by a constant times the integral of $\|\omega_{sp}\|$ over $W\times K_1$. For each $p\in K_1$ write $p=(c_pt_p)I$ with $c_p$ central, $t_p\in S$. This can be chosen continuously by positive square roots and normalization by determinants, with image in compact sets. The pullback to $I$ uses tangent transformations whose norms and inverse norms are uniformly bounded on these sets. Center invariance reduces the resulting tensor to $F_\omega(st_p)$. Right translation in the Haar integral over $W$ thus bounds it by the $L^1$ integral of $\|F_\omega\|$ on a fixed compact $K'\subset S$ containing all $Wt_p$, times a constant. Integrate over $K_1$ to get the compact unfolding bound.
+
+The integrand $p(s)=\|F_\omega(s)\|$ is left $\Gamma_S=\mathrm{SL}_N(O_L)$ invariant. If $\gamma_0 x\in K'$ then for all $\gamma x\in K'$ one has $\gamma\gamma_0^{-1}\in\Gamma_S\cap K'(K')^{-1}$. This intersection is finite by discreteness under simultaneous embeddings. Thus $\int_{K'}p\le M\int_Dp$ for a fixed multiplicity bound $M$. Cauchy–Schwarz bounds the last integral by $\mu(D)^{1/2}\|p\|_{L^2(D)}$. Sum over the finitely many tuples of $z$ with their absolute coefficients, then use the equality of smoothed and original period. This produces $C_z$.
+
+## Lean correspondence
+
+- [`SLoc`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/SBridgeAlt.lean#L125) and [`AvgS`, `SimpBd`, `Unfold` and `OverlapG`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/CompactLocalSets/OverlapG.lean#L10) give the inputs.
+- [Smoothing](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/CompactLocalSets/MargInt.lean#L48), [density](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/CompactLocalSets/SimpBdM.lean), [change of variables](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/CompactLocalSets/Unfold.lean#L257), and [overlap](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/CompactLocalSets/Overlap.lean#L10) prove the estimates.
+- [`sLoc_of_parts`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/CompactLocalSets/Assemble.lean#L105) and [`sLoc_of`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/CompactLocalSets/SLocOf.lean#L10) assemble them.
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).

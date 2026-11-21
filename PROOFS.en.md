@@ -335,6 +335,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Three projections give the two-fifths angle bound](proofs/en/three-projections-yield-the-two-fifths-angle.md) · [中文](proofs/zh/%E4%B8%89%E4%B8%AA%E5%AD%90%E7%A9%BA%E9%97%B4%E7%9A%84%E6%8A%95%E5%BD%B1%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E4%BA%94%E5%88%86%E4%B9%8B%E4%BA%8C.md) · Translation draft.
 - [Three lattice stabilizers give the Hecke indices](proofs/en/three-lattice-stabilizers-give-the-hecke-indices.md) · [中文](proofs/zh/%E4%B8%89%E4%B8%AA%E6%A0%BC%E7%9A%84%E7%A8%B3%E5%AE%9A%E7%BE%A4%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BAHecke%E7%9A%84%E6%9C%89%E9%99%90%E6%8C%87%E6%95%B0.md) · Translation draft.
 
+- [The Hecke average contracts mean-zero functions](proofs/en/the-hecke-average-contracts-mean-zero-functions.md) · [中文](proofs/zh/%E9%9B%B6%E5%9D%87%E5%80%BC%E7%9A%84Hecke%E5%B9%B3%E5%9D%87%E4%B8%BA%E4%BB%80%E4%B9%88%E6%94%B6%E7%BC%A9.md) · Translation draft.
+- [An L² bound for a fixed period](proofs/en/an-l2-bound-for-a-fixed-period.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E5%9D%87%E6%96%B9%E8%8C%83%E6%95%B0%E6%8E%A7%E5%88%B6%E4%B8%80%E6%9D%A1%E5%91%A8%E6%9C%9F%E7%A7%AF%E5%88%86.md) · Translation draft.
+- [Affine blocks preserve low-degree real homology](proofs/en/affine-blocks-preserve-low-degree-real-homology.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%BF%E5%B0%84%E7%9F%A9%E9%98%B5%E5%9D%97%E4%B8%8D%E6%94%B9%E5%8F%98%E4%BD%8E%E9%98%B6%E5%AE%9E%E5%90%8C%E8%B0%83.md) · Translation draft.
+- [A partition of unity smooths group cocycles](proofs/en/a-partition-of-unity-smooths-group-cocycles.md) · [中文](proofs/zh/%E5%8D%95%E4%BD%8D%E5%88%86%E8%A7%A3%E6%80%8E%E6%A0%B7%E6%8A%8A%E7%BE%A4%E4%BD%99%E9%97%AD%E9%93%BE%E5%8F%98%E6%88%90%E5%BE%AE%E5%88%86%E5%BD%A2%E5%BC%8F.md) · Translation draft.
+- [Averaging along unit directions gives center invariance](proofs/en/averaging-along-unit-directions-gives-center-invariance.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%B2%BF%E5%8D%95%E4%BD%8D%E6%96%B9%E5%90%91%E5%B9%B3%E5%9D%87%E5%87%BA%E4%B8%AD%E5%BF%83%E4%B8%8D%E5%8F%98%E5%BD%A2%E5%BC%8F.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
