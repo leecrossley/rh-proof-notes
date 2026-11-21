@@ -1,0 +1,17 @@
+# Three similitude characters share one level and exponent
+
+[Chinese proof](../zh/%E4%B8%89%E4%B8%AA%E8%BE%9B%E7%9B%B8%E4%BC%BC%E7%89%B9%E5%BE%81%E6%80%8E%E6%A0%B7%E5%85%B1%E7%94%A8%E4%B8%80%E7%BB%84%E7%BA%A7%E4%B8%8E%E9%98%B6.md)
+
+Use the [host data](choosing-among-seven-positive-sign-length-estimates.md) with $Q,o,N,t$ and `Big`, odd prime $\ell$, an allowed coefficient ring $O$, $0<e<t$, and $\psi\bmod N$ trivial on the host subgroup of sign $(-1)^e$. Write $c_2(\psi)$ for its two-power conductor exponent. Take $n'\ge c_2(\psi)$, $P\ge1$, $m_0\mid o$. Suppose $\xi=(\xi_0)_G(\xi_2)_G$, with $\xi_0\bmod P$ of order $m_0$ and $\xi_2\bmod 2^{n'}$ primitive odd. Suppose $\omega^{\ell-1}=1$ and $\omega$ reduces to the cyclotomic character modulo the maximal ideal of $O$. Then for
+$$
+M=\ell\,2^{n'}NP,\qquad k=(\ell-1)2^{n'}(2o),
+$$
+all three $\psi_G,\xi,\omega$ are trivial on $G_{\mathbb Q(\mu_M)}$ and have order dividing $k$. They enter the base diagonal $1,\alpha,\Psi,\alpha\Psi$, with $\Psi=\varepsilon_\ell^e\psi_G$, $\alpha=\varepsilon_\ell\omega^{-1}\xi$. [`levOf`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/SymplecticGSp4/DirGPowOne.lean#L55)
+
+**Proof.** Fixing $\mu_M$ fixes roots of orders dividing $M$, including $N,P,2^{n'}$, so kills the relevant pulled-back Dirichlet characters. Reduction on $(\ell-1)$-st roots is injective: any nontrivial one reducing to $1$ has vanishing geometric sum reducing to the nonzero $\ell-1$. Hence $\omega(g)=1$ exactly when the residual cyclotomic character is $1$, i.e. when $g$ fixes $\mu_\ell$. Thus it too is trivial at level $M$.
+
+The order of $\psi_2$ divides $\varphi(2^{c_2})\mid2^{n'}$, also for the trivial component. At odd $r\mid Q$, the component's order divides $o$, since varying only that component can affect only $\chi$ among the host quotient factors. For odd $r\nmid Q$, it can affect at most a single square quotient, so its order divides $2$. Hence $\psi$ has order dividing $2^{n'}(2o)$ using Chinese remaindering. The orders of $\xi_0,\xi_2$ divide $o,2^{n'}$ respectively, and that of $\omega$ divides $\ell-1$, proving the claim.
+
+In II use $P=1,m_0=1,n'=n_2\ge c_2$. In III take $P=p_1$, $m_0=\operatorname{ord}\psi\mid o$ by oddness and the host index, and $n'=n_3\ge c_2=0$. These meet the common hypotheses. [`OfChar` and `OfCase`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AutomorphicCases/SymplecticGSp4.lean#L12) · [`Raw.Good`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/SymplecticGSp4/DecompSigmaOrd.lean#L94) · [`omT`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/HeightAndVanishing/ExistsStrictHenselianAbsolutelyClosedLocalRing.lean#L98) · [Odd order](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/AutomorphicVarieties/HeightAndVanishing/HostOdd.lean#L70)
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).

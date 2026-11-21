@@ -264,6 +264,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Equations and coordinates of the rank-three graded model](proofs/en/equations-and-coordinates-of-the-rank-three-graded-model.md) · [中文](proofs/zh/%E5%93%AA%E4%BA%9B%E6%96%B9%E7%A8%8B%E5%92%8C%E5%9D%90%E6%A0%87%E7%BB%84%E6%88%90%E7%A7%A9%E4%B8%89%E7%9A%84%E5%88%86%E6%AC%A1%E6%A8%A1%E5%9E%8B.md) · Translation draft.
 - [Moving a graded point back to the local deformation ring](proofs/en/moving-a-graded-point-back-to-the-local-deformation-ring.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E6%AC%A1%E7%82%B9%E8%83%BD%E7%A7%BB%E5%9B%9E%E5%B1%80%E9%83%A8%E5%8F%98%E5%BD%A2%E7%8E%AF.md) · Translation draft.
 
+- [Cases II and III share the rank-four length method](proofs/en/cases-ii-and-iii-share-the-rank-four-length-method.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88II%E7%B1%BB%E5%92%8CIII%E7%B1%BB%E7%9A%84%E9%95%BF%E5%BA%A6%E5%8F%AF%E4%BB%A5%E5%90%88%E7%94%A8%E7%A7%A9%E5%9B%9B%E6%96%B9%E6%B3%95.md) · Translation draft.
+- [Three similitude characters share one level and exponent](proofs/en/three-similitude-characters-share-one-level-and-exponent.md) · [中文](proofs/zh/%E4%B8%89%E4%B8%AA%E8%BE%9B%E7%9B%B8%E4%BC%BC%E7%89%B9%E5%BE%81%E6%80%8E%E6%A0%B7%E5%85%B1%E7%94%A8%E4%B8%80%E7%BB%84%E7%BA%A7%E4%B8%8E%E9%98%B6.md) · Translation draft.
+- [Two-adic depths in Cases II and III have polynomial height](proofs/en/two-adic-depths-in-cases-ii-and-iii-have-polynomial-height.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88II%E7%B1%BB%E5%92%8CIII%E7%B1%BB%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%B1%82%E6%95%B0%E6%9C%89%E5%A4%9A%E9%A1%B9%E5%BC%8F%E9%AB%98%E5%BA%A6.md) · Translation draft.
+- [Inertia vanishing implies vanishing on new decomposition groups](proofs/en/inertia-vanishing-implies-vanishing-on-new-decomposition-groups.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%83%AF%E6%80%A7%E7%BE%A4%E4%B8%8A%E7%9A%84%E6%B6%88%E5%A4%B1%E8%83%BD%E4%BC%A0%E5%88%B0%E6%96%B0%E7%9A%84%E5%88%86%E8%A7%A3%E7%BE%A4.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
