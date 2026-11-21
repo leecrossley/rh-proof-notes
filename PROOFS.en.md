@@ -430,6 +430,13 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [From local lattice slopes to a global slope bound](proofs/en/from-local-lattice-slopes-to-a-global-slope-bound.md) · [中文](proofs/zh/%E5%B1%80%E9%83%A8%E6%A0%BC%E7%9A%84%E6%96%9C%E7%8E%87%E6%80%8E%E6%A0%B7%E9%99%90%E5%88%B6%E5%85%A8%E5%B1%80%E6%96%9C%E7%8E%87.md) · Translation draft.
 - [Matrix trace bounds after compressing the blocks](proofs/en/matrix-trace-bounds-after-compressing-the-blocks.md) · [中文](proofs/zh/%E6%A0%BC%E7%9A%84%E6%96%9C%E7%8E%87%E4%BC%B0%E8%AE%A1%E6%80%8E%E6%A0%B7%E7%94%A8%E5%88%B0%E7%9F%A9%E9%98%B5%E8%BF%B9.md) · Translation draft.
 
+- [Rounding the local exponents in the slope estimate](proofs/en/rounding-the-local-exponents-in-the-slope-estimate.md) · [中文](proofs/zh/%E5%B1%80%E9%83%A8%E6%8C%87%E6%95%B0%E5%8F%96%E6%95%B4%E7%9A%84%E8%AF%AF%E5%B7%AE%E4%B8%BA%E4%BD%95%E5%8F%AF%E6%8E%A7.md) · Translation draft.
+- [The valuation cost of cutting Hecke characters](proofs/en/the-valuation-cost-of-cutting-hecke-characters.md) · [中文](proofs/zh/%E6%88%AA%E5%8E%BB%E4%B8%80%E9%83%A8%E5%88%86%E7%89%B9%E5%BE%81%E4%B8%BA%E4%BD%95%E5%8F%AA%E6%8D%9F%E5%A4%B1%E4%B8%80%E4%B8%AA%E8%B5%8B%E5%80%BC.md) · Translation draft.
+- [Summing the local cost of cutting Hecke characters](proofs/en/summing-the-local-cost-of-cutting-hecke-characters.md) · [中文](proofs/zh/%E6%88%AA%E5%8F%96%E4%BA%A7%E7%94%9F%E7%9A%84%E5%B1%80%E9%83%A8%E8%AF%AF%E5%B7%AE%E6%80%8E%E6%A0%B7%E5%90%88%E6%88%90%E6%95%B4%E4%BD%93%E7%95%8C.md) · Translation draft.
+
+- [Minkowski's order bound and the auxiliary denominator](proofs/en/minkowskis-order-bound-and-the-auxiliary-denominator.md) · [中文](proofs/zh/%E6%9C%89%E9%99%90%E7%9F%A9%E9%98%B5%E7%BE%A4%E7%9A%84%E9%98%B6%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E8%BE%85%E5%8A%A9%E5%88%86%E6%AF%8D.md) · Translation draft.
+- [From relative prime-power error to prime counting](proofs/en/from-relative-prime-power-error-to-prime-counting.md) · [中文](proofs/zh/%E7%9B%B8%E5%AF%B9%E8%AF%AF%E5%B7%AE%E6%80%8E%E6%A0%B7%E4%BB%8E%E7%B4%A0%E6%95%B0%E5%B9%82%E4%BC%A0%E5%88%B0%E7%B4%A0%E6%95%B0%E8%AE%A1%E6%95%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

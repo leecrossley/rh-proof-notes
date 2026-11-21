@@ -21,7 +21,7 @@ This for all $j,w$ is `MultLe L`.
 
 If there are no records the left sum is zero. Otherwise take the scalar condition from any one record since $A,B$ depend only on $j,w$. If $Af=0$, write $f=\sum_\sigma f_\sigma$. Then $BAf=\sum_\sigma\lambda_\sigma f_\sigma=0$ makes each $f_\sigma=0$, so $\dim\operatorname{im}A=\dim M_j$. For each record the multiplicity sum equals $\sum_{\sigma\in B_i}\dim S_\sigma$ if its good set is nonempty, and is at most that expression otherwise. Across records, disjointness counts each dimension at most once. This gives the bound by $\dim M_j$.
 
-The window's `adm3` identifies the local rank with the reference rank $d_j$, providing a common factor in the [cut error](../zh/%E6%88%AA%E5%8F%96%E4%BA%A7%E7%94%9F%E7%9A%84%E5%B1%80%E9%83%A8%E8%AF%AF%E5%B7%AE%E6%80%8E%E6%A0%B7%E5%90%88%E6%88%90%E6%95%B4%E4%BD%93%E7%95%8C.md). If each layer has a record and $\dim M_j=D_0$, injectivity at that record and `adm3` also give $d_j=D_0$.
+The window's `adm3` identifies the local rank with the reference rank $d_j$, providing a common factor in the [cut error](summing-the-local-cost-of-cutting-hecke-characters.md). If each layer has a record and $\dim M_j=D_0$, injectivity at that record and `adm3` also give $d_j=D_0$.
 
 ## Lean correspondence
 
