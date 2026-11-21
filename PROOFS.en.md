@@ -346,6 +346,9 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Siegel set volume controls height moments](proofs/en/siegel-set-volume-controls-height-moments.md) · [中文](proofs/zh/Siegel%E9%9B%86%E5%90%88%E9%87%8C%E7%9A%84%E4%BD%93%E7%A7%AF%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E9%AB%98%E5%BA%A6%E7%9F%A9.md) · Translation draft.
 - [Smoothing the lattice minimum](proofs/en/smoothing-the-lattice-minimum.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E5%B9%B3%E6%BB%91%E6%A0%BC%E7%9A%84%E6%9C%80%E7%9F%AD%E5%90%91%E9%87%8F%E5%87%BD%E6%95%B0.md) · Translation draft.
 
+- [A short-vector cutoff maps forms to the thick part](proofs/en/a-short-vector-cutoff-maps-forms-to-the-thick-part.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E6%9C%80%E7%9F%AD%E5%90%91%E9%87%8F%E6%88%AA%E5%8F%96%E6%8A%8A%E6%AD%A3%E5%AE%9A%E5%BD%A2%E5%BC%8F%E9%80%81%E8%BF%9B%E5%8E%9A%E9%83%A8.md) · Translation draft.
+- [A partition of unity from the thick part](proofs/en/a-partition-of-unity-from-the-thick-part.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E5%8E%9A%E9%83%A8%E6%9E%84%E9%80%A0%E5%85%A8%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8D%95%E4%BD%8D%E5%88%86%E8%A7%A3.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
