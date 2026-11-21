@@ -37,7 +37,7 @@ $$
 2. `SCount` transfers this to $E_{\gamma,a,q}$, canceling $q^{r_2(L')}$ and obtaining $\# E_{\gamma,a,q}\le T_1T_2\ell^X$.
 3. `SSha` takes a bound uniform over the layers to a bound on $\ell^{s(L',\ell,e)}$, including finiteness of the length. See the [finite-layer comparison](finite-layer-class-group-counts-control-the-localization-kernel.md).
 
-Hence $s(L,\ell,e)\log\ell\le \log T_1+\log T_2+X\log\ell$. The [quantitative torsion bound](../zh/Hermitian%E5%BD%A2%E5%BC%8F%E6%80%8E%E6%A0%B7%E7%BB%99%E7%9F%A9%E9%98%B5%E7%BE%A4%E7%9A%84%E6%89%AD%E7%BB%93%E8%AE%BE%E4%B8%8A%E7%95%8C.md) `STors` gives $\log T_i\le B_{C_0}(e,n',D')$ with $C_0=24$ available.
+Hence $s(L,\ell,e)\log\ell\le \log T_1+\log T_2+X\log\ell$. The [quantitative torsion bound](hermitian-forms-bound-matrix-group-torsion.md) `STors` gives $\log T_i\le B_{C_0}(e,n',D')$ with $C_0=24$ available.
 
 ## Absorbing the constants
 

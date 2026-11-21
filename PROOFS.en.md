@@ -315,6 +315,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Bockstein and stable rank count cycle values](proofs/en/bockstein-and-stable-rank-count-cycle-values.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8Bockstein%E5%92%8C%E7%A8%B3%E5%AE%9A%E7%A7%A9%E6%95%B0%E5%87%BA%E5%91%A8%E6%9C%9F%E5%80%BC.md) · Translation draft.
 - [Repeated blocks leave one direction per complex place](proofs/en/repeated-blocks-leave-one-direction-per-complex-place.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%8D%E5%A4%8D%E7%9F%A9%E9%98%B5%E5%9D%97%E4%BB%A5%E5%90%8E%E5%8F%AA%E5%89%A9%E6%AF%8F%E4%B8%AA%E5%A4%8D%E5%A4%84%E4%B8%80%E4%B8%AA%E6%96%B9%E5%90%91.md) · Translation draft.
 
+- [Matrix traces give weights to cycle values](proofs/en/matrix-traces-give-weights-to-cycle-values.md) · [中文](proofs/zh/%E7%9F%A9%E9%98%B5%E7%9A%84%E8%BF%B9%E6%80%8E%E6%A0%B7%E7%BB%99%E5%91%A8%E6%9C%9F%E5%88%86%E9%85%8D%E6%9D%83.md) · Translation draft.
+- [Hecke iteration represents cycle integrals by invariant forms](proofs/en/hecke-iteration-represents-cycle-integrals-by-invariant-forms.md) · [中文](proofs/zh/Hecke%E8%BF%AD%E4%BB%A3%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%91%A8%E6%9C%9F%E7%A7%AF%E5%88%86%E5%BD%92%E5%88%B0%E4%B8%8D%E5%8F%98%E5%BD%A2%E5%BC%8F.md) · Translation draft.
+- [Finite orbits and stabilizers bound homology torsion](proofs/en/finite-orbits-and-stabilizers-bound-homology-torsion.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E6%9C%89%E9%99%90%E8%BD%A8%E9%81%93%E5%92%8C%E7%A8%B3%E5%AE%9A%E5%AD%90%E6%95%B0%E5%87%BA%E7%BE%A4%E5%90%8C%E8%B0%83%E6%89%AD%E7%BB%93.md) · Translation draft.
+- [Hermitian forms bound matrix group torsion](proofs/en/hermitian-forms-bound-matrix-group-torsion.md) · [中文](proofs/zh/Hermitian%E5%BD%A2%E5%BC%8F%E6%80%8E%E6%A0%B7%E7%BB%99%E7%9F%A9%E9%98%B5%E7%BE%A4%E7%9A%84%E6%89%AD%E7%BB%93%E8%AE%BE%E4%B8%8A%E7%95%8C.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

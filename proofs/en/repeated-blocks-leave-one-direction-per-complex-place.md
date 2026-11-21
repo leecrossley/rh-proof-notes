@@ -14,8 +14,8 @@ The maps go from rank $\ell^i n$ to $\ell^{i+1}n$ by block repetition and identi
 
 Let $X_N$ be the product of the positive definite Hermitian cones at the complex places, with the congruence action of $G_N$ and identity base point in each factor. Integrate an invariant $(k+1)$-form $\omega$ over the affine simplex whose vertices are the base point moved by $g_0,\ldots,g_{k+1}$. Extend this value $I_{\omega,N}$ linearly on real homogeneous bar chains.
 
-- [`SSurj`](../zh/Hecke%E8%BF%AD%E4%BB%A3%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%91%A8%E6%9C%9F%E7%A7%AF%E5%88%86%E5%BD%92%E5%88%B0%E4%B8%8D%E5%8F%98%E5%BD%A2%E5%BC%8F.md) supplies, above any prescribed rank, an $N$ where every real homogeneous invariant $(k+1)$-cocycle on $G_N$ with trivial coefficients has the same cycle values as an $\omega$ invariant under $\prod_{w\mid\infty}\mathrm{GL}_N(\mathbb C)$.
-- [`SWtOdd`](../zh/%E7%9F%A9%E9%98%B5%E7%9A%84%E8%BF%B9%E6%80%8E%E6%A0%B7%E7%BB%99%E5%91%A8%E6%9C%9F%E5%88%86%E9%85%8D%E6%9D%83.md) supplies functionals $\tau_{w,N}$ indexed by infinite places and defined in all ranks. They vanish on boundaries, preserve values under stabilization, and scale by $d$ under $d$ repeated blocks. For each $N,\omega$ there are constants $c_w$ and families $a_{j,N'}$ of weights $2\le j\le k+1$ with
+- [`SSurj`](hecke-iteration-represents-cycle-integrals-by-invariant-forms.md) supplies, above any prescribed rank, an $N$ where every real homogeneous invariant $(k+1)$-cocycle on $G_N$ with trivial coefficients has the same cycle values as an $\omega$ invariant under $\prod_{w\mid\infty}\mathrm{GL}_N(\mathbb C)$.
+- [`SWtOdd`](matrix-traces-give-weights-to-cycle-values.md) supplies functionals $\tau_{w,N}$ indexed by infinite places and defined in all ranks. They vanish on boundaries, preserve values under stabilization, and scale by $d$ under $d$ repeated blocks. For each $N,\omega$ there are constants $c_w$ and families $a_{j,N'}$ of weights $2\le j\le k+1$ with
 $$
 I_{\omega,N}(y)=\sum_w c_w\tau_{w,N}(y)+\sum_{j=2}^{k+1} a_{j,N}(y)
 $$
