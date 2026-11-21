@@ -200,6 +200,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Uniform denominators in de Rham truncations](proofs/en/uniform-denominators-in-de-rham-truncations.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%99%B6%E4%BD%93%E6%95%B4%E7%8E%AF%E5%9C%A8%E6%AF%8F%E5%B1%82deRham%E6%88%AA%E6%96%AD%E9%83%BD%E6%9C%89%E7%BB%9F%E4%B8%80%E5%88%86%E6%AF%8D.md) · Translation draft.
 - [Descending a crystalline lift costs the degree valuation](proofs/en/descending-a-crystalline-lift-costs-the-degree-valuation.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8F%90%E5%8D%87%E6%8C%87%E6%95%B0%E5%9C%A8%E6%8D%A2%E5%9B%9E%E5%8E%9F%E5%B1%80%E9%83%A8%E5%9F%9F%E6%97%B6%E5%8F%AA%E5%8A%A0%E6%AC%A1%E6%95%B0%E8%B5%8B%E5%80%BC.md) · Translation draft.
 
+- [One character coordinate per new ramification orbit](proofs/en/one-character-coordinate-per-new-ramification-orbit.md) · [中文](proofs/zh/%E6%AF%8F%E4%B8%AA%E6%96%B0%E5%88%86%E6%AD%A7%E5%A4%84%E4%B8%BA%E4%BD%95%E5%8F%AA%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E7%89%B9%E5%BE%81%E5%9D%90%E6%A0%87.md) · Translation draft.
+- [An index-two extension at most squares the character count](proofs/en/an-index-two-extension-at-most-squares-the-character-count.md) · [中文](proofs/zh/%E6%8C%87%E6%95%B0%E4%BA%8C%E7%9A%84%E6%89%A9%E5%BC%A0%E4%B8%BA%E4%BD%95%E8%87%B3%E5%A4%9A%E6%8A%8A%E7%89%B9%E5%BE%81%E6%95%B0%E5%B9%B3%E6%96%B9.md) · Translation draft.
+- [A uniform generator count for the varying two-adic tower](proofs/en/uniform-generator-count-for-the-varying-two-adic-tower.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%8C%E8%BF%9B%E5%A1%94%E7%9A%84%E7%94%9F%E6%88%90%E5%85%83%E6%95%B0%E8%83%BD%E7%8B%AC%E7%AB%8B%E4%BA%8E%E8%BE%85%E5%8A%A9%E7%B4%A0%E6%95%B0.md) · Translation draft.
+- [Quadratic restriction costs at most one in cohomology length](proofs/en/quadratic-restriction-costs-at-most-one-in-cohomology-length.md) · [中文](proofs/zh/%E4%BA%8C%E6%AC%A1%E9%99%90%E5%88%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AA%E6%8D%9F%E5%A4%B1%E4%B8%80%E5%8D%95%E4%BD%8D%E5%90%8C%E8%B0%83%E9%95%BF%E5%BA%A6.md) · Translation draft.
+- [Local cup products force inertia value products to vanish](proofs/en/local-cup-products-force-inertia-value-products-to-vanish.md) · [中文](proofs/zh/%E5%B1%80%E9%83%A8%E6%9D%AF%E7%A7%AF%E6%80%8E%E6%A0%B7%E8%BF%AB%E4%BD%BF%E6%83%AF%E6%80%A7%E4%B8%8A%E7%9A%84%E5%8F%96%E5%80%BC%E4%B9%98%E7%A7%AF%E6%B6%88%E5%A4%B1.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
