@@ -378,6 +378,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [The determinant in the local fixed-point denominator](proofs/en/the-determinant-in-the-local-fixed-point-denominator.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B1%80%E9%83%A8%E5%9B%BA%E5%AE%9A%E7%82%B9%E7%9A%84%E5%88%86%E6%AF%8D%E6%98%AF%E8%A1%8C%E5%88%97%E5%BC%8F.md) · Translation draft.
 - [Field trace specializes to a sum over the reduced fiber](proofs/en/field-trace-specializes-to-a-sum-over-the-reduced-fiber.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%BA%A6%E5%8C%96%E7%BA%A4%E7%BB%B4%E4%B8%8A%E7%9A%84%E5%9F%9F%E8%BF%B9%E7%AD%89%E4%BA%8E%E9%80%90%E7%82%B9%E5%8F%96%E5%80%BC%E5%92%8C.md) · Translation draft.
 
+- [Homogeneous forms interpolate first jets at finitely many points](proofs/en/homogeneous-forms-interpolate-first-jets-at-finitely-many-points.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E9%BD%90%E6%AC%A1%E5%BC%8F%E5%90%8C%E6%97%B6%E6%8F%92%E5%80%BC%E6%9C%89%E9%99%90%E7%82%B9%E7%9A%84%E4%B8%80%E9%98%B6%E6%95%B0%E6%8D%AE.md) · Translation draft.
+- [Avoiding critical values gives nondegenerate common zeros](proofs/en/avoiding-critical-values-gives-nondegenerate-common-zeros.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%81%BF%E5%BC%80%E9%9B%B6%E6%B5%8B%E9%9B%86%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%B0%E9%9D%9E%E9%80%80%E5%8C%96%E7%9A%84%E5%85%B1%E5%90%8C%E9%9B%B6%E7%82%B9.md) · Translation draft.
+- [Approximating automorphic forms with nontrivial characters](proofs/en/approximating-automorphic-forms-with-nontrivial-characters.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E9%9D%9E%E5%B9%B3%E5%87%A1%E8%A7%92%E8%89%B2%E9%80%BC%E8%BF%91%E5%8E%9F%E8%87%AA%E5%AE%88%E5%BD%A2%E5%BC%8F.md) · Translation draft.
+- [Form approximation gives simultaneous eigenvalue approximation](proofs/en/form-approximation-gives-simultaneous-eigenvalue-approximation.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BD%A2%E5%BC%8F%E7%9A%84%E8%BF%91%E4%BC%BC%E7%BB%99%E4%B8%80%E6%95%B4%E5%A5%97%E6%9C%AC%E5%BE%81%E5%80%BC%E5%90%8C%E4%BD%99.md) · Translation draft.
+- [Preserving nonvanishing in eigenvalue approximation](proofs/en/preserving-nonvanishing-in-eigenvalue-approximation.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E5%9C%A8%E6%9C%AC%E5%BE%81%E5%80%BC%E9%80%BC%E8%BF%91%E4%B8%AD%E4%BF%9D%E7%95%99%E6%8C%87%E5%AE%9A%E7%9A%84%E9%9D%9E%E6%B6%88%E5%A4%B1%E6%9D%A1%E4%BB%B6.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
