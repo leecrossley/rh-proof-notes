@@ -274,6 +274,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [One integer separates the rank-four base trace](proofs/en/one-integer-separates-the-rank-four-base-trace.md) · [中文](proofs/zh/%E7%A7%A9%E5%9B%9B%E5%8F%82%E8%80%83%E8%A1%A8%E7%A4%BA%E7%9A%84%E8%BF%B9%E6%80%8E%E6%A0%B7%E7%94%A8%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E5%90%8C%E6%97%B6%E5%88%86%E7%A6%BB.md) · Translation draft.
 - [Building a trace difference integer from rank-four eigenvalue lists](proofs/en/building-a-trace-difference-integer-from-rank-four-eigenvalue-lists.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E6%9C%89%E9%99%90%E7%A7%A9%E5%9B%9B%E6%9C%AC%E5%BE%81%E5%80%BC%E5%88%97%E8%A1%A8%E9%80%A0%E5%87%BA%E8%BF%B9%E5%B7%AE%E6%95%B4%E6%95%B0.md) · Translation draft.
 
+- [Constructing rank-four base data for Cases II and III](proofs/en/constructing-rank-four-base-data-for-cases-ii-and-iii.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%B8%BAII%E7%B1%BB%E5%92%8CIII%E7%B1%BB%E6%9E%84%E9%80%A0%E7%A7%A9%E5%9B%9B%E5%8F%82%E8%80%83%E6%95%B0%E6%8D%AE.md) · Translation draft.
+- [A large two-power conductor separates auxiliary Frobenius values](proofs/en/a-large-two-power-conductor-separates-auxiliary-frobenius-values.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%AF%BC%E5%AD%90%E8%83%BD%E5%88%86%E5%BC%80%E8%BE%85%E5%8A%A9Frobenius%E5%80%BC.md) · Translation draft.
+- [Large two-power conductors give Bernoulli units](proofs/en/large-two-power-conductors-give-bernoulli-units.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%AF%BC%E5%AD%90%E7%BB%99%E5%87%BABernoulli%E5%8D%95%E4%BD%8D.md) · Translation draft.
+- [Large two-power conductors force residual cocycles to be coboundaries](proofs/en/large-two-power-conductors-force-residual-cocycles-to-be-coboundaries.md) · [中文](proofs/zh/%E5%A4%A7%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%AF%BC%E5%AD%90%E6%80%8E%E6%A0%B7%E4%BD%BF%E5%89%A9%E4%BD%99%E4%BD%99%E9%97%AD%E9%93%BE%E6%88%90%E4%B8%BA%E4%BD%99%E8%BE%B9%E7%95%8C.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
