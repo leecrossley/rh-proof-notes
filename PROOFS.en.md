@@ -211,6 +211,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Choosing one Frobenius for two value conditions](proofs/en/choosing-one-frobenius-for-two-value-conditions.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E9%80%89%E4%B8%80%E4%B8%AAFrobenius%E5%90%8C%E6%97%B6%E6%A3%80%E6%B5%8B%E4%B8%A4%E4%B8%AA%E5%8F%96%E5%80%BC%E6%9D%A1%E4%BB%B6.md) · Translation draft.
 - [Normalized cocycles control the localization kernel](proofs/en/normalized-cocycles-control-the-localization-kernel.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%BB%99%E5%B1%80%E9%83%A8%E9%9B%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E7%B1%BB%E9%80%89%E4%BB%A3%E8%A1%A8%E5%85%83%E5%B9%B6%E6%8E%A7%E5%88%B6%E9%95%BF%E5%BA%A6.md) · Translation draft.
 
+- [Floor coefficients recover a generalized Bernoulli valuation](proofs/en/floor-coefficients-recover-a-generalized-bernoulli-valuation.md) · [中文](proofs/zh/%E4%B8%8B%E5%8F%96%E6%95%B4%E7%B3%BB%E6%95%B0%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E5%B9%BF%E4%B9%89Bernoulli%E6%95%B0%E7%9A%84%E8%B5%8B%E5%80%BC.md) · Translation draft.
+- [Generalized Bernoulli numbers bound a negative eigenspace](proofs/en/generalized-bernoulli-numbers-bound-a-negative-eigenspace.md) · [中文](proofs/zh/%E5%B9%BF%E4%B9%89Bernoulli%E6%95%B0%E6%80%8E%E6%A0%B7%E7%95%8C%E5%AE%9A%E8%B4%9F%E5%8F%B7%E7%89%B9%E5%BE%81%E5%88%86%E9%87%8F%E7%9A%84%E9%95%BF%E5%BA%A6.md) · Translation draft.
+- [Additive characters from Kummer root ratios](proofs/en/additive-characters-from-kummer-root-ratios.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8EKummer%E6%A0%B9%E7%9A%84%E6%AF%94%E5%80%BC%E6%9E%84%E9%80%A0%E5%8F%AF%E7%94%A8%E7%9A%84%E5%8A%A0%E6%B3%95%E7%89%B9%E5%BE%81.md) · Translation draft.
+- [The auxiliary ratio already has a root in the cyclotomic field](proofs/en/the-auxiliary-ratio-already-has-a-root-in-the-cyclotomic-field.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BE%85%E5%8A%A9%E6%AF%94%E5%80%BC%E7%9A%84%E6%A0%B9%E5%B7%B2%E7%BB%8F%E5%9C%A8%E5%88%86%E5%9C%86%E5%9F%9F%E9%87%8C.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
