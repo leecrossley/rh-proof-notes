@@ -395,6 +395,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [A common integral lattice for finitely many seed representations](proofs/en/a-common-integral-lattice-for-finitely-many-seed-representations.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%9C%89%E9%99%90%E7%BB%84%E7%A7%8D%E5%AD%90%E6%94%BE%E8%BF%9B%E5%90%8C%E4%B8%80%E6%95%B4%E7%B3%BB%E6%95%B0%E9%80%BC%E8%BF%91%E6%A0%BC.md) · Translation draft.
 - [Operator power sums pass along the lattice tower](proofs/en/operator-power-sums-pass-along-the-lattice-tower.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%B2%BF%E9%80%BC%E8%BF%91%E6%A0%BC%E5%A1%94%E4%BC%A0%E9%80%92%E7%AE%97%E5%AD%90%E7%9A%84%E5%B9%82%E5%92%8C.md) · Translation draft.
 
+- [One set of coefficients approximates global and local traces](proofs/en/one-set-of-coefficients-approximates-global-and-local-traces.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%90%8C%E4%B8%80%E7%BB%84%E7%B3%BB%E6%95%B0%E8%83%BD%E9%80%BC%E8%BF%91%E5%85%A8%E5%B1%80%E8%BF%B9%E5%92%8C%E5%B1%80%E9%83%A8Frobenius%E5%B9%82%E5%92%8C.md) · Translation draft.
+- [An integral coordinate detects a nonzero period-trace error](proofs/en/an-integral-coordinate-detects-a-nonzero-period-trace-error.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E6%95%B4%E6%95%B0%E5%9D%90%E6%A0%87%E6%A3%80%E6%B5%8B%E4%B8%80%E4%B8%AA%E9%9D%9E%E9%9B%B6%E7%9A%84%E5%91%A8%E6%9C%9F%E8%BF%B9%E8%AF%AF%E5%B7%AE.md) · Translation draft.
+- [Arbitrarily small crystalline trace errors vanish](proofs/en/arbitrarily-small-crystalline-trace-errors-vanish.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%BB%E6%84%8F%E7%B2%BE%E5%BA%A6%E7%9A%84%E6%99%B6%E4%BD%93%E8%BF%B9%E8%AF%AF%E5%B7%AE%E5%BF%85%E9%A1%BB%E4%B8%BA%E9%9B%B6.md) · Translation draft.
+- [Compatible period bases give compatible integral Frobenius operators](proofs/en/compatible-period-bases-give-compatible-integral-frobenius-operators.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E7%9B%B8%E5%AE%B9%E5%91%A8%E6%9C%9F%E5%9F%BA%E5%BE%97%E5%88%B0%E7%9B%B8%E5%AE%B9%E7%9A%84%E6%95%B4%E6%95%B0Frobenius%E7%AE%97%E5%AD%90.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
