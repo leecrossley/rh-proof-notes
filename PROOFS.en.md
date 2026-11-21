@@ -310,6 +310,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Assembling the small-index second cohomology bound](proofs/en/assembling-the-small-index-second-cohomology-bound.md) · [中文](proofs/zh/%E5%B0%8F%E6%8C%87%E6%A0%87%E7%9A%84%E4%BA%8C%E9%98%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E7%95%8C%E6%80%8E%E6%A0%B7%E7%94%B1%E8%AE%A1%E6%95%B0%E5%90%88%E6%88%90.md) · Translation draft.
 - [Counting twisted characters with class groups and units](proofs/en/counting-twisted-characters-with-class-groups-and-units.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E7%B1%BB%E7%BE%A4%E4%B8%8E%E5%8D%95%E4%BD%8D%E7%BE%A4%E6%95%B0%E5%87%BA%E6%89%AD%E6%9B%B2%E7%89%B9%E5%BE%81.md) · Translation draft.
 
+- [Finite-layer class group counts control the localization kernel](proofs/en/finite-layer-class-group-counts-control-the-localization-kernel.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%90%E5%B1%82%E7%9A%84%E6%89%AD%E6%9B%B2%E7%B1%BB%E7%BE%A4%E8%AE%A1%E6%95%B0%E6%8E%A7%E5%88%B6%E4%B8%80%E9%98%B6%E5%B1%80%E9%83%A8%E5%8C%96%E6%A0%B8.md) · Translation draft.
+- [Weighted norm power classes in matrix group homology](proofs/en/weighted-norm-power-classes-in-matrix-group-homology.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%8A%A0%E6%9D%83%E8%8C%83%E6%95%B0%E7%9A%84%E5%B9%82%E7%B1%BB%E9%80%81%E8%BF%9B%E7%9F%A9%E9%98%B5%E7%BE%A4%E5%90%8C%E8%B0%83.md) · Translation draft.
+- [Bockstein and stable rank count cycle values](proofs/en/bockstein-and-stable-rank-count-cycle-values.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8Bockstein%E5%92%8C%E7%A8%B3%E5%AE%9A%E7%A7%A9%E6%95%B0%E5%87%BA%E5%91%A8%E6%9C%9F%E5%80%BC.md) · Translation draft.
+- [Repeated blocks leave one direction per complex place](proofs/en/repeated-blocks-leave-one-direction-per-complex-place.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%8D%E5%A4%8D%E7%9F%A9%E9%98%B5%E5%9D%97%E4%BB%A5%E5%90%8E%E5%8F%AA%E5%89%A9%E6%AF%8F%E4%B8%AA%E5%A4%8D%E5%A4%84%E4%B8%80%E4%B8%AA%E6%96%B9%E5%90%91.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

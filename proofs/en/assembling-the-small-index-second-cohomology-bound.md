@@ -33,9 +33,9 @@ b=2e+(2e+1)(c+2e+1),\qquad
 g=2n'+\lfloor\log_2 h_{L'}\rfloor+2,\quad v=v_\ell(e),\quad X=(b+v)g+c+v.
 \end{gathered}
 $$
-1. `SFew` bounds the number of representatives satisfying the indicated principal-divisor condition and having distinct weighted norm power classes by $q^{r_2(L')}T_1T_2$. This is the [map from weighted norms to matrix group homology](../zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E5%8A%A0%E6%9D%83%E8%8C%83%E6%95%B0%E7%9A%84%E5%B9%82%E7%B1%BB%E9%80%81%E8%BF%9B%E7%9F%A9%E9%98%B5%E7%BE%A4%E5%90%8C%E8%B0%83.md).
+1. `SFew` bounds the number of representatives satisfying the indicated principal-divisor condition and having distinct weighted norm power classes by $q^{r_2(L')}T_1T_2$. This is the [map from weighted norms to matrix group homology](weighted-norm-power-classes-in-matrix-group-homology.md).
 2. `SCount` transfers this to $E_{\gamma,a,q}$, canceling $q^{r_2(L')}$ and obtaining $\# E_{\gamma,a,q}\le T_1T_2\ell^X$.
-3. `SSha` takes a bound uniform over the layers to a bound on $\ell^{s(L',\ell,e)}$, including finiteness of the length. See the [finite-layer comparison](../zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%90%E5%B1%82%E7%9A%84%E6%89%AD%E6%9B%B2%E7%B1%BB%E7%BE%A4%E8%AE%A1%E6%95%B0%E6%8E%A7%E5%88%B6%E4%B8%80%E9%98%B6%E5%B1%80%E9%83%A8%E5%8C%96%E6%A0%B8.md).
+3. `SSha` takes a bound uniform over the layers to a bound on $\ell^{s(L',\ell,e)}$, including finiteness of the length. See the [finite-layer comparison](finite-layer-class-group-counts-control-the-localization-kernel.md).
 
 Hence $s(L,\ell,e)\log\ell\le \log T_1+\log T_2+X\log\ell$. The [quantitative torsion bound](../zh/Hermitian%E5%BD%A2%E5%BC%8F%E6%80%8E%E6%A0%B7%E7%BB%99%E7%9F%A9%E9%98%B5%E7%BE%A4%E7%9A%84%E6%89%AD%E7%BB%93%E8%AE%BE%E4%B8%8A%E7%95%8C.md) `STors` gives $\log T_i\le B_{C_0}(e,n',D')$ with $C_0=24$ available.
 
