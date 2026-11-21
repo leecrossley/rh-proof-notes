@@ -283,6 +283,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [A cross-block linked pair has a third index](proofs/en/a-cross-block-linked-pair-has-a-third-index.md) · [中文](proofs/zh/%E4%B8%80%E4%B8%AA%E8%B7%A8%E5%9D%97%E7%9A%84%E4%B8%A4%E7%BB%B4%E5%88%86%E9%87%8F%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E5%AE%9A%E8%BF%98%E8%BF%9E%E6%8E%A5%E7%AC%AC%E4%B8%89%E4%B8%AA%E6%8C%87%E6%A0%87.md) · Translation draft.
 - [Cross-block links force rank-four irreducibility](proofs/en/cross-block-links-force-rank-four-irreducibility.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B7%A8%E5%9D%97%E4%BA%92%E9%80%9A%E4%BC%9A%E8%BF%AB%E4%BD%BF%E7%A7%A9%E5%9B%9B%E8%A1%A8%E7%A4%BA%E4%B8%8D%E5%8F%AF%E7%BA%A6.md) · Translation draft.
 
+- [Vanishing for the trivial character in case Z](proofs/en/vanishing-for-the-trivial-character-in-case-z.md) · [中文](proofs/zh/%E5%B9%B3%E5%87%A1%E7%89%B9%E5%BE%81%E7%9A%84Z%E7%B1%BB%E4%B8%8A%E5%90%8C%E8%B0%83%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B6%88%E5%A4%B1.md) · Translation draft.
+- [Bounded-degree descent for the small-conductor V case](proofs/en/bounded-degree-descent-for-the-small-conductor-v-case.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B0%8F%E4%BA%8C%E8%BF%9B%E5%AF%BC%E5%AD%90%E7%9A%84V%E7%B1%BB%E5%8F%AA%E9%9C%80%E4%B8%8B%E9%99%8D%E5%88%B0%E6%9C%89%E7%95%8C%E6%AC%A1%E6%95%B0%E7%9A%84%E5%9F%9F.md) · Translation draft.
+- [The large-conductor V case over the Gaussian field](proofs/en/the-large-conductor-v-case-over-the-gaussian-field.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E4%BA%8C%E8%BF%9B%E5%AF%BC%E5%AD%90%E7%9A%84V%E7%B1%BB%E6%94%B9%E7%94%A8%E9%AB%98%E6%96%AF%E5%9F%9F.md) · Translation draft.
+- [One Gaussian place for all rank-three trace differences](proofs/en/one-gaussian-place-for-all-rank-three-trace-differences.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E5%9C%A8%E9%AB%98%E6%96%AF%E5%9F%9F%E9%80%89%E5%90%8C%E4%B8%80%E4%B8%AA%E7%B4%A0%E5%A4%84%E4%BC%B0%E8%AE%A1%E7%A7%A9%E4%B8%89%E8%BF%B9%E5%B7%AE.md) · Translation draft.
+- [Finite coefficients control the divisible localization kernel](proofs/en/finite-coefficients-control-the-divisible-localization-kernel.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%B1%E6%AF%8F%E4%B8%AA%E6%9C%89%E9%99%90%E7%B3%BB%E6%95%B0%E5%B1%82%E6%8E%A7%E5%88%B6%E5%8F%AF%E9%99%A4%E7%B3%BB%E6%95%B0%E7%9A%84%E6%80%BB%E9%95%BF%E5%BA%A6.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
