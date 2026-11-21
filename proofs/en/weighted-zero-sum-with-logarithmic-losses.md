@@ -19,7 +19,7 @@ The indicator is zero throughout if $e_M$ is empty.
 
 ## Density and repulsion inputs
 
-The project statement `LogDensityM` supplies absolute $a\ge1$, $B\ge0$ and $C_D\ge1$. For $M\ge3$, $T\ge2$, $\sigma\ge1/2$, every finite set of pairs $(\chi,\rho)$, with $\chi$ modulo $M$, $\rho$ a zero with $\Re\rho\ge\sigma$ and $|\Im\rho|\le T$, has at most $C_D(MT)^{a(1-\sigma)}\log^B(MT)$ elements if the heights of any two distinct elements with the same character differ by at least $1$. This is a [density bound for separated pairs](../zh/%E7%AD%9B%E9%80%89%E7%94%A8%E7%9A%84%E9%9B%B6%E7%82%B9%E5%AF%86%E5%BA%A6%E6%80%8E%E6%A0%B7%E4%BB%8E%E4%BA%8C%E5%80%8D%E5%8C%BA%E9%97%B4%E8%AE%A1%E6%95%B0%E5%BE%97%E5%88%B0.md).
+The project statement `LogDensityM` supplies absolute $a\ge1$, $B\ge0$ and $C_D\ge1$. For $M\ge3$, $T\ge2$, $\sigma\ge1/2$, every finite set of pairs $(\chi,\rho)$, with $\chi$ modulo $M$, $\rho$ a zero with $\Re\rho\ge\sigma$ and $|\Im\rho|\le T$, has at most $C_D(MT)^{a(1-\sigma)}\log^B(MT)$ elements if the heights of any two distinct elements with the same character differ by at least $1$. This is a [density bound for separated pairs](log-density-from-dyadic-counting.md).
 
 The statement `DeuringHeilbronnMB` supplies absolute $\kappa_0,c_1,c_2>0$ and an integer $N_0\ge1$ (the proof takes $3$). Let $L=\log(MT)$ for $M\ge3,T\ge2$. If $\chi_1$ is nonprincipal and real modulo $M$ and $L(\beta,\chi_1)=0$ with $1-c_1/L<\beta<1$, then every other pair $(\chi,\rho)$ of a character and a zero with $\Re\rho\ge1-\kappa_0$ and $|\Im\rho|\le T$ satisfies
 $$

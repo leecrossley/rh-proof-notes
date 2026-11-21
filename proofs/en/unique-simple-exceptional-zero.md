@@ -35,7 +35,7 @@ The project predicate `ZFRDirichlet` asserts that one $c>0$ works for every modu
 
 Choose $c$ to be the minimum of $c_{\rm R}$ and the principal and nonprincipal region constants in the upstream proof. Shrinking $c$ shrinks the region because the denominator is positive. The principal region excludes the principal character, and the nonprincipal region restricts all remaining zeros to the real axis and to quadratic characters. On the real axis the denominator is $\log(2q)$, so the proposition completes the proof.
 
-For $q\ge3$ the project also uses $M=\max(q,q|\Im s|)$. Then $q(|\Im s|+2)\le3M\le M^2$, so $\Re s\ge1-(c/2)/\log M$ puts $s$ in $\mathcal R_q(c)$. For $\zeta$, use the principal character modulo $1$ and $\log(|t|+2)\le2\log(|t|+3)$. Every nontrivial zero $\rho$ of $\zeta$ therefore has $\Re\rho\le1-(c/2)/\log(|\Im\rho|+3)$. The project packages these two regions with the [multiplicity-sensitive density bound](../zh/%E6%80%8E%E6%A0%B7%E7%94%B1%E5%8D%95%E4%BD%8D%E9%AB%98%E5%BA%A6%E6%A0%BC%E5%AD%90%E6%95%B0%E5%87%BA%E5%B8%A6%E9%87%8D%E6%95%B0%E7%9A%84%E9%9B%B6%E7%82%B9.md) to select the only possible exceptional term in the truncated explicit formula.
+For $q\ge3$ the project also uses $M=\max(q,q|\Im s|)$. Then $q(|\Im s|+2)\le3M\le M^2$, so $\Re s\ge1-(c/2)/\log M$ puts $s$ in $\mathcal R_q(c)$. For $\zeta$, use the principal character modulo $1$ and $\log(|t|+2)\le2\log(|t|+3)$. Every nontrivial zero $\rho$ of $\zeta$ therefore has $\Re\rho\le1-(c/2)/\log(|\Im\rho|+3)$. The project packages these two regions with the [multiplicity-sensitive density bound](zero-density-from-unit-height-cells.md) to select the only possible exceptional term in the truncated explicit formula.
 
 ## Lean correspondence
 

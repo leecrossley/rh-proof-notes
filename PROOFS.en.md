@@ -49,6 +49,15 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [An effective zero gap at low height](proofs/en/effective-low-height-zero-gap.md) · [中文](proofs/zh/%E4%BE%8B%E5%A4%96%E9%9B%B6%E7%82%B9%E7%A6%BB%E4%B8%80%E8%87%B3%E5%B0%91%E6%9C%89%E5%A4%9A%E8%BF%9C.md) · Translation draft.
 - [Preserving the exceptional zero under a change of modulus](proofs/en/exceptional-zero-change-of-modulus.md) · [中文](proofs/zh/%E6%A8%A1%E6%95%B0%E6%94%B9%E5%8F%98%E6%97%B6%E6%80%8E%E6%A0%B7%E4%BF%9D%E7%95%99%E4%BE%8B%E5%A4%96%E9%9B%B6%E7%82%B9%E7%9A%84%E4%BF%A1%E6%81%AF.md) · Translation draft.
 
+- [The local log derivative from zeros in a disk](proofs/en/local-log-derivative-from-disk-zeros.md) · [中文](proofs/zh/%E5%9C%86%E7%9B%98%E9%87%8C%E7%9A%84%E9%9B%B6%E7%82%B9%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E5%AF%B9%E6%95%B0%E5%AF%BC%E6%95%B0.md) · Translation draft.
+- [Counting zeros with multiplicity using unit-height cells](proofs/en/zero-density-from-unit-height-cells.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%B1%E5%8D%95%E4%BD%8D%E9%AB%98%E5%BA%A6%E6%A0%BC%E5%AD%90%E6%95%B0%E5%87%BA%E5%B8%A6%E9%87%8D%E6%95%B0%E7%9A%84%E9%9B%B6%E7%82%B9.md) · Translation draft.
+
+- [Polynomial growth of L-functions from finite differences](proofs/en/l-function-growth-from-finite-differences.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%8E%A7%E5%88%B6L%E5%87%BD%E6%95%B0%E7%9A%84%E5%A2%9E%E9%95%BF.md) · Translation draft.
+- [Detecting zeros near one by Möbius truncation](proofs/en/mobius-truncation-detecting-zeros.md) · [中文](proofs/zh/M%C3%B6bius%E6%88%AA%E6%96%AD%E6%80%8E%E6%A0%B7%E6%A3%80%E6%B5%8B%E9%9D%A0%E8%BF%91%E4%B8%80%E7%9A%84%E9%9B%B6%E7%82%B9.md) · Translation draft.
+
+- [Counting separated detections with the hybrid large sieve](proofs/en/hybrid-sieve-count-of-separated-detections.md) · [中文](proofs/zh/%E6%B7%B7%E5%90%88%E5%A4%A7%E7%AD%9B%E6%80%8E%E6%A0%B7%E6%95%B0%E5%87%BA%E5%88%86%E7%A6%BB%E7%9A%84%E6%A3%80%E6%B5%8B%E7%82%B9.md) · Translation draft.
+- [The fixed-modulus log-density bound from dyadic counting](proofs/en/log-density-from-dyadic-counting.md) · [中文](proofs/zh/%E7%AD%9B%E9%80%89%E7%94%A8%E7%9A%84%E9%9B%B6%E7%82%B9%E5%AF%86%E5%BA%A6%E6%80%8E%E6%A0%B7%E4%BB%8E%E4%BA%8C%E5%80%8D%E5%8C%BA%E9%97%B4%E8%AE%A1%E6%95%B0%E5%BE%97%E5%88%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From window estimates to RH](proofs/en/from-windows-to-rh.md).

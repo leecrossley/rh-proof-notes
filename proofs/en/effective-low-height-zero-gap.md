@@ -11,7 +11,7 @@ Here exclude $\rho=1$ for the principal character, which has a pole there. The e
 
 ## The real-axis derivative
 
-Put $\ell=\log(3q)$. For nonprincipal $\chi$ first consider $\Re s\ge1-2/\ell$, $\Re s\ge1/20$ and $|s|\le2$. The initial terms up to $q$ satisfy $n^{-\Re s}\le e^2/n$. The [partial-summation tail estimate](../zh/M%C3%B6bius%E6%88%AA%E6%96%AD%E6%80%8E%E6%A0%B7%E6%A3%80%E6%B5%8B%E9%9D%A0%E8%BF%91%E4%B8%80%E7%9A%84%E9%9B%B6%E7%82%B9.md) states that for nonprincipal $\chi$, integer $X\ge1$ and $\Re s>0$,
+Put $\ell=\log(3q)$. For nonprincipal $\chi$ first consider $\Re s\ge1-2/\ell$, $\Re s\ge1/20$ and $|s|\le2$. The initial terms up to $q$ satisfy $n^{-\Re s}\le e^2/n$. The [partial-summation tail estimate](mobius-truncation-detecting-zeros.md) states that for nonprincipal $\chi$, integer $X\ge1$ and $\Re s>0$,
 $$
 \left|L(s,\chi)-\sum_{n=1}^X\chi(n)n^{-s}\right|\le 2q(1+|s|/\Re s)X^{-\Re s}.
 $$

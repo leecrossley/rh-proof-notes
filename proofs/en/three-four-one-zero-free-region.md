@@ -28,7 +28,7 @@ For real characters $\chi,\psi$, the analogous pointwise inequality $(1+\chi(n))
 
 ## One-sided bounds from the local disk formula
 
-Use the [local log-derivative formula](../zh/%E5%9C%86%E7%9B%98%E9%87%8C%E7%9A%84%E9%9B%B6%E7%82%B9%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E5%AF%B9%E6%95%B0%E5%AF%BC%E6%95%B0.md) with center $3/2+it$, outer radius $1$, evaluation radius $2/3$, and zero cutoff radius $5/6$. For nonprincipal $\chi$, partial summation gives $L(z,\chi)=z\int_1^\infty A(u)u^{-z-1}\,du$ on $\Re z>0$, where $A(u)=\sum_{n\le u}\chi(n)$ has $|A(u)|\le q$. The upper bound $q|z|/\Re z$ on the outer disk, together with $|L(3/2+it,\chi)|\ge\zeta(3/2)^{-1}\ge1/3$ from the inverse Euler product, bounds the log of the relative growth by $O(\log(q(|t|+2)))$.
+Use the [local log-derivative formula](local-log-derivative-from-disk-zeros.md) with center $3/2+it$, outer radius $1$, evaluation radius $2/3$, and zero cutoff radius $5/6$. For nonprincipal $\chi$, partial summation gives $L(z,\chi)=z\int_1^\infty A(u)u^{-z-1}\,du$ on $\Re z>0$, where $A(u)=\sum_{n\le u}\chi(n)$ has $|A(u)|\le q$. The upper bound $q|z|/\Re z$ on the outer disk, together with $|L(3/2+it,\chi)|\ge\zeta(3/2)^{-1}\ge1/3$ from the inverse Euler product, bounds the log of the relative growth by $O(\log(q(|t|+2)))$.
 
 For $\zeta$, apply the disk formula to $F(z)=(z-1)\zeta(z)$, with $F(1)=1$. Partial summation gives $|\zeta(z)-z/(z-1)|\le |z|/\Re z$ for $\Re z>0$, $z\ne1$. On the outer disk this gives $|F(z)|\le 5(|t|+2)^2$, and the center has $|F(3/2+it)|\ge1/6$. Thus the error for $\zeta$ is $O(\log(|t|+2))$, with the additional term $+\Re(1/(s-1))$ in the negative log derivative.
 

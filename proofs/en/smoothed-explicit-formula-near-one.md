@@ -25,7 +25,7 @@ $$
 $$
 Thus $|(z-1)\zeta(z)|\ll(1+|z|)^2$, and the extra Euler factors cost at most $2^{\omega(M)}\le M$. At the center, the inverse Euler product is at most $\zeta(101/100)$ in modulus and the principal factor $|z_0-1|\ge1/100$.
 
-The [local disk theorem](../zh/%E5%9C%86%E7%9B%98%E9%87%8C%E7%9A%84%E9%9B%B6%E7%82%B9%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E5%AF%B9%E6%95%B0%E5%AF%BC%E6%95%B0.md) bounds the total multiplicity within radius $2/15$ by $O(\log B)$ and gives, for each nonzero point $s$ of $F_\chi$ within radius $1/15$,
+The [local disk theorem](local-log-derivative-from-disk-zeros.md) bounds the total multiplicity within radius $2/15$ by $O(\log B)$ and gives, for each nonzero point $s$ of $F_\chi$ within radius $1/15$,
 $$
 \frac{F_\chi'(s)}{F_\chi(s)}=\sum_{|\rho-z_0|\le2/15}\frac{m_\rho}{s-\rho}+O(\log B).
 \tag{2}
