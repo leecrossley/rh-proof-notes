@@ -341,6 +341,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [A partition of unity smooths group cocycles](proofs/en/a-partition-of-unity-smooths-group-cocycles.md) · [中文](proofs/zh/%E5%8D%95%E4%BD%8D%E5%88%86%E8%A7%A3%E6%80%8E%E6%A0%B7%E6%8A%8A%E7%BE%A4%E4%BD%99%E9%97%AD%E9%93%BE%E5%8F%98%E6%88%90%E5%BE%AE%E5%88%86%E5%BD%A2%E5%BC%8F.md) · Translation draft.
 - [Averaging along unit directions gives center invariance](proofs/en/averaging-along-unit-directions-gives-center-invariance.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%B2%BF%E5%8D%95%E4%BD%8D%E6%96%B9%E5%90%91%E5%B9%B3%E5%9D%87%E5%87%BA%E4%B8%AD%E5%BF%83%E4%B8%8D%E5%8F%98%E5%BD%A2%E5%BC%8F.md) · Translation draft.
 
+- [Averaging tensors on a fundamental domain](proofs/en/averaging-tensors-on-a-fundamental-domain.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9F%BA%E6%9C%AC%E5%9F%9F%E4%B8%8A%E7%9A%84%E5%BC%A0%E9%87%8F%E5%B9%B3%E5%9D%87%E8%83%BD%E5%BB%B6%E6%8B%93%E6%88%90%E4%B8%8D%E5%8F%98%E5%BD%A2%E5%BC%8F.md) · Translation draft.
+- [Height from a lattice and its inverse transpose form](proofs/en/height-from-a-lattice-and-its-inverse-transpose-form.md) · [中文](proofs/zh/%E6%A0%BC%E4%B8%8E%E5%AF%B9%E5%81%B6%E6%A0%BC%E7%9A%84%E6%9C%80%E7%9F%AD%E5%90%91%E9%87%8F%E6%80%8E%E6%A0%B7%E5%AE%9A%E4%B9%89%E9%AB%98%E5%BA%A6.md) · Translation draft.
+- [Siegel set volume controls height moments](proofs/en/siegel-set-volume-controls-height-moments.md) · [中文](proofs/zh/Siegel%E9%9B%86%E5%90%88%E9%87%8C%E7%9A%84%E4%BD%93%E7%A7%AF%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E9%AB%98%E5%BA%A6%E7%9F%A9.md) · Translation draft.
+- [Smoothing the lattice minimum](proofs/en/smoothing-the-lattice-minimum.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E5%B9%B3%E6%BB%91%E6%A0%BC%E7%9A%84%E6%9C%80%E7%9F%AD%E5%90%91%E9%87%8F%E5%87%BD%E6%95%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
