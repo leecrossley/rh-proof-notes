@@ -9,7 +9,7 @@ $$
 P(X)=\prod_{j=0}^{M-1}(X-\kappa^j)=\sum_{i=0}^M p_iX^i,\qquad
 V=\sum_{i=0}^M p_i[\kappa^i].
 $$
-For $t=0,\ldots,M$ let $\phi_t:\mathbb Z[A^2]\to\mathbb Z[A]$ send $[(a,b)]$ to $[a+tb]$. Then some $\eta$ has $\phi_{t_0}(\eta)=V$ and $\phi_t(\eta)=0$ for $t\ne t_0$. This is `SEta` in the [lattice and cycle construction](../zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%89%AD%E6%9B%B2%E4%B8%BB%E5%9B%A0%E5%AD%90%E5%8F%98%E6%88%90%E4%B8%80%E4%B8%AA%E5%85%A8%E5%B1%80%E5%91%A8%E6%9C%9F.md), where the coefficients of $\eta$ set ideal powers in each block.
+For $t=0,\ldots,M$ let $\phi_t:\mathbb Z[A^2]\to\mathbb Z[A]$ send $[(a,b)]$ to $[a+tb]$. Then some $\eta$ has $\phi_{t_0}(\eta)=V$ and $\phi_t(\eta)=0$ for $t\ne t_0$. This is `SEta` in the [lattice and cycle construction](building-a-global-cycle-from-a-twisted-principal-divisor.md), where the coefficients of $\eta$ set ideal powers in each block.
 
 ## Proof
 

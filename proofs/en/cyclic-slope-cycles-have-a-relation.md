@@ -8,7 +8,7 @@ Let $\ell$ be prime, $\nu,e\ge0$, $q=\ell^\nu$, $A=\mathbb Z/q\mathbb Z$, $E=e+1
 $$
 z=\sum_{j_1,\ldots,j_E\bmod q}[c^{j_1}|c|\cdots|c^{j_E}|c]\in C_{2E}(C_q,A).
 $$
-For $0\le t\le2e+3$ define $d_t(u)=(u,u^t)$ into $C_q^2$. Then $z$ is a cycle and there are $n_t\in A$ with some $n_{t_0}$ a unit such that $\sum_t n_t(d_t)_*z$ is a boundary. These are `SZc` and `SRel` in the [integral cycle construction](../zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%89%AD%E6%9B%B2%E4%B8%BB%E5%9B%A0%E5%AD%90%E5%8F%98%E6%88%90%E4%B8%80%E4%B8%AA%E5%85%A8%E5%B1%80%E5%91%A8%E6%9C%9F.md).
+For $0\le t\le2e+3$ define $d_t(u)=(u,u^t)$ into $C_q^2$. Then $z$ is a cycle and there are $n_t\in A$ with some $n_{t_0}$ a unit such that $\sum_t n_t(d_t)_*z$ is a boundary. These are `SZc` and `SRel` in the [integral cycle construction](building-a-global-cycle-from-a-twisted-principal-divisor.md).
 
 ## The cycle identity
 

@@ -325,6 +325,10 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Lattice isomorphisms with prescribed determinant](proofs/en/lattice-isomorphisms-with-prescribed-determinant.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%BB%99%E6%A0%BC%E5%90%8C%E6%9E%84%E6%8C%87%E5%AE%9A%E8%A1%8C%E5%88%97%E5%BC%8F.md) · Translation draft.
 - [Combining conjugation prisms inside a subgroup](proofs/en/combining-conjugation-prisms-inside-a-subgroup.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E4%B8%80%E7%BB%84%E5%85%B1%E8%BD%AD%E6%A3%B1%E6%9F%B1%E7%A7%BB%E5%9B%9E%E5%AD%90%E7%BE%A4.md) · Translation draft.
 
+- [Building a global cycle from a twisted principal divisor](proofs/en/building-a-global-cycle-from-a-twisted-principal-divisor.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%89%AD%E6%9B%B2%E4%B8%BB%E5%9B%A0%E5%AD%90%E5%8F%98%E6%88%90%E4%B8%80%E4%B8%AA%E5%85%A8%E5%B1%80%E5%91%A8%E6%9C%9F.md) · Translation draft.
+- [Discrete logarithms read finite-field prism values](proofs/en/discrete-logarithms-read-finite-field-prism-values.md) · [中文](proofs/zh/%E6%9C%89%E9%99%90%E5%9F%9F%E7%9A%84%E7%A6%BB%E6%95%A3%E5%AF%B9%E6%95%B0%E6%80%8E%E6%A0%B7%E8%AF%BB%E5%87%BA%E6%A3%B1%E6%9F%B1%E5%8F%96%E5%80%BC.md) · Translation draft.
+- [Projective lines transfer scalar values to matrices](proofs/en/projective-lines-transfer-scalar-values-to-matrices.md) · [中文](proofs/zh/%E5%B0%84%E5%BD%B1%E7%9B%B4%E7%BA%BF%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%A0%87%E9%87%8F%E5%8F%96%E5%80%BC%E4%BC%A0%E7%BB%99%E7%9F%A9%E9%98%B5.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

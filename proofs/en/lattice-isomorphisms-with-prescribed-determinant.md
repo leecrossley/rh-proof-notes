@@ -9,7 +9,7 @@ $$
 \det g=\beta,\qquad
 g\big(\bigoplus_j I(A_j)\big)=\bigoplus_j I(B_j).
 $$
-This is `SStein`, used to set determinants of blocks in the [global cycle](../zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%89%AD%E6%9B%B2%E4%B8%BB%E5%9B%A0%E5%AD%90%E5%8F%98%E6%88%90%E4%B8%80%E4%B8%AA%E5%85%A8%E5%B1%80%E5%91%A8%E6%9C%9F.md).
+This is `SStein`, used to set determinants of blocks in the [global cycle](building-a-global-cycle-from-a-twisted-principal-divisor.md).
 
 ## A two-coordinate move
 
