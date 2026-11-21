@@ -349,6 +349,14 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [A short-vector cutoff maps forms to the thick part](proofs/en/a-short-vector-cutoff-maps-forms-to-the-thick-part.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E6%9C%80%E7%9F%AD%E5%90%91%E9%87%8F%E6%88%AA%E5%8F%96%E6%8A%8A%E6%AD%A3%E5%AE%9A%E5%BD%A2%E5%BC%8F%E9%80%81%E8%BF%9B%E5%8E%9A%E9%83%A8.md) · Translation draft.
 - [A partition of unity from the thick part](proofs/en/a-partition-of-unity-from-the-thick-part.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E5%8E%9A%E9%83%A8%E6%9E%84%E9%80%A0%E5%85%A8%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8D%95%E4%BD%8D%E5%88%86%E8%A7%A3.md) · Translation draft.
 
+- [Good Hecke multiplicities are bounded by local rank](proofs/en/good-hecke-multiplicities-are-bounded-by-local-rank.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A5%BDHecke%E7%82%B9%E7%9A%84%E9%87%8D%E6%95%B0%E5%92%8C%E4%B8%8D%E8%B6%85%E8%BF%87%E5%B1%80%E9%83%A8%E7%A7%A9.md) · Translation draft.
+- [The group order clears central projector denominators](proofs/en/the-group-order-clears-central-projector-denominators.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E9%99%90%E7%BE%A4%E7%9A%84%E9%98%B6%E8%83%BD%E6%B8%85%E6%8E%89%E4%B8%AD%E5%BF%83%E6%8A%95%E5%BD%B1%E7%9A%84%E5%88%86%E6%AF%8D.md) · Translation draft.
+
+- [Central idempotents select comparable Hecke summands](proofs/en/central-idempotents-select-comparable-hecke-summands.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E4%B8%AD%E5%BF%83%E5%B9%82%E7%AD%89%E5%85%83%E9%80%89%E5%87%BA%E5%8F%AF%E6%AF%94%E8%BE%83%E7%9A%84Hecke%E5%88%86%E9%87%8F.md) · Translation draft.
+- [Finite-field type labels control tame inertia](proofs/en/finite-field-type-labels-control-tame-inertia.md) · [中文](proofs/zh/%E6%9C%89%E9%99%90%E5%9F%9F%E7%9A%84%E7%B1%BB%E5%9E%8B%E6%A0%87%E7%AD%BE%E6%80%8E%E6%A0%B7%E7%BA%A6%E6%9D%9F%E6%B8%A9%E5%92%8C%E6%83%AF%E6%80%A7.md) · Translation draft.
+
+- [Rowwise local estimates give LinkN for the original family](proofs/en/rowwise-local-estimates-give-linkn-for-the-original-family.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E9%80%90%E8%A1%8C%E5%B1%80%E9%83%A8%E4%BC%B0%E8%AE%A1%E5%8F%96%E5%BE%97%E5%8E%9F%E6%97%8F%E7%9A%84LinkN.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
