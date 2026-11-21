@@ -1,0 +1,16 @@
+# Realizing finite cohomology classes as crystalline extensions
+
+[Chinese proof](../zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E9%99%90%E4%B8%8A%E5%90%8C%E8%B0%83%E7%B1%BB%E5%8F%AF%E4%BB%A5%E5%86%99%E6%88%90%E6%99%B6%E4%BD%93%E8%A1%A8%E7%A4%BA%E7%9A%84%E6%89%A9%E5%BC%A0.md)
+
+**Proposition.** Let $K,L/\mathbb Q_p$ be finite extensions, $\mathcal O=\mathcal O_L$, $G=G_K$, and $V$ a continuous finite-dimensional crystalline $L$-representation with stable full lattice $T$. Let $c:G\to T$ be a continuous one-cocycle. Assume some $x\in V\otimes_{\mathbb Q_p}B_{\rm cris}$ has $c(g)\otimes1=gx-x$ for all $g$. Then there is an integral extension $0\to T\to T'\to\mathcal O\to0$ with trivial quotient, crystalline after inverting $p$, whose connecting class at $1$ is $[c]$. Conversely, the connecting class of such a crystalline extension satisfies the finite condition.
+
+On $V'=V\oplus L$ and $T'=T\oplus\mathcal O$, set $g(v,a)=(gv+a c(g),a)$. The cocycle identity makes this a continuous group action preserving the lattice. For the lift $e=(0,1)$, $ge-e=c(g)$ in the kernel, giving the connecting class. After extending to $B_{\rm cris}$, $e\otimes1-x$ is an invariant lift of $1$ and gives an equivariant section of the quotient by multiplication over $L\otimes B_{\rm cris}$. Thus $D_{\rm cris}(V')=D_{\rm cris}(V)\oplus(L\otimes_{\mathbb Q_p}K_0)$, with $K_0=B_{\rm cris}^G$ the maximal unramified subfield of $K$. Its $L$-dimension is $[K_0:\mathbb Q_p]\dim_L V'$, so the standard period criterion gives crystallinity.
+
+Conversely the invariant spaces form a left exact sequence. Crystallinity of the three representations gives their full dimensions and implies that $D_{\rm cris}(V')\to D_{\rm cris}(L)$ is onto. Take an invariant lift $u$ of $1\otimes1$. Subtracting $u$ from $e\otimes1$ gives the required vector $x$ in the period extension of the kernel. Strict exactness of de Rham filtration shows that the extension adds just one jump at $0$, so a window containing $0$ is preserved.
+
+## Lean correspondence
+
+- `lext_HExt` constructs the integral extension and `lext_crys` computes its period dimension. `IsExtOf` gives the pointwise equality for the lift of the quotient generator. [Integral extension](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/SharpRestriction/LevelLetterCocycles/BaseChangePreservesUnitaryOf.lean#L2603) · [Period calculation](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/SharpRestriction/LevelLetterCocycles/BaseChangePreservesUnitaryOf.lean#L2480) · [Cocycle condition](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/SharpRestriction/LevelLetterCocycles/LiftingTheory.lean#L376)
+- `coreLiftA_of'` starts the Wach-lattice argument from this extension. [Application](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/SharpRestriction/LevelLetterCocycles/BaseChangePreservesUnitaryOf.lean#L4694)
+
+Status. Translation draft based on the Chinese proof and its pinned Lean references. The Lean verification record is tracked [separately](../../STATUS.md#lean-verification--lean-核验).
