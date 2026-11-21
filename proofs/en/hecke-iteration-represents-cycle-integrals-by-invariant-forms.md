@@ -27,7 +27,7 @@ $$
 $$
 The [period bound `SLoc`](../zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E5%9D%87%E6%96%B9%E8%8C%83%E6%95%B0%E6%8E%A7%E5%88%B6%E4%B8%80%E6%9D%A1%E5%91%A8%E6%9C%9F%E7%A7%AF%E5%88%86.md) controls the absolute integral on any fixed cycle $z$ by $C_z$ times the $L^2$ norm of the pulled-back tensor, for continuous arithmetic and center invariant forms with closed integration cochain. Hence $|I_{\eta_r,N}(z)|\le C'_z(3/5)^r$ with $C'_z$ independent of $r$.
 
-The [period detection theorem `SHecke`](../zh/%E4%B8%BA%E4%BB%80%E4%B9%88Hecke%E5%91%A8%E6%9C%9F%E4%B8%8D%E8%83%BD%E4%BB%A5%E4%BA%94%E5%88%86%E4%B9%8B%E4%B8%89%E8%A1%B0%E5%87%8F.md) says that at the chosen rank and degree, an arithmetic-invariant closed cochain on homogeneous tuples in $\mathrm{GL}_N(L)$ with this decay on every cycle has all original cycle values zero. Apply it to the integral cochain of $\eta$. Then $\omega_b$ gives all the values of $\omega'$, and thus of $c$.
+The [period detection theorem `SHecke`](hecke-periods-cannot-decay-at-three-fifths.md) says that at the chosen rank and degree, an arithmetic-invariant closed cochain on homogeneous tuples in $\mathrm{GL}_N(L)$ with this decay on every cycle has all original cycle values zero. Apply it to the integral cochain of $\eta$. Then $\omega_b$ gives all the values of $\omega'$, and thus of $c$.
 
 ## Lean correspondence
 

@@ -329,6 +329,12 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Discrete logarithms read finite-field prism values](proofs/en/discrete-logarithms-read-finite-field-prism-values.md) · [中文](proofs/zh/%E6%9C%89%E9%99%90%E5%9F%9F%E7%9A%84%E7%A6%BB%E6%95%A3%E5%AF%B9%E6%95%B0%E6%80%8E%E6%A0%B7%E8%AF%BB%E5%87%BA%E6%A3%B1%E6%9F%B1%E5%8F%96%E5%80%BC.md) · Translation draft.
 - [Projective lines transfer scalar values to matrices](proofs/en/projective-lines-transfer-scalar-values-to-matrices.md) · [中文](proofs/zh/%E5%B0%84%E5%BD%B1%E7%9B%B4%E7%BA%BF%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%A0%87%E9%87%8F%E5%8F%96%E5%80%BC%E4%BC%A0%E7%BB%99%E7%9F%A9%E9%98%B5.md) · Translation draft.
 
+- [Hecke periods cannot decay at rate three fifths](proofs/en/hecke-periods-cannot-decay-at-three-fifths.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88Hecke%E5%91%A8%E6%9C%9F%E4%B8%8D%E8%83%BD%E4%BB%A5%E4%BA%94%E5%88%86%E4%B9%8B%E4%B8%89%E8%A1%B0%E5%87%8F.md) · Translation draft.
+- [Two contributions to the Hecke period average](proofs/en/two-contributions-to-the-hecke-period-average.md) · [中文](proofs/zh/Hecke%E9%99%AA%E9%9B%86%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E6%88%90%E4%B8%A4%E4%B8%AA%E5%91%A8%E6%9C%9F%E8%B4%A1%E7%8C%AE.md) · Translation draft.
+- [Two double cosets bound correlation by one fifth](proofs/en/two-double-cosets-bound-correlation-by-one-fifth.md) · [中文](proofs/zh/%E4%B8%A4%E7%B1%BB%E9%99%AA%E9%9B%86%E6%80%8E%E6%A0%B7%E6%8A%8A%E7%9B%B8%E5%85%B3%E6%80%A7%E5%8E%8B%E5%88%B0%E4%BA%94%E5%88%86%E4%B9%8B%E4%B8%80.md) · Translation draft.
+- [Three projections give the two-fifths angle bound](proofs/en/three-projections-yield-the-two-fifths-angle.md) · [中文](proofs/zh/%E4%B8%89%E4%B8%AA%E5%AD%90%E7%A9%BA%E9%97%B4%E7%9A%84%E6%8A%95%E5%BD%B1%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E4%BA%94%E5%88%86%E4%B9%8B%E4%BA%8C.md) · Translation draft.
+- [Three lattice stabilizers give the Hecke indices](proofs/en/three-lattice-stabilizers-give-the-hecke-indices.md) · [中文](proofs/zh/%E4%B8%89%E4%B8%AA%E6%A0%BC%E7%9A%84%E7%A8%B3%E5%AE%9A%E7%BE%A4%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BAHecke%E7%9A%84%E6%9C%89%E9%99%90%E6%8C%87%E6%95%B0.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
