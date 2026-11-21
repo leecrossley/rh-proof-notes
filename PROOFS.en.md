@@ -279,6 +279,10 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Large two-power conductors give Bernoulli units](proofs/en/large-two-power-conductors-give-bernoulli-units.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%AF%BC%E5%AD%90%E7%BB%99%E5%87%BABernoulli%E5%8D%95%E4%BD%8D.md) · Translation draft.
 - [Large two-power conductors force residual cocycles to be coboundaries](proofs/en/large-two-power-conductors-force-residual-cocycles-to-be-coboundaries.md) · [中文](proofs/zh/%E5%A4%A7%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%AF%BC%E5%AD%90%E6%80%8E%E6%A0%B7%E4%BD%BF%E5%89%A9%E4%BD%99%E4%BD%99%E9%97%AD%E9%93%BE%E6%88%90%E4%B8%BA%E4%BD%99%E8%BE%B9%E7%95%8C.md) · Translation draft.
 
+- [Lifting rank-four points and tangent vectors to the matrix algebra](proofs/en/lifting-rank-four-points-and-tangent-vectors.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E7%A7%A9%E5%9B%9B%E7%9A%84%E7%82%B9%E5%92%8C%E5%88%87%E5%90%91%E9%87%8F%E6%8F%90%E5%8D%87%E5%88%B0%E7%9F%A9%E9%98%B5%E4%BB%A3%E6%95%B0.md) · Translation draft.
+- [A cross-block linked pair has a third index](proofs/en/a-cross-block-linked-pair-has-a-third-index.md) · [中文](proofs/zh/%E4%B8%80%E4%B8%AA%E8%B7%A8%E5%9D%97%E7%9A%84%E4%B8%A4%E7%BB%B4%E5%88%86%E9%87%8F%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E5%AE%9A%E8%BF%98%E8%BF%9E%E6%8E%A5%E7%AC%AC%E4%B8%89%E4%B8%AA%E6%8C%87%E6%A0%87.md) · Translation draft.
+- [Cross-block links force rank-four irreducibility](proofs/en/cross-block-links-force-rank-four-irreducibility.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B7%A8%E5%9D%97%E4%BA%92%E9%80%9A%E4%BC%9A%E8%BF%AB%E4%BD%BF%E7%A7%A9%E5%9B%9B%E8%A1%A8%E7%A4%BA%E4%B8%8D%E5%8F%AF%E7%BA%A6.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
