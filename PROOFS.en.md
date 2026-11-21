@@ -390,6 +390,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Recovering a semisimple representation from a pseudocharacter](proofs/en/recovering-a-semisimple-representation-from-a-pseudocharacter.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E4%BC%AA%E7%89%B9%E5%BE%81%E7%9A%84%E8%BF%B9%E6%81%A2%E5%A4%8D%E5%8D%8A%E5%8D%95%E8%A1%A8%E7%A4%BA.md) · Translation draft.
 - [A compact group representation uses one finite coefficient field](proofs/en/a-compact-group-representation-uses-one-finite-coefficient-field.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%B4%A7%E7%BE%A4%E8%A1%A8%E7%A4%BA%E5%8F%AA%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E6%9C%89%E9%99%90%E7%B3%BB%E6%95%B0%E5%9F%9F.md) · Translation draft.
 
+- [The limit trace preserves the common inertia kernel](proofs/en/the-limit-trace-preserves-the-common-inertia-kernel.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9E%81%E9%99%90%E8%BF%B9%E4%BF%9D%E7%95%99%E6%89%80%E6%9C%89%E7%A7%8D%E5%AD%90%E5%85%B1%E6%9C%89%E7%9A%84%E6%83%AF%E6%80%A7%E6%A0%B8.md) · Translation draft.
+- [Small trace errors give integral lattice congruences](proofs/en/small-trace-errors-give-integral-lattice-congruences.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%B9%E7%9A%84%E5%B0%8F%E8%AF%AF%E5%B7%AE%E8%83%BD%E7%BB%99%E5%87%BA%E6%95%B4%E6%95%B0%E6%A0%BC%E4%B8%8A%E7%9A%84%E5%90%8C%E4%BD%99.md) · Translation draft.
+- [A common integral lattice for finitely many seed representations](proofs/en/a-common-integral-lattice-for-finitely-many-seed-representations.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%8A%8A%E6%9C%89%E9%99%90%E7%BB%84%E7%A7%8D%E5%AD%90%E6%94%BE%E8%BF%9B%E5%90%8C%E4%B8%80%E6%95%B4%E7%B3%BB%E6%95%B0%E9%80%BC%E8%BF%91%E6%A0%BC.md) · Translation draft.
+- [Operator power sums pass along the lattice tower](proofs/en/operator-power-sums-pass-along-the-lattice-tower.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E6%B2%BF%E9%80%BC%E8%BF%91%E6%A0%BC%E5%A1%94%E4%BC%A0%E9%80%92%E7%AE%97%E5%AD%90%E7%9A%84%E5%B9%82%E5%92%8C.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
