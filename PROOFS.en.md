@@ -248,6 +248,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [The extra factor of two in the graded length bound](proofs/en/the-extra-factor-of-two-in-the-graded-length-bound.md) · [中文](proofs/zh/%E5%88%86%E6%AC%A1%E6%88%AA%E9%9D%A2%E7%9A%84%E9%95%BF%E5%BA%A6%E7%95%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E6%81%B0%E5%A5%BD%E5%A4%9A%E4%B8%80%E4%B8%AA%E4%BA%8C.md) · Translation draft.
 - [Large triply graded pieces only see two-sided orbits](proofs/en/large-trigraded-pieces-only-see-two-sided-orbits.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%89%E9%87%8D%E5%88%86%E6%AC%A1%E7%8E%AF%E7%9A%84%E5%A4%A7%E6%AC%A1%E6%95%B0%E5%8F%AA%E7%9C%8B%E5%88%B0%E4%B8%A4%E4%BE%A7%E8%BD%A8%E9%81%93.md) · Translation draft.
 
+- [Squaring one equation at most doubles the local length](proofs/en/squaring-one-equation-at-most-doubles-the-local-length.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E5%B9%B3%E6%96%B9%E4%B8%80%E4%B8%AA%E6%96%B9%E7%A8%8B%E8%87%B3%E5%A4%9A%E8%AE%A9%E5%B1%80%E9%83%A8%E9%95%BF%E5%BA%A6%E7%BF%BB%E5%80%8D.md) · Translation draft.
+- [A single character length is bounded by automorphic trace differences](proofs/en/a-single-character-length-is-bounded-by-automorphic-trace-differences.md) · [中文](proofs/zh/%E4%B8%80%E4%B8%AA%E7%89%B9%E5%BE%81%E7%9A%84%E9%95%BF%E5%BA%A6%E6%80%8E%E6%A0%B7%E7%94%B1%E6%9C%89%E9%99%90%E4%B8%AA%E8%87%AA%E5%AE%88%E8%BF%B9%E5%B7%AE%E6%8E%A7%E5%88%B6.md) · Translation draft.
+- [Rank-three two-sided points give two representation types](proofs/en/rank-three-two-sided-points-give-two-representation-types.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A7%A9%E4%B8%89%E7%9A%84%E4%B8%A4%E4%BE%A7%E7%82%B9%E5%8F%AA%E5%89%A9%E4%B8%A4%E7%A7%8D%E8%A1%A8%E7%A4%BA.md) · Translation draft.
+- [A deformation triangular in both directions is the base point](proofs/en/a-deformation-triangular-in-both-directions-is-the-base-point.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%90%8C%E6%97%B6%E4%B8%8A%E4%B8%89%E8%A7%92%E5%92%8C%E4%B8%8B%E4%B8%89%E8%A7%92%E7%9A%84%E5%8F%98%E5%BD%A2%E5%8F%AA%E6%9C%89%E5%9F%BA%E7%82%B9.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
