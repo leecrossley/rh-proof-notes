@@ -6,6 +6,23 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ## New reconstruction from Lean
 
+### The CM curve and its local logarithm
+
+The curve supplies the logarithm and the integral-exponential identities used by the theta expansions. The good-model proof states its classical complex multiplication input and gives the valuation argument for the local normalization.
+
+- [The formal group and Laurent coordinate of a short Weierstrass curve](proofs/en/the-formal-group-and-laurent-coordinate-of-a-short-weierstrass-curve.md) · Source-based reconstruction draft. The chord near the identity is computed by integral power series. The invariant differential makes its coordinate logarithm additive and gives the cleared Weierstrass equation.
+- [From formal sigma addition to the curve biextension](proofs/en/from-formal-sigma-addition-to-the-curve-biextension.md) · Source-based reconstruction draft. The formal sigma addition identity gives a parallelogram with integral exponential. Polarization and an integral change of parameter give the additive defects of the local curve exponent.
+- [The lattice isogeny and its weight-two constant](proofs/en/the-lattice-isogeny-and-its-weight-two-constant.md) · Source-based reconstruction draft. Comparing the poles gives the Weierstrass distribution identity. The linear part of the zeta quasi-period identifies the sum of the torsion coordinates.
+- [Why prime-to-p torsion has integral unramified coordinates](proofs/en/why-prime-to-p-torsion-has-integral-unramified-coordinates.md) · Source-based reconstruction draft. Formal multiplication excludes torsion at the identity, and contraction from a lift of the same residue point recovers the original torsion point.
+- [Choosing torsion products for the good model](proofs/en/choosing-torsion-products-for-the-good-model.md) · Source-based reconstruction draft. Monic kernel polynomials descend to the field of the coefficients and the CM multiplier. Auxiliary torsion orders isolate products with cardinality prime to two or three.
+- [Why the CM lattice has an unramified good model](proofs/en/why-the-cm-lattice-has-an-unramified-good-model.md) · Source-based reconstruction draft. A prime-to-p torsion product detects the divisibility of the valuations at the two exceptional j-invariants, allowing the discriminant-normalized coefficients to descend.
+- [The curve norm law from a prime-to-p isogeny](proofs/en/the-curve-norm-law-from-a-prime-to-p-isogeny.md) · Source-based reconstruction draft. The translated x-coordinates give an integral endomorphism. The torsion-coordinate sum cancels the remaining quadratic term in the sigma product.
+- [The half-period bound on the formal height](proofs/en/the-half-period-bound-on-the-formal-height.md) · Source-based reconstruction draft. Evaluating the sigma product at a nonidentity half-period forces a unit coefficient in the p-multiplication series by degree p squared.
+- [The CM endomorphism forces two Frobenius descents](proofs/en/the-cm-endomorphism-forces-two-frobenius-descents.md) · Source-based reconstruction draft. The two conjugate residue scalars are distinct. This excludes a linear term after the first Frobenius descent and isolates the height-two terms in the logarithm.
+- [Normalizing the height-two logarithm](proofs/en/normalizing-the-height-two-logarithm.md) · Source-based reconstruction draft. A contracting triangular system collapses the Frobenius expansion to one term. A unit found by residue lifting removes its scalar coefficient.
+- [Extending the CM norm law to all unramified units](proofs/en/extending-the-cm-norm-law-to-all-unramified-units.md) · Source-based reconstruction draft. Complex lattice identities give the norm on integral CM endomorphisms. A residue-digit argument approximates every Frobenius-square-fixed unit by such endomorphisms.
+- [Assembling the inert CM curve data](proofs/en/assembling-the-inert-cm-curve-data.md) · Source-based reconstruction draft. The unramified field supplies Frobenius and the residue roots. The good model, the height-two comparison and the unit norm law then apply to the same curve.
+
 ### Theta expansions and local determinant bounds
 
 These notes derive the expansion that supplies the local determinant estimate and prove how the resulting valuations add over the Frobenius orbits of a rational prime.

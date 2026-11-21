@@ -30,6 +30,8 @@ The identity holds for every $\eta$ under the stated equality. In later use $\et
 
 ## The logarithmic factor on a hyperbolic frame
 
+The [curve-data construction](assembling-the-inert-cm-curve-data.md) supplies the one-variable norm law. The [curve parallelogram](from-formal-sigma-addition-to-the-curve-biextension.md) gives the first additivity of the exponent, and the norm-to-adjoint and [trace-dual list construction](constructing-the-integral-frobenius-dual-lists.md) supply the rest of the biextension data.
+
 Introduce formal variables $x_e,y_e$ and put
 $$
 C_j(x,y)

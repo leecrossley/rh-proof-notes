@@ -20,4 +20,6 @@ For the origin of the weights, start with [Prime powers in the jet coefficient b
 
 For the theta expansion used as input there, start with [From host integrality to the all-place theta expansion](proofs/en/from-host-integrality-to-the-all-place-theta-expansion.md). It links to the proofs of the hyperbolic sum, the integral logarithmic coordinates, and root-of-unity averaging.
 
+For the curve underlying that expansion, [Assembling the inert CM curve data](proofs/en/assembling-the-inert-cm-curve-data.md) leads to the good-model, torsion and isogeny arguments for the formal exponent.
+
 Contributions in **English or Chinese** are welcome. [How to contribute](CONTRIBUTING.md) · [CC BY 4.0 and attribution](LICENSE.md)
