@@ -9,7 +9,7 @@ $$
 H^2(G_{L,S},\mathbb Z_\ell(e+1))\text{ is finite},\qquad
 \log\#H^2(G_{L,S},\mathbb Z_\ell(e+1))\le B_{C_K}(e,n,D).
 $$
-This is `ZK.sFinal`. The following argument also explains how `sNum` supplies the premise in the [window route](../zh/%E7%AA%97%E5%8F%A3%E9%87%8C%E5%89%A9%E4%B8%8B%E7%9A%84%E5%B0%8F%E6%8C%87%E6%A0%87%E6%80%8E%E6%A0%B7%E7%94%A8%E4%BA%8C%E9%98%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E4%BC%B0%E8%AE%A1.md).
+This is `ZK.sFinal`. The following argument also explains how `sNum` supplies the premise in the [window route](second-cohomology-bounds-the-remaining-small-weights.md).
 
 ## The local contributions
 

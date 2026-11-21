@@ -412,6 +412,11 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Real unit signatures bound the two-primary class quotient](proofs/en/real-unit-signatures-bound-the-two-primary-class-quotient.md) · [中文](proofs/zh/%E5%AE%9E%E5%8D%95%E4%BD%8D%E7%9A%84%E7%AC%A6%E5%8F%B7%E6%80%8E%E6%A0%B7%E6%8E%A7%E5%88%B6%E4%BA%8C%E8%BF%9B%E7%B1%BB%E7%BE%A4.md) · Translation draft.
 - [Uniform class group rank bounds in cyclotomic towers](proofs/en/uniform-class-group-rank-bounds-in-cyclotomic-towers.md) · [中文](proofs/zh/%E5%88%86%E5%9C%86%E5%A1%94%E7%9A%84%E7%B1%BB%E7%BE%A4%E7%A7%A9%E6%80%8E%E6%A0%B7%E5%BE%97%E5%88%B0%E7%BB%9F%E4%B8%80%E4%B8%8A%E7%95%8C.md) · Translation draft.
 
+- [Choosing the integer ranks from the window group order](proofs/en/choosing-the-integer-ranks-from-the-window-group-order.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E4%BB%8E%E7%AA%97%E5%8F%A3%E7%9A%84%E7%BE%A4%E9%98%B6%E9%80%89%E5%87%BA%E5%90%88%E7%94%A8%E7%9A%84%E6%95%B4%E6%95%B0%E7%A7%A9.md) · Translation draft.
+- [Local lengths and divisibility give the lattice slope formulas](proofs/en/local-lengths-and-divisibility-give-the-lattice-slope-formulas.md) · [中文](proofs/zh/%E5%B1%80%E9%83%A8%E9%95%BF%E5%BA%A6%E4%B8%8E%E6%95%B4%E9%99%A4%E6%80%8E%E6%A0%B7%E5%90%88%E6%88%90%E5%95%86%E6%A0%BC%E7%9A%84%E6%96%9C%E7%8E%87%E5%85%AC%E5%BC%8F.md) · Translation draft.
+- [Second cohomology bounds the remaining small weights](proofs/en/second-cohomology-bounds-the-remaining-small-weights.md) · [中文](proofs/zh/%E7%AA%97%E5%8F%A3%E9%87%8C%E5%89%A9%E4%B8%8B%E7%9A%84%E5%B0%8F%E6%8C%87%E6%A0%87%E6%80%8E%E6%A0%B7%E7%94%A8%E4%BA%8C%E9%98%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E4%BC%B0%E8%AE%A1.md) · Translation draft.
+- [There are enough binary words to index the objects](proofs/en/there-are-enough-binary-words-to-index-the-objects.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AD%97%E8%B6%B3%E5%A4%9F%E7%BB%99%E6%89%80%E6%9C%89%E5%AF%B9%E8%B1%A1%E7%BC%96%E5%8F%B7.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).
