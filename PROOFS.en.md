@@ -417,6 +417,13 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 - [Second cohomology bounds the remaining small weights](proofs/en/second-cohomology-bounds-the-remaining-small-weights.md) · [中文](proofs/zh/%E7%AA%97%E5%8F%A3%E9%87%8C%E5%89%A9%E4%B8%8B%E7%9A%84%E5%B0%8F%E6%8C%87%E6%A0%87%E6%80%8E%E6%A0%B7%E7%94%A8%E4%BA%8C%E9%98%B6%E4%B8%8A%E5%90%8C%E8%B0%83%E4%BC%B0%E8%AE%A1.md) · Translation draft.
 - [There are enough binary words to index the objects](proofs/en/there-are-enough-binary-words-to-index-the-objects.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AD%97%E8%B6%B3%E5%A4%9F%E7%BB%99%E6%89%80%E6%9C%89%E5%AF%B9%E8%B1%A1%E7%BC%96%E5%8F%B7.md) · Translation draft.
 
+- [How finite-layer class groups bound the generators of a tower module](proofs/en/how-finite-layer-class-groups-bound-tower-generators.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E9%99%90%E5%B1%82%E7%9A%84%E7%B1%BB%E7%BE%A4%E7%95%8C%E8%83%BD%E6%8E%A7%E5%88%B6%E5%A1%94%E6%A8%A1%E7%9A%84%E7%94%9F%E6%88%90%E5%85%83%E6%95%B0.md) · Translation draft.
+
+- [Cohomology kernels as cokernel lengths in cyclotomic towers](proofs/en/cohomology-kernels-as-cokernel-lengths-in-cyclotomic-towers.md) · [中文](proofs/zh/%E5%88%86%E5%9C%86%E5%A1%94%E4%B8%8A%E7%9A%84%E5%90%8C%E8%B0%83%E6%A0%B8%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%98%E6%88%90%E4%BD%99%E6%A0%B8%E9%95%BF%E5%BA%A6.md) · Translation draft.
+
+- [Finitely many valuation centres for cyclotomic length bounds](proofs/en/finitely-many-valuation-centres-for-cyclotomic-length-bounds.md) · [中文](proofs/zh/%E5%88%86%E5%9C%86%E5%A1%94%E7%9A%84%E9%95%BF%E5%BA%A6%E7%95%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AA%E9%9C%80%E8%A6%81%E6%9C%89%E9%99%90%E4%B8%AA%E8%BF%9B%E8%B5%8B%E5%80%BC%E4%B8%AD%E5%BF%83.md) · Translation draft.
+- [Bounding the cohomology lost under cyclotomic restriction](proofs/en/bounding-the-cohomology-lost-under-cyclotomic-restriction.md) · [中文](proofs/zh/%E9%99%90%E5%88%B6%E5%88%B0%E5%88%86%E5%9C%86%E5%B1%82%E6%97%B6%E4%B8%A2%E5%A4%B1%E7%9A%84%E4%B8%8A%E5%90%8C%E8%B0%83%E6%80%8E%E6%A0%B7%E4%BC%B0%E8%AE%A1.md) · Translation draft.
+
 ## Reading guides
 
 - [From Dirichlet nonvanishing to RH](proofs/en/from-dirichlet-nonvanishing.md).

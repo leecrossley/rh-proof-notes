@@ -24,7 +24,7 @@ At $\ell=2$, the map $1-J$ on $T$ has image in $D\cap T$ and kernel $A\cap T$. T
 
 ## Descent to $K_n$
 
-By Kronecker–Weber place $K$ in $\mathbb Q(\mu_{f_0\ell^a})$ with $(f_0,\ell)=1$ and use the bound for $f=f_0(\ell+1)$. Then $K_n\subseteq L=\mathbb Q(\mu_{f\ell^{n+a+n_0}})$ and $[K_n:\mathbb Q]\ge\varphi(\ell^n)$. The degree formula, including $n=0$, gives $[L:K_n]\le f\ell^{a+n_0}$. Restrict mod-$\ell$ class characters from $K_n$ to $L$. The image is unramified and has size at most $B_1$. The kernel factors through the quotient by the normal closure of $G_L$, of order at most $[L:K_n]$, so has at most that many characters. Therefore $f\ell^{a+n_0}B_1$ bounds the class quotient uniformly. Take $\ell^r$ at least this large. This supplies the [finite-layer rank input](../zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E9%99%90%E5%B1%82%E7%9A%84%E7%B1%BB%E7%BE%A4%E7%95%8C%E8%83%BD%E6%8E%A7%E5%88%B6%E5%A1%94%E6%A8%A1%E7%9A%84%E7%94%9F%E6%88%90%E5%85%83%E6%95%B0.md).
+By Kronecker–Weber place $K$ in $\mathbb Q(\mu_{f_0\ell^a})$ with $(f_0,\ell)=1$ and use the bound for $f=f_0(\ell+1)$. Then $K_n\subseteq L=\mathbb Q(\mu_{f\ell^{n+a+n_0}})$ and $[K_n:\mathbb Q]\ge\varphi(\ell^n)$. The degree formula, including $n=0$, gives $[L:K_n]\le f\ell^{a+n_0}$. Restrict mod-$\ell$ class characters from $K_n$ to $L$. The image is unramified and has size at most $B_1$. The kernel factors through the quotient by the normal closure of $G_L$, of order at most $[L:K_n]$, so has at most that many characters. Therefore $f\ell^{a+n_0}B_1$ bounds the class quotient uniformly. Take $\ell^r$ at least this large. This supplies the [finite-layer rank input](how-finite-layer-class-groups-bound-tower-generators.md).
 
 ## Lean correspondence
 

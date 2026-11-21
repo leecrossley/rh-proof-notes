@@ -24,7 +24,7 @@ Put $N=\ell^{c_0+m}$ and take a primitive $N$th root $\zeta$ generating $L'/L$, 
 
 ## Monotonicity of length
 
-For the layers $L_m/L$ of degree $\ell^m$, the [cyclotomic module formula](../zh/%E5%88%86%E5%9C%86%E5%A1%94%E4%B8%8A%E7%9A%84%E5%90%8C%E8%B0%83%E6%A0%B8%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%98%E6%88%90%E4%BD%99%E6%A0%B8%E9%95%BF%E5%BA%A6.md) gives
+For the layers $L_m/L$ of degree $\ell^m$, the [cyclotomic module formula](cohomology-kernels-as-cokernel-lengths-in-cyclotomic-towers.md) gives
 $$
 s(L_m,\ell,e)=\operatorname{length}_{\mathbb Z_\ell}
 \operatorname{coker}(A_e^{\ell^m}-1).

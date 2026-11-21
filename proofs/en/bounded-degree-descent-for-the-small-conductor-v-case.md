@@ -26,7 +26,7 @@ In $E=\mathbb Q(\mu_{\ell N})$ take the fixed field $L$ of the common kernel of 
 
 ## Bounding the two contributions to length
 
-On restriction to $G_L$, the coefficient twist becomes cyclotomic of weight $-1$. Inflation–restriction embeds the kernel into the first cohomology of $\operatorname{Gal}(L/\mathbb Q)$ with values in the invariant module. A cocycle is determined by its values on a generating set of at most $D_0$ elements. The invariant estimate in the [restriction-loss argument](../zh/%E9%99%90%E5%88%B6%E5%88%B0%E5%88%86%E5%9C%86%E5%B1%82%E6%97%B6%E4%B8%A2%E5%A4%B1%E7%9A%84%E4%B8%8A%E5%90%8C%E8%B0%83%E6%80%8E%E6%A0%B7%E4%BC%B0%E8%AE%A1.md) bounds the normalized length of the invariant module by $2N$ at weight $1$. Thus the normalized kernel length is at most $2D_0N$.
+On restriction to $G_L$, the coefficient twist becomes cyclotomic of weight $-1$. Inflation–restriction embeds the kernel into the first cohomology of $\operatorname{Gal}(L/\mathbb Q)$ with values in the invariant module. A cocycle is determined by its values on a generating set of at most $D_0$ elements. The invariant estimate in the [restriction-loss argument](bounding-the-cohomology-lost-under-cyclotomic-restriction.md) bounds the normalized length of the invariant module by $2N$ at weight $1$. Thus the normalized kernel length is at most $2D_0N$.
 
 For the image, base change multiplies $\mathbb Z_\ell$-length by $v_O(\ell)$. The Poitou–Tate comparison `shaLeV` bounds the weight $-1$ localization kernel over $L$ by the $\mathbb Z_\ell$-length of $H^2(G_{L,\{\ell\}},\mathbb Z_\ell(2))$, where ramification is allowed only above $\ell$ and at infinity. Set $K=\lceil C_K\rceil_{\mathbb N}$. `LemmaK` makes this group finite and bounds its log cardinality by
 $$
