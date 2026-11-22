@@ -2,29 +2,38 @@
 
 [Proof catalogue](../../PROOFS.en.md) · [Reading and review status](../../STATUS.md)
 
-Fix a host CM extension $E/F$ unramified at the finite places. A host Hermitian space $W$ has a full self-dual base lattice and a specified positive real number $\operatorname{vol}_D(W)$. Use only spaces with signature $(P,Q)$ constant at all complex embeddings. Write $n=P+Q$ and $M_n$ for the genus mass of the standard positive definite rank-$n$ lattice over $E$. This is `massI D n`. Assume the following data, which are the inputs in the passage to `BaseVolumeEqualsMass`.
+Fix a host CM extension $E/F$ unramified at the finite places. A host Hermitian space $W$ has a full self-dual base lattice and a specified positive real number $\mathrm{vol}_D(W)$. Use only spaces with signature $(P,Q)$ constant at all complex embeddings. Write $n=P+Q$ and $M_n$ for the genus mass of the standard positive definite lattice of rank $n$ over $E$. This is `massI D n`. Assume the following data, which are the inputs in the passage to `BaseVolumeEqualsMass`.
 
-1. The volume identification `VolTie` gives a left Haar measure on the unitary adelic group, a measurable fundamental domain for rational unitary points, and its volume $\operatorname{vol}_D(W)$. The measure uses the specified archimedean normalization and the finite stabilizer of the base lattice. For $Q=0$ the whole compact archimedean factor has measure one, and the level stabilizer, with that factor included, has measure one.
-2. For every such $W$ of rank $n\ge3$ with $P>0$ or $Q>0$, and a chosen sign allowed by the corresponding positive or negative count, `VolumeRatio₂` gives a vector $x\in W$ of norm $+1$ or $-1$, and a host Hermitian space $W'$ isometric to $x^\perp$. Its signature is $(P-1,Q)$ or $(P,Q-1)$, respectively. Put $f=[F:\mathbb Q]$, $v=|\operatorname{disc}E|^{1/(2f)}/2$, and let $\eta$ be the quadratic Hecke character of $E/F$. The ratio is
-   $$
-   \frac{\operatorname{vol}_D(W')}{\operatorname{vol}_D(W)}
-   =\left(\frac{(2\pi)^n}{(n-1)!}\right)^f
-     (2v)^{f(1/2-n)}L(n,\eta^n)^{-1}.
-   \tag{1}
-   $$
-   Here $L(n,\eta)$ has a factor $(1-\eta(\mathfrak p)^n(\operatorname N\mathfrak p)^{-n})^{-1}$ at each finite prime $\mathfrak p$ of $F$, with value $+1$ of $\eta(\mathfrak p)$ at split primes and $-1$ at inert primes. These are the host's `lValEta` factors grouped over $F$, so even $n$ uses $\zeta_F(n)$.
+**Volume identification.** `VolTie` gives a left Haar measure on the unitary adelic group, a measurable fundamental domain for rational unitary points, and its volume $\mathrm{vol}_D(W)$. The measure uses the specified archimedean normalization and the finite stabilizer of the base lattice. For $Q=0$ the whole compact archimedean factor has measure one, and the level stabilizer, with that factor included, has measure one.
 
-   For example, take $K=\mathbb Q(\zeta_{16})^+$, $F=K(\sqrt{547\cdot727})$ and $E=K(\sqrt{-547},\sqrt{-727})$. Both 31 and 47 split into eight degree-one primes in $F$. The residues of $-547$ and $-727$ are both nonsquares modulo 31 and both squares modulo 47. The rank-three Euler factors grouped over 31 and 47 are therefore $(1+31^{-3})^{-8}$ and $(1-47^{-3})^{-8}$. In rank four both have the form $(1-p^{-4})^{-8}$. With the conductor and archimedean data, six values of the prime-race explicit formula per prime recover the two denominator polynomials used in rank three. [Crossley, v1.0.1](https://doi.org/10.5281/zenodo.24412642)
+**Volume ratio.** For every such $W$ of rank $n\ge3$ with $P>0$ or $Q>0$, and a chosen sign allowed by the corresponding positive or negative count, `VolumeRatio₂` gives a vector $x\in W$ of norm $+1$ or $-1$, and a host Hermitian space $W'$ isometric to $x^\perp$. Its signature is $(P-1,Q)$ or $(P,Q-1)$, respectively. Put $f=[F:\mathbb Q]$, $v=|\mathrm{disc}E|^{1/(2f)}/2$, and let $\eta$ be the quadratic Hecke character of $E/F$. The ratio is
 
-3. For $n\ge3$ the standard mass ratio is
-   $$
-   \frac{M_n}{M_{n-1}}
-   =\frac{(((n-1)!)(v/\pi)^n)^f}{(2v)^{f/2}}L(n,\eta).
-   \tag{2}
-   $$
-   This is `MassRatio₂`. The proof of the Siegel mass ratio and the proof of the relative volume formula (1) are separate inputs here.
+~~~math
+\frac{\mathrm{vol}_D(W')}{\mathrm{vol}_D(W)}
+=\left(\frac{(2\pi)^n}{(n-1)!}\right)^f
+  (2v)^{f(1/2-n)}L(n,\eta^n)^{-1}.
+\qquad (1)
+~~~
 
-Then for every such $W$ with $P\ge2$ one has $\operatorname{vol}_D(W)=M_{P+Q}$. In particular the base space $Y_0$ used in the word-prime size calculation has $P\ge2$ and rank $r$, and $\operatorname{vol}_D(Y_0)=M_r$.
+The quadratic character $\eta$ equals $1$ at a split prime of $F$ and $-1$ at an inert prime. At $\mathfrak p$ the local factor of $L(n,\eta^n)$ is $(1-\eta(\mathfrak p)^n(\mathrm{N}\mathfrak p)^{-n})^{-1}$. For even $n$ the character power is trivial, so the product is $\zeta_F(n)$. In the formal definition of `lValEta`, a prime fixed by conjugation contributes the inert factor, and a pair interchanged by conjugation contributes the split factor. [Lean definition](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/HermitianLattices/StatementMass.lean#L30)
+
+For example, put $K=\mathbb Q(\zeta_{16})^+$, $F=K(\sqrt{547\cdot727})$ and $E=K(\sqrt{-547},\sqrt{-727})$. The biquadratic field generated by the two imaginary square roots has discriminant $(547\cdot727)^2$, the product of its three quadratic discriminants. Its real quadratic subfield has discriminant $547\cdot727$. The relative discriminant is therefore one, and the extension stays unramified at finite primes after base change to $F$.
+
+Both 31 and 47 are congruent to $-1$ modulo 16 and split completely in $K$. The residues of $-547$ and $-727$ are both nonsquares modulo 31 and both squares modulo 47. Their product is a square at each prime, so each splits into eight degree-one primes in $F$. All eight are inert in $E$ over 31 and all eight split in $E$ over 47. The rank-three $L$-factors are $(1+31^{-3})^{-8}$ and $(1-47^{-3})^{-8}$. At rank four the factor at either prime is $(1-p^{-4})^{-8}$. Equation (1) uses their reciprocals and equation (2) uses the factors themselves.
+
+Six values of Crossley’s explicit-formula function at each of the two primes recover the rank-three denominator polynomials $(1+T)^8$ and $(1-T)^8$, given the conductors and the archimedean correction, including its value at zero. This recovery is unconditional. Its interpretation as a limiting prime race uses Dirichlet GRH for the primitive factors of the race and its base field. [Six-value theorem, version 1.0.1](https://doi.org/10.5281/zenodo.24412642)
+
+**Mass ratio.** For $n\ge3$ the standard mass ratio is
+
+~~~math
+\frac{M_n}{M_{n-1}}
+=\frac{(((n-1)!)(v/\pi)^n)^f}{(2v)^{f/2}}L(n,\eta^n).
+\qquad (2)
+~~~
+
+This is `MassRatio₂`. The proof of the Siegel mass ratio and the proof of the relative volume formula (1) are separate inputs here.
+
+Then for every such $`W`$ with $`P\ge2`$ the volume $`\mathrm{vol}_D(W)`$ equals $`M_{P+Q}`$. In particular the base space $`Y_0`$ used in the word-prime size calculation has $`P\ge2`$ and rank $`r`$, and $`\mathrm{vol}_D(Y_0)=M_r`$.
 
 ### Unfold the rank-two definite volume
 
@@ -33,19 +42,21 @@ For a positive definite rank-two $W$, let $G$ be the adelic group of the first h
 The following integration is the actual use of the representatives. Define $f_K(y)=\sum_i s_i^{-1}\mathbf 1_{g_iK}(y)$. For any $y=\delta g_j k$, with $\delta\in\Gamma,k\in K$, only the coset $g_jK$ is hit by its $\Gamma$-translates. Exactly $s_j$ group elements send $y$ into it, since such $\gamma$ correspond to $\gamma\delta\in\Gamma\cap g_j K g_j^{-1}$. Hence $\sum_{\gamma\in\Gamma} f_K(\gamma y)=1$.
 
 Take a measurable fundamental domain $\mathcal F$. Its translates cover $G$ up to a null set and are pairwise disjoint up to null sets. Since the integrands are nonnegative and $\Gamma$ is countable, integrate the last identity over $\mathcal F$ and exchange sum and integral. By left invariance the resulting integrals sum to the integral over $G$. Thus
-$$
-\operatorname{vol}_D(W)=\mu(\mathcal F)
+
+~~~math
+\mathrm{vol}_D(W)=\mu(\mathcal F)
 =\int_G f_K\,d\mu
 =\sum_i \frac{\mu(K)}{s_i}
 =\sum_i\frac1{s_i}.
-$$
+~~~
+
 By the [genus identification](finite-adelic-classes-recover-the-hermitian-genus-mass.md) this is the genus mass of the base lattice of $W$. By the [comparison with the standard positive definite space](the-mass-of-a-definite-self-dual-lattice-is-the-standard-mass.md) it equals $M_2$.
 
 ### Induct on the added positive and negative directions
 
 The right side of (1) is the reciprocal of the right side of (2). Indeed $(2v)^n/(2\pi)^n=(v/\pi)^n$, and moving the half-power of $2v$ to the denominator gives (2). Since the relevant volumes and masses are positive, this identifies the upward volume ratio with $M_n/M_{n-1}$.
 
-For a positive definite $W$ of rank $n\ge3$, use the $+1$ choice in (1), obtaining a positive definite $W'$ of rank $n-1$. The rank-two base and induction show $\operatorname{vol}_D(W')=M_{n-1}$, so multiplying by the ratio proves the result in rank $n$. Next fix $P\ge2$ and induct on $Q$. The base $Q=0$ is now known. If $Q>0$, $P+Q\ge3$ and the $-1$ choice produces a complement of signature $(P,Q-1)$. Multiplying its known volume by $M_{P+Q}/M_{P+Q-1}$ gives the required volume. The source rank identities for $Y_0$ identify $P+Q=r$, so the resulting value is the mass used in the numerical center height.
+For a positive definite $`W`$ of rank $`n\ge3`$, use the $`+1`$ choice in (1), obtaining a positive definite $`W'`$ of rank $`n-1`$. The rank-two base and induction give the mass $`M_{n-1}`$ for the volume $`\mathrm{vol}_D(W')`$, so multiplying by the ratio proves the result in rank $`n`$. Next fix $`P\ge2`$ and induct on $`Q`$. The base $`Q=0`$ is now known. If $`Q>0`$, $`P+Q\ge3`$ and the $`-1`$ choice produces a complement of signature $`(P,Q-1)`$. Multiplying its known volume by $`M_{P+Q}/M_{P+Q-1}`$ gives the required volume. The source rank identities for $`Y_0`$ identify $`P+Q=r`$, so the resulting value is the mass used in the numerical center height.
 
 ### Lean correspondence
 
