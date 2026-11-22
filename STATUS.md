@@ -33,7 +33,9 @@ The one-entry bound now follows from the sigma addition formula around a finite 
 
 The frame proofs use weak approximation of unitary matrices, a four-square normalization of a rational trace basis, and an integral Hermitian projection. To change the fourfold isometry at the inert prime, the kernel scalar is computed by a periodized Gaussian integral and a finite quadratic Gauss sum. The determinant and the original normalization are units at the inert prime. [Unitary approximation](proofs/en/simultaneous-unitary-approximation-of-hermitian-lattices.md) · [Completed frame](proofs/en/identifying-the-local-theta-frame-with-the-trace-lattice.md) · [Kernel ratio](proofs/en/comparing-two-fourfold-theta-kernels.md)
 
-The comparison of the actual kernel family with the natural translates still needs to be connected. The other prime classes and their losses are needed for the full arithmetic comparison. [Kernel family entry](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AdmissibleKernelSeriesInertPrimeNonConjugateFrob.lean#L24)
+The actual kernel is now connected to the translated theta series at a level-free prime. The finite coset proof gives the translates and isolates the arithmetic coefficient function as an input. The period pairing and level calculation supply its geometric and index hypotheses. [First kernel reading](proofs/en/reading-the-actual-kernel-as-an-integral-theta-combination.md)
+
+The other prime classes and their losses are needed for the full arithmetic comparison. [Kernel family entry](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AdmissibleKernelSeriesInertPrimeNonConjugateFrob.lean#L24)
 
 ## Upstream links to complete / 待串联的上游证明
 
