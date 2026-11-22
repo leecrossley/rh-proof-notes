@@ -1,0 +1,34 @@
+# Odd shifts and column capacities give the three served jet bounds
+
+[Proof catalogue](../../PROOFS.en.md) · [Reading and review status](../../STATUS.md)
+
+Let $p>2$ be prime and write $v=-\log_p\|\cdot\|$ in an ultrametric field with $\|p\|=p^{-1}$. Slots are in $S=\mathbb Z/(2\nu)$, $\nu\ge1$. Fix top slots $T\subseteq S$, top powers $e_{s,b}\ge0$ in columns $b$, supported on $T$, and a product of lower minors. Put $a_s=\sum_b e_{s,b}$ and let $c_s$ be the number of lower minors at $s$. Write $\rho=1/(p^2-1)$ and $\gamma=p\rho=\sum_{e\ge0}p^{-2e-1}$. Denote the digit loss by $\Delta$ and the total differential degree by $D$ (all top powers plus all lower-minor degrees). Let $L$ be the evaluated jet. The input here is `EntryStar`: if $L\ne0$, one contribution with the following multiplicities bounds its valuation below:
+$$
+v(L)\ge \gamma\sum_{s\in T}a_s-A-\sum_{s,e}i_{s,e}-\Delta+\rho D .
+$$
+Here $A=\sum_\phi\alpha_\phi$ counts pure top terms. A pure term has exponents $p^{1+2u}$ and $p^{2v'}$ at opposite-parity top slots $s_1,s_2$ in the same column, with $s_1+(1+2u)=s_2+2v'$. A mixed term starts at a top slot $s$, uses exponent $p^{2e+1}$ there and hits a lower column at $s+2e+1$, with the same column label $b$. The number $i_{s,e}$ sums its multiplicities over columns. All these multiplicities together use at most $e_{s,b}$ top powers in each coordinate. The mixed Hasse derivative on the lower minors is nonzero. [Pure and mixed terms](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementE.lean#L95) · [`EntryStar` and its exponent](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementE.lean#L176)
+
+By the top degree budget and the [Hasse capacity bound](parallel-hasse-directions-can-hit-only-one-column-per-minor.md),
+$$
+i_{s,e}\le \min\bigl\{a_s/p^{2e+1},\ c_{s+2e+1}\bigr\}.
+$$
+The infinite sums of these upper bounds converge by the geometric series. The three conclusions below follow from how the remaining losses are accounted for. [Counting top powers](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/EntryATwoAndB.lean#L107) · [Counting lower minor hits](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/EntryATwoAndB.lean#L125)
+
+**Ordinary gain with excluded shifts.** For a pure term, orient the pair $s,s'$ so that the corresponding exponent level is the larger, $m>m'$, with $s+m=s'+m'$. The least positive cyclic distance $d$ from $s$ to $s'$ is odd and at most $m-m'\le m$. Charge the pure term to $s$ at odd shift $d$. At its charged coordinate the term therefore uses at least $p^d$ powers. For each $s,d$ with $s+d\in T$, the charged pure terms together with mixed terms at that shift use at most $a_s$ powers. Outside the shifts to opposite-parity top slots there is no pure charge, and the mixed loss is bounded by the minimum above. Subtracting these losses from the geometric sum $a_s\sum_{e\ge0}p^{-2e-1}$ leaves
+$$
+v(L)\ge \sum_{\substack{s\in T,\ e\ge0\\(2e+1)\notin D_s}}
+  \max\bigl\{a_s/p^{2e+1}-c_{s+2e+1},0\bigr\} -\Delta+\rho D .
+$$
+Here $D_s=\{(s'-s)\bmod 2\nu:s'\in T,\ s'\text{ of opposite parity}\}$ uses the least positive representatives. In particular the excluded set is finite. Shifts longer than the orbit keep their mixed capacity bound. This is `EntryExcessBound`. [Orienting a pair toward its odd difference](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/EntryAOneParity.lean#L55) · [`entryExcessBound_of`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/EntryAOneParity.lean#L177) · [The subtraction inequality](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementAB.lean#L120)
+
+**Ordinary gain with an even-slot loss.** Each pure term uses a positive amount of degree at an even top slot. All mixed terms with even source use positive degree there as well. Therefore $A+\sum_{s\text{ even},e}i_{s,e}\le\sum_{s\text{ even}}a_s$. For the odd sources retain the sharp capacity bound. Define
+$$
+G=\gamma\sum_{s\in T}a_s-
+  \sum_{s\in T,\ s\text{ odd},\ e\ge0}
+   \min\bigl\{a_s/p^{2e+1},c_{s+2e+1}\bigr\}-\Delta.
+$$
+The result is $v(L)\ge G-\sum_{s\text{ even}}a_s+\rho D$, the bound `EntryCappedBound`. [`entryCappedBound_of`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/EntryATwoAndB.lean#L220) · [The gain `gainG`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/GrowthSums/StatementA.lean#L104)
+
+**Gain after Hecke scaling.** Fix a set $J$ of columns. Pay the pure terms from the top powers in odd slots with column in $J$ and in even slots with column outside $J$. Each pure pair has exactly one endpoint of this kind. This same budget pays the mixed terms with even source and column outside $J$. The remaining mixed terms with even source have column in $J$ and hit odd targets. Their sum is bounded by $\sum_{C\text{ at odd slot}}|\operatorname{im} I_C\cap J|$ by the second Hasse capacity bound, summed over targets. Let $N$ be the sum of this last bound and the indicated top powers. Then $N\ge A+\sum_{s\text{ even},e}i_{s,e}$, and multiplication by $p^N$ supplies the entire even-source and pure loss. Consequently $v(p^N L)\ge G+\rho D$. This is `EntryB`. The [factorial calculation](factorials-control-the-loss-in-the-served-jet-expansion.md) proves `EntryStar` from the split of the phase. The [frame calculation](the-three-entry-bounds-pass-to-every-framed-coefficient.md) passes these three estimates to the kernel coefficients. [`EntryB_of`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/FrobeniusLiftNorms/EntryATwoAndB.lean#L268) · [The three entry estimates](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementE.lean#L191)
+
+Status. Source-based reconstruction draft. The [Lean verification record](../../STATUS.md#lean-verification--lean-核验) describes the published formal proof.

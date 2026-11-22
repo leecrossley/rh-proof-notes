@@ -180,6 +180,16 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The two split embeddings give the same scaled theta bound](proofs/en/the-two-split-embeddings-give-the-same-scaled-theta-bound.md) · Source-based reconstruction draft. Explains the two p-adic cases of the finite theta average using torsion points and the scalar for a change of lattice.
 - [Extracting the scaled jet of the induced theta function](proofs/en/extracting-the-scaled-jet-of-the-induced-theta-function.md) · Source-based reconstruction draft. Recovers the actual induced theta function from the split Fourier average and reads off its derivatives in the integral frame.
 
+### Cofactor bounds for the served local operators
+
+- [A Frobenius phase splits into pure top and mixed terms](proofs/en/a-frobenius-phase-splits-into-pure-top-and-mixed-terms.md) · Source-based reconstruction draft. Truncate at the jet degree and use Frobenius modulo p. Only one part of the product can contribute a single lower variable.
+- [Factorials control the loss in the served jet expansion](proofs/en/factorials-control-the-loss-in-the-served-jet-expansion.md) · Source-based reconstruction draft. Expand one homogeneous derivative pairing with the phase. The multinomial coefficient recovers the factorials of mixed choices.
+- [Parallel Hasse directions can hit only one column per minor](proofs/en/parallel-hasse-directions-can-hit-only-one-column-per-minor.md) · Source-based reconstruction draft. Expand each determinant under a linear perturbation. Two perturbed columns have proportional vectors and vanish.
+- [Odd shifts and column capacities give the three served jet bounds](proofs/en/odd-shifts-and-column-capacities-give-the-three-served-jet-bounds.md) · Source-based reconstruction draft. Track which multiplicities can be paid by top-row degree, shifted column capacity, or a prescribed Hecke scalar.
+- [The three entry bounds pass to every framed coefficient](proofs/en/the-three-entry-bounds-pass-to-every-framed-coefficient.md) · Source-based reconstruction draft. Sort the determinant factors by height, compare the Hecke exponent, and cancel the uniform rescaling by homogeneity.
+- [The scaled local cofactor series belongs to the Frobenius power class](proofs/en/the-scaled-local-cofactor-series-belongs-to-the-frobenius-power-class.md) · Source-based reconstruction draft. The two corrections exponentiate integrally, and the factorial denominator is absorbed by the ramified uniformizer.
+- [The three served jet floors apply to the local formal group](proofs/en/the-three-served-jet-floors-apply-to-the-local-formal-group.md) · Source-based reconstruction draft. Identify the two top rows and the digit loss, then descend coefficient estimates through the normed extension.
+
 ### The served local operator and the one-layer Hecke relation
 
 - [Hecke neighbor counts reduce to subspaces and graphs](proofs/en/hecke-neighbor-counts-reduce-to-subspaces-and-graphs.md) · Source-based reconstruction draft. Reduce the lattice condition modulo p, then classify subspaces by projection and intersection.
