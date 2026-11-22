@@ -224,6 +224,15 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [Reindexing the ordinary local unfolding sum](proofs/en/reindexing-the-ordinary-local-unfolding-sum.md) · Source-based reconstruction draft. Affine tail flag columns and a coarse congruence quotient justify the finite-box character change.
 - [The ordinary point kernel transforms with the level characters](proofs/en/the-ordinary-point-kernel-transforms-with-the-level-characters.md) · Source-based reconstruction draft. Lift residue-frame corrections and combine the local determinant and character laws with global quotient transport.
 
+### Moving theta kernels between lattice pairs
+
+- [Theta movement across the word-prime lattices](proofs/en/theta-movement-across-the-word-prime-lattices.md) · Source-based reconstruction draft. Match the positive volume scalar with rank-half powers of the word prime and insert the split determinant-character factor after descent.
+- [The analytic theta sums have a common lattice refinement](proofs/en/the-analytic-theta-sums-have-a-common-lattice-refinement.md) · Source-based reconstruction draft. Reduce both box sums to the same normalized theta sum, then telescope the determinant indices.
+- [A theta intertwiner refines the weighted coset sum](proofs/en/a-theta-intertwiner-refines-the-weighted-coset-sum.md) · Source-based reconstruction draft. Multiply the normalized translations and refine the sum using a product of two sets of representatives.
+- [Self-dual refinements control the period-lattice indices](proofs/en/self-dual-refinements-control-the-period-lattice-indices.md) · Source-based reconstruction draft. Build conjugate-compatible refinements and compute the index of a period Hom lattice from its two local determinants.
+- [An entire theta identity descends to the weighted jet operators](proofs/en/an-entire-theta-identity-descends-to-the-weighted-jet-operators.md) · Source-based reconstruction draft. Identify the block degrees used by substitution and descend the equality of derivatives to the coefficient field.
+- [The word-prime character factor is independent of the selected side](proofs/en/the-word-prime-character-factor-is-independent-of-the-selected-side.md) · Source-based reconstruction draft. Pair inverse character values with opposite determinant orders at conjugate places.
+
 ### Word-prime columns and auxiliary-prime periods
 
 - [Weighted incidence gives the word-prime Hecke commutation](proofs/en/weighted-incidence-gives-the-word-prime-hecke-commutation.md) · Source-based reconstruction draft. Counts the same incidences by either endpoint to pass from a point-kernel law to the Hecke operator on class forms.
@@ -617,6 +626,13 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [Integral trace averaging kills cyclotomic tower cocycles](proofs/en/integral-trace-averaging-kills-cyclotomic-tower-cocycles.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E6%95%B4%E6%95%B0%E8%BF%B9%E5%B9%B3%E5%9D%87%E6%B6%88%E6%8E%89%E5%88%86%E5%9C%86%E5%A1%94%E9%A1%B6%E7%9A%84%E4%B8%80%E9%98%B6%E4%BD%99%E9%97%AD%E9%93%BE.md) · Translation draft.
 - [One element generates the ring of integers](proofs/en/one-element-generates-the-ring-of-integers.md) · [中文](proofs/zh/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%B0%B1%E8%83%BD%E7%94%9F%E6%88%90%E5%B1%80%E9%83%A8%E5%9F%9F%E7%9A%84%E6%95%B4%E4%B8%AA%E6%95%B4%E6%95%B0%E7%8E%AF.md) · Translation draft.
 - [A separable idempotent extracts a crystalline embedding frame](proofs/en/a-separable-idempotent-extracts-a-crystalline-embedding-frame.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E7%94%A8%E5%8F%AF%E5%88%86%E5%B9%82%E7%AD%89%E5%85%83%E6%8A%BD%E5%87%BA%E4%B8%80%E4%B8%AA%E5%B5%8C%E5%85%A5%E7%9A%84%E6%99%B6%E4%BD%93%E6%AF%94%E8%BE%83%E6%A1%86%E6%9E%B6.md) · Translation draft.
+
+### Constructing the Galois representation and its local comparisons
+
+- [Completing the local comparisons for the Galois representation](proofs/en/completing-the-local-comparisons-for-the-galois-representation.md) · Source-based reconstruction draft. Assemble the Galois row with its common weights and filtration jumps using the spherical, toral and principal-congruence comparisons.
+- [Two theta lifts share one twist and have disjoint added characters](proofs/en/two-theta-lifts-share-a-twist-and-have-disjoint-characters.md) · Source-based reconstruction draft. Choose one sufficiently large odd rank for both theta lifts and compute their weight and Satake multisets.
+- [Idèle norm shifts give disjoint theta characters](proofs/en/idele-norm-shifts-give-disjoint-theta-characters.md) · Source-based reconstruction draft. Construct the common twist and disjoint padding characters explicitly from a single angular Hecke character.
+- [Prescribing a unitary Hecke character's angular exponents](proofs/en/prescribing-a-unitary-hecke-characters-angular-exponents.md) · Source-based reconstruction draft. Use an auxiliary split prime to enforce compatible prescriptions on an open idèle subgroup, then extend the character.
 
 ### Weight-one geometry and limits of Galois traces
 
