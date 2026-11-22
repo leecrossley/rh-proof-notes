@@ -23,6 +23,17 @@ The curve supplies the logarithm and the integral-exponential identities used by
 - [Extending the CM norm law to all unramified units](proofs/en/extending-the-cm-norm-law-to-all-unramified-units.md) · Source-based reconstruction draft. Complex lattice identities give the norm on integral CM endomorphisms. A residue-digit argument approximates every Frobenius-square-fixed unit by such endomorphisms.
 - [Assembling the inert CM curve data](proofs/en/assembling-the-inert-cm-curve-data.md) · Source-based reconstruction draft. The unramified field supplies Frobenius and the residue roots. The good model, the height-two comparison and the unit norm law then apply to the same curve.
 
+### Inert kernel integrality and standard bases
+
+- [One normalization for the inert kernel family](proofs/en/one-normalization-for-the-inert-kernel-family.md) · Source-based reconstruction draft. The scale and biextension are chosen at each coefficient place before any stage, lattice pair or kernel. Adapted bases then put every actual kernel into the same expansion theorem.
+- [How inert kernel integrality supplies the host expansion](proofs/en/how-inert-kernel-integrality-supplies-the-host-expansion.md) · Source-based reconstruction draft. The common host data at a signal or inert-class prime, from the local curve and the ordinary integrality assertion for translated kernels.
+- [The curve dictionary transports kernel integrality](proofs/en/the-curve-dictionary-transports-kernel-integrality.md) · Source-based reconstruction draft. Comparison of the actual curve parameter and the height-two parameter, including the integral unit that corrects the phase.
+- [From one standard theta to inert kernel integrality](proofs/en/from-one-standard-theta-to-inert-kernel-integrality.md) · Source-based reconstruction draft. Block products, local equality and unitary covariance reduce every translated kernel to the one-copy standard case.
+- [Finite theta averages at a standard local pair](proofs/en/finite-theta-averages-at-a-standard-local-pair.md) · Source-based reconstruction draft. Two prime-to-p finite averages and the rational cocycle express every translate at a standard local pair in terms of standard theta translates.
+- [Changing the orthonormal basis of a kernel](proofs/en/changing-the-orthonormal-basis-of-a-kernel.md) · Source-based reconstruction draft. The logarithmic unitary change is an integral formal substitution whose phase ratio is an integral unit.
+- [The standard bases give integral Frobenius-dual coordinates](proofs/en/the-standard-bases-give-integral-frobenius-dual-coordinates.md) · Source-based reconstruction draft. Change of basis and inverse transpose preserve the trace duality. Local lattice membership controls denominators, and Frobenius exchanges the two resulting coordinate lists.
+- [Trace-dual coordinates give the hyperbolic frame](proofs/en/trace-dual-coordinates-give-the-hyperbolic-frame.md) · Source-based reconstruction draft. Frobenius exchanges an integral list and its dual while moving to the next slot. Grouping the two parities produces the isotropic pairs needed for the theta expansion.
+
 ### Theta expansions and local determinant bounds
 
 These notes derive the expansion that supplies the local determinant estimate and prove how the resulting valuations add over the Frobenius orbits of a rational prime.
