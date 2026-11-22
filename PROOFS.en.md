@@ -162,6 +162,16 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The last column lattice controls the period](proofs/en/the-last-column-lattice-controls-the-period.md) · Source-based reconstruction draft. Pass from the final lift to the point lattice and use the base or twisted class-period bound to compute the remaining valuation loss.
 - [The period bound at each finite place](proofs/en/the-period-bound-at-each-finite-place.md) · Source-based reconstruction draft. Check the word prime, the two auxiliary primes and every remaining place, using the first-step saving to cancel the terminal period denominator.
 
+### Word-prime moment operators and the Weyl lattices
+
+- [Maximal row height gives a dominant highest vector](proofs/en/maximal-row-height-gives-a-dominant-highest-vector.md) · Source-based reconstruction draft. A strict inclusion of stable polynomial spaces yields a dominant row weight killed by every raising operator in the quotient.
+- [Traces of operator powers detect the highest weight](proofs/en/traces-of-operator-powers-detect-the-highest-weight.md) · Source-based reconstruction draft. A commutator recursion computes the trace on a highest vector over any ring and then on the entire dual Weyl space.
+- [Shifted residues force simplicity in the lowest alcove](proofs/en/shifted-residues-force-simplicity-in-the-lowest-alcove.md) · Source-based reconstruction draft. A generating function recovers the shifted highest weight in the closed lowest alcove and rules out any proper nonzero submodule.
+- [Lowest-alcove simplicity identifies the two value lattices](proofs/en/lowest-alcove-simplicity-identifies-the-two-value-lattices.md) · Source-based reconstruction draft. Reduction modulo the word prime and a prime-to-p multiplier transport a dual Weyl estimate back to the required Weyl lattice.
+- [Integral moment approximants give an integral jet operator](proofs/en/integral-moment-approximants-give-an-integral-jet-operator.md) · Source-based reconstruction draft. An adjoint substitution in lattice bases gives a determinant factor, and finite moment approximation retains the factor.
+- [The two split sides give the word-prime kernel bounds](proofs/en/the-two-split-sides-give-the-word-prime-kernel-bounds.md) · Source-based reconstruction draft. The moment normalization and the determinants of a hyperplane lattice and its dual account for the two exponents.
+- [Coefficient kernel bounds pass to all word-prime points](proofs/en/coefficient-kernel-bounds-pass-to-all-word-prime-points.md) · Source-based reconstruction draft. Represent a point by a decorated lattice and a torsion move, then transport its normalized kernel value.
+
 ### Word-prime columns and auxiliary-prime periods
 
 - [Weighted incidence gives the word-prime Hecke commutation](proofs/en/weighted-incidence-gives-the-word-prime-hecke-commutation.md) · Source-based reconstruction draft. Counts the same incidences by either endpoint to pass from a point-kernel law to the Hecke operator on class forms.
