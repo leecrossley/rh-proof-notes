@@ -16,7 +16,7 @@ Let $b_1,\ldots,b_r$ be the chosen moment basis and $\beta$ the normalized Hermi
 
 Suppose $\|\mu\|\le1$. For any finite list $v_i\in\Lambda$, express each $v_i$ in the directions $c_j/s'$. The matrix of coefficients embeds in $\mathbb Z_q$, so it defines a continuous linear map from the coordinates of $\mu$ into the coordinates for the new list. Push $\mu$ forward by composing continuous test functions with this map. The pushforward has norm at most one, and multilinearity of differentiation proves the moment identity for the new directions. Conversely, the lattice-moment assertion supplies a measure of norm at most one for $c_j$. Push it forward by multiplying each coordinate by $1/s'\in\mathbb Z_q$. The resulting measure has the same polynomial moments as $\mu$ in the directions $c_j/s'$. The binomial polynomials span a dense subspace of the continuous functions, so the measures agree. Thus the norm bound for the measure is equivalent to the lattice-moment assertion. Apply the equivalence first to the original vector and then to its translate, using equality of their measure norms.
 
-The orthogonal theta expansion, the chart laws, the integral coordinate comparison, and the existence of the dual directions are the geometric inputs to this argument.
+[The quotient calculation](an-elliptic-quotient-keeps-cancellations-in-a-theta-translate-sum.md) derives the simultaneous coefficient estimate, and [the torsion shift](the-torsion-shift-extends-to-prime-to-p-theta-translates.md) gives the translation of the chart series. The orthogonal theta expansion, the integral coordinate comparison, and the existence of the dual directions are the geometric inputs to this argument.
 
 ### Lean correspondence
 

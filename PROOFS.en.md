@@ -162,12 +162,22 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The last column lattice controls the period](proofs/en/the-last-column-lattice-controls-the-period.md) · Source-based reconstruction draft. Pass from the final lift to the point lattice and use the base or twisted class-period bound to compute the remaining valuation loss.
 - [The period bound at each finite place](proofs/en/the-period-bound-at-each-finite-place.md) · Source-based reconstruction draft. Check the word prime, the two auxiliary primes and every remaining place, using the first-step saving to cancel the terminal period denominator.
 
-### The split multiplicative chart and bounded theta moments
+### The split theta translation laws
 
+- [A pole-free residue disc preserves the elliptic coefficient bound](proofs/en/a-pole-free-residue-disc-preserves-the-elliptic-coefficient-bound.md) · Source-based reconstruction draft. The distinct pole orders of $x^i$ and $x^iy$ recover the numerator, and the translated denominator has coefficient norm one.
+- [An elliptic quotient keeps cancellations in a theta translate sum](proofs/en/an-elliptic-quotient-keeps-cancellations-in-a-theta-translate-sum.md) · Source-based reconstruction draft. Divide out the common theta power before moving the sum and handle the half-period by two equal translations.
+- [The torsion shift extends to prime-to-p theta translates](proofs/en/the-torsion-shift-extends-to-prime-to-p-theta-translates.md) · Source-based reconstruction draft. Scaling makes the theta quotient elliptic, so translation follows from the multiplicative chart and descends back.
+
+### The open-disc root and the height-one chart
+
+- [Weierstrass division finds a root in the open disc](proofs/en/weierstrass-division-finds-a-root-in-the-open-disc.md) · Source-based reconstruction draft. The first unit coefficient yields a monic polynomial with all remaining coefficients strictly small.
 - [The height-one torsion tower has a controlled product of norms](proofs/en/the-height-one-torsion-tower-has-a-controlled-product-of-norms.md) · Source-based reconstruction draft. The $p$-series is degree $p$ on the open unit disc, and fibre products give exactly one factor of $|p|$ at each level.
 - [Interpolating torsion characters builds the height-one isomorphism](proofs/en/interpolating-torsion-characters-builds-the-height-one-isomorphism.md) · Source-based reconstruction draft. Integrality of a finite group law forces integrality of its characters, and the growing torsion set determines the limit.
 - [A height-one formal group gives the unit theta period](proofs/en/a-height-one-formal-group-gives-the-unit-theta-period.md) · Source-based reconstruction draft. Formal differentiation identifies the multiplicative chart, and the discriminant removes its normalization factor.
 - [A single unit aligns the split torsion characters](proofs/en/a-single-unit-aligns-the-split-torsion-characters.md) · Source-based reconstruction draft. Compatible torsion generators give a unit in the inverse limit of residue rings.
+
+### The split multiplicative chart and bounded theta moments
+
 - [Bounded binomial moments determine a p-adic measure](proofs/en/bounded-binomial-moments-determine-a-p-adic-measure.md) · Source-based reconstruction draft. Forward differences tend to zero, and the binomial test functions recover the exact operator bound.
 - [Multiplicative shifts turn theta jets into moments](proofs/en/multiplicative-shifts-turn-theta-jets-into-moments.md) · Source-based reconstruction draft. The operator $(1+X)d/dX$ identifies a root-of-unity twist of a measure with a shifted theta derivative.
 - [Prime-to-p translation preserves theta measure norm](proofs/en/prime-to-p-translation-preserves-theta-measure-norm.md) · Source-based reconstruction draft. An isometric coefficient comparison works in an orthogonal frame, and dual directions identify the norm bound with lattice integrality.

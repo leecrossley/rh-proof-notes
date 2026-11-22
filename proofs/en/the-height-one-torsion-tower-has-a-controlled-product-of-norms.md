@@ -10,7 +10,7 @@ $$
 
 ### Constructing the points
 
-Use the open-disc root theorem for integral power series. It states that if the least degree with unit coefficient is $l>0$, an integral series over the complete algebraically closed $K$ has a root in the open unit disc. For $P(X)-c$, with $|c|<1$, this least degree is $p$. Thus $P$ maps the disc onto itself. For $P(X)/X$ the least degree is $p-1>0$. Its constant is $p\ne0$, so its small root is nonzero. Take this root for $t_1$ and then choose one preimage at each subsequent level. Since $[p^{n-1}]_F(t_n)=t_1\ne0$ and $[p^n]_F(t_n)=0$, $t_n$ has exact order $p^n$ for the formal group on the disc. Its multiples are distinct modulo this integer. Also $[j]_F(t_n)=[pj]_F(t_{n+1})$, proving the inclusions.
+Use [the open-disc root theorem](weierstrass-division-finds-a-root-in-the-open-disc.md) for integral power series. It states that if the least degree with unit coefficient is $l>0$, an integral series over the complete algebraically closed $K$ has a root in the open unit disc. For $P(X)-c$, with $|c|<1$, this least degree is $p$. Thus $P$ maps the disc onto itself. For $P(X)/X$ the least degree is $p-1>0$. Its constant is $p\ne0$, so its small root is nonzero. Take this root for $t_1$ and then choose one preimage at each subsequent level. Since $[p^{n-1}]_F(t_n)=t_1\ne0$ and $[p^n]_F(t_n)=0$, $t_n$ has exact order $p^n$ for the formal group on the disc. Its multiples are distinct modulo this integer. Also $[j]_F(t_n)=[pj]_F(t_{n+1})$, proving the inclusions.
 
 ### Products on fibres
 
