@@ -8,6 +8,10 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ### Simultaneous family construction
 
+- [Bounded trace forms give finitely many Hermitian lattice classes](proofs/en/bounded-trace-forms-give-finitely-many-hermitian-lattice-classes.md) · Source-based reconstruction draft. Bound the trace covolume by the Hermitian dual, find short rational bases, and classify finitely many coordinate lattices.
+- [The mass of a definite self-dual lattice is the standard mass](proofs/en/the-mass-of-a-definite-self-dual-lattice-is-the-standard-mass.md) · Source-based reconstruction draft. Match the local Hermitian spaces by integral frames, apply the local–global isometry theorem, and compare the resulting genera.
+- [Finite adelic classes recover the Hermitian genus mass](proofs/en/finite-adelic-classes-recover-the-hermitian-genus-mass.md) · Source-based reconstruction draft. Glue completed lattices, compare rational isometries and stabilizers, and sum their inverse orders.
+- [A self-dual lattice has an integral frame at each finite place](proofs/en/a-self-dual-lattice-has-an-integral-frame-at-each-finite-place.md) · Source-based reconstruction draft. Localize the self-duality condition and use dual bases in the split case and unit norms in the inert case.
 - [Unitary reflections preserve the local Haar measure](proofs/en/unitary-reflections-preserve-the-local-haar-measure.md) · Source-based reconstruction draft. Construct reflections with invertible norm parameters and show that the semilinear involution makes every positive modular factor equal to one.
 - [The two split components give a self-dual overlattice](proofs/en/the-two-split-components-give-a-self-dual-overlattice.md) · Source-based reconstruction draft. Use the two residue functionals to identify the base lattice, then enlarge one component to its dual and glue globally.
 - [The column level index factors into finite-field indices](proofs/en/the-column-level-index-factors-into-finite-field-indices.md) · Source-based reconstruction draft. Compute the two upper unitriangular indices and the index of a nonzero row stabilizer, then multiply at the split places.
@@ -243,6 +247,10 @@ The topics and entries below follow the order of the Chinese catalogue.
 
 ### Moving theta kernels between lattice pairs
 
+- [The host period lattices are self-dual and commensurable](proofs/en/the-host-period-lattices-are-self-dual-and-commensurable.md) · Source-based reconstruction draft. Test the dual by the elliptic alternating form and trace pairings of rank-one maps, then check the parity law.
+- [The unkilled half-period gives the standard theta sign](proofs/en/the-unkilled-half-period-gives-the-standard-theta-sign.md) · Source-based reconstruction draft. Compare the quadratic sign and translated sigma sign on a basis modulo twice the periods.
+- [A fourfold average generates the standard theta line](proofs/en/a-fourfold-average-generates-the-standard-theta-line.md) · Source-based reconstruction draft. Transport a product of scalar theta functions and extract the fourth root that supplies each rectangle.
+- [The modified sigma has the canonical period multiplier](proofs/en/the-modified-sigma-has-the-canonical-period-multiplier.md) · Source-based reconstruction draft. Differentiate the convergent sigma product and use the Legendre relation to compute the multiplier.
 - [Square and triangle paths give the host theta equations](proofs/en/square-and-triangle-paths-give-the-host-theta-equations.md) · Source-based reconstruction draft. Reorder the lattice moves by squares and triangles, then match the unitary scalar with the change of determinant ideal.
 - [A common splitting makes the three theta moves compose](proofs/en/a-common-splitting-makes-the-three-theta-moves-compose.md) · Source-based reconstruction draft. Decompose the finite sum into character sums and use nonnegativity to fix its eighth-root scalar.
 - [An approximate target projection splits the four period lattices](proofs/en/an-approximate-target-projection-splits-the-four-period-lattices.md) · Source-based reconstruction draft. Turn an approximate Hermitian projection into two subgroups on which the period phases agree.
