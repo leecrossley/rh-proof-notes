@@ -8,6 +8,9 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ### Simultaneous family construction
 
+- [Unitary reflections preserve the local Haar measure](proofs/en/unitary-reflections-preserve-the-local-haar-measure.md) · Source-based reconstruction draft. Construct reflections with invertible norm parameters and show that the semilinear involution makes every positive modular factor equal to one.
+- [The two split components give a self-dual overlattice](proofs/en/the-two-split-components-give-a-self-dual-overlattice.md) · Source-based reconstruction draft. Use the two residue functionals to identify the base lattice, then enlarge one component to its dual and glue globally.
+- [The column level index factors into finite-field indices](proofs/en/the-column-level-index-factors-into-finite-field-indices.md) · Source-based reconstruction draft. Compute the two upper unitriangular indices and the index of a nonzero row stabilizer, then multiply at the split places.
 - [A generator prime kills the fine column stabilizers](proofs/en/a-generator-prime-kills-the-fine-column-stabilizers.md) · Source-based reconstruction draft. An upper unitriangular reduction forces prime-power torsion, and the rational dimension excludes that torsion when the generator prime is large.
 - [The column class number is the genus mass times the level index](proofs/en/the-column-class-number-is-the-genus-mass-times-the-level-index.md) · Source-based reconstruction draft. Count the orbits in each fiber of the map from fine level to the self-dual stabilizer level.
 - [The selected twists supply the missing design estimates](proofs/en/the-selected-twists-supply-the-missing-design-estimates.md) · Source-based reconstruction draft. Derive design existence from one twisted choice, the class-number input, the selected second-layer columns and the analytic boxes.
@@ -222,6 +225,12 @@ The topics and entries below follow the order of the Chinese catalogue.
 
 ### Covariance of the point kernels
 
+- [Assembling the five kernel laws on the true column chain](proofs/en/assembling-the-five-kernel-laws-on-the-true-column-chain.md) · Source-based reconstruction draft. Assemble the five arithmetic laws on one chain and transport the neighbour, diamond and valuation laws to point operators.
+- [Extending the coefficient kernel to all complex points](proofs/en/extending-the-coefficient-kernel-to-all-complex-points.md) · Source-based reconstruction draft. Complexify on a basis and descend across the point model's torsion identifications.
+- [Transporting word-prime neighbours to the complex point model](proofs/en/transporting-word-prime-neighbours-to-the-complex-point-model.md) · Source-based reconstruction draft. Identify both neighbour fibers and extend the finite-sum and diamond laws by covariance.
+- [Splitting a point into its word-prime data and off-prime data](proofs/en/splitting-a-point-into-its-word-prime-data-and-off-prime-data.md) · Source-based reconstruction draft. Glue arbitrary selected local lattices with their conjugate duals and retain the other data.
+- [Constructing the point model by a torsion quotient](proofs/en/constructing-the-point-model-by-a-torsion-quotient.md) · Source-based reconstruction draft. Construct the point-set action and compare its orbits and stabilizers with the arithmetic ones.
+- [Choosing the embedding that sees each split word prime](proofs/en/choosing-the-embedding-that-sees-each-split-word-prime.md) · Source-based reconstruction draft. Use prime transitivity, embedding counts and the common image of the chosen word-prime generator.
 - [The penultimate kernel carries the target coset along](proofs/en/the-penultimate-kernel-carries-the-target-coset-along.md) · Source-based reconstruction draft. Transport the added column with the target frame and compute both local determinant factors.
 - [Why the terminal Fourier factor descends to a coset](proofs/en/why-the-terminal-fourier-factor-descends-to-a-coset.md) · Source-based reconstruction draft. Verify the character domain and congruence period from the depths at type and twist primes.
 - [The terminal kernel carries the source coset along](proofs/en/the-terminal-kernel-carries-the-source-coset-along.md) · Source-based reconstruction draft. Transport the source coset, remove the target congruence correction, and use the head-weight laws.
