@@ -145,6 +145,13 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The Landau window lemma](proofs/en/landau-window.md) · [中文](proofs/zh/Landau%E7%AA%97%E5%8F%A3%E5%BC%95%E7%90%86-%E5%8D%95%E4%BE%A7%E4%B8%8A%E7%95%8C%E5%A6%82%E4%BD%95%E6%8E%92%E9%99%A4%E6%9E%81%E7%82%B9.md) · Translation draft, extending the English reading guide to include the prime-sum application.
 - [One window for two estimates](proofs/en/common-window.md) · [中文](proofs/zh/%E6%80%8E%E6%A0%B7%E8%AE%A9%E4%B8%8A%E5%90%8C%E8%B0%83%E7%95%8C%E5%92%8C%E6%89%AD%E6%9B%B2%E4%BC%B0%E8%AE%A1%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3.md) · Existing English proof with equivalent mathematical scope.
 
+### From the column lift to the period bound
+
+- [Integral test rows descend to class polynomials](proofs/en/integral-test-rows-descend-to-class-polynomials.md) · Source-based reconstruction draft. Use the rational row lattice and the comparison at each class representative to obtain the integral polynomial inputs for the terminal period.
+- [The class period sum loses only the stabilizer denominator](proofs/en/the-class-period-sum-loses-only-the-stabilizer-denominator.md) · Source-based reconstruction draft. Restrict the period and its test function to one class, use dual lattice integrality there, then reassemble the base and twisted periods.
+- [The last column lattice controls the period](proofs/en/the-last-column-lattice-controls-the-period.md) · Source-based reconstruction draft. Pass from the final lift to the point lattice and use the base or twisted class-period bound to compute the remaining valuation loss.
+- [The period bound at each finite place](proofs/en/the-period-bound-at-each-finite-place.md) · Source-based reconstruction draft. Check the word prime, the two auxiliary primes and every remaining place, using the first-step saving to cancel the terminal period denominator.
+
 ### From period valuations to an integral lattice map
 
 - [From period valuations to an integral lattice map](proofs/en/integral-lattice-map.md) · [中文](proofs/zh/%E5%91%A8%E6%9C%9F%E8%B5%8B%E5%80%BC%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%95%B4%E6%A0%BC%E6%98%A0%E5%B0%84.md) · Existing English proof with equivalent mathematical scope.
