@@ -1,0 +1,29 @@
+# Imaginary quadratic twists of the field give good split base changes
+
+[Proof catalogue](../../PROOFS.en.md) · [Reading and review status](../../STATUS.md)
+
+## Statement
+
+Let $E$ be a CM number field, $\Omega$ an algebraic closure, $\ell$ a prime, and $\pi$ a rank-$a$ cuspidal automorphic representation of $\mathrm{GL}_a(\mathbb A_E)$. Fix any finite place $w_0$ of $E$. There are infinitely many distinct quadratic CM extensions $K/E$ in $\Omega$ satisfying these assertions.
+
+- The place $w_0$ splits in $K/E$, and each place of $K$ above it also splits over $K^+$.
+- Some place of $K$ is ramified over a place of $E$ where $\pi$ is spherical.
+- Each cuspidal base change $P$ of $\pi$ to $K$ in the sense of `IsLift` is good: $K$ contains a square root of a negative rational integer and $[K^+:\mathbb Q]$ is even. At every finite place of $K$ nonsplit over $K^+$, the place is prime to $\ell$, $K/K^+$ is unramified, and $P$ has a Satake multiset.
+
+These are exactly the family requirements in `infinite_qcm_split_good`. Sphericity of a cuspidal representation outside a finite set and the Satake power rule for base change are the automorphic inputs. [Exact family statement and proof](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/InfiniteQuadraticCMGoodBaseChangeSplit.lean#L84)
+
+## A congruence for the new ramified prime
+
+Let $q_0$ be the rational prime below $w_0$. Let $R$ contain $2,\ell,q_0$, every prime dividing the discriminant of $E$, and the rational primes below the finitely many places where $\pi$ is not spherical. Set $M=8\prod_{p\in R}p$. There are infinitely many rational primes $p\equiv-1\bmod M$ outside $R$, for instance by the [Chebotarev theorem](degree-one-frobenius-elements-are-dense-at-the-usable-split-places.md#the-density-argument) for the inversion automorphism in the $M$th cyclotomic field. Take $x^2=-p$ in $\Omega$ and $K=E(x)$. The valuation of $-p$ at a place of $E$ above $p$ is one, so $K/E$ is quadratic and ramifies above $p$, where $\pi$ is spherical. The extension is CM as the compositum with an imaginary quadratic field, and the degree of $K^+$ over $E^+$ is two. [Selecting the modulus and the new ramified prime](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/InfiniteQuadraticCMGoodBaseChangeSplit.lean#L84)
+
+For every $q\in R$, $-p$ is a square in $\mathbb Q_q$: it is congruent to one modulo $q$ at odd $q$, and modulo $8$ at $2$. The [simple-root and dyadic lifting arguments](real-quadratic-steps-separate-the-restrictions-of-places-above-a-prime.md#constructing-the-extensions) apply. Thus the decomposition group at a valuation above $q$ fixes $x$. It follows that every place of $E$ above $q$ splits in $K/E$. The element $x$ is totally imaginary and generates $K$ over $K^+$, so the same argument for the decomposition group over $K^+$ proves splitness in $K/K^+$ at every place above $q$. This applies to $q_0$ in both assertions. [Splitness when the radicand is a local square](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/InfiniteQuadraticCMGoodBaseChangeSplit.lean#L38)
+
+## At all nonsplit places
+
+Let $w$ be nonsplit in $K/K^+$, with rational prime $q$ below it. We have proved $q\notin R$, so $w$ is prime to $\ell$ and $\pi$ is spherical at its restriction to $E$. Also $K/K^+$ is unramified there. To see this even when $q=p$, suppose inertia for the quadratic extension $K/K^+$ were nontrivial. It would contain the complex conjugation of $K$, which restricts to the nontrivial CM conjugation of $E$. The restriction of such an inertia element to $E$ stabilizes the place below $w$ and acts trivially on its residue field. This is impossible since $q\notin R$ and $E/\mathbb Q$ is unramified above $q$. These are the separate roles of the discriminant exclusion and the split places in the construction.
+
+If $B$ is the Satake multiset of $\pi$ at the restriction of $w$, the Satake power rule gives the multiset obtained by raising each entry of $B$ to the relative residue degree. It is a Satake multiset of each base change $P$ at $w$. This proves the goodness properties, with $x$ already providing the required imaginary square root. [The uniform finite set for CM ramification](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/InfiniteQuadraticCMGoodBaseChangeSplit.lean#L49) · [The nonsplit-place data of the lift](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/InfiniteQuadraticCMGoodBaseChangeSplit.lean#L164)
+
+The fields for different choices of $p$ are distinct. The field for $p$ has ramification over $E$ above $p$, while for a different allowed prime $p'$ the polynomial $X^2+p'$ is separable modulo $p$ and gives a split or unramified extension there. The infinite family permits choosing an extension that serves the specified $w_0$ even after excluding finitely many exceptions of the [global patching](patching-quadratic-base-changes-gives-one-representation-over-the-original-field.md). [Infinitude via ramification outside any fixed finite union](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/InfiniteQuadraticCMGoodBaseChangeSplit.lean#L191)
+
+Status. Source-based reconstruction draft. The [Lean verification record](../../STATUS.md#lean-verification--lean-核验) describes the published formal proof.
