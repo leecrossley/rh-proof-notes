@@ -171,6 +171,15 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The auxiliary-prime period loses the product of layer multipliers](proofs/en/the-auxiliary-prime-period-loses-the-product-of-layer-multipliers.md) · Source-based reconstruction draft. Follows the integral split theta jets through the class sums, terminal period and normalized valuation budget.
 - [The hyperplane point map is integral by branching at each place](proofs/en/the-hyperplane-point-map-is-integral-by-branching-at-each-place.md) · Source-based reconstruction draft. Uses compatible terminal and hyperplane frames to descend the point map to the coefficient field and glue its integral values.
 
+### The split auxiliary-prime theta bound
+
+- [A unit CM multiplier gives integral torsion coordinates](proofs/en/a-unit-cm-multiplier-gives-integral-torsion-coordinates.md) · Source-based reconstruction draft. Uses the isogeny product and reduction of formal series to control the kernel of a CM multiplier that is a local unit.
+- [Taking a logarithmic derivative pays for p-power torsion](proofs/en/taking-a-logarithmic-derivative-pays-for-p-power-torsion.md) · Source-based reconstruction draft. Deduces the precise factor per derivative when the integer annihilating the translate can be divisible by p.
+- [A prime-to-p lattice index transfers scaled derivatives](proofs/en/a-prime-to-p-lattice-index-transfers-scaled-derivatives.md) · Source-based reconstruction draft. Uses the finite fourfold identity to transport an integer scaling bound from one-variable CM translates to every host direction.
+- [The split-prime part of the Heisenberg cosets](proofs/en/the-split-prime-part-of-the-heisenberg-cosets.md) · Source-based reconstruction draft. Determines the p-primary quotient from the two complementary split primes and computes the theta average denominator.
+- [The two split embeddings give the same scaled theta bound](proofs/en/the-two-split-embeddings-give-the-same-scaled-theta-bound.md) · Source-based reconstruction draft. Explains the two p-adic cases of the finite theta average using torsion points and the scalar for a change of lattice.
+- [Extracting the scaled jet of the induced theta function](proofs/en/extracting-the-scaled-jet-of-the-induced-theta-function.md) · Source-based reconstruction draft. Recovers the actual induced theta function from the split Fourier average and reads off its derivatives in the integral frame.
+
 ### From period valuations to an integral lattice map
 
 - [From period valuations to an integral lattice map](proofs/en/integral-lattice-map.md) · [中文](proofs/zh/%E5%91%A8%E6%9C%9F%E8%B5%8B%E5%80%BC%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%95%B4%E6%A0%BC%E6%98%A0%E5%B0%84.md) · Existing English proof with equivalent mathematical scope.

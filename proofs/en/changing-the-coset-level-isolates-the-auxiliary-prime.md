@@ -4,7 +4,7 @@
 
 ## Statement
 
-Let $E,K$ be number fields, $p$ a prime and $w$ a finite place of $K$ over $p$. Let $N,N'$ be full lattices over $\mathcal O_E$ in $E^a,E^b$, and write $M_T$ for the $E$-linear maps taking $N$ into $N'$ locally at all places in a finite set $T$ of $E$. Choose $S_0\subset S$ such that $p$ is a unit at the places in $S\setminus S_0$. In the application $S_0$ is the set of prime divisors of $\pi$, where $\pi\bar\pi=p$, and $S$ contains no place over $p$ on the conjugate side. Take integers $c_A,c_B>0$, with $p\mid c_B$. Fix a family of linear theta jets $J_c(x)$ of common derivative multi-index, normalized with a single factor independent of $c,x$. The refinement law is
+Let $E,K$ be number fields, $p$ a prime and $w$ a finite place of $K$ over $p$. Let $N,N'$ be full lattices over $\mathcal O_E$ in $E^a,E^b$, and write $M_T$ for the $E$-linear maps taking $N$ into $N'$ locally at all places in a finite set $T$ of $E$. Choose $S_0\subset S$ such that $p$ is a unit at the places in $S\setminus S_0$. In the application $S_0$ is the set of prime divisors of $\bar\pi$, where $\pi\bar\pi=p$, and $S$ contains no place over $p$ on the $\pi$ side. Take integers $c_A,c_B>0$, with $p\mid c_B$. Fix a family of linear theta jets $J_c(x)$ of common derivative multi-index, normalized with a single factor independent of $c,x$. The refinement law is
 $$
 J_c(x)=\sum_{y\in cM_S/(ck)M_S} J_{ck}(x+y)
 \qquad(k>0),
@@ -41,7 +41,7 @@ $$
 \kappa=p^{f a b}\prod_{\tau,r,s} \tau(\bar\pi)^{k_{\tau,r,s}},
 \quad f=\#\{\tau\}.
 $$
-All the chosen embeddings have the same restriction to the quadratic field containing $\pi$. The local split-prime jet estimate can therefore be applied with scaling $p^{f a b}\bar\pi^{|k|}$ in the corresponding $p$-adic embedding. The level comparison shows why the local estimate is needed at a level with exactly one factor of $p$. The rationality of the jets, the support and translation conditions for $\Xi$, and the local split-prime jet estimate enter this argument as separate inputs.
+All the chosen embeddings have the same restriction to the quadratic field containing $\pi$. The local split-prime jet estimate can therefore be applied with scaling $p^{f a b}\bar\pi^{|k|}$ in the corresponding $p$-adic embedding. The level comparison shows why the local estimate is needed at a level with exactly one factor of $p$. The rationality of the jets, the support and translation conditions for $\Xi$, and the [local split-prime jet estimate](extracting-the-scaled-jet-of-the-induced-theta-function.md) enter this argument as separate inputs.
 
 ## Lean correspondence
 
