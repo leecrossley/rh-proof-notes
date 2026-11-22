@@ -180,6 +180,12 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The two split embeddings give the same scaled theta bound](proofs/en/the-two-split-embeddings-give-the-same-scaled-theta-bound.md) · Source-based reconstruction draft. Explains the two p-adic cases of the finite theta average using torsion points and the scalar for a change of lattice.
 - [Extracting the scaled jet of the induced theta function](proofs/en/extracting-the-scaled-jet-of-the-induced-theta-function.md) · Source-based reconstruction draft. Recovers the actual induced theta function from the split Fourier average and reads off its derivatives in the integral frame.
 
+### The normal phase in the served formal model
+
+- [The scaled height-two logarithm has an alternating inverse](proofs/en/the-scaled-height-two-logarithm-has-an-alternating-inverse.md) · Source-based reconstruction draft. The scaling makes the logarithm integral and its reduction has an explicit composition inverse.
+- [Frobenius and trace duality collapse the two phase sums](proofs/en/frobenius-and-trace-duality-collapse-the-two-phase-sums.md) · Source-based reconstruction draft. Reduce the inverse logarithm modulo p and use the trace-dual sum to select exactly the neighboring Frobenius slots.
+- [The normal phase leaves only the first Frobenius coupling](proofs/en/the-normal-phase-leaves-only-the-first-frobenius-coupling.md) · Source-based reconstruction draft. Use the two formal additivity laws to select the triangular phase, then show all higher terms exponentiate integrally after scaling.
+
 ### Cofactor bounds for the served local operators
 
 - [A Frobenius phase splits into pure top and mixed terms](proofs/en/a-frobenius-phase-splits-into-pure-top-and-mixed-terms.md) · Source-based reconstruction draft. Truncate at the jet degree and use Frobenius modulo p. Only one part of the product can contribute a single lower variable.
