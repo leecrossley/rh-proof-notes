@@ -34,6 +34,18 @@ The curve supplies the logarithm and the integral-exponential identities used by
 - [The standard bases give integral Frobenius-dual coordinates](proofs/en/the-standard-bases-give-integral-frobenius-dual-coordinates.md) · Source-based reconstruction draft. Change of basis and inverse transpose preserve the trace duality. Local lattice membership controls denominators, and Frobenius exchanges the two resulting coordinate lists.
 - [Trace-dual coordinates give the hyperbolic frame](proofs/en/trace-dual-coordinates-give-the-hyperbolic-frame.md) · Source-based reconstruction draft. Frobenius exchanges an integral list and its dual while moving to the next slot. Grouping the two parities produces the isotropic pairs needed for the theta expansion.
 
+### The unitary frames and kernel normalization
+
+- [Simultaneous unitary approximation of Hermitian lattices](proofs/en/simultaneous-unitary-approximation-of-hermitian-lattices.md) · Source-based reconstruction draft. Local Hermitian bases and a Cayley transform put arbitrary self-dual lattices into standard position at all places over p.
+- [Four squares give a rational orthonormal kernel basis](proofs/en/four-squares-give-a-rational-orthonormal-kernel-basis.md) · Source-based reconstruction draft. An integral trace form gives an orthogonal basis with unit lengths, and quaternion multiplication normalizes four copies over the number field.
+- [Normalizing the fourfold kernel at an inert prime](proofs/en/normalizing-the-fourfold-kernel-at-an-inert-prime.md) · Source-based reconstruction draft. A local-standard isometry and a determinant relation keep the tensor normalization a p-adic unit.
+- [Block projections construct the integral unitary frame](proofs/en/block-projections-construct-the-integral-unitary-frame.md) · Source-based reconstruction draft. The period index bounds the denominators of block moves, and an integral Hermitian projection recovers a single frame from four copies.
+- [Identifying the local theta frame with the trace lattice](proofs/en/identifying-the-local-theta-frame-with-the-trace-lattice.md) · Source-based reconstruction draft. The period lattice expresses the fourfold inverse in rational local coordinates, and its Gram matrix makes the single frame orthonormal.
+- [Comparing two fourfold theta kernels](proofs/en/comparing-two-fourfold-theta-kernels.md) · Source-based reconstruction draft. The CM signs identify the theta lines, and the unitary and three-lattice scalar comparisons give the kernel ratio.
+- [The unitary theta scalar from a Cayley Gaussian](proofs/en/the-unitary-theta-scalar-from-a-cayley-gaussian.md) · Source-based reconstruction draft. Two computations of a periodized Gaussian trace identify the scalar, whose eighth power is a determinant.
+- [Three theta averages differ by an eighth root](proofs/en/three-theta-averages-differ-by-an-eighth-root.md) · Source-based reconstruction draft. Composing normalized lattice averages yields a finite quadratic Gauss sum with unit complex absolute value.
+- [The eighth power of a finite quadratic Gauss sum](proofs/en/the-eighth-power-of-a-finite-quadratic-gauss-sum.md) · Source-based reconstruction draft. Four quaternion copies turn a quadratic phase into its inverse and determine the eighth power by character orthogonality.
+
 ### The standard theta and its torsion translates
 
 - [Recovering the single-entry series in the actual curve parameter](proofs/en/recovering-the-single-entry-series-in-the-actual-curve-parameter.md) · Source-based reconstruction draft. An integral inverse chart transports the corrected single-entry series from the rescaled height-two model to any host model.
