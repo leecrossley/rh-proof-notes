@@ -1,0 +1,26 @@
+# An integral CM model and phase at three
+
+[Proof catalogue](../../PROOFS.en.md) · [Reading and review status](../../STATUS.md)
+
+Fix the host CM lattice $L_0=\delta I$ and discriminant $-d$, where $d\equiv7\bmod8$ and $d\equiv2\bmod3$. Let $\iota:\mathbb C\cong\mathbb C_3$ be the coefficient isomorphism. Its invariants $g_2,g_3$ satisfy $g_2^3-27g_3^2=1$, and $1728g_2^3$ is integral by the singular-modulus theorem used in [the discriminant normalization](discriminant-normalization-gives-a-good-model-for-p-at-least-five.md). There is an integral good Weierstrass model $W$ with the same invariants; in its logarithmic variable every jet of the transported modified sigma exponent is integral.
+
+**The model.** Take the three distinct roots $e_1,e_2,e_3$ of $X^3-g_2X/4-g_3/4$ in $\mathbb C_3$. Put $\alpha=e_2-e_1,\ \beta=e_3-e_1$. Translation by $e_1$ in the $x$-coordinate yields
+$$
+W:\quad y^2=x(x-\alpha)(x-\beta).
+$$
+It has the original invariants $c_4=12g_2,\ c_6=216g_3$ and discriminant $16(\alpha\beta(\alpha-\beta))^2=1$. Also $c_4=16(\alpha^2-\alpha\beta+\beta^2)$. The given integral $j$, together with $16$ a unit and discriminant $1$, implies $|\alpha^2-\alpha\beta+\beta^2|\le1$. If $|\alpha|\ne|\beta|$ and the larger norm were greater than $1$, its square would be the strictly largest norm in that quadratic expression, a contradiction. If both have norm $M>1$, then $|\alpha-\beta|=M^{-2}$ by the discriminant, but $\alpha^2-\alpha\beta+\beta^2=(\alpha-\beta)^2+\alpha\beta$ has norm $M^2>1$, again a contradiction. Hence both roots of the translated factors are integral. The coefficients $-\alpha-\beta,\alpha\beta$ are integral, with unit discriminant as required. In particular $b_2=4a_2+a_1^2$ is integral.
+
+**The formal phase.** Use the CM endomorphism $a=\sqrt{-d}=-1+2\omega$ and $b=-a$. Its degree $ab=d$ is prime to $3$ and $a-b=2a$ is a unit. Its nonzero kernel points in $W$ have integral affine coordinates. In general Weierstrass coordinates the Weierstrass function is the $x$-coordinate shifted by $b_2/12$, and the isogeny identities use that shifted coordinate. The general-model norm calculation imposes the extra hypothesis
+$$
+(a^2-1)\,\frac{b_2}{12}\in R,\qquad R=\mathcal O_{\mathbb C_3}.
+$$
+It accounts for the constant shift when comparing the two formal $x$-series. It holds here because $a^2-1=-(d+1)$, $3\mid d+1$, and $4$ is a unit. The integral isogeny points, their sum identity for the shifted coordinate, and this scalar condition give the norm and integral actions in the general-model lemma. Its exact hypotheses are an integral good Weierstrass model with $2$ a unit, an endomorphism $a$ of unit absolute value with integral nonzero kernel points stable under negation, the degree equality $ab=1+\#\ker(a)_{\ne0}$, $a+b\in\mathbb Z$, and the identities
+$$
+a^2 W_0(aZ)=W_0(Z)+\sum_P (W_0(Z+P)-W_0(P)),\qquad
+a(a-b)s_2=\sum_P (x_P+b_2/12).
+$$
+Here $W_0$ is the Weierstrass function in the logarithmic coordinate; the Laurent identities are those of the [complex isogeny](the-lattice-isogeny-and-its-weight-two-constant.md), transported to $W$. With the additional scalar condition it proves that every jet of the curve exponent in the logarithmic coordinate is integral when $a-b$ is a unit. The proof takes the adjoint of the norm law and uses $(a-b)Q''(0)$ plus the first and higher jet argument of [the ramified phase](why-only-the-second-curve-jet-can-lose-integrality.md). This is where $d\equiv2\bmod3$ is used in the integral phase, in addition to ensuring the multiplier's degree is a unit.
+
+**Lean correspondence.** The root bounds and model are [`norm_le_one_of_disc`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/NormLeOneOfDisc.lean#L43), [`exists_model`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/NormLeOneOfDisc.lean#L117), and [`goodModelThree`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/NormLeOneOfDisc.lean#L170). [`endoDatum_of_model`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IntSExpMulTranslate.lean#L20) transports the kernel, and [`jets_phW_three`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IntSExpMulTranslate.lean#L75) verifies the multiplier and the scalar condition. The general-model lemma used here is [`curveJetsUnram`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/TorsionIntegrality/RamifiedCurveKernels/PairedSquareJets/CurveKernelUnramOf.lean#L16). Its comparison of shifted integral series is the general-coordinate version of the short isogeny calculation.
+
+Status. Source-based reconstruction draft. The [Lean verification record](../../STATUS.md#lean-verification--lean-核验) describes the published formal proof.

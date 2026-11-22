@@ -97,6 +97,20 @@ These notes derive the expansion that supplies the local determinant estimate an
 - [Transporting the quadratic theta phase through four copies](proofs/en/transporting-the-quadratic-theta-phase-through-four-copies.md) · Source-based reconstruction draft. Transports integral remainders and the Gram matrix through the fourfold identity, then extracts the corrected single-copy kernel.
 - [The normalized kernel has a common ramified Gaussian](proofs/en/the-normalized-kernel-has-a-common-ramified-gaussian.md) · Source-based reconstruction draft. Uses one curve coefficient and one paired Gram form to obtain ShapeD for the actual level-free kernel.
 
+### Jet integrality away from the discriminant prime
+
+- [The curve jets are integral at odd primes away from the discriminant](proofs/en/the-curve-jets-are-integral-at-odd-primes-away-from-the-discriminant.md) · Source-based reconstruction draft. Chooses a CM endomorphism whose degree and difference from its conjugate are both units.
+- [An integral CM model and phase at three](proofs/en/an-integral-cm-model-and-phase-at-three.md) · Source-based reconstruction draft. Constructs a model from the two-torsion roots and checks the term with denominator twelve in the isogeny norm law.
+- [The standard theta jet bound at three](proofs/en/the-standard-theta-jet-bound-at-three.md) · Source-based reconstruction draft. Combines the phase-corrected translates of the standard one-variable theta with the additive-coordinate jet ring.
+- [A chain of two-isogenies gives the ordinary CM model](proofs/en/a-chain-of-two-isogenies-gives-the-ordinary-cm-model.md) · Source-based reconstruction draft. Makes the discriminant ratios telescope to a unit and constructs an ordinary Weierstrass model at two.
+- [The unit CM multiplier preserves the formal kernel at two](proofs/en/the-unit-cm-multiplier-preserves-the-formal-kernel-at-two.md) · Source-based reconstruction draft. Uses the duplication formula and a coefficient of the Weierstrass distribution identity to exclude kernel points reducing to zero.
+- [The three-point sigma identity gives the odd cube at two](proofs/en/the-three-point-sigma-identity-gives-the-odd-cube-at-two.md) · Source-based reconstruction draft. Use the two- and three-point sigma identities to prove integrality of the third multiplicative difference in a general Weierstrass chart.
+- [The half-period phase has an integral third difference at two](proofs/en/the-half-period-phase-has-an-integral-third-difference-at-two.md) · Source-based reconstruction draft. Uses an addition identity and integral division by the formal group sum before taking logarithms.
+- [The split CM isogeny makes the half-period series integral](proofs/en/the-split-cm-isogeny-makes-the-half-period-series-integral.md) · Source-based reconstruction draft. Pair the preimages of a half-period, compare logarithmic second derivatives, then use a split CM multiplier to force the phase to have integral exponential.
+- [Odd torsion translates preserve the dyadic jet bound](proofs/en/odd-torsion-translates-preserve-the-dyadic-jet-bound.md) · Source-based reconstruction draft. Move the integral half-period series through odd torsion by a finite sigma recurrence, then differentiate in the invariant coordinate.
+- [Theta jets on global homomorphism-lattice directions](proofs/en/theta-jets-on-global-homomorphism-lattice-directions.md) · Source-based reconstruction draft. Pass the standard theta bounds to a combination of related lattices by transporting torsion and multiplying directions by a prime-to-p integer.
+- [From integral theta jets to level-free kernel entries](proofs/en/from-integral-theta-jets-to-level-free-kernel-entries.md) · Source-based reconstruction draft. Show that the coordinate directions used by the determinant operators are integral combinations of global lattice directions, then bound the resulting coefficients.
+
 ### Odd prime-power weights in the arithmetic count
 
 These notes follow the odd prime-power weights from a local theta-series expansion through the determinant estimate to the arithmetic count.
