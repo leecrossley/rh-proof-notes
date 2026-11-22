@@ -196,6 +196,14 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The scaled local cofactor series belongs to the Frobenius power class](proofs/en/the-scaled-local-cofactor-series-belongs-to-the-frobenius-power-class.md) · Source-based reconstruction draft. The two corrections exponentiate integrally, and the factorial denominator is absorbed by the ramified uniformizer.
 - [The three served jet floors apply to the local formal group](proofs/en/the-three-served-jet-floors-apply-to-the-local-formal-group.md) · Source-based reconstruction draft. Identify the two top rows and the digit loss, then descend coefficient estimates through the normed extension.
 
+### Comparing the served local model with arithmetic columns
+
+- [A rational column and its local model follow the same chain](proofs/en/a-rational-column-and-its-local-model-follow-the-same-chain.md) · Source-based reconstruction draft. Extend the rational layer maps in the chosen chart and transfer the terminal valuation back to both types of column.
+- [A valuation descends by comparing coordinates in a local basis](proofs/en/a-valuation-descends-by-comparing-coordinates-in-a-local-basis.md) · Source-based reconstruction draft. Compare the coefficients in a localized lattice basis, then factor out one with minimal valuation.
+- [Matching complex and p-adic coefficients over the number field](proofs/en/matching-complex-and-p-adic-coefficients-over-the-number-field.md) · Source-based reconstruction draft. Extend the two coefficient embeddings over the algebraic numbers and match transcendence bases.
+- [The character normalization at a served site is a unit](proofs/en/the-character-normalization-at-a-served-site-is-a-unit.md) · Source-based reconstruction draft. The norm-one determinant character contributes the opposite of the prescribed lattice-length exponent.
+- [The kernel step is independent of the adelic frame](proofs/en/the-kernel-step-is-independent-of-the-adelic-frame.md) · Source-based reconstruction draft. A complex polynomial for the class kernel gives the same local differential contraction in every allowed frame.
+
 ### The served local operator and the one-layer Hecke relation
 
 - [Hecke neighbor counts reduce to subspaces and graphs](proofs/en/hecke-neighbor-counts-reduce-to-subspaces-and-graphs.md) · Source-based reconstruction draft. Reduce the lattice condition modulo p, then classify subspaces by projection and intersection.
