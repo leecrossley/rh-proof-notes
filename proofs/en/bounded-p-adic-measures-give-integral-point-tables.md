@@ -21,7 +21,7 @@ Here $\operatorname{brk}$ is the character given by the alternating period pairi
 
 Two checks explain why this identity applies to these indices. First $pv=N_0\bar\pi^2$ is integral, so replacing any $a_l$ by $a_l+pb_l$ leaves the bracket character unchanged by the integrality of the period pairing. It therefore extends continuously by reduction modulo $p$. Second the translate $vy$ is an allowed first-level lift for the moment law: its expression $N_0\bar\pi^2y/p$ has the prescribed numerator, whose conjugate has norm $p^{-2}$ at the selected embedding. The jet identity is obtained by expanding the matrix monomial into directional derivatives and using the moment identity on those derivatives. The unit $\alpha$ is the Weil translation prefactor for $t$. The residue-box argument now gives the integral closure on the period lattice with exactly the bracket-twisted point tables in the display. Multiplication by $\alpha$ preserves the integral coefficient bound.
 
-The existence and norm bound for the analytic moment functional and the change-of-coordinates identities for its directional derivatives are inputs to this application. The residue-box assertion itself uses only continuity and the norm bound.
+[The normalized pair construction](transporting-the-bounded-measure-to-the-normalized-theta-pair.md) gives the analytic moment functional with its bound and the directional identities under the stated model hypotheses. The residue-box assertion itself uses only continuity and the norm bound.
 
 ### Lean correspondence
 

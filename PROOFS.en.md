@@ -162,6 +162,17 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The last column lattice controls the period](proofs/en/the-last-column-lattice-controls-the-period.md) · Source-based reconstruction draft. Pass from the final lift to the point lattice and use the base or twisted class-period bound to compute the remaining valuation loss.
 - [The period bound at each finite place](proofs/en/the-period-bound-at-each-finite-place.md) · Source-based reconstruction draft. Check the word prime, the two auxiliary primes and every remaining place, using the first-step saving to cancel the terminal period denominator.
 
+### The split multiplicative chart and bounded theta moments
+
+- [The height-one torsion tower has a controlled product of norms](proofs/en/the-height-one-torsion-tower-has-a-controlled-product-of-norms.md) · Source-based reconstruction draft. The $p$-series is degree $p$ on the open unit disc, and fibre products give exactly one factor of $|p|$ at each level.
+- [Interpolating torsion characters builds the height-one isomorphism](proofs/en/interpolating-torsion-characters-builds-the-height-one-isomorphism.md) · Source-based reconstruction draft. Integrality of a finite group law forces integrality of its characters, and the growing torsion set determines the limit.
+- [A height-one formal group gives the unit theta period](proofs/en/a-height-one-formal-group-gives-the-unit-theta-period.md) · Source-based reconstruction draft. Formal differentiation identifies the multiplicative chart, and the discriminant removes its normalization factor.
+- [A single unit aligns the split torsion characters](proofs/en/a-single-unit-aligns-the-split-torsion-characters.md) · Source-based reconstruction draft. Compatible torsion generators give a unit in the inverse limit of residue rings.
+- [Bounded binomial moments determine a p-adic measure](proofs/en/bounded-binomial-moments-determine-a-p-adic-measure.md) · Source-based reconstruction draft. Forward differences tend to zero, and the binomial test functions recover the exact operator bound.
+- [Multiplicative shifts turn theta jets into moments](proofs/en/multiplicative-shifts-turn-theta-jets-into-moments.md) · Source-based reconstruction draft. The operator $(1+X)d/dX$ identifies a root-of-unity twist of a measure with a shifted theta derivative.
+- [Prime-to-p translation preserves theta measure norm](proofs/en/prime-to-p-translation-preserves-theta-measure-norm.md) · Source-based reconstruction draft. An isometric coefficient comparison works in an orthogonal frame, and dual directions identify the norm bound with lattice integrality.
+- [Transporting the bounded measure to the normalized theta pair](proofs/en/transporting-the-bounded-measure-to-the-normalized-theta-pair.md) · Source-based reconstruction draft. The discriminant ratio, analytic isometry and pairing normalization carry the measure to the actual theta jets.
+
 ### Word-prime theta moments and period lattices
 
 - [Bounded p-adic measures give integral point tables](proofs/en/bounded-p-adic-measures-give-integral-point-tables.md) · Source-based reconstruction draft. A single residue partition approximates finitely many jet functions, using weights of norm at most one.
