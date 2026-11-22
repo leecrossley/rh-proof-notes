@@ -24,6 +24,8 @@ The existence hypothesis supplies $\varepsilon_E>0$. For each $0<\varepsilon\le\
 
 Let $\mathcal D=\mathrm{Des}(\mathcal C,C_0)$ consist of the families in $\mathcal C$ that satisfy smoothness, twisting, `ChosenE` for some height, and the two size conditions. The existence input gives a family in $\mathcal D\cap\mathcal E$ and a witnessing height.
 
+The [actual design-existence argument](the-selected-twists-supply-the-missing-design-estimates.md) obtains that existence input on the ambient class intersected with the target class. It uses the selected second-layer columns, an independent class-number input and the family character boxes.
+
 The theorem takes nine `Closed` properties on $\mathcal D$. Their [exact statements](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/SharpRestriction/GlobalTheoremInputs.lean) are used in the following roles:
 
 1. `LinkN` compares the sum of local divisibility indices with the total cohomological length.

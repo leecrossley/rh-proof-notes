@@ -6,6 +6,13 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ## New reconstruction from Lean
 
+### Simultaneous family construction
+
+- [The selected twists supply the missing design estimates](proofs/en/the-selected-twists-supply-the-missing-design-estimates.md) · Source-based reconstruction draft. Derive design existence from one twisted choice, the class-number input, the selected second-layer columns and the analytic boxes.
+- [Trivial stabilizers make the column values independent](proofs/en/trivial-stabilizers-make-the-column-values-independent.md) · Source-based reconstruction draft. Extend arbitrary lowest-type values from double-coset representatives, then count a tableau basis and identify the Weyl dimension factors.
+- [The character boxes give the thin bound on the chosen family](proofs/en/the-character-boxes-give-the-thin-bound-on-the-chosen-family.md) · Source-based reconstruction draft. Use congruence rows for the conductor bound and a box witness for the real characters, then apply the thin-scale estimate at a uniform threshold.
+- [A short prime window controls the column dimension](proofs/en/a-short-prime-window-controls-the-column-dimension.md) · Source-based reconstruction draft. Derive the factor between one-half and e from the local level index, a simultaneous dimension formula and the word-prime window.
+- [Completing the design without reselecting its family](proofs/en/completing-the-design-without-reselecting-its-family.md) · Source-based reconstruction draft. Apply all three closed supplements at the height and on the twisted, smooth family chosen by the design existence input.
 ### The CM curve and its local logarithm
 
 The curve supplies the logarithm and the integral-exponential identities used by the theta expansions. The good-model proof states its classical complex multiplication input and gives the valuation argument for the local normalization.
@@ -210,6 +217,12 @@ The topics and entries below follow the order of the Chinese catalogue.
 ### Evaluating the word-prime kernel at representatives
 
 - [Evaluating the arithmetic kernel gives the point kernel at representatives](proofs/en/evaluating-the-arithmetic-kernel-gives-the-point-kernel-at-representatives.md) · Source-based reconstruction draft. The finite sum of rational jets and the point operator agree after matching their determinant and character factors.
+
+### Covariance of the point kernels
+
+- [Changing frames in the finite kernel sum](proofs/en/changing-frames-in-the-finite-kernel-sum.md) · Source-based reconstruction draft. Conjugation bijects quotients of local Hom lattices and the scalar frame laws sum to full covariance.
+- [Reindexing the ordinary local unfolding sum](proofs/en/reindexing-the-ordinary-local-unfolding-sum.md) · Source-based reconstruction draft. Affine tail flag columns and a coarse congruence quotient justify the finite-box character change.
+- [The ordinary point kernel transforms with the level characters](proofs/en/the-ordinary-point-kernel-transforms-with-the-level-characters.md) · Source-based reconstruction draft. Lift residue-frame corrections and combine the local determinant and character laws with global quotient transport.
 
 ### Word-prime columns and auxiliary-prime periods
 
