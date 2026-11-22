@@ -8,6 +8,8 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ### Simultaneous family construction
 
+- [A generator prime kills the fine column stabilizers](proofs/en/a-generator-prime-kills-the-fine-column-stabilizers.md) · Source-based reconstruction draft. An upper unitriangular reduction forces prime-power torsion, and the rational dimension excludes that torsion when the generator prime is large.
+- [The column class number is the genus mass times the level index](proofs/en/the-column-class-number-is-the-genus-mass-times-the-level-index.md) · Source-based reconstruction draft. Count the orbits in each fiber of the map from fine level to the self-dual stabilizer level.
 - [The selected twists supply the missing design estimates](proofs/en/the-selected-twists-supply-the-missing-design-estimates.md) · Source-based reconstruction draft. Derive design existence from one twisted choice, the class-number input, the selected second-layer columns and the analytic boxes.
 - [Trivial stabilizers make the column values independent](proofs/en/trivial-stabilizers-make-the-column-values-independent.md) · Source-based reconstruction draft. Extend arbitrary lowest-type values from double-coset representatives, then count a tableau basis and identify the Weyl dimension factors.
 - [The character boxes give the thin bound on the chosen family](proofs/en/the-character-boxes-give-the-thin-bound-on-the-chosen-family.md) · Source-based reconstruction draft. Use congruence rows for the conductor bound and a box witness for the real characters, then apply the thin-scale estimate at a uniform threshold.
@@ -220,12 +222,20 @@ The topics and entries below follow the order of the Chinese catalogue.
 
 ### Covariance of the point kernels
 
+- [The penultimate kernel carries the target coset along](proofs/en/the-penultimate-kernel-carries-the-target-coset-along.md) · Source-based reconstruction draft. Transport the added column with the target frame and compute both local determinant factors.
+- [Why the terminal Fourier factor descends to a coset](proofs/en/why-the-terminal-fourier-factor-descends-to-a-coset.md) · Source-based reconstruction draft. Verify the character domain and congruence period from the depths at type and twist primes.
+- [The terminal kernel carries the source coset along](proofs/en/the-terminal-kernel-carries-the-source-coset-along.md) · Source-based reconstruction draft. Transport the source coset, remove the target congruence correction, and use the head-weight laws.
+- [Matching one-prime lattice neighbours by a residue map](proofs/en/matching-one-prime-lattice-neighbours-by-a-residue-map.md) · Source-based reconstruction draft. Identify the compatible upper and lower Hermitian neighbours by a common residue condition.
+- [Isolating the word-prime residue condition in the kernel](proofs/en/isolating-the-word-prime-residue-condition-in-the-kernel.md) · Source-based reconstruction draft. Extract the fixed bad-place weight and prove invariance under simultaneous scaling of the two residue maps.
+- [The theta move gives the word-prime neighbour identity](proofs/en/the-theta-move-gives-the-word-prime-neighbour-identity.md) · Source-based reconstruction draft. Check both boxes, compute the factor T to the power (t+1)/2, and identify the two sums on one period pair.
 - [Changing frames in the finite kernel sum](proofs/en/changing-frames-in-the-finite-kernel-sum.md) · Source-based reconstruction draft. Conjugation bijects quotients of local Hom lattices and the scalar frame laws sum to full covariance.
 - [Reindexing the ordinary local unfolding sum](proofs/en/reindexing-the-ordinary-local-unfolding-sum.md) · Source-based reconstruction draft. Affine tail flag columns and a coarse congruence quotient justify the finite-box character change.
 - [The ordinary point kernel transforms with the level characters](proofs/en/the-ordinary-point-kernel-transforms-with-the-level-characters.md) · Source-based reconstruction draft. Lift residue-frame corrections and combine the local determinant and character laws with global quotient transport.
 
 ### Moving theta kernels between lattice pairs
 
+- [The determinant character cancels in the normalized theta moves](proofs/en/the-determinant-character-cancels-in-the-normalized-theta-moves.md) · Source-based reconstruction draft. Compose determinant ideals, cancel the corresponding factors, and transport the normalized moves to column coordinates.
+- [The companion theta move retains its determinant character](proofs/en/the-companion-theta-move-retains-its-determinant-character.md) · Source-based reconstruction draft. Transport an unnormalized target move and compute the character and p-adic bound for a hyperplane companion.
 - [Theta movement across the word-prime lattices](proofs/en/theta-movement-across-the-word-prime-lattices.md) · Source-based reconstruction draft. Match the positive volume scalar with rank-half powers of the word prime and insert the split determinant-character factor after descent.
 - [The analytic theta sums have a common lattice refinement](proofs/en/the-analytic-theta-sums-have-a-common-lattice-refinement.md) · Source-based reconstruction draft. Reduce both box sums to the same normalized theta sum, then telescope the determinant indices.
 - [A theta intertwiner refines the weighted coset sum](proofs/en/a-theta-intertwiner-refines-the-weighted-coset-sum.md) · Source-based reconstruction draft. Multiply the normalized translations and refine the sum using a product of two sets of representatives.
@@ -629,6 +639,10 @@ The topics and entries below follow the order of the Chinese catalogue.
 
 ### Constructing the Galois representation and its local comparisons
 
+- [A cross-multiplied polynomial identity splits off character lines](proofs/en/a-cross-multiplied-polynomial-identity-splits-off-character-lines.md) · Source-based reconstruction draft. Split off disjoint character lines by semisimplicity, then remove their local eigenvalues and filtration jumps.
+- [Two odd-rank lifts recover the even-rank Galois representation](proofs/en/two-odd-rank-lifts-recover-the-even-rank-galois-representation.md) · Source-based reconstruction draft. Extend the polynomial identity by density, remove the added characters and undo the common twist.
+- [Degree-one Frobenius elements are dense at the usable split places](proofs/en/degree-one-frobenius-elements-are-dense-at-the-usable-split-places.md) · Source-based reconstruction draft. Use a CM square root and Hensel lifting to verify the degree-one hypotheses, then apply Chebotarev.
+- [Three places above the coefficient prime remove the auxiliary exceptions](proofs/en/three-places-above-the-coefficient-prime-remove-the-auxiliary-exceptions.md) · Source-based reconstruction draft. Recover each local polynomial by Newton identities and identify the representations obtained with different excluded places.
 - [Completing the local comparisons for the Galois representation](proofs/en/completing-the-local-comparisons-for-the-galois-representation.md) · Source-based reconstruction draft. Assemble the Galois row with its common weights and filtration jumps using the spherical, toral and principal-congruence comparisons.
 - [Two theta lifts share one twist and have disjoint added characters](proofs/en/two-theta-lifts-share-a-twist-and-have-disjoint-characters.md) · Source-based reconstruction draft. Choose one sufficiently large odd rank for both theta lifts and compute their weight and Satake multisets.
 - [Idèle norm shifts give disjoint theta characters](proofs/en/idele-norm-shifts-give-disjoint-theta-characters.md) · Source-based reconstruction draft. Construct the common twist and disjoint padding characters explicitly from a single angular Hecke character.
