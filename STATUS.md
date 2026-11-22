@@ -35,7 +35,7 @@ The frame proofs use weak approximation of unitary matrices, a four-square norma
 
 The actual kernel is now connected to the translated theta series at a level-free prime. The finite coset proof gives the translates and isolates the arithmetic coefficient function as an input. The period pairing and level calculation supply its geometric and index hypotheses. [First kernel reading](proofs/en/reading-the-actual-kernel-as-an-integral-theta-combination.md)
 
-The other prime classes and their losses are needed for the full arithmetic comparison. [Kernel family entry](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AdmissibleKernelSeriesInertPrimeNonConjugateFrob.lean#L24)
+For the singleton and odd inert orbits, the kernel expansion now identifies the two halves of a biextension of twice the orbit length. An integral Hermitian trace basis makes the two coordinate lists conjugate and the diagonal curve identity supplies the factor of one-half. At the discriminant prime, the paired Gaussian shape implies the derivative loss by cancellation on a product of minors. The Gaussian shape itself and the odd-orbit estimates using these expansions are further inputs to the full arithmetic comparison. [Odd-orbit expansion](proofs/en/identifying-the-two-parities-on-an-odd-frobenius-orbit.md) · [Discriminant-prime loss](proofs/en/the-half-valuation-loss-at-the-discriminant-prime.md) [Kernel family entry](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AdmissibleKernelSeriesInertPrimeNonConjugateFrob.lean#L24)
 
 ## Upstream links to complete / 待串联的上游证明
 

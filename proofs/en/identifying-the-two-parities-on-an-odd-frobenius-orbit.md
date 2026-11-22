@@ -1,0 +1,35 @@
+# Identifying the two parities on an odd Frobenius orbit
+
+[Proof catalogue](../../PROOFS.en.md) · [Reading and review status](../../STATUS.md)
+
+Keep the hypotheses of [the odd-orbit coordinate change](the-unitary-change-of-coordinates-for-odd-orbits.md), including the prime $p\ge5$, the odd length $i$, the standard series $\mathrm{Th}$, and the unit $c$ from the host theorem. Let $P$ denote the Frobenius permutation and $R$ the set of orbit representatives. For the curve data use the normalized height-two logarithm $\lambda$, its integral group law $F$, and the exponent $\phi$. By [the curve identities](from-formal-sigma-addition-to-the-curve-biextension.md) and [the norm law](unit-norm-identities-and-hyperbolic-pairs.md), the defect $b_0(X,Y)=\phi(F(X,Y))-\phi(X)-\phi(Y)$ satisfies `F1` and `F2` of [the biextension average](why-root-of-unity-averaging-preserves-the-biextension.md). In addition $b_0(T,T)\sim 2\phi(T)$, by biadditivity and the norm at $2$. Here $\sim$ means the difference has zero constant term and integral exponential. Use the same trace-dual lists $\omega_\rho,\omega_\rho^*=\sigma^i\omega_\rho$ from the coordinate change.
+
+For $z$ a place and $j$ a matrix entry define the orbit logarithms
+$$
+\mathcal L_{z,j}(X)=\sum_{n\ge0}p^{-n}X_{P^{-2n}z,j}^{p^{2n}}.
+$$
+Let $b=\overline b$ be the [averaged biextension](why-root-of-unity-averaging-preserves-the-biextension.md) with period $2i$ for these two lists. Its average uses a primitive root of order $p^{2i}-1$. The claim is the equality
+$$
+\mathrm{Th}(c\,\mathcal L(X))=
+U(X)\exp\!\left(-\tfrac12\sum_{r\in R,j}
+ b\big(\mathcal L_{P^s r,j}(X):s\in\mathbb Z/2i\mathbb Z\big)\right)
+$$
+with $U\in\mathcal O_{\mathbb C_p}[[X]]$. The coefficients of $b$ lie in the unramified coefficient field, it is invariant under the root-of-unity scaling of period $2i$, it has no monomials with either parity degree zero or bidegree $(1,1)$, and its two additive defects have integral exponential after cyclic logarithmic substitution. These are the [four biextension hypotheses](why-the-averaged-biextension-meets-the-jet-hypotheses.md). Together with the equality, they are the `HasThetaProductForm` condition.
+
+**The diagonal calculation.** Fix $r,j$, and put $L_s=\mathcal L_{P^s r,j}(X)$ for $s\bmod 2i$. This family has period $i$. It satisfies the [cyclic shift condition](finding-integral-points-from-formal-logarithms.md#the-cyclic-shift), since subtracting $p^{-1}\sigma^2(L_{s-2})(X^{p^2})$ leaves $X_{P^s r,j}$. Its even form $E_{\omega_\rho^*}(L)$ is $Y_{r,\rho,j}(\mathcal L(X))$ in the previous note, and is $\lambda(x_{r,\rho,j})$ for an integral zero-constant series $x_{r,\rho,j}$ by the inverse functional equation. In the odd form $O_{\omega_\rho}(L)$, write each odd exponent as $2m+i$ modulo $2i$. Period $i$ identifies its variable with $L_{2m}$, and $\sigma^i\omega_\rho=\omega_\rho^*$ identifies its coefficient. The two forms therefore coincide.
+
+The unaveraged biextension $\widetilde b(L)$ is consequently $\sum_\rho b_0(x_{r,\rho,j},x_{r,\rho,j})$. The diagonal curve identity and the averaging congruence give
+$$
+b(L)\sim 2\sum_\rho\phi(x_{r,\rho,j}).
+$$
+Division of this congruence by $2$ is valid since $p$ is odd. For example an integral series with constant $1$ has a unique formal square root with constant $1$, whose coefficients are integral by solving each successive coefficient equation with leading multiplier $2$.
+
+**The integral remainder.** Let $\Psi$ be the kernel in the variables $e=(r,\rho,j)$ as in the coordinate change. Its host integrality applies after substituting $x_e$ into its formal variables, because each $x_e$ is integral with zero constant term. The new kernel argument is $\lambda(x_e)=Y_e(\mathcal L(X))$, hence the resulting integral series is $\exp(Q)\mathrm{Th}(c\mathcal L(X))$ with $Q=\sum_e\phi(x_e)$. By the preceding diagonal calculation $Q\sim Q'=\frac12\sum_{r,j}b(\mathcal L_{P^s r,j}:s)$. Multiply the integral series by the integral unit $\exp(Q'-Q)$ and denote the product by $U$. Rearranging gives the claim. The root-of-unity construction gives the four hypotheses on $b$ in period $2i$, which is even even though the final orbit has odd length.
+
+For $i=1$ one can take $\omega_1=1$, with every orbit a singleton. The calculation gives
+$\phi(T)\sim \frac12 b(\lambda(T),\lambda(T))$
+for the mean in two slots. The standard-basis vectors in this prime class are already fixed by $\sigma^2$ and satisfy the unitary identity, as the place permutation is trivial. This gives `ThetaExpansionRealPlaces`, with the additional placewise argument scalars $1$ and signs $-1$. In the inert class $h_P(D,p)=0$ implies $n_P=1$, since $n_P$ is the additive order of $h_P$ there. In the class `IsCs`, $n_P$ is the positive odd order specified by the class, so the full odd-orbit argument applies. In each case the [kernel reading](reading-the-actual-kernel-as-an-integral-theta-combination.md) and the [standard-basis comparison](one-normalization-for-the-inert-kernel-family.md#applying-the-result-to-the-indexed-kernel-family) provide the same inputs at any level-free place and stage of the actual family. This is `EvenConditionsAtC`. The subsequent determinant estimates for these expansions are a separate step.
+
+**Lean correspondence.** The period-$2i$ form and quotient-period logarithms are defined in [`logS`, `beS` and `HasThetaProductForm`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/OrbitLabellings/ColDefs.lean#L20). The diagonal argument is [`diag`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/OrbitLabellings/IntegralMvExpSumLogSOfOddPeriod.lean#L100) and the assembly is [`integral_mvExp_sum_logS_of_odd_period`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/OrbitLabellings/IntegralMvExpSumLogSOfOddPeriod.lean#L256). The odd and singleton specializations for standard coordinates are [`lattice_pairs_odd_degree_isometric`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AutomorphicArithmetic/OrbitLabellings/LatticePairsOddDegreeIsometric.lean#L65) and [`nP_eq_one_of_hP_eq_zero` and `thetaExpansionRealPlaces_stdSer_of_adm`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/B0StandardSeriesAdmissible.lean#L15). The actual family specialization is [`frobeniusConjugation_conditions_adaptedKernelDatum_alt`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/FrobeniusConjugationConditionsAdaptedKernelDatum.lean#L23).
+
+Status. Source-based reconstruction draft. The [Lean verification record](../../STATUS.md#lean-verification--lean-核验) describes the published formal proof.

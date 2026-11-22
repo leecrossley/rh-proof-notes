@@ -78,6 +78,14 @@ These notes derive the expansion that supplies the local determinant estimate an
 - [From host integrality to the all-place theta expansion](proofs/en/from-host-integrality-to-the-all-place-theta-expansion.md) · Source-based reconstruction draft. The hyperbolic pairing identifies the exponent, and the same cyclic factorization applies in every place block after a bijective relabeling.
 - [How local jet valuations add over Frobenius orbits](proofs/en/how-local-jet-valuations-add-over-frobenius-orbits.md) · Source-based reconstruction draft. Restricts an admissible theta expansion to one orbit and proves that bounds uniform in the integral factor add over all the orbits.
 
+### The other inert orbits and the discriminant prime
+
+- [A self-dual Hermitian trace basis for odd orbits](proofs/en/a-self-dual-hermitian-trace-basis-for-odd-orbits.md) · Source-based reconstruction draft. Makes the second Frobenius-dual list the midpoint conjugate of the first by normalizing an integral Hermitian trace form.
+- [The unitary change of coordinates for odd orbits](proofs/en/the-unitary-change-of-coordinates-for-odd-orbits.md) · Source-based reconstruction draft. Uses the midpoint-conjugate trace basis to descend the standard coordinates to the unramified quadratic ring.
+- [Identifying the two parities on an odd Frobenius orbit](proofs/en/identifying-the-two-parities-on-an-odd-frobenius-orbit.md) · Source-based reconstruction draft. Folds a biextension of period twice the orbit length onto the odd orbit and keeps its integral remainder.
+- [Why high mixed derivatives vanish on paired minors](proofs/en/why-high-mixed-derivatives-vanish-on-paired-minors.md) · Source-based reconstruction draft. Counts the available rows below the top and uses the rank-one change of each minor for the remaining derivatives.
+- [The half-valuation loss at the discriminant prime](proofs/en/the-half-valuation-loss-at-the-discriminant-prime.md) · Source-based reconstruction draft. Expands the paired Gaussian in jet coordinates and removes every contraction above the Young-diagram bound.
+
 ### Odd prime-power weights in the arithmetic count
 
 These notes follow the odd prime-power weights from a local theta-series expansion through the determinant estimate to the arithmetic count.
