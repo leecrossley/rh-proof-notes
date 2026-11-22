@@ -117,6 +117,16 @@ These notes derive the expansion that supplies the local determinant estimate an
 - [Odd-orbit dual weights pay for the folded theta coefficients](proofs/en/odd-orbit-dual-weights-pay-for-the-folded-theta-coefficients.md) · Source-based reconstruction draft. Raise the finite flow dual weights by a small floor to cover all odd shifts, then sum the determinant bound and compare it with the prescribed inert-prime error.
 - [The singleton Frobenius orbit gives the conjugate-prime weight](proofs/en/the-singleton-frobenius-orbit-gives-the-conjugate-prime-weight.md) · Source-based reconstruction draft. Use the constant radius at each fixed place and add the resulting determinant bounds to obtain the prescribed inert-prime weight.
 
+### The gain on even inert orbits with first coordinate zero
+
+- [Two coboundaries and Frobenius give integral additive jets](proofs/en/two-coboundaries-and-frobenius-give-integral-additive-jets.md) · Source-based reconstruction draft. Bound the pure second derivatives with split differences and the remaining mixed first coefficient with the unramified root-of-unity action.
+- [Integral formal coboundaries determine the logarithmic terms](proofs/en/integral-formal-coboundaries-determine-the-logarithmic-terms.md) · Source-based reconstruction draft. Remove the first nonintegral coefficient successively, then compare the resulting one-variable expansions across both slots.
+- [Two additivity laws force the triangular biextension](proofs/en/two-additivity-laws-force-the-triangular-biextension.md) · Source-based reconstruction draft. Derives the skew triangular phase from the two formal-law defects, the torus condition and Dwork integrality.
+- [The rescaled standard theta has a cyclic power expansion](proofs/en/the-rescaled-standard-theta-has-a-cyclic-power-expansion.md) · Source-based reconstruction draft. Use the leading odd-even monomial, the scaled formal logarithm and trace duality to obtain the series class used by the height-one estimate.
+- [Hasse derivatives explain the height-one orbit gain](proofs/en/hasse-derivatives-explain-the-height-one-orbit-gain.md) · Source-based reconstruction draft. Each mixed term can hit at most one column of a determinant, which gives the capacity in the positive-part sum.
+- [Recovering the standard phase from the actual orbit series](proofs/en/recovering-the-standard-phase-from-the-actual-orbit-series.md) · Source-based reconstruction draft. Inverts the cyclic logarithm in the trace coordinates and converts the determinant polynomial to the generic height-one estimate.
+- [The excluded odd shifts and the unserved orbit gain](proofs/en/the-excluded-odd-shifts-and-the-unserved-orbit-gain.md) · Source-based reconstruction draft. Compare the numerical positive parts with the height-one determinant bound, allowing the finite exclusion for shifts that meet another top place.
+
 ### Odd prime-power weights in the arithmetic count
 
 These notes follow the odd prime-power weights from a local theta-series expansion through the determinant estimate to the arithmetic count.

@@ -1,0 +1,30 @@
+# Two coboundaries and Frobenius give integral additive jets
+
+[Proof catalogue](../../PROOFS.en.md) · [Reading and review status](../../STATUS.md)
+
+Let $p$ be prime, and $K$ the completed maximal unramified extension of $\mathbb Q_p$, with integer ring $R$ and arithmetic Frobenius $\sigma$. Let
+$$
+\ell(t)=\sum_{j\ge0}p^{-j}t^{p^{2j}},\qquad e=\ell^{-1},
+$$
+and suppose the integral formal group law $F$ has logarithm $\ell$. Let $b(x,y)$ be a formal exponent with no monomials supported on either axis. Assume the two formal additivity defects
+$$
+b(F(x,x'),y)-b(x,y)-b(x',y),\qquad
+b(x,F(y,y'))-b(x,y)-b(x,y')
+$$
+have exponentials with integral coefficients and constant $1$. Also assume the conjugation condition for formal group endomorphisms: for each integral $a\in K$ fixed by $\sigma^2$ for which $[a]$ and $[\sigma(a)]$ are integral, $b([a]x,y)-b(x,[\sigma(a)]y)$ has integral exponential with constant $1$. These are the portions of `F1` and `F2` used here.
+
+The claim is that $B(X,Y)=b(e(X),e(Y))$ has integral jets, meaning all $i!j![X^iY^j]B$ are in $R$. In the standard orbit series, the exponent in additive coordinates is a sum of copies of $B$ evaluated at integral linear forms in the orbit variables. In that case multiplying its exponential by an integral series evaluated at the same inverse logarithms also gives integral jets, and hence the zero lower bound for the determinant coefficients.
+
+The derivative $\ell'(t)=\sum_{j\ge0}p^j t^{p^{2j}-1}$ is integral and has constant $1$. So $e'(X)=1/\ell'(e(X))$. If $e$ has integral jets through order $n$, then the jet of order $n$ of the right side is integral: the inverse of $\ell'$ is an integral series and the derivative of its composition through order $n$ is a sum of integral products of derivatives of $e$ of order at most $n$. Induction starting at $e(0)=0$ proves that $e$ has integral jets. We use the [Hurwitz ring operations](integral-derivatives-form-a-ring-of-formal-series.md), including differentiation, multiplication and substitution by zero-constant series with integral jets.
+
+If a zero-constant series $H$ has integral exponential, then $H(e(X_1),\dots,e(X_s))$ has integral jets. Indeed its exponential has integral jets by substitution. The inverse exponential has integral jets too, because its constant is $1$ and coefficientwise inversion in the Hurwitz ring is recursive with only multiplication and addition by integers. Each first derivative of the substituted $H$ is the corresponding derivative of its exponential times this inverse. Thus every positive-order jet of $H$ is integral, and its constant term is zero.
+
+The two assumed defects become the ordinary additive defects of $B$ under this substitution, because $F(e(X),e(X'))=e(X+X')$. Differentiate the first defect once in $X$ and once in $X'$, and then set $X'=0$. Only the term $B(X+X',Y)$ survives, so $\partial_X^2 B$ has integral jets. The second defect gives $\partial_Y^2 B$ by the same argument with $Y,Y'$. This supplies every jet with either exponent at least $2$. Axis jets vanish because $B$ has no monomials supported on an axis.
+
+The only remaining jet is $[XY]B$. Choose a primitive $(p^2-1)$-st root of unity $\zeta$ in the unramified field, lifting a generator of $\mathbb F_{p^2}^\times$; this lift exists and is unique for that residue by the simple-root criterion. Frobenius sends it to $\zeta^p$, and $\sigma^2(\zeta)=\zeta$. Since all powers in $\ell$ are $p^{2j}$, $\ell(\zeta t)=\zeta\ell(t)$, and both formal endomorphisms in the conjugation condition are multiplication by their respective roots. In additive coordinates the resulting difference is $B(\zeta X,Y)-B(X,\sigma(\zeta)Y)$, with integral jets by the exponential argument. Its mixed jet at zero is $(\zeta-\sigma(\zeta))[XY]B$. The factor is a unit because the reduction of the primitive root is outside $\mathbb F_p$. Dividing by the unit proves that the last jet is integral.
+
+For the orbit application, the additive linear forms use the Frobenius iterates of the trace-dual coordinate coefficients, which are integral. Applying $e$ to those forms gives series with integral jets and zero constant term. In the actual kernel identity the integral factor $U$ is read at these series, and the exponent is the sum of the copies of $-B$ on those forms. Its exponential is in the Hurwitz ring, by the formal derivative rule for the exponential. Multiplying by the substituted $U$ proves integral jets of the rescaled standard orbit series. The rescaling is by a unit, so it preserves the bounds. Each determinant coefficient is an integer linear combination of these jets and is integral.
+
+**Lean correspondence.** The inverse logarithm and the exponential argument are [`hur_expF`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AddCoordExponentIntegralJetsUnramified.lean#L71) and [`hur_of_simeq0`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AddCoordExponentIntegralJetsUnramified.lean#L88). The two defects and Frobenius test are [`hur_addC`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/AddCoordExponentIntegralJetsUnramified.lean#L313). The subsequent standard orbit bound uses [`hur_theta`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/StandardOrbitSeriesValuationBoundZero.lean#L302) and [`kvalGe_zero`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/StandardOrbitSeriesValuationBoundZero.lean#L363).
+
+Status. Source-based reconstruction draft. The [Lean verification record](../../STATUS.md#lean-verification--lean-核验) describes the published formal proof.
