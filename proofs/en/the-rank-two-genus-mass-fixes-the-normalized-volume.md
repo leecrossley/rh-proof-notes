@@ -13,6 +13,9 @@ Fix a host CM extension $E/F$ unramified at the finite places. A host Hermitian 
    \tag{1}
    $$
    Here $L(n,\eta)$ has a factor $(1-\eta(\mathfrak p)^n(\operatorname N\mathfrak p)^{-n})^{-1}$ at each finite prime $\mathfrak p$ of $F$, with value $+1$ of $\eta(\mathfrak p)$ at split primes and $-1$ at inert primes. These are the host's `lValEta` factors grouped over $F$, so even $n$ uses $\zeta_F(n)$.
+
+   For example, take $K=\mathbb Q(\zeta_{16})^+$, $F=K(\sqrt{547\cdot727})$ and $E=K(\sqrt{-547},\sqrt{-727})$. Both 31 and 47 split into eight degree-one primes in $F$. The residues of $-547$ and $-727$ are both nonsquares modulo 31 and both squares modulo 47. The rank-three Euler factors grouped over 31 and 47 are therefore $(1+31^{-3})^{-8}$ and $(1-47^{-3})^{-8}$. In rank four both have the form $(1-p^{-4})^{-8}$. With the conductor and archimedean data, six values of the prime-race explicit formula per prime recover the two denominator polynomials used in rank three. [Crossley, v1.0.1](https://doi.org/10.5281/zenodo.24412642)
+
 3. For $n\ge3$ the standard mass ratio is
    $$
    \frac{M_n}{M_{n-1}}
