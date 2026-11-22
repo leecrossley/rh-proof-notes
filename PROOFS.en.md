@@ -180,6 +180,16 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The two split embeddings give the same scaled theta bound](proofs/en/the-two-split-embeddings-give-the-same-scaled-theta-bound.md) · Source-based reconstruction draft. Explains the two p-adic cases of the finite theta average using torsion points and the scalar for a change of lattice.
 - [Extracting the scaled jet of the induced theta function](proofs/en/extracting-the-scaled-jet-of-the-induced-theta-function.md) · Source-based reconstruction draft. Recovers the actual induced theta function from the split Fourier average and reads off its derivatives in the integral frame.
 
+### The served local operator and the one-layer Hecke relation
+
+- [Hecke neighbor counts reduce to subspaces and graphs](proofs/en/hecke-neighbor-counts-reduce-to-subspaces-and-graphs.md) · Source-based reconstruction draft. Reduce the lattice condition modulo p, then classify subspaces by projection and intersection.
+- [Counting neighbors gives the one-layer Hecke relation](proofs/en/counting-neighbors-gives-the-one-layer-hecke-relation.md) · Source-based reconstruction draft. Move the lattice incidence count through the linear kernel, then normalize the Gaussian binomial into Satake variables.
+- [A symmetric-polynomial inverse removes the added Hecke parameters](proofs/en/a-symmetric-polynomial-inverse-removes-the-added-hecke-parameters.md) · Source-based reconstruction draft. Iterate the one-layer Hecke relation, then cancel all added parameters with complete symmetric polynomials.
+- [The alternating Hecke coefficients are integral](proofs/en/the-alternating-hecke-coefficients-are-integral.md) · Source-based reconstruction draft. A common lower bound on the Satake parameters controls the complete symmetric coefficients, with an extra gain at the last term.
+- [Integral parameter monomials separate the cofactors at all places](proofs/en/integral-parameter-monomials-separate-the-cofactors-at-all-places.md) · Source-based reconstruction draft. Remove the integral phase discrepancy, then expand finitely in the coordinates on which the cofactor factors act independently.
+- [Coefficients of the Hecke kernel bound the layer lattice](proofs/en/coefficients-of-the-hecke-kernel-bound-the-layer-lattice.md) · Source-based reconstruction draft. Sum over neighbors and arithmetic classes, deduct only the stabilizer loss, and use the same rounded exponent for real bounds.
+- [The zero Hecke term pays for its own valuation loss](proofs/en/the-zero-hecke-term-pays-for-its-own-valuation-loss.md) · Source-based reconstruction draft. Expand the alternating operator and use the top coefficient to compensate the weaker unshifted cofactor bound.
+
 ### Served-prime orbit sums and column valuations
 
 - [Matching the orbit rows to the local Fock model](proofs/en/matching-the-orbit-rows-to-the-local-fock-model.md) · Source-based reconstruction draft. Substitute the tied weights into the local row formula, including the newly added block, to identify every determinant height.
