@@ -9,10 +9,10 @@ Fix a host CM extension $E/F$ unramified at the finite places. A host Hermitian 
    $$
    \frac{\operatorname{vol}_D(W')}{\operatorname{vol}_D(W)}
    =\left(\frac{(2\pi)^n}{(n-1)!}\right)^f
-     (2v)^{f(1/2-n)}L(n,\eta)^{-1}.
+     (2v)^{f(1/2-n)}L(n,\eta^n)^{-1}.
    \tag{1}
    $$
-   Here $L(n,\eta)$ has a factor $(1-\eta(\mathfrak p)(\operatorname N\mathfrak p)^{-n})^{-1}$ at each finite prime $\mathfrak p$ of $F$, with value $+1$ of $\eta(\mathfrak p)$ at split primes and $-1$ at inert primes. These are the host's `lValEta` factors grouped over $F$.
+   Here $L(n,\eta)$ has a factor $(1-\eta(\mathfrak p)^n(\operatorname N\mathfrak p)^{-n})^{-1}$ at each finite prime $\mathfrak p$ of $F$, with value $+1$ of $\eta(\mathfrak p)$ at split primes and $-1$ at inert primes. These are the host's `lValEta` factors grouped over $F$, so even $n$ uses $\zeta_F(n)$.
 3. For $n\ge3$ the standard mass ratio is
    $$
    \frac{M_n}{M_{n-1}}
