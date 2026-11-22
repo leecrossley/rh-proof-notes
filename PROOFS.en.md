@@ -162,6 +162,15 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The last column lattice controls the period](proofs/en/the-last-column-lattice-controls-the-period.md) · Source-based reconstruction draft. Pass from the final lift to the point lattice and use the base or twisted class-period bound to compute the remaining valuation loss.
 - [The period bound at each finite place](proofs/en/the-period-bound-at-each-finite-place.md) · Source-based reconstruction draft. Check the word prime, the two auxiliary primes and every remaining place, using the first-step saving to cancel the terminal period denominator.
 
+### Word-prime columns and auxiliary-prime periods
+
+- [Weighted incidence gives the word-prime Hecke commutation](proofs/en/weighted-incidence-gives-the-word-prime-hecke-commutation.md) · Source-based reconstruction draft. Counts the same incidences by either endpoint to pass from a point-kernel law to the Hecke operator on class forms.
+- [Restoring the word-prime value lattice after one lift](proofs/en/restoring-the-word-prime-value-lattice-after-one-lift.md) · Source-based reconstruction draft. Explains how the Hecke incidences and the highest-weight bound remove the extra kernel conditions at the word prime.
+- [Commuting the Hecke product through the column chain](proofs/en/commuting-the-hecke-product-through-the-column-chain.md) · Source-based reconstruction draft. Derives the full base and twisted column loss at the word prime from the single-step bound.
+- [Changing the coset level isolates the auxiliary prime](proofs/en/changing-the-coset-level-isolates-the-auxiliary-prime.md) · Source-based reconstruction draft. Uses refinement and the support condition to discard every excess power of the auxiliary prime in the theta levels.
+- [The auxiliary-prime period loses the product of layer multipliers](proofs/en/the-auxiliary-prime-period-loses-the-product-of-layer-multipliers.md) · Source-based reconstruction draft. Follows the integral split theta jets through the class sums, terminal period and normalized valuation budget.
+- [The hyperplane point map is integral by branching at each place](proofs/en/the-hyperplane-point-map-is-integral-by-branching-at-each-place.md) · Source-based reconstruction draft. Uses compatible terminal and hyperplane frames to descend the point map to the coefficient field and glue its integral values.
+
 ### From period valuations to an integral lattice map
 
 - [From period valuations to an integral lattice map](proofs/en/integral-lattice-map.md) · [中文](proofs/zh/%E5%91%A8%E6%9C%9F%E8%B5%8B%E5%80%BC%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%95%B4%E6%A0%BC%E6%98%A0%E5%B0%84.md) · Existing English proof with equivalent mathematical scope.
