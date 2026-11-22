@@ -207,6 +207,10 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The two split sides give the word-prime kernel bounds](proofs/en/the-two-split-sides-give-the-word-prime-kernel-bounds.md) · Source-based reconstruction draft. The moment normalization and the determinants of a hyperplane lattice and its dual account for the two exponents.
 - [Coefficient kernel bounds pass to all word-prime points](proofs/en/coefficient-kernel-bounds-pass-to-all-word-prime-points.md) · Source-based reconstruction draft. Represent a point by a decorated lattice and a torsion move, then transport its normalized kernel value.
 
+### Evaluating the word-prime kernel at representatives
+
+- [Evaluating the arithmetic kernel gives the point kernel at representatives](proofs/en/evaluating-the-arithmetic-kernel-gives-the-point-kernel-at-representatives.md) · Source-based reconstruction draft. The finite sum of rational jets and the point operator agree after matching their determinant and character factors.
+
 ### Word-prime columns and auxiliary-prime periods
 
 - [Weighted incidence gives the word-prime Hecke commutation](proofs/en/weighted-incidence-gives-the-word-prime-hecke-commutation.md) · Source-based reconstruction draft. Counts the same incidences by either endpoint to pass from a point-kernel law to the Hecke operator on class forms.
