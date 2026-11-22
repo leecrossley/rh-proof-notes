@@ -111,6 +111,12 @@ These notes derive the expansion that supplies the local determinant estimate an
 - [Theta jets on global homomorphism-lattice directions](proofs/en/theta-jets-on-global-homomorphism-lattice-directions.md) · Source-based reconstruction draft. Pass the standard theta bounds to a combination of related lattices by transporting torsion and multiplying directions by a prime-to-p integer.
 - [From integral theta jets to level-free kernel entries](proofs/en/from-integral-theta-jets-to-level-free-kernel-entries.md) · Source-based reconstruction draft. Show that the coordinate directions used by the determinant operators are integral combinations of global lattice directions, then bound the resulting coefficients.
 
+### The ordinary inert-prime estimates
+
+- [Folding the two parities preserves the weighted jet bound](proofs/en/folding-the-two-parities-preserves-the-weighted-jet-bound.md) · Source-based reconstruction draft. Pay for each exceptional monomial even after the two parity labels are identified, then convert the weighted coefficient bound into a jet bound.
+- [Odd-orbit dual weights pay for the folded theta coefficients](proofs/en/odd-orbit-dual-weights-pay-for-the-folded-theta-coefficients.md) · Source-based reconstruction draft. Raise the finite flow dual weights by a small floor to cover all odd shifts, then sum the determinant bound and compare it with the prescribed inert-prime error.
+- [The singleton Frobenius orbit gives the conjugate-prime weight](proofs/en/the-singleton-frobenius-orbit-gives-the-conjugate-prime-weight.md) · Source-based reconstruction draft. Use the constant radius at each fixed place and add the resulting determinant bounds to obtain the prescribed inert-prime weight.
+
 ### Odd prime-power weights in the arithmetic count
 
 These notes follow the odd prime-power weights from a local theta-series expansion through the determinant estimate to the arithmetic count.
@@ -124,6 +130,13 @@ These notes follow the odd prime-power weights from a local theta-series expansi
 ## English renderings of the 340 Chinese proof notes
 
 The topics and entries below follow the order of the Chinese catalogue.
+
+### From determinant coefficients to the column lift
+
+- [Initial minors have an integral monic basis](proofs/en/initial-minors-have-an-integral-monic-basis.md) · Source-based reconstruction draft. Use invariance under adding an earlier column to a later one to identify the possible leading monomials and construct a monic basis.
+- [Determinant jets have bounded coefficients in the minor span](proofs/en/determinant-jets-have-bounded-coefficients-in-the-minor-span.md) · Source-based reconstruction draft. Use the integral projection onto the flag-minor span to retain the same valuation when expanding the derivative polynomial in those minors.
+- [From bounded kernel coefficients to a valuation of the lift](proofs/en/from-bounded-kernel-coefficients-to-a-valuation-of-the-lift.md) · Source-based reconstruction draft. Convert the determinant coefficient bound into a map of local column lattices and isolate the denominator coming from the class weights.
+- [Adding the layer valuations of the theta lift](proofs/en/adding-the-layer-valuations-of-the-theta-lift.md) · Source-based reconstruction draft. Combine the prime cases with the class denominators and sum the resulting normalized valuation through the column chain.
 
 ### The RH main route and its analytic conclusion
 
