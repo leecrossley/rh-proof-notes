@@ -229,6 +229,12 @@ The topics and entries below follow the order of the Chinese catalogue.
 
 ### Covariance of the point kernels
 
+- [Reducing lattice moves to finite residue data](proofs/en/reducing-lattice-moves-to-finite-residue-data.md) · Source-based reconstruction draft. Compute the two residue quotients and the distinguished vector controlling inverse neighbours.
+- [The point value pairing is positive and unitary](proofs/en/the-point-value-pairing-is-positive-and-unitary.md) · Source-based reconstruction draft. Compute the factorial adjoint of substitution and combine it with the determinant and torsion phases.
+- [A local frame identifies the Weyl value lattice](proofs/en/a-local-frame-identifies-the-weyl-value-lattice.md) · Source-based reconstruction draft. Use integral row operators to show independence of local frames, then clear the finitely many other denominators.
+- [Reading the word-prime value lattice in point coordinates](proofs/en/reading-the-word-prime-value-lattice-in-point-coordinates.md) · Source-based reconstruction draft. Identify which dual basis occurs on each side of the split prime, including the single-kernel test.
+- [The point tests recover the localized class form lattice](proofs/en/the-point-tests-recover-the-localized-class-form-lattice.md) · Source-based reconstruction draft. Identify the off-prime tests and clear one denominator for all class values simultaneously.
+- [Why the Weyl words span in characteristic zero](proofs/en/why-the-weyl-words-span-in-characteristic-zero.md) · Source-based reconstruction draft. Find the highest-weight line by elimination and use factorial orthogonality to prove spanning.
 - [Assembling the five kernel laws on the true column chain](proofs/en/assembling-the-five-kernel-laws-on-the-true-column-chain.md) · Source-based reconstruction draft. Assemble the five arithmetic laws on one chain and transport the neighbour, diamond and valuation laws to point operators.
 - [Extending the coefficient kernel to all complex points](proofs/en/extending-the-coefficient-kernel-to-all-complex-points.md) · Source-based reconstruction draft. Complexify on a basis and descend across the point model's torsion identifications.
 - [Transporting word-prime neighbours to the complex point model](proofs/en/transporting-word-prime-neighbours-to-the-complex-point-model.md) · Source-based reconstruction draft. Identify both neighbour fibers and extend the finite-sum and diamond laws by covariance.
