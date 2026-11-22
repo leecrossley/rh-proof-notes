@@ -86,6 +86,17 @@ These notes derive the expansion that supplies the local determinant estimate an
 - [Why high mixed derivatives vanish on paired minors](proofs/en/why-high-mixed-derivatives-vanish-on-paired-minors.md) · Source-based reconstruction draft. Counts the available rows below the top and uses the rank-one change of each minor for the remaining derivatives.
 - [The half-valuation loss at the discriminant prime](proofs/en/the-half-valuation-loss-at-the-discriminant-prime.md) · Source-based reconstruction draft. Expands the paired Gaussian in jet coordinates and removes every contraction above the Young-diagram bound.
 
+### The ramified theta kernel and its local coordinates
+
+- [Integral derivatives form a ring of formal series](proofs/en/integral-derivatives-form-a-ring-of-formal-series.md) · Source-based reconstruction draft. Proves the factorial-weighted closure rules used to recover one theta factor from its fourfold tensor.
+- [Discriminant normalization gives a good model for p at least five](proofs/en/discriminant-normalization-gives-a-good-model-for-p-at-least-five.md) · Source-based reconstruction draft. Combines unit discriminant and the integral CM j-invariant to give the actual short model at all primes at least five.
+- [Why only the second curve jet can lose integrality](proofs/en/why-only-the-second-curve-jet-can-lose-integrality.md) · Source-based reconstruction draft. Uses the third finite difference, inversion and the CM adjoint to isolate the ramified quadratic coefficient.
+- [The fourfold frame Gram matrix modulo the CM root](proofs/en/the-fourfold-frame-gram-matrix-modulo-the-cm-root.md) · Source-based reconstruction draft. Transfers lattice directions through the complex isometry and compares the symmetric and Hermitian Gram matrices at the discriminant.
+- [Residue characters isolate the paired Gram blocks](proofs/en/residue-characters-isolate-the-paired-gram-blocks.md) · Source-based reconstruction draft. Shows how a residue-unit difference of eigenvalues forces the corresponding Gram entry to vanish modulo the ramified square root.
+- [The standard dual bases give the ramified paired form](proofs/en/the-standard-dual-bases-give-the-ramified-paired-form.md) · Source-based reconstruction draft. Clears denominators in the lattice directions and computes the common Gram coefficient of every paired matrix entry.
+- [Transporting the quadratic theta phase through four copies](proofs/en/transporting-the-quadratic-theta-phase-through-four-copies.md) · Source-based reconstruction draft. Transports integral remainders and the Gram matrix through the fourfold identity, then extracts the corrected single-copy kernel.
+- [The normalized kernel has a common ramified Gaussian](proofs/en/the-normalized-kernel-has-a-common-ramified-gaussian.md) · Source-based reconstruction draft. Uses one curve coefficient and one paired Gram form to obtain ShapeD for the actual level-free kernel.
+
 ### Odd prime-power weights in the arithmetic count
 
 These notes follow the odd prime-power weights from a local theta-series expansion through the determinant estimate to the arithmetic count.

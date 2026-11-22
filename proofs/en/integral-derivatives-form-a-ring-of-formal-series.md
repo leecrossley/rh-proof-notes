@@ -1,0 +1,22 @@
+# Integral derivatives form a ring of formal series
+
+[Proof catalogue](../../PROOFS.en.md) · [Reading and review status](../../STATUS.md)
+
+Let $K$ be a characteristic-zero ultrametric field, with valuation ring $R=\{x:|x|\le1\}$. In finitely many variables define $J_\alpha(F)=\alpha![Z^\alpha]F$ and call $F$ jet-integral if every $J_\alpha(F)$ belongs to $R$. These are the Hurwitz series with coefficients in $R$ in the divided-power basis. The definition differs from ordinary coefficient integrality: ordinary integral series are jet-integral, since $\alpha!\in R$.
+
+The following rules apply to the local theta argument.
+
+1. Sums and products of jet-integral series are jet-integral. For a product, $J_\alpha(FG)=\sum_{\beta\le\alpha}\binom{\alpha}{\beta}J_\beta(F)J_{\alpha-\beta}(G)$. The binomial coefficients are integers.
+2. An integral linear substitution preserves the condition. By the chain rule, a derivative in a new variable is a sum of the old derivatives with coefficients from the linear matrix. Repeating this for the multi-index and evaluating at the origin gives a finite $R$-linear combination of old jets.
+3. If $F$ is jet-integral and $F(0)=0$, then $\exp F$ is jet-integral. To see this, take an ordered list of $|\alpha|$ derivative slots, with each variable repeated according to $\alpha$. By repeated differentiation of $\exp F$, the derivative at zero equals the sum over all set partitions of that list, each term being a product of the derivatives of $F$ whose indices lie in the blocks. Indeed a new derivative either differentiates the exponential, giving a singleton block, or a current derivative of $F$, adding its index to that block. At zero the exponential is $1$. Every product is integral. In particular the argument works in any residue characteristic, including for factorial-weighted jets of $\exp(cZ^2/2)$ with $c\in R$. The only nonzero jet of positive order of its exponent is the second, equal to $c$.
+4. If the product of four independent copies of the same $F$ is jet-integral, then $F$ is jet-integral. Apply the jet of index $\alpha$ in each of the four blocks. Its value is $J_\alpha(F)^4$, so $\lvert J_\alpha(F)\rvert^4\le1$ implies the assertion.
+
+There is also a coordinate form of the condition. Suppose $\ell(t)=t+\cdots$ is invertible as a formal change of variable and $h=\ell^{-1}$. Define the invariant differentiation operator $D=(\ell'(t))^{-1}d/dt$. Then by the chain rule
+$$
+\frac{d}{dz} F(h(z))=(DF)(h(z)).
+$$
+Iteration shows $J_n(F\circ h)=(D^nF)(0)$, and the same calculation in separate variables gives the mixed-derivative formula. If $\ell'(t)\in1+tR[[t]]$, then $D$ preserves ordinary integral series. Thus an integral series becomes jet-integral when expressed in the logarithmic variables, even if the inverse parameter $h$ has denominators in its ordinary coefficients.
+
+**Lean correspondence.** The Hurwitz ring and exponential laws are [`jets_in_norm_holds`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/TorsionIntegrality/RamifiedCurveKernels/PairedSquareJets/Hurwitz.lean#L32) and [`jets_exp_holds`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/TorsionIntegrality/RamifiedCurveKernels/PairedSquareJets/Hurwitz.lean#L251). Integral linear substitution is [`jetsIn_linSub`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/TorsionIntegrality/RamifiedCurveKernels/PairedSquareJets/Several.lean#L162). The repeated-coefficient argument and invariant derivative in additive coordinates are [`jets_fourth_holds`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/TorsionIntegrality/RamifiedCurveKernels/PairedSquareJets/HurwitzB.lean#L190), [`jets_of_dist_jets_holds`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/TorsionIntegrality/RamifiedCurveKernels/PairedSquareJets/HurwitzB.lean#L198) and [`integral_dist_jets_holds`](https://github.com/tamnd/riemann-lean/blob/9110120cdc195ee8d2fb08d2adac8b1747912d8f/lean/src/Formalism/LocalToGlobal/TorsionIntegrality/RamifiedCurveKernels/PairedSquareJets/HurwitzB.lean#L250).
+
+Status. Source-based reconstruction draft. The [Lean verification record](../../STATUS.md#lean-verification--lean-核验) describes the published formal proof.
