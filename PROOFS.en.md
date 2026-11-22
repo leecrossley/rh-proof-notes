@@ -162,6 +162,16 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The last column lattice controls the period](proofs/en/the-last-column-lattice-controls-the-period.md) · Source-based reconstruction draft. Pass from the final lift to the point lattice and use the base or twisted class-period bound to compute the remaining valuation loss.
 - [The period bound at each finite place](proofs/en/the-period-bound-at-each-finite-place.md) · Source-based reconstruction draft. Check the word prime, the two auxiliary primes and every remaining place, using the first-step saving to cancel the terminal period denominator.
 
+### Word-prime theta moments and period lattices
+
+- [Bounded p-adic measures give integral point tables](proofs/en/bounded-p-adic-measures-give-integral-point-tables.md) · Source-based reconstruction draft. A single residue partition approximates finitely many jet functions, using weights of norm at most one.
+- [Bézout separates the two parts of a split theta translate](proofs/en/bezout-separates-the-two-parts-of-a-split-theta-translate.md) · Source-based reconstruction draft. A translate with denominator dividing a unit times the selected prime has an integral moment table.
+- [The induced theta is a finite period translate sum](proofs/en/the-induced-theta-is-a-finite-period-translate-sum.md) · Source-based reconstruction draft. The Fourier transform of the half-lattice indicator is constant on the other half-lattice.
+- [A hyperplane companion pays one residue factor per source column](proofs/en/a-hyperplane-companion-pays-one-residue-factor-per-source-column.md) · Source-based reconstruction draft. Glue a self-dual companion to the cut lattice and bound the change of period lattice by a finite reduction map.
+- [Character orthogonality explains the selected moment denominator](proofs/en/character-orthogonality-explains-the-selected-moment-denominator.md) · Source-based reconstruction draft. The change to a companion period lattice and the arithmetic index together bound the translating coefficients.
+- [Character orthogonality gives integral conjugate-side moments](proofs/en/character-orthogonality-gives-integral-conjugate-side-moments.md) · Source-based reconstruction draft. A dual period-lattice filter pays the entire normalization and constrains the residue of each point matrix.
+- [Assembling the weighted word-prime moment table](proofs/en/assembling-the-weighted-word-prime-moment-table.md) · Source-based reconstruction draft. The two split moment estimates survive the arithmetic box sum and its determinant character.
+
 ### Word-prime moment operators and the Weyl lattices
 
 - [Maximal row height gives a dominant highest vector](proofs/en/maximal-row-height-gives-a-dominant-highest-vector.md) · Source-based reconstruction draft. A strict inclusion of stable polynomial spaces yields a dominant row weight killed by every raising operator in the quotient.
