@@ -180,6 +180,16 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The two split embeddings give the same scaled theta bound](proofs/en/the-two-split-embeddings-give-the-same-scaled-theta-bound.md) · Source-based reconstruction draft. Explains the two p-adic cases of the finite theta average using torsion points and the scalar for a change of lattice.
 - [Extracting the scaled jet of the induced theta function](proofs/en/extracting-the-scaled-jet-of-the-induced-theta-function.md) · Source-based reconstruction draft. Recovers the actual induced theta function from the split Fourier average and reads off its derivatives in the integral frame.
 
+### Served-prime orbit sums and column valuations
+
+- [Matching the orbit rows to the local Fock model](proofs/en/matching-the-orbit-rows-to-the-local-fock-model.md) · Source-based reconstruction draft. Substitute the tied weights into the local row formula, including the newly added block, to identify every determinant height.
+- [Witt monomial tests bound cofactors over an extension](proofs/en/witt-monomial-tests-bound-cofactors-over-an-extension.md) · Source-based reconstruction draft. The derivative order makes the change of coefficient field a finite linear argument in formal parameters.
+- [A second-embedding orbit bounds its local cofactors](proofs/en/a-second-embedding-orbit-bounds-its-local-cofactors.md) · Source-based reconstruction draft. Restrict to one orbit, match the differential minor operators, and descend the valuation from the p-adic complex field to the Witt lattice.
+- [The second-embedding orbits complete the local sum](proofs/en/the-second-embedding-orbits-complete-the-local-sum.md) · Source-based reconstruction draft. Identify the complementary components bijectively, then pay at most m minus one determinant normalizations.
+- [Choosing at each layer which operators to use](proofs/en/choosing-at-each-layer-which-operators-to-use.md) · Source-based reconstruction draft. Commute unused operators back to integral input and charge an omitted component only its cumulative positive surplus.
+- [Selected local operators and ordinary cofactors give a product bound](proofs/en/selected-local-operators-and-ordinary-cofactors-give-a-product-bound.md) · Source-based reconstruction draft. For every selected subset, combine the operated and unoperated cofactor floors and account for each complementary component exactly once.
+- [The served product estimate transfers to an actual column](proofs/en/the-served-product-estimate-transfers-to-an-actual-column.md) · Source-based reconstruction draft. The defining generators of the input lattice already carry the precise omitted-operator cost.
+
 ### From period valuations to an integral lattice map
 
 - [From period valuations to an integral lattice map](proofs/en/integral-lattice-map.md) · [中文](proofs/zh/%E5%91%A8%E6%9C%9F%E8%B5%8B%E5%80%BC%E6%80%8E%E6%A0%B7%E7%BB%99%E5%87%BA%E6%95%B4%E6%A0%BC%E6%98%A0%E5%B0%84.md) · Existing English proof with equivalent mathematical scope.
