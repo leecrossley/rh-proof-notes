@@ -162,6 +162,10 @@ The topics and entries below follow the order of the Chinese catalogue.
 - [The last column lattice controls the period](proofs/en/the-last-column-lattice-controls-the-period.md) · Source-based reconstruction draft. Pass from the final lift to the point lattice and use the base or twisted class-period bound to compute the remaining valuation loss.
 - [The period bound at each finite place](proofs/en/the-period-bound-at-each-finite-place.md) · Source-based reconstruction draft. Check the word prime, the two auxiliary primes and every remaining place, using the first-step saving to cancel the terminal period denominator.
 
+### The split chart of the even theta
+
+- [A split CM isogeny forces integrality of the even theta series](proofs/en/a-split-cm-isogeny-forces-integrality-of-the-even-theta-series.md) · Source-based reconstruction draft. The split CM degree is divisible by the residue prime, so the coefficient recursion divides only by units.
+
 ### The split theta translation laws
 
 - [A pole-free residue disc preserves the elliptic coefficient bound](proofs/en/a-pole-free-residue-disc-preserves-the-elliptic-coefficient-bound.md) · Source-based reconstruction draft. The distinct pole orders of $x^i$ and $x^iy$ recover the numerator, and the translated denominator has coefficient norm one.
