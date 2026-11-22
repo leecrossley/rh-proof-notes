@@ -34,6 +34,16 @@ The curve supplies the logarithm and the integral-exponential identities used by
 - [The standard bases give integral Frobenius-dual coordinates](proofs/en/the-standard-bases-give-integral-frobenius-dual-coordinates.md) · Source-based reconstruction draft. Change of basis and inverse transpose preserve the trace duality. Local lattice membership controls denominators, and Frobenius exchanges the two resulting coordinate lists.
 - [Trace-dual coordinates give the hyperbolic frame](proofs/en/trace-dual-coordinates-give-the-hyperbolic-frame.md) · Source-based reconstruction draft. Frobenius exchanges an integral list and its dual while moving to the next slot. Grouping the two parities produces the isotropic pairs needed for the theta expansion.
 
+### The standard theta and its torsion translates
+
+- [Recovering the single-entry series in the actual curve parameter](proofs/en/recovering-the-single-entry-series-in-the-actual-curve-parameter.md) · Source-based reconstruction draft. An integral inverse chart transports the corrected single-entry series from the rescaled height-two model to any host model.
+- [Integral fourfold products give the single theta bound](proofs/en/integral-fourfold-products-give-the-single-theta-bound.md) · Source-based reconstruction draft. Undo the unitary formal substitution and read one repeated coefficient in the four independent blocks.
+- [Four theta copies as a finite sum of one-variable translates](proofs/en/four-theta-copies-as-a-finite-sum-of-one-variable-translates.md) · Source-based reconstruction draft. The fourfold theta identity converts the standard lattice index and torsion condition into an integral product expansion.
+- [Closing the torsion translation recurrence](proofs/en/closing-the-torsion-translation-recurrence.md) · Source-based reconstruction draft. Sigma addition around a finite torsion cycle forces the translate's constant to be a unit and its normalized Taylor series to be integral.
+- [The orders of the torsion translation factors](proofs/en/the-orders-of-the-torsion-translation-factors.md) · Source-based reconstruction draft. Good reduction makes every difference with a translated Weierstrass coordinate a unit times a power of the formal parameter.
+- [Algebraizing the natural theta translates](proofs/en/algebraizing-the-natural-theta-translates.md) · Source-based reconstruction draft. The finite tensor expansion and one auxiliary inert prime give algebraic Taylor coefficients for every admitted torsion translate.
+- [Why torsion translates have algebraic Taylor series](proofs/en/why-torsion-translates-have-algebraic-taylor-series.md) · Source-based reconstruction draft. A finite torsion recurrence determines algebraic initial values, then the Weierstrass differential equation determines every Taylor coefficient.
+
 ### Theta expansions and local determinant bounds
 
 These notes derive the expansion that supplies the local determinant estimate and prove how the resulting valuations add over the Frobenius orbits of a rational prime.
