@@ -8,6 +8,8 @@ Each paired entry links to the full Chinese note and its English rendering. Stat
 
 ### Simultaneous family construction
 
+- [The rank-two genus mass fixes the normalized volume](proofs/en/the-rank-two-genus-mass-fixes-the-normalized-volume.md) · Source-based reconstruction draft. Unfold the fundamental-domain volume into a stabilizer sum in rank two and propagate it by the complementary rank-one ratios.
+- [The logarithmic window bounds give the word-prime size](proofs/en/the-logarithmic-window-bounds-give-the-word-prime-size.md) · Source-based reconstruction draft. Use the two generator terms and the small weight error to get the uniform lower bound on the already selected prime.
 - [Bounded trace forms give finitely many Hermitian lattice classes](proofs/en/bounded-trace-forms-give-finitely-many-hermitian-lattice-classes.md) · Source-based reconstruction draft. Bound the trace covolume by the Hermitian dual, find short rational bases, and classify finitely many coordinate lattices.
 - [The mass of a definite self-dual lattice is the standard mass](proofs/en/the-mass-of-a-definite-self-dual-lattice-is-the-standard-mass.md) · Source-based reconstruction draft. Match the local Hermitian spaces by integral frames, apply the local–global isometry theorem, and compare the resulting genera.
 - [Finite adelic classes recover the Hermitian genus mass](proofs/en/finite-adelic-classes-recover-the-hermitian-genus-mass.md) · Source-based reconstruction draft. Glue completed lattices, compare rational isometries and stabilizers, and sum their inverse orders.
@@ -253,6 +255,9 @@ The topics and entries below follow the order of the Chinese catalogue.
 
 ### Moving theta kernels between lattice pairs
 
+- [Choosing a host theta base and its split-prime isometries](proofs/en/choosing-a-host-theta-base-and-its-split-prime-isometries.md) · Source-based reconstruction draft. Choose the half-period and produce a fourfold isometry over the field and at each split prime.
+- [The natural theta has the same mean square on every admitted pair](proofs/en/the-natural-theta-has-the-same-mean-square-on-every-admitted-pair.md) · Source-based reconstruction draft. Use the unitary normalized averages and determinant characters to preserve the Gaussian mean-square norm.
+- [A moved theta is a single average of a product theta](proofs/en/a-moved-theta-is-a-single-average-of-a-product-theta.md) · Source-based reconstruction draft. Group the standard theta into two-by-two blocks and use the triple formula to combine the movements.
 - [The host period lattices are self-dual and commensurable](proofs/en/the-host-period-lattices-are-self-dual-and-commensurable.md) · Source-based reconstruction draft. Test the dual by the elliptic alternating form and trace pairings of rank-one maps, then check the parity law.
 - [The unkilled half-period gives the standard theta sign](proofs/en/the-unkilled-half-period-gives-the-standard-theta-sign.md) · Source-based reconstruction draft. Compare the quadratic sign and translated sigma sign on a basis modulo twice the periods.
 - [A fourfold average generates the standard theta line](proofs/en/a-fourfold-average-generates-the-standard-theta-line.md) · Source-based reconstruction draft. Transport a product of scalar theta functions and extract the fourth root that supplies each rectangle.
